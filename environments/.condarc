@@ -1,0 +1,13 @@
+ssl_verify: true
+channels:
+  - defaults
+changeps1: false
+create_default_packages:
+  - bs4
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - python
+  - scikit-learn
+  - seaborn
