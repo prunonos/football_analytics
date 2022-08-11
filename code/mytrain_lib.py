@@ -92,24 +92,26 @@ def get_df_results(match_results,train_preds_df,preds,m,save=True):
 ###########################
 
 log      = {}
-cols     = ['draw_pred','home_pred','away_pred','prediction','label','config.','folder','epoch']
+cols     = ['wyId','draw_pred','home_pred','away_pred','prediction','label','config.','folder','epoch']
 # log_file = pd.DataFrame(log,columns=cols)
 
-def save_logging(title=''):
-    temp       = datetime.now().strftime("_%m_%d_%H_%M_%S")
+def save_logging(temp,title='', root=''):
+    if root=='': 
+        root = path_results+'log'+temp+'//'
+    
     df         = pd.DataFrame(log).T
     df.columns = cols
-    log_file   = (pd.merge(df,pd.DataFrame(raw_Data['label'])
-                                    ,left_index=True, right_index=True))
-    log_file.to_csv(path_results+'log'+title+temp+'.csv',sep=';')
+    log_file   = (pd.merge(df,pd.DataFrame(raw_Data['label']).reset_index()
+                                    ,on='wyId',how='left'))
+    log_file.to_csv(root+'log'+title+'.csv',sep=';')
     # log_file.to_csv(path_results+temp+str(random.randint(a=0,b=1000))+'.csv',sep=';')
 
 def logging(m,preds,y,mod,cv,ep):
     it = np.ones(shape=(len(y),3)) * [mod,cv,ep]
-    df = np.column_stack((preds.numpy(),torch.argmax(preds,dim=1).numpy()
+    df = np.column_stack((m.numpy(),preds.numpy(),torch.argmax(preds,dim=1).numpy()
                                 ,torch.argmax(y,dim=1).numpy(),it))
     # convertir tensors a numpy
-    log.update({int(m_):l_ for m_,l_ in zip(m,df)})
+    log.update({f'{m_}_{cv}_{ep}':l_ for m_,l_ in zip(m.numpy(),df)})
 
     # log_file.to_csv(path_results+temp+str(random.randint(a=0,b=1000))+'.csv',sep=';')
 
@@ -134,9 +136,9 @@ def train_model(model, criterion, optimizer, dataloader_train,
             x, y, m = batch
             # 5.2 Run forward pass.
             logits = model(x)
+            # if it==40: logging(m[:20],logits[:20].detach(),y[:20],config,it,ep)
             # 5.3 Compute loss (using 'criterion').
             loss = criterion(logits, y)
-            # if it<2 and ep==epochs-1: get_df_results(match_results,logits,m,save=(it==9))
             # 5.4 Run backward pass.
             loss.backward()
             # 5.5 Update the weights using optimizer.
@@ -151,10 +153,10 @@ def train_model(model, criterion, optimizer, dataloader_train,
         accuracy_train.append(acc_batch/total_len) 
         error.append(float(loss))
 
-        if logs:
+        if logs and ((ep+1)%(epochs/10)==0 or ep==0):
             print('\rEp {}/{}, it {}/{}: loss train: {:.2f}, accuracy train: {:.2f}'.
                     format(ep + 1, epochs, it + 1, len(dataloader_train), loss,
-                            np.mean(acc_batch)), end='')
+                            np.mean(acc_batch/total_len)), end='')
 
         # Validation.
         # if ep == epochs-1:  # only validate on the last epoch
@@ -172,13 +174,13 @@ def train_model(model, criterion, optimizer, dataloader_train,
                 total_len        += len(x)
                 if ep==(epochs-1): 
                     confusion_matrix += conf_mat
-                    logging(m,preds,y,config,cv,ep)
+                logging(m,preds,y,config,cv,ep)
                     # if it<2: get_df_results(match_results,preds,m,save=(it==1))
 
         acc_test = acc_run / total_len
         accuracy_test.append(acc_test)  
                                 
-        if logs: print(', accuracy test: {:.2f}'.format(acc_test))
+        if logs and ((ep+1)%(epochs/10)==0 or ep==0): print(', accuracy test: {:.2f}'.format(acc_test))
 
     return error,accuracy_train,accuracy_test,confusion_matrix
 
@@ -229,20 +231,25 @@ def train_wCrossValidation(model,criterion,optimizer,train_data,kfold,
 ##################################
 
 
-def save_score(error,accuracy_train,accuracy_test,confusion_matrix):
-    np.save(path_scores+'error_'+datetime.now().strftime("_%m_%d_%H_%M_%S"),error)
-    np.save(path_scores+'acctrain_'+datetime.now().strftime("_%m_%d_%H_%M_%S"),accuracy_train)
-    np.save(path_scores+'acctest_'+datetime.now().strftime("_%m_%d_%H_%M_%S"),accuracy_test)
-    np.save(path_scores+'confmat_'+datetime.now().strftime("_%m_%d_%H_%M_%S"),confusion_matrix)
+def save_score(error,accuracy_train,accuracy_test,confusion_matrix,hyperparams,temp,root='',title=''):
+    if root=='': 
+        root = path_results+'log'+temp+'//'
+
+    np.save(root+'error',error)
+    np.save(root+'acctrain',accuracy_train)
+    np.save(root+'acctest',accuracy_test)
+    np.save(root+'confmat',confusion_matrix)
+    np.save(root+'hyperparams',hyperparams)
 
 
 
 def Grid_Search_SGD(train_data,scalers,criterion,learning_rate,momentum,
                 model,kfold,nesterov=False,
-                batch_size=20, epochs=5):
+                batch_size=32, epochs=100,root=''):
 
     error, accuracy_train, accuracy_test, confusion_matrix = [],[],[],[]
-    
+    temp = datetime.now().strftime("_%m_%d_%H_%M_%S")
+
     global log
     log = {}
 
@@ -266,19 +273,22 @@ def Grid_Search_SGD(train_data,scalers,criterion,learning_rate,momentum,
         print('\rConfig: {}/{}: loss train: {:.2f}, accuracy train: {:.2f}, accuracy test: {:.2f}'.
             format(c+1, len(hyperparams), np.min(er), np.max(ac_tr), np.max(ac_te)), end='')
 
-        save_logging(str(c))
+        save_logging(temp,title=str(c),root=root)
 
-    save_score(error,accuracy_train,accuracy_test,confusion_matrix)
+    save_score(error,accuracy_train,accuracy_test,confusion_matrix,
+                        hyperparams,temp=temp,root=root,title=str(c))
 
     return error,accuracy_train,accuracy_test,confusion_matrix
 
 ######## ADAM #########
 
 def Grid_Search_Adam(train_data,scalers,criterion,learning_rate,b1,b2,
-                model,kfold,batch_size=20,weight_decay=0,epochs=5):
+                model,kfold,batch_size=32,weight_decay=0,epochs=100,root=''):
 
     error, accuracy_train, accuracy_test, confusion_matrix = [],[],[],[]
-    
+    temp = datetime.now().strftime("_%m_%d_%H_%M_%S")
+
+
     global log
     log = {}
 
@@ -302,9 +312,10 @@ def Grid_Search_Adam(train_data,scalers,criterion,learning_rate,b1,b2,
         print('\rConfig: {}/{}: loss train: {:.2f}, accuracy train: {:.2f}, accuracy test: {:.2f}'.
             format(c+1, len(hyperparams), np.min(er), np.max(ac_tr), np.max(ac_te)), end='')
 
-        save_logging(str(c))
+        save_logging(temp,title=str(c),root=root)
 
-    save_score(error,accuracy_train,accuracy_test,confusion_matrix)
+    save_score(error,accuracy_train,accuracy_test,confusion_matrix,
+                    hyperparams,temp=temp,root=root,title=str(c))
 
     return error,accuracy_train,accuracy_test,confusion_matrix
 
@@ -317,7 +328,28 @@ def dispConfusionMatrix(matrix,title,filename,save=True):
     plt.figure(figsize=(10,7))
     plt.title(title)
     sn.heatmap(df_confmat,annot=True,fmt=".0f")
-    plt.savefig(path_graphs + filename + '.jpg', format='jpg', dpi=200)
+    plt.savefig(path_graphs + 'confusion_matrix//' + filename + '.jpg', format='jpg', dpi=200)
+
+#### ERROR PLOT ####
+
+def plotError(error,best_config_cv,best_cv,title,filename,save=True):
+    plt.figure(figsize=(10,6))
+
+    for p in best_config_cv:
+        plt.plot(error[p,best_cv[p]])
+
+    plt.title(f'Error: {title}')
+    plt.xticks(np.arange(20))
+    plt.legend()
+    plt.grid()
+    plt.xlabel('epochs')
+    plt.ylabel('error')
+    plt.ylim([0,np.max(error[best_config_cv])+np.min(error[best_config_cv])])
+    if save:
+        plt.savefig(path_graphs + f'error_{filename}.jpg', format='jpg', dpi=200)
+    
+    plt.show()
+
 
 #################################
 
