@@ -1,0 +1,61 @@
+<generator object Module.parameters at 0x00000273DDBCB430>
+Ep 1/50, it 13/13: loss train: 0.63, accuracy train: 0.37, accuracy test: 0.44
+<generator object Module.parameters at 0x00000273DDBCBF90>
+<generator object Module.parameters at 0x00000273DDBCBF90>
+<generator object Module.parameters at 0x00000273DDBCBF90>
+<generator object Module.parameters at 0x00000273DDBCBF90>
+Ep 5/50, it 13/13: loss train: 0.62, accuracy train: 0.39, accuracy test: 0.43
+<generator object Module.parameters at 0x00000273DDBCBD60>
+<generator object Module.parameters at 0x00000273DDBCBD60>
+<generator object Module.parameters at 0x00000273DDBCBD60>
+<generator object Module.parameters at 0x00000273DDBCBD60>
+<generator object Module.parameters at 0x00000273DDBCBD60>
+Ep 10/50, it 13/13: loss train: 0.61, accuracy train: 0.41, accuracy test: 0.45
+<generator object Module.parameters at 0x00000273DDBCBC10>
+<generator object Module.parameters at 0x00000273DDBCBC10>
+<generator object Module.parameters at 0x00000273DDBCBC10>
+<generator object Module.parameters at 0x00000273DDBCBC10>
+<generator object Module.parameters at 0x00000273DDBCBC10>
+Ep 15/50, it 13/13: loss train: 0.61, accuracy train: 0.45, accuracy test: 0.47
+<generator object Module.parameters at 0x00000273DDBCB2E0>
+<generator object Module.parameters at 0x00000273DDBCB2E0>
+<generator object Module.parameters at 0x00000273DDBCB2E0>
+<generator object Module.parameters at 0x00000273DDBCB430>
+<generator object Module.parameters at 0x00000273DDBCB430>
+Ep 20/50, it 13/13: loss train: 0.60, accuracy train: 0.46, accuracy test: 0.49
+<generator object Module.parameters at 0x00000273DDBCBF20>
+<generator object Module.parameters at 0x00000273DDBCBF20>
+<generator object Module.parameters at 0x00000273DDBCBF20>
+<generator object Module.parameters at 0x00000273DDBCBF20>
+<generator object Module.parameters at 0x00000273DDBCBF20>
+Ep 25/50, it 13/13: loss train: 0.60, accuracy train: 0.47, accuracy test: 0.51
+<generator object Module.parameters at 0x00000273DDBCBD60>
+<generator object Module.parameters at 0x00000273DDBCBD60>
+<generator object Module.parameters at 0x00000273DDBCBD60>
+<generator object Module.parameters at 0x00000273DDBCBD60>
+<generator object Module.parameters at 0x00000273DDBCBD60>
+Ep 30/50, it 13/13: loss train: 0.60, accuracy train: 0.47, accuracy test: 0.51
+<generator object Module.parameters at 0x00000273DDBCBC10>
+<generator object Module.parameters at 0x00000273DDBCBC10>
+<generator object Module.parameters at 0x00000273DDBCBC10>
+<generator object Module.parameters at 0x00000273DDBCBC10>
+<generator object Module.parameters at 0x00000273DDBCBC10>
+Ep 35/50, it 13/13: loss train: 0.60, accuracy train: 0.48, accuracy test: 0.51
+<generator object Module.parameters at 0x00000273DDBCBCF0>
+<generator object Module.parameters at 0x00000273DDBCBCF0>
+<generator object Module.parameters at 0x00000273DDBCBCF0>
+<generator object Module.parameters at 0x00000273DDBCBCF0>
+<generator object Module.parameters at 0x00000273DDBCBCF0>
+Ep 40/50, it 13/13: loss train: 0.60, accuracy train: 0.48, accuracy test: 0.51
+<generator object Module.parameters at 0x00000273DDBCB430>
+<generator object Module.parameters at 0x00000273DDBCB430>
+<generator object Module.parameters at 0x00000273DDBCB430>
+<generator object Module.parameters at 0x00000273DDBCB430>
+<generator object Module.parameters at 0x00000273DDBCB430>
+Ep 45/50, it 13/13: loss train: 0.60, accuracy train: 0.48, accuracy test: 0.51
+<generator object Module.parameters at 0x00000273DDBCBF90>
+<generator object Module.parameters at 0x00000273DDBCBF90>
+<generator object Module.parameters at 0x00000273DDBCBF90>
+<generator object Module.parameters at 0x00000273DDBCBF90>
+<generator object Module.parameters at 0x00000273DDBCBF90>
+Ep 50/50, it 13/13: loss train: 0.60, accuracy train: 0.48, accuracy test: 0.51

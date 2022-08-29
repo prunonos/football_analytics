@@ -1,6 +1,6 @@
 import torch
 import torch.nn.functional as F
-from torch.utils.data import Dataset, DataLoader, SubsetRandomSampler
+from torch.utils.data import Dataset, DataLoader, SubsetRandomSampler, SequentialSampler
 import numpy as np
 import pandas as pd
 from datetime import datetime 
@@ -12,7 +12,7 @@ import json, os
 torch.manual_seed(0)
 import random
 random.seed(0)
-np.random.seed(0    )
+np.random.seed(0)
 
 
 path_train      = 'F://TFG//datasets//data_train//'
@@ -62,6 +62,7 @@ def get_accuracy(pred,y,conf_matrix=False):
     conf_matrix: return the confusion matrix (default: false)
 
     '''
+    # pred = F.softmax(pred,1)
     pred_class = torch.argmax(pred,dim=1).numpy()
     y_class    = torch.argmax(y,dim=1).numpy()
     
@@ -124,6 +125,7 @@ def restart_logger():
             'test' :{'acc':[],'it':[],'ep':[]}
     }
 
+
 def log_model(type,it,ep,acc,loss='',grad='',weights=''):
     global logger
     if type=='train':
@@ -134,11 +136,12 @@ def log_model(type,it,ep,acc,loss='',grad='',weights=''):
         log = logger['test']
         log['acc'].append(acc), log['it'].append(it), log['ep'].append(ep)
 
-def save_log_model(path='',title=''): 
+def save_log_model(model,path='',title=''): 
     if title=='': title = 'log'+datetime.now().strftime("_%m_%d_%H_%M_%S")
     if path=='': path=path_logs
     global logger
     if os.path.exists(path)==False: os.makedirs(path)
+    torch.save(model.state_dict(), path+'model'+title)
     with open(path+title+'.json','w') as outfile:
         json.dump(logger,outfile)
 
@@ -148,7 +151,7 @@ def save_log_model(path='',title=''):
 ###########################
 
 def train_model(model, criterion, optimizer, dataloader_train,
-                 dataloader_test, epochs,display=True, cv=-1, config=-1,logs=True):
+                 dataloader_test, epochs,display=True, cv=-1, confnum=-1,logs=True):
     '''
     train_model(model, criterion, optimizer, dataloader_train, dataloader_test, epochs,logs=True)
     '''
@@ -169,7 +172,7 @@ def train_model(model, criterion, optimizer, dataloader_train,
             x, y, m = batch
             # 5.2 Run forward pass.
             logits = model(x)
-            # if it==40: logging(m[:20],logits[:20].detach(),y[:20],config,it,ep)
+            # if it==40: logging(m[:20],logits[:20].detach(),y[:20],confnum,it,ep)
             # 5.3 Compute loss (using 'criterion').
             loss = criterion(logits, y)
             # 5.4 Run backward pass.
@@ -213,7 +216,7 @@ def train_model(model, criterion, optimizer, dataloader_train,
                 total_len        += len(x)
                 if ep==(epochs-1): 
                     confusion_matrix += conf_mat
-                logging(m,preds,y,config,cv,ep)
+                logging(m,preds,y,confnum,cv,ep)
                     # if it<2: get_df_results(match_results,preds,m,save=(it==1))
                 if logs: log_model('test',it,ep,res)
 
@@ -229,8 +232,13 @@ def train_model(model, criterion, optimizer, dataloader_train,
 
 ############################################
 
-def train_wCrossValidation(model,criterion,optimizer,train_data,kfold,
-                                epochs=5,display=True,bat_size=20,config=-1,logs=True,path=''):
+def buildOpt(optName, opt, params, model):
+    if optName=='Adam':
+        return opt(model.parameters(),lr=params['lr'],betas=params['betas'],weight_decay=params['weight_decay'])
+    return opt(model.parameters(),lr=params['lr'],momentum=params['momentum'],nesterov=params['nesterov'])
+
+def train_wCrossValidation(config,train_data,kfold,epochs=5,display=True,bat_size=32,
+                                confnum=-1,logs=True,path=''):
 
     error           = []
     accuracy_train  = []
@@ -238,11 +246,19 @@ def train_wCrossValidation(model,criterion,optimizer,train_data,kfold,
 
     confusion_matrix = []
 
+    net = config['net']
+    bat_size = config.get('bat_size',bat_size)
+
+    if config['opt_name']=='Adam': params = {'lr': config['lr'],'betas': config['betas'], 'weight_decay': config['weight_decay']}
+    else: params = {'lr': config['lr'],'momentum': config['momentum'], 'nesterov': config['nesterov']}
+
     folds = kfold.get_n_splits()
 
     for fold,(train_idx,test_idx) in enumerate(kfold.split(train_data.data)):
-        train_subsampler    = SubsetRandomSampler(train_idx)
-        test_subsampler     = SubsetRandomSampler(test_idx)
+        # train_subsampler    = SubsetRandomSampler(train_idx)
+        # test_subsampler     = SubsetRandomSampler(test_idx)
+        train_subsampler    = SequentialSampler(train_idx)
+        test_subsampler     = SequentialSampler(test_idx)
         
         trainloader = DataLoader(
                             train_data, 
@@ -251,11 +267,14 @@ def train_wCrossValidation(model,criterion,optimizer,train_data,kfold,
                             train_data,
                             batch_size=bat_size, sampler=test_subsampler)
         
-        model.reset_weights()
+        # modificar codigo para reinicialitzar modelo y optimizador
+        model       = net(config['input'],config['output'],hidden_neurons=config['hidden_neurons'])
+        optimizer   = buildOpt(config['opt_name'], config['opt'], params, model)
+        epochs = config.get('epochs',epochs)
 
         error_fold,acc_train_fold,acc_test_fold,conf_matrix = (
-                        train_model(model, criterion, optimizer,trainloader,testloader, 
-                        epochs, display=False,logs=True, cv=fold, config=config))
+                        train_model(model, config['criterion'](), optimizer,trainloader,testloader, 
+                        epochs, display=False,logs=True, cv=fold, confnum=confnum))
 
         confusion_matrix.append(conf_matrix)
         error.append(error_fold)
@@ -268,15 +287,15 @@ def train_wCrossValidation(model,criterion,optimizer,train_data,kfold,
                             acc_train_fold[-1], acc_test_fold[-1]), end='')
             print('')
         
-        if logs: save_log_model(path=path,title=f'f{fold}')
+        if logs: save_log_model(model,path=path,title=f'f{fold}')
 
     
-    return error, accuracy_train, accuracy_test, np.array(confusion_matrix)
+    return np.array(error), np.array(accuracy_train), np.array(accuracy_test), np.array(confusion_matrix)
         
 
 ##################################
 
-def save_score(error,accuracy_train,accuracy_test,confusion_matrix,hyperparams,model,temp,root='',title=''):
+def save_score(error,accuracy_train,accuracy_test,confusion_matrix,hyperparams,temp,root='',title=''):
     if root=='': 
         root = path_results+'log'+title+temp+'//'
 
@@ -285,7 +304,6 @@ def save_score(error,accuracy_train,accuracy_test,confusion_matrix,hyperparams,m
     np.save(root+'acctest'+title,accuracy_test)
     np.save(root+'confmat'+title,confusion_matrix)
     np.save(root+'hyperparams'+title,hyperparams)
-    torch.save(model.state_dict(), root+'model'+title)
 
 
 def Grid_Search_SGD(train_data,scalers,criterion,learning_rate,momentum,
@@ -306,24 +324,28 @@ def Grid_Search_SGD(train_data,scalers,criterion,learning_rate,momentum,
         if scaler != None: 
             train_data.data = scaler.fit_transform(train_data.data).astype(np.float32)
 
-        model.reset_weights()
-        opt = torch.optim.SGD(model.parameters(),lr=hyper[2],
-                    momentum=hyper[3],nesterov=hyper[4])
+        config = {
+                    'net': model['class'], 'input': model['input'], 'output': model['output'], 
+                    'hidden_neurons': model['hidden_neurons'], 'opt_name':'SGD', 'opt': torch.optim.SGD, 'lr': hyper[2], 
+                    'momentum': hyper[3], 'nesterov': hyper[4], 'criterion': hyper[1], 
+                    'bat_size': hyper[5], 'epochs': epochs
+                 }
 
-        er, ac_tr, ac_te, cm = train_wCrossValidation(model,hyper[1], opt, train_data, 
-                                    kfold, epochs, display=False,bat_size=hyper[5],
-                                    config=c,logs=False,path=root+'//logs//config'+str(c)+'//')
+        er, ac_tr, ac_te, cm = train_wCrossValidation(config, train_data, kfold, epochs, display=False,
+                                    confnum=c,logs=True,path=root+'//logs//config'+str(c)+'//')
+
         error.append(er), accuracy_train.append(ac_tr)
         accuracy_test.append(ac_te), confusion_matrix.append(cm)
 
         print('\rConfig: {}/{}: loss train: {:.2f}, accuracy train: {:.2f}, accuracy test: {:.2f}'.
-            format(c+1, len(hyperparams), np.min(er), np.max(ac_tr), np.max(ac_te)), end='')
+            format(c+1, len(hyperparams), np.mean(er[:,-1]), np.mean(ac_tr[:,-1]),
+                                                            np.mean(ac_te[:,-1])), end='')
 
         save_logging(temp,title=str(c),root=root)
         
 
     save_score(error,accuracy_train,accuracy_test,confusion_matrix,
-                    hyperparams,model,temp=temp,root=root,title='')
+                    hyperparams,temp=temp,root=root,title='')
 
     return error,accuracy_train,accuracy_test,confusion_matrix
 
@@ -346,33 +368,59 @@ def Grid_Search_Adam(train_data,scalers,criterion,learning_rate,b1,b2,
         if scaler != None: 
             train_data.data = scaler.fit_transform(train_data.data).astype(np.float32)
 
-        model.reset_weights()
-        opt = torch.optim.Adam(model.parameters(),lr=hyper[2],
-                    betas=(hyper[3],hyper[4]),weight_decay=hyper[5])
+        config = {
+                    'net': model['class'], 'input': model['input'], 'output': model['output'], 
+                    'hidden_neurons': model['hidden_neurons'], 'opt_name':'Adam', 'opt': torch.optim.Adam, 'lr': hyper[2], 
+                    'betas': (hyper[3],hyper[4]), 'weight_decay': hyper[5], 'criterion': hyper[1], 
+                    'bat_size': hyper[6], 'epochs': epochs
+                 }
 
-        er, ac_tr, ac_te, cm = train_wCrossValidation(model,hyper[1], opt, train_data, 
-                                    kfold, epochs, display=False,bat_size=hyper[6],config=c,
-                                    logs=False,path=root+'//logs//config'+str(c)+'//')
+        er, ac_tr, ac_te, cm = train_wCrossValidation(config, train_data, kfold, epochs, display=False,
+                                    confnum=c,logs=True,path=root+'//logs//config'+str(c)+'//')
+
         error.append(er), accuracy_train.append(ac_tr)
         accuracy_test.append(ac_te), confusion_matrix.append(cm)
 
         print('\rConfig: {}/{}: loss train: {:.2f}, accuracy train: {:.2f}, accuracy test: {:.2f}'.
-            format(c+1, len(hyperparams), np.min(er), np.max(ac_tr), np.max(ac_te)), end='')
+            format(c+1, len(hyperparams), np.mean(er[:,-1]), np.mean(ac_tr[:,-1]),
+                                                            np.mean(ac_te[:,-1])), end='')
 
         save_logging(temp,title=str(c),root=root)
 
     save_score(error,accuracy_train,accuracy_test,confusion_matrix,
-                    hyperparams,model,temp=temp,root=root,title='')
+                    hyperparams,temp=temp,root=root,title='')
 
     return error,accuracy_train,accuracy_test,confusion_matrix
+
+##################################
+
+def test_model(model,dataloader_test):
+    model.eval()
+    with torch.no_grad():
+        acc_run = 0
+        total_len   = 0
+        confusion_matrix = np.zeros((3,3))
+
+        for batch in dataloader_test:
+            # Get batch of data.
+            x, y, _         = batch
+            preds            = model(x) 
+            res, conf_mat    = get_accuracy(preds, y, conf_matrix=True)
+            acc_run          += res*len(x)
+            total_len        += len(x)
+            confusion_matrix += conf_mat
+
+    acc_test = acc_run / total_len
+    return acc_test,confusion_matrix
 
 
 ##################################
 
 
-def dispConfusionMatrix(matrix,title,filename,save=True):
+def dispConfusionMatrix(matrix,title,filename='',save=True,size=(10,7)):
+    if save and filename=='': return 'Please, add a valid filename'
     df_confmat = pd.DataFrame(matrix, index=['draw','local win','away win'], columns=['draw','local win','away win'])
-    plt.figure(figsize=(10,7))
+    plt.figure(figsize=size)
     plt.title(title)
     sn.heatmap(df_confmat,annot=True,fmt=".0f")
     plt.savefig(path_graphs + 'confusion_matrix//' + filename + '.jpg', format='jpg', dpi=200)
@@ -402,10 +450,11 @@ def plotError(error,best_config_cv,best_cv,title,filename,save=True):
 
 def plot_error(trainlogs,path_exec,fld,display=False):
     plt.figure(2,figsize=(12,6))
+    
     for it in range(5):
         data = trainlogs[trainlogs.it==it]
         plt.plot(data.loss,label=it+1)
-    # plt.plot(trainlogs[trainlogs.it==1].loss,label=1)
+    # plt.plot(trainlogs.loss)
     plt.title(f'Error model')
     plt.xticks(range(0,len(trainlogs),250),rotation=45)
     plt.legend(title='Batch')
