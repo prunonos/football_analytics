@@ -1,0 +1,6 @@
+
+Fold 1/5: loss train: 0.57, accuracy train: 0.49, accuracy test: 0.50
+Fold 2/5: loss train: 0.63, accuracy train: 0.48, accuracy test: 0.50
+Fold 3/5: loss train: 0.57, accuracy train: 0.49, accuracy test: 0.48
+Fold 4/5: loss train: 0.58, accuracy train: 0.49, accuracy test: 0.46
+Fold 5/5: loss train: 0.64, accuracy train: 0.47, accuracy test: 0.50

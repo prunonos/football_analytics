@@ -77,9 +77,8 @@ log      = {}
 cols     = ['draw_pred','home_pred','away_pred','prediction','label','config.','folder','epoch']
 # log_file = pd.DataFrame(log,columns=cols)
 
-def save_logging(title='', root=''):
+def save_logging(temp,title='', root=''):
     if root=='': 
-        temp = datetime.now().strftime("_%m_%d_%H_%M_%S")
         root = path_results+'log'+title+temp+'//'
 
     df         = pd.DataFrame(log).T
@@ -206,7 +205,7 @@ def train_wCrossValidation(model,criterion,optimizer,train_data,kfold,
             print('\rFold {}/{}: loss train: {:.2f}, accuracy train: {:.2f}, accuracy test: {:.2f}'.
                     format(fold + 1, folds, np.mean(error_fold),
                             np.mean(acc_train_fold), np.mean(acc_test_fold)), end='')
-            print('\n')
+            print('')
     
     return error, accuracy_train, accuracy_test, np.array(confusion_matrix)
         
@@ -214,16 +213,16 @@ def train_wCrossValidation(model,criterion,optimizer,train_data,kfold,
 ##################################
 
 
-def save_score(error,accuracy_train,accuracy_test,confusion_matrix,hyperparams,root='',title=''):
+def save_score(error,accuracy_train,accuracy_test,confusion_matrix,hyperparams,model,temp,root='',title=''):
     if root=='': 
-        temp = datetime.now().strftime("_%m_%d_%H_%M_%S")
         root = path_results+'log'+title+temp+'//'
 
-    np.save(root+'error',error)
-    np.save(root+'acctrain',accuracy_train)
-    np.save(root+'acctest',accuracy_test)
-    np.save(root+'confmat',confusion_matrix)
-    np.save(root+'hyperparams',hyperparams)
+    np.save(root+'error'+title,error)
+    np.save(root+'acctrain'+title,accuracy_train)
+    np.save(root+'acctest'+title,accuracy_test)
+    np.save(root+'confmat'+title,confusion_matrix)
+    np.save(root+'hyperparams'+title,hyperparams)
+    torch.save(model.state_dict(), root+'model'+title)
 
 
 
@@ -231,7 +230,8 @@ def Grid_Search_SGD(train_data,scalers,criterion,learning_rate,momentum,
                 model,kfold,nesterov=False,
                 batch_size=32, epochs=100,root=''):
 
-    error, accuracy_train, accuracy_test, confusion_matrix = [],[],[],[]
+    error, accuracy_train, accuracy_test, confusion_matrix,params = [],[],[],[],[]
+    temp = datetime.now().strftime("_%m_%d_%H_%M_%S")
 
     global log
     log = {}
@@ -250,16 +250,16 @@ def Grid_Search_SGD(train_data,scalers,criterion,learning_rate,momentum,
 
         er, ac_tr, ac_te, cm = train_wCrossValidation(model,hyper[1], opt, train_data, 
                                     kfold, epochs, logs=False,bat_size=hyper[5],config=c)
-        error.append(er), accuracy_train.append(ac_tr)
+        error.append(er), accuracy_train.append(ac_tr), params.append(model.parameters())
         accuracy_test.append(ac_te), confusion_matrix.append(cm)
 
         print('\rConfig: {}/{}: loss train: {:.2f}, accuracy train: {:.2f}, accuracy test: {:.2f}'.
             format(c+1, len(hyperparams), np.min(er), np.max(ac_tr), np.max(ac_te)), end='')
 
-        save_logging(title=str(c),root=root)
+        save_logging(temp,title=str(c),root=root)
 
     save_score(error,accuracy_train,accuracy_test,confusion_matrix,
-                        hyperparams,root=root,title=str(c))
+                        hyperparams,model,temp=temp,root=root)
 
     return error,accuracy_train,accuracy_test,confusion_matrix
 
@@ -268,7 +268,8 @@ def Grid_Search_SGD(train_data,scalers,criterion,learning_rate,momentum,
 def Grid_Search_Adam(train_data,scalers,criterion,learning_rate,b1,b2,
                 model,kfold,batch_size=32,weight_decay=0,epochs=100,root=''):
 
-    error, accuracy_train, accuracy_test, confusion_matrix = [],[],[],[]
+    error, accuracy_train, accuracy_test, confusion_matrix, params = [],[],[],[],[]
+    temp = datetime.now().strftime("_%m_%d_%H_%M_%S")
 
     global log
     log = {}
@@ -287,16 +288,16 @@ def Grid_Search_Adam(train_data,scalers,criterion,learning_rate,b1,b2,
 
         er, ac_tr, ac_te, cm = train_wCrossValidation(model,hyper[1], opt, train_data, 
                                     kfold, epochs, logs=False,bat_size=hyper[6],config=c)
-        error.append(er), accuracy_train.append(ac_tr)
+        error.append(er), accuracy_train.append(ac_tr), params.append(model.parameters())
         accuracy_test.append(ac_te), confusion_matrix.append(cm)
 
         print('\rConfig: {}/{}: loss train: {:.2f}, accuracy train: {:.2f}, accuracy test: {:.2f}'.
             format(c+1, len(hyperparams), np.min(er), np.max(ac_tr), np.max(ac_te)), end='')
 
-        save_logging(title=str(c),root=root)
+        save_logging(temp,title=str(c),root=root)
 
     save_score(error,accuracy_train,accuracy_test,confusion_matrix,
-                    hyperparams,root=root,title=str(c))
+                    hyperparams,model,temp=temp,root=root)
 
     return error,accuracy_train,accuracy_test,confusion_matrix
 
