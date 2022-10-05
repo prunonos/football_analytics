@@ -1,6 +1,6 @@
 import torch
 import torch.nn.functional as F
-from torch.utils.data import Dataset, DataLoader, SubsetRandomSampler, SequentialSampler
+from torch.utils.data import Dataset, DataLoader, SequentialSampler
 import numpy as np
 import pandas as pd
 from datetime import datetime 
@@ -9,24 +9,29 @@ import seaborn as sn
 from sklearn import metrics
 import json, os, re
 
-torch.manual_seed(0)
 import random
 random.seed(0)
 np.random.seed(0)
+torch.manual_seed(0)
 
+
+# path_train      = '/home/gti/datasets/'
+# path_graphs     = '/home/gti/graphs/'
+# path_scores    = '/home/gti/scores/'
+# path_logs       = '/home/gti/logs/'
+# path_outputs    = '/home/gti/outputs/'
 
 path_train      = 'F://TFG//datasets//data_train//'
 path_rawdata    = 'F://TFG//datasets/raw_datasets//'
 path_graphs     = 'F://TFG//graphs//plot_results//'
 path_results    = 'F://TFG//results//'
+path_outputs    = path_results+'outputs//'
 path_logs       = path_results+'logs//'
 path_scores     = path_results+'scores//'
 
-
-raw_Data  = pd.read_json('F://TFG//datasets/raw_datasets//RAW_partidos.json').set_index('wyId')
-
-len_train = -1
-len_test  = -1
+# borrar
+# raw_Data  = pd.read_csv('/home/gti/datasets/'+'historical_goals'+'.csv',sep=';',index_col='matchId').drop(columns='aux')
+raw_Data  = pd.read_csv('F://TFG//datasets//raw_datasets//'+'historical_goals'+'.csv',sep=';',index_col='matchId').drop(columns='aux')
 
 class WyscoutDataset(Dataset):
     def __init__(self,file):
@@ -60,12 +65,11 @@ class FootballMatchesDataset(Dataset):
         pattern = re.compile(r'^((?!' + str_drop[:-1] + r').|(_home)|(_away))+$')
 
         # partidos para usar en entrenamiento y test (mismo conjunto en todos los datasets)
-        np.random.seed(1)
         permutation = (np.random.permutation(np.arange(50000))[:37500] if (file=='train') 
                                 else np.random.permutation(np.arange(50000))[37500:])
                                 
         # importamos el dataset y seleccionamos los atributos y partidos indicados
-        df              = pd.read_csv(path_rawdata+dataset+'.csv',sep=';',index_col='matchId')
+        df              = pd.read_csv(path_rawdata+dataset+'.csv',sep=';',index_col='matchId') # en linux cambiar a path_train
         self.features   = list(filter(pattern.match,df.columns[13:]))
         self.matches    = np.intersect1d(df[self.features].dropna().index.to_numpy(),permutation)
         self.data       = torch.tensor(df.loc[self.matches][self.features].values).float()
@@ -108,40 +112,22 @@ def get_accuracy(pred,y,conf_matrix=False):
     else:
         return np.mean((pred_class == y_class))
     
-############################
-
-match_results   = {}
-train_preds_df  = None
-
-def get_df_results(match_results,train_preds_df,preds,m,save=True):
-    '''
-    get_df_results(match_results,preds,m,save=True)
-    '''
-    match_results.update({int(m_):l_.detach().numpy() for m_,l_ in zip(m,preds)})
-    if save:
-        # print('Yess!')
-        results               = pd.DataFrame(match_results).T
-        results['prediction'] = np.array(list(match_results.values())).argmax(axis=1)
-        train_preds_df        = (pd.merge(results,pd.DataFrame(raw_Data['label'])
-                                    ,left_index=True, right_index=True))
-        # train_preds_df.to_csv(path_graphs+'train_preds_df.csv',sep=';')
-
 ###########################
 
 log      = {}
-cols     = ['wyId','draw_pred','home_pred','away_pred','prediction','label','config.','folder','epoch']
+# cambiar por wyId por matchId
+cols     = ['matchId','draw_pred','home_pred','away_pred','prediction','label','config.','folder','epoch']
 # log_file = pd.DataFrame(log,columns=cols)
 
 def save_logging(temp,title='', root=''):
     if root=='': 
-        root = path_results+'log'+temp+'//'
+        root = path_outputs+'log'+temp+'//'
     
     df         = pd.DataFrame(log).T
     df.columns = cols
-    log_file   = (pd.merge(df,pd.DataFrame(raw_Data['label']).reset_index()
-                                    ,on='wyId',how='left'))
+    log_file   = (pd.merge(df,pd.DataFrame(raw_Data[['HomeTeam','AwayTeam','FTR','FTHG','FTAG']]).reset_index()
+                                    ,on='matchId',how='left'))
     log_file.to_csv(root+'log'+title+'.csv',sep=';')
-    # log_file.to_csv(path_results+temp+str(random.randint(a=0,b=1000))+'.csv',sep=';')
 
 def logging(m,preds,y,mod,cv,ep):
     it = np.ones(shape=(len(y),3)) * [mod,cv,ep]
@@ -149,8 +135,6 @@ def logging(m,preds,y,mod,cv,ep):
                                 ,torch.argmax(y,dim=1).numpy(),it))
     # convertir tensors a numpy
     log.update({f'{m_}_{cv}_{ep}':l_ for m_,l_ in zip(m.numpy(),df)})
-
-    # log_file.to_csv(path_results+temp+str(random.randint(a=0,b=1000))+'.csv',sep=';')
 
 logger = {}
 
@@ -187,7 +171,7 @@ def save_log_model(model,path='',title=''):
 ###########################
 
 def train_model(model, criterion, optimizer, dataloader_train,
-                 dataloader_test, epochs,display=True, cv=-1, confnum=-1,logs=True):
+                 dataloader_test, epochs,display=True, cv=-1, confnum=-1,logs=True, save_outputs=True):
     '''
     train_model(model, criterion, optimizer, dataloader_train, dataloader_test, epochs,logs=True)
     '''
@@ -232,7 +216,7 @@ def train_model(model, criterion, optimizer, dataloader_train,
         error.append(float(loss))
 
         if display and ((ep+1)%(epochs/10)==0 or ep==0):
-            print('\rEp {}/{}, it {}/{}: loss train: {:.2f}, accuracy train: {:.2f}'.
+            print('Ep {}/{}, it {}/{}: loss train: {:.2f}, accuracy train: {:.2f}'.
                     format(ep + 1, epochs, it + 1, len(dataloader_train), loss,
                             np.mean(acc_batch/total_len)), end='')
 
@@ -252,14 +236,14 @@ def train_model(model, criterion, optimizer, dataloader_train,
                 total_len        += len(x)
                 if ep==(epochs-1): 
                     confusion_matrix += conf_mat
-                logging(m,preds,y,confnum,cv,ep)
+                if save_outputs: logging(m,preds,y,confnum,cv,ep)
                     # if it<2: get_df_results(match_results,preds,m,save=(it==1))
                 if logs: log_model('test',it,ep,res)
 
         acc_test = acc_run / total_len
         accuracy_test.append(acc_test)  
                                 
-        if display and ((ep+1)%(epochs/10)==0 or ep==0): print(', accuracy test: {:.2f}'.format(acc_test))
+        if display and ((ep+1)%(epochs/10)==0 or ep==0): print(', accuracy test: {:.2f}'.format(acc_test),end='\r')
 
 
     # if logs: save_log_model()    
@@ -274,7 +258,7 @@ def buildOpt(optName, opt, params, model):
     return opt(model.parameters(),lr=params['lr'],momentum=params['momentum'],nesterov=params['nesterov'])
 
 def train_wCrossValidation(config,train_data,kfold,epochs=5,display=True,bat_size=32,
-                                confnum=-1,logs=True,path=''):
+                                confnum=-1,logs=True, save_outputs=True, path=''):
 
     error           = []
     accuracy_train  = []
@@ -310,7 +294,7 @@ def train_wCrossValidation(config,train_data,kfold,epochs=5,display=True,bat_siz
 
         error_fold,acc_train_fold,acc_test_fold,conf_matrix = (
                         train_model(model, config['criterion'](), optimizer,trainloader,testloader, 
-                        epochs, display=False,logs=True, cv=fold, confnum=confnum))
+                        epochs, display=True,logs=True, save_outputs=save_outputs, cv=fold, confnum=confnum))
 
         confusion_matrix.append(conf_matrix)
         error.append(error_fold)
@@ -321,9 +305,8 @@ def train_wCrossValidation(config,train_data,kfold,epochs=5,display=True,bat_siz
             print('\rFold {}/{}: loss train: {:.2f}, accuracy train: {:.2f}, accuracy test: {:.2f}'.
                     format(fold + 1, folds, error_fold[-1],
                             acc_train_fold[-1], acc_test_fold[-1]), end='')
-            print('')
         
-        if logs: save_log_model(model,path=path,title=f'f{fold}')
+        if logs: save_log_model(model,path=path_logs+path,title=f'f{fold}')
 
     
     return np.array(error), np.array(accuracy_train), np.array(accuracy_test), np.array(confusion_matrix)
@@ -335,6 +318,7 @@ def save_score(error,accuracy_train,accuracy_test,confusion_matrix,hyperparams,t
     if root=='': 
         root = path_results+'log'+title+temp+'//'
 
+    if os.path.exists(root)==False: os.makedirs(root)
     np.save(root+'error'+title,error)
     np.save(root+'acctrain'+title,accuracy_train)
     np.save(root+'acctest'+title,accuracy_test)
@@ -344,7 +328,7 @@ def save_score(error,accuracy_train,accuracy_test,confusion_matrix,hyperparams,t
 
 def Grid_Search_SGD(train_data,scalers,criterion,learning_rate,momentum,
                 model,kfold,nesterov=False,
-                batch_size=32, epochs=100,root=''):
+                batch_size=32, epochs=100,root='', save_outputs=True):
 
     error, accuracy_train, accuracy_test, confusion_matrix = [],[],[],[]
     temp = datetime.now().strftime("_%m_%d_%H_%M_%S")
@@ -368,7 +352,7 @@ def Grid_Search_SGD(train_data,scalers,criterion,learning_rate,momentum,
                  }
 
         er, ac_tr, ac_te, cm = train_wCrossValidation(config, train_data, kfold, epochs, display=False,
-                                    confnum=c,logs=True,path=root+'//logs//config'+str(c)+'//')
+                                    confnum=c,logs=True,save_outputs=save_outputs,path=root+'//')
 
         error.append(er), accuracy_train.append(ac_tr)
         accuracy_test.append(ac_te), confusion_matrix.append(cm)
@@ -377,18 +361,18 @@ def Grid_Search_SGD(train_data,scalers,criterion,learning_rate,momentum,
             format(c+1, len(hyperparams), np.mean(er[:,-1]), np.mean(ac_tr[:,-1]),
                                                             np.mean(ac_te[:,-1])), end='')
 
-        save_logging(temp,title=str(c),root=root)
+        if save_outputs: save_logging(temp,title=str(c),root=path_outputs+root+'//')
         
 
     save_score(error,accuracy_train,accuracy_test,confusion_matrix,
-                    hyperparams,temp=temp,root=root,title='')
+                    hyperparams,temp=temp,root=path_scores+root+'//',title='')
 
     return error,accuracy_train,accuracy_test,confusion_matrix
 
 ######## ADAM #########
 
 def Grid_Search_Adam(train_data,scalers,criterion,learning_rate,b1,b2,
-                model,kfold,batch_size=32,weight_decay=0,epochs=100,root=''):
+                model,kfold,batch_size=32,weight_decay=0,epochs=100,root='',save_outputs=True):
 
     error, accuracy_train, accuracy_test, confusion_matrix = [],[],[],[]
     temp = datetime.now().strftime("_%m_%d_%H_%M_%S")
@@ -399,6 +383,7 @@ def Grid_Search_Adam(train_data,scalers,criterion,learning_rate,b1,b2,
     hyperparams = (np.array(np.meshgrid(scalers,criterion,learning_rate,b1,b2
                         ,weight_decay,batch_size)).T.reshape((-1,7)))
 
+    # ITERAMOS SOBRE CADA CONFIGURACIÓN POSIBLE
     for c,hyper in enumerate(hyperparams):
         scaler = hyper[0]
         if scaler != None: 
@@ -412,7 +397,7 @@ def Grid_Search_Adam(train_data,scalers,criterion,learning_rate,b1,b2,
                  }
 
         er, ac_tr, ac_te, cm = train_wCrossValidation(config, train_data, kfold, epochs, display=False,
-                                    confnum=c,logs=True,path=root+'//logs//config'+str(c)+'//')
+                                    confnum=c,logs=True,save_outputs=save_outputs,path=root+'//')
 
         error.append(er), accuracy_train.append(ac_tr)
         accuracy_test.append(ac_te), confusion_matrix.append(cm)
@@ -421,10 +406,10 @@ def Grid_Search_Adam(train_data,scalers,criterion,learning_rate,b1,b2,
             format(c+1, len(hyperparams), np.mean(er[:,-1]), np.mean(ac_tr[:,-1]),
                                                             np.mean(ac_te[:,-1])), end='')
 
-        save_logging(temp,title=str(c),root=root)
+        if save_outputs: save_logging(temp,title=str(c),root=path_outputs+root+'//')
 
     save_score(error,accuracy_train,accuracy_test,confusion_matrix,
-                    hyperparams,temp=temp,root=root,title='')
+                    hyperparams,temp=temp,root=path_scores+root+'//',title='')
 
     return error,accuracy_train,accuracy_test,confusion_matrix
 
@@ -450,7 +435,11 @@ def test_model(model,dataloader_test):
     return acc_test,confusion_matrix
 
 
-##################################
+####################################################################
+####################################################################
+####################################################################
+####################################################################
+####################################################################
 
 
 def dispConfusionMatrix(matrix,title,filename='',save=True,size=(10,7)):
