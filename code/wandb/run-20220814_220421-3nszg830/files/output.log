@@ -1,0 +1,11 @@
+Ep 1/50, it 13/13: loss train: 0.71, accuracy train: 0.30, accuracy test: 0.25
+Ep 5/50, it 13/13: loss train: 0.68, accuracy train: 0.41, accuracy test: 0.37
+Ep 10/50, it 13/13: loss train: 0.66, accuracy train: 0.45, accuracy test: 0.42
+Ep 15/50, it 13/13: loss train: 0.65, accuracy train: 0.46, accuracy test: 0.46
+Ep 20/50, it 13/13: loss train: 0.64, accuracy train: 0.48, accuracy test: 0.46
+Ep 25/50, it 13/13: loss train: 0.63, accuracy train: 0.48, accuracy test: 0.44
+Ep 30/50, it 13/13: loss train: 0.62, accuracy train: 0.48, accuracy test: 0.48
+Ep 35/50, it 13/13: loss train: 0.62, accuracy train: 0.49, accuracy test: 0.49
+Ep 40/50, it 13/13: loss train: 0.62, accuracy train: 0.49, accuracy test: 0.46
+Ep 45/50, it 13/13: loss train: 0.62, accuracy train: 0.49, accuracy test: 0.50
+Ep 50/50, it 13/13: loss train: 0.62, accuracy train: 0.49, accuracy test: 0.46

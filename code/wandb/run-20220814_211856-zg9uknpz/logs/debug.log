@@ -1,0 +1,137 @@
+2022-08-14 21:18:56,152 INFO    MainThread:10740 [wandb_setup.py:_flush():76] Configure stats pid to 10740
+2022-08-14 21:18:56,152 INFO    MainThread:10740 [wandb_setup.py:_flush():76] Loading settings from C:\Users\GuillemUPV\.config\wandb\settings
+2022-08-14 21:18:56,152 INFO    MainThread:10740 [wandb_setup.py:_flush():76] Loading settings from f:\TFG\code\wandb\settings
+2022-08-14 21:18:56,152 INFO    MainThread:10740 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'_require_service': 'True'}
+2022-08-14 21:18:56,152 INFO    MainThread:10740 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-08-14 21:18:56,153 INFO    MainThread:10740 [wandb_init.py:_log_setup():461] Logging user logs to f:\TFG\code\wandb\run-20220814_211856-zg9uknpz\logs\debug.log
+2022-08-14 21:18:56,153 INFO    MainThread:10740 [wandb_init.py:_log_setup():462] Logging internal logs to f:\TFG\code\wandb\run-20220814_211856-zg9uknpz\logs\debug-internal.log
+2022-08-14 21:18:56,153 INFO    MainThread:10740 [wandb_init.py:init():495] calling init triggers
+2022-08-14 21:18:56,153 INFO    MainThread:10740 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-08-14 21:18:56,153 INFO    MainThread:10740 [wandb_init.py:init():514] re-initializing run, found existing run on stack: 2fsxduhn
+2022-08-14 21:18:56,155 INFO    MainThread:10740 [wandb_run.py:_finish():1728] finishing run prunonos/sportanalytycs/2fsxduhn
+2022-08-14 21:18:56,155 INFO    MainThread:10740 [jupyter.py:save_history():435] not saving jupyter history
+2022-08-14 21:18:56,155 INFO    MainThread:10740 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-08-14 21:18:56,155 INFO    MainThread:10740 [wandb_init.py:_jupyter_teardown():393] cleaning up jupyter logic
+2022-08-14 21:18:56,155 INFO    MainThread:10740 [wandb_run.py:_atexit_cleanup():1931] got exitcode: 0
+2022-08-14 21:18:56,155 INFO    MainThread:10740 [wandb_run.py:_restore():1914] restore
+2022-08-14 21:18:56,155 INFO    MainThread:10740 [wandb_run.py:_restore():1920] restore done
+2022-08-14 21:18:56,161 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 541
+  total_bytes: 541
+}
+
+2022-08-14 21:18:56,276 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 541
+  total_bytes: 541
+}
+
+2022-08-14 21:19:01,384 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:19:06,509 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:19:11,631 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:19:16,740 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:19:21,855 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:19:26,978 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:19:32,088 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:19:37,203 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:19:42,321 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:19:47,440 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:19:52,561 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:19:57,671 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:20:02,787 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:20:07,906 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:20:13,025 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:20:18,138 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:20:23,256 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:20:28,368 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:20:33,480 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:20:38,596 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:20:43,707 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:20:48,817 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:20:53,929 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:20:59,044 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:21:04,158 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:21:09,270 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:21:14,384 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:21:19,503 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:21:24,612 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:21:29,606 WARNING MsgRouterThr:10740 [router.py:message_loop():76] message_loop has been closed
+2022-08-14 21:21:29,725 INFO    MainThread:10740 [wandb_run.py:_on_finish():2221] got exit ret: None
+2022-08-14 21:21:29,832 INFO    MainThread:10740 [wandb_run.py:_restore():1914] restore
+2022-08-14 21:21:29,832 INFO    MainThread:10740 [wandb_run.py:_restore():1920] restore done
+2022-08-14 21:21:29,853 ERROR   MainThread:10740 [wandb_init.py:init():1070] error
+Traceback (most recent call last):
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\wandb_run.py", line 1940, in _atexit_cleanup
+    self._on_finish()
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\wandb_run.py", line 2219, in _on_finish
+    self._backend.interface.communicate_poll_exit()
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\interface\interface.py", line 673, in communicate_poll_exit
+    resp = self._communicate_poll_exit(poll_exit)
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\interface\interface_shared.py", line 424, in _communicate_poll_exit
+    result = self._communicate(rec)
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\interface\interface_shared.py", line 231, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\interface\interface_sock.py", line 58, in _communicate_async
+    future = self._router.send_and_receive(rec, local=local)
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\interface\router.py", line 93, in send_and_receive
+    self._send_message(rec)
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\interface\router_sock.py", line 35, in _send_message
+    self._sock_client.send_record_communicate(record)
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\lib\sock_client.py", line 145, in send_record_communicate
+    self.send_server_request(server_req)
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\lib\sock_client.py", line 84, in send_server_request
+    self._send_message(msg)
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\lib\sock_client.py", line 81, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\lib\sock_client.py", line 61, in _sendall_with_error_handle
+    sent = self._sock.send(data[total_sent:])
+ConnectionResetError: [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\wandb_init.py", line 1043, in init
+    run = wi.init()
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\wandb_init.py", line 527, in init
+    self._wl._global_run_stack[-1].finish()
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\wandb_run.py", line 289, in wrapper
+    return func(self, *args, **kwargs)
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\wandb_run.py", line 255, in wrapper
+    return func(self, *args, **kwargs)
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\wandb_run.py", line 1721, in finish
+    return self._finish(exit_code, quiet)
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\wandb_run.py", line 1734, in _finish
+    self._atexit_cleanup(exit_code=exit_code)
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\wandb_run.py", line 1951, in _atexit_cleanup
+    self._backend.cleanup()
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\backend\backend.py", line 246, in cleanup
+    self.interface.join()
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\interface\interface_shared.py", line 480, in join
+    super().join()
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\interface\interface.py", line 686, in join
+    _ = self._communicate_shutdown()
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\interface\interface_shared.py", line 477, in _communicate_shutdown
+    _ = self._communicate(record)
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\interface\interface_shared.py", line 231, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\interface\interface_sock.py", line 58, in _communicate_async
+    future = self._router.send_and_receive(rec, local=local)
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\interface\router.py", line 93, in send_and_receive
+    self._send_message(rec)
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\interface\router_sock.py", line 35, in _send_message
+    self._sock_client.send_record_communicate(record)
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\lib\sock_client.py", line 145, in send_record_communicate
+    self.send_server_request(server_req)
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\lib\sock_client.py", line 84, in send_server_request
+    self._send_message(msg)
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\lib\sock_client.py", line 81, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "c:\Users\GuillemUPV\Anaconda3\envs\tfg\lib\site-packages\wandb\sdk\lib\sock_client.py", line 61, in _sendall_with_error_handle
+    sent = self._sock.send(data[total_sent:])
+ConnectionResetError: [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto

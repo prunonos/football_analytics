@@ -1,0 +1,16 @@
+Fold 1/5: loss train: 0.60, accuracy train: 0.43, accuracy test: 0.52
+Fold 2/5: loss train: 0.62, accuracy train: 0.40, accuracy test: 0.38
+Fold 3/5: loss train: 0.65, accuracy train: 0.46, accuracy test: 0.44
+Fold 4/5: loss train: 0.63, accuracy train: 0.46, accuracy test: 0.45
+Fold 5/5: loss train: 0.65, accuracy train: 0.37, accuracy test: 0.28
+Using cuda device
+Ep 1/10, it 13/13: loss train: 0.71, accuracy train: 0.26, accuracy test: 0.23
+Ep 2/10, it 13/13: loss train: 0.70, accuracy train: 0.26, accuracy test: 0.23
+Ep 3/10, it 13/13: loss train: 0.69, accuracy train: 0.26, accuracy test: 0.23
+Ep 4/10, it 13/13: loss train: 0.68, accuracy train: 0.26, accuracy test: 0.23
+Ep 5/10, it 13/13: loss train: 0.68, accuracy train: 0.36, accuracy test: 0.43
+Ep 6/10, it 13/13: loss train: 0.67, accuracy train: 0.45, accuracy test: 0.43
+Ep 7/10, it 13/13: loss train: 0.67, accuracy train: 0.44, accuracy test: 0.44
+Ep 8/10, it 13/13: loss train: 0.66, accuracy train: 0.45, accuracy test: 0.43
+Ep 9/10, it 13/13: loss train: 0.66, accuracy train: 0.45, accuracy test: 0.44
+

@@ -1,0 +1,17 @@
+General:
+  name: 'hist_longterm_anova'
+  experiment_path: 'hl_anova'
+Data:
+  dataset :  'historical_longterm'
+  drop: 
+    -
+  factor: -1
+  regression: False
+  runtype: 'anova'
+  dims: 50
+Model:
+  runs: 50
+Tuning:
+  n_trials: 500
+  cv_splits: 4
+  early_stopping: 20

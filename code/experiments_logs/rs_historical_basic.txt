@@ -1,0 +1,8 @@
+
+ID=1 ---- 01.12 19:52:34 ---- INFO: Start of Execution.
+ID=1 ---- 01.12 19:52:34 ---- INFO: Using cuda device.
+ID=1 ---- 01.12 19:52:36 ---- INFO: Generating model scenarios.
+ID=1 ---- 01.12 19:52:36 ---- INFO: Generating optimizer scenarios.
+ID=1 ---- 01.12 19:52:36 ---- INFO: Running experiment.
+01.12 19:53:15		rs_historical_basic_historical ---- 01.12 19:52:36 ----- Config:1 de 5.01.12 19:53:38		rs_historical_basic_historical ---- 01.12 19:53:15 ----- Config:2 de 5.01.12 19:54:09		rs_historical_basic_historical ---- 01.12 19:53:38 ----- Config:3 de 5.01.12 19:54:36		rs_historical_basic_historical ---- 01.12 19:54:09 ----- Config:4 de 5.01.12 19:55:02		rs_historical_basic_historical ---- 01.12 19:54:36 ----- Config:5 de 5.[2KID=1 ---- 01.12 19:55:02 ---- INFO: End of Execution.
+
