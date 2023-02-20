@@ -1,0 +1,17 @@
+General:
+  name: 'hist_goals_longterm_anova'
+  experiment_path: 'hg_anova'
+Data:
+  dataset :  'historical_goals_longterm'
+  drop: 
+    -
+  factor: -1
+  regression: False
+  runtype: 'anova'
+  dims: 25
+Model:
+  runs: 50
+Tuning:
+  n_trials: 500
+  cv_splits: 4
+  early_stopping: 20
