@@ -1,0 +1,24 @@
+data:
+  init_date: '1996-07-01'
+  sample: sequential
+  save_data: false
+  val_date: '2017-01-01'
+description: template del config file de top1 con sampling sequential
+enable: true
+experiment: lgbm_top1
+experiment_id: lgbm_top1_ss
+paths:
+  data: datasets/data_train/data_
+  dtypes_path: datasets/raw_datasets/dtypes.json
+  match_importance: datasets/raw_datasets/match_importance.csv
+  page_rank: datasets/raw_datasets/page_rank.csv
+  raw_data: datasets/raw_datasets/datalake.csv
+priority: 3
+queue: piratings
+training:
+  direction: minimize
+  iterations: 1
+  max_epochs: 1
+  patience: 15
+  stopping_rounds: 15
+  timeout: 1900

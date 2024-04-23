@@ -1,0 +1,432 @@
+date,home_team,away_team,game_id,url,stage,league,season
+2021-05-01 12:30:00,Crystal Palace,Manchester City,1485477,https://www.whoscored.com/Matches/1485477/Live/England-Premier-League-2020-2021-Crystal-Palace-Manchester-City,,ENG-Premier League,2021
+2021-05-01 15:00:00,Brighton,Leeds,1485471,https://www.whoscored.com/Matches/1485471/Live/England-Premier-League-2020-2021-Brighton-Leeds,,ENG-Premier League,2021
+2021-05-01 17:30:00,Chelsea,Fulham,1485475,https://www.whoscored.com/Matches/1485475/Live/England-Premier-League-2020-2021-Chelsea-Fulham,,ENG-Premier League,2021
+2021-05-01 20:00:00,Everton,Aston Villa,1485479,https://www.whoscored.com/Matches/1485479/Live/England-Premier-League-2020-2021-Everton-Aston-Villa,,ENG-Premier League,2021
+2021-05-02 14:00:00,Newcastle,Arsenal,1485483,https://www.whoscored.com/Matches/1485483/Live/England-Premier-League-2020-2021-Newcastle-Arsenal,,ENG-Premier League,2021
+2021-05-02 19:15:00,Tottenham,Sheffield United,1485487,https://www.whoscored.com/Matches/1485487/Live/England-Premier-League-2020-2021-Tottenham-Sheffield-United,,ENG-Premier League,2021
+2021-05-03 18:00:00,West Bromwich Albion,Wolves,1485489,https://www.whoscored.com/Matches/1485489/Live/England-Premier-League-2020-2021-West-Bromwich-Albion-Wolves,,ENG-Premier League,2021
+2021-05-03 20:15:00,Burnley,West Ham,1485473,https://www.whoscored.com/Matches/1485473/Live/England-Premier-League-2020-2021-Burnley-West-Ham,,ENG-Premier League,2021
+2021-05-07 20:00:00,Leicester,Newcastle,1485499,https://www.whoscored.com/Matches/1485499/Live/England-Premier-League-2020-2021-Leicester-Newcastle,,ENG-Premier League,2021
+2021-05-08 12:30:00,Leeds,Tottenham,1485497,https://www.whoscored.com/Matches/1485497/Live/England-Premier-League-2020-2021-Leeds-Tottenham,,ENG-Premier League,2021
+2021-05-08 15:00:00,Sheffield United,Crystal Palace,1485505,https://www.whoscored.com/Matches/1485505/Live/England-Premier-League-2020-2021-Sheffield-United-Crystal-Palace,,ENG-Premier League,2021
+2021-05-08 17:30:00,Manchester City,Chelsea,1485503,https://www.whoscored.com/Matches/1485503/Live/England-Premier-League-2020-2021-Manchester-City-Chelsea,,ENG-Premier League,2021
+2021-05-08 20:15:00,Liverpool,Southampton,1485501,https://www.whoscored.com/Matches/1485501/Live/England-Premier-League-2020-2021-Liverpool-Southampton,,ENG-Premier League,2021
+2021-05-09 12:00:00,Wolves,Brighton,1485509,https://www.whoscored.com/Matches/1485509/Live/England-Premier-League-2020-2021-Wolves-Brighton,,ENG-Premier League,2021
+2021-05-09 14:05:00,Aston Villa,Manchester United,1485493,https://www.whoscored.com/Matches/1485493/Live/England-Premier-League-2020-2021-Aston-Villa-Manchester-United,,ENG-Premier League,2021
+2021-05-09 16:30:00,West Ham,Everton,1485507,https://www.whoscored.com/Matches/1485507/Live/England-Premier-League-2020-2021-West-Ham-Everton,,ENG-Premier League,2021
+2021-05-09 19:00:00,Arsenal,West Bromwich Albion,1485491,https://www.whoscored.com/Matches/1485491/Live/England-Premier-League-2020-2021-Arsenal-West-Bromwich-Albion,,ENG-Premier League,2021
+2021-05-10 20:00:00,Fulham,Burnley,1485495,https://www.whoscored.com/Matches/1485495/Live/England-Premier-League-2020-2021-Fulham-Burnley,,ENG-Premier League,2021
+2021-05-11 18:00:00,Manchester United,Leicester,1485517,https://www.whoscored.com/Matches/1485517/Live/England-Premier-League-2020-2021-Manchester-United-Leicester,,ENG-Premier League,2021
+2021-05-11 20:15:00,Southampton,Crystal Palace,1485534,https://www.whoscored.com/Matches/1485534/Live/England-Premier-League-2020-2021-Southampton-Crystal-Palace,,ENG-Premier League,2021
+2021-05-12 20:15:00,Chelsea,Arsenal,1485521,https://www.whoscored.com/Matches/1485521/Live/England-Premier-League-2020-2021-Chelsea-Arsenal,,ENG-Premier League,2021
+2021-05-13 18:00:00,Aston Villa,Everton,1485371,https://www.whoscored.com/Matches/1485371/Live/England-Premier-League-2020-2021-Aston-Villa-Everton,,ENG-Premier League,2021
+2021-05-13 20:15:00,Manchester United,Liverpool,1485481,https://www.whoscored.com/Matches/1485481/Live/England-Premier-League-2020-2021-Manchester-United-Liverpool,,ENG-Premier League,2021
+2021-05-14 20:00:00,Newcastle,Manchester City,1485523,https://www.whoscored.com/Matches/1485523/Live/England-Premier-League-2020-2021-Newcastle-Manchester-City,,ENG-Premier League,2021
+2021-05-15 12:30:00,Burnley,Leeds,1485513,https://www.whoscored.com/Matches/1485513/Live/England-Premier-League-2020-2021-Burnley-Leeds,,ENG-Premier League,2021
+2021-05-15 15:00:00,Southampton,Fulham,1485525,https://www.whoscored.com/Matches/1485525/Live/England-Premier-League-2020-2021-Southampton-Fulham,,ENG-Premier League,2021
+2021-05-15 20:00:00,Brighton,West Ham,1485511,https://www.whoscored.com/Matches/1485511/Live/England-Premier-League-2020-2021-Brighton-West-Ham,,ENG-Premier League,2021
+2021-05-16 12:00:00,Crystal Palace,Aston Villa,1485529,https://www.whoscored.com/Matches/1485529/Live/England-Premier-League-2020-2021-Crystal-Palace-Aston-Villa,,ENG-Premier League,2021
+2021-05-16 14:05:00,Tottenham,Wolves,1485527,https://www.whoscored.com/Matches/1485527/Live/England-Premier-League-2020-2021-Tottenham-Wolves,,ENG-Premier League,2021
+2021-05-16 16:30:00,West Bromwich Albion,Liverpool,1485519,https://www.whoscored.com/Matches/1485519/Live/England-Premier-League-2020-2021-West-Bromwich-Albion-Liverpool,,ENG-Premier League,2021
+2021-05-16 19:00:00,Everton,Sheffield United,1485515,https://www.whoscored.com/Matches/1485515/Live/England-Premier-League-2020-2021-Everton-Sheffield-United,,ENG-Premier League,2021
+2021-05-18 18:00:00,Manchester United,Fulham,1485541,https://www.whoscored.com/Matches/1485541/Live/England-Premier-League-2020-2021-Manchester-United-Fulham,,ENG-Premier League,2021
+2021-05-18 18:00:00,Southampton,Leeds,1485545,https://www.whoscored.com/Matches/1485545/Live/England-Premier-League-2020-2021-Southampton-Leeds,,ENG-Premier League,2021
+2021-05-18 19:00:00,Brighton,Manchester City,1485531,https://www.whoscored.com/Matches/1485531/Live/England-Premier-League-2020-2021-Brighton-Manchester-City,,ENG-Premier League,2021
+2021-05-18 20:15:00,Chelsea,Leicester,1485535,https://www.whoscored.com/Matches/1485535/Live/England-Premier-League-2020-2021-Chelsea-Leicester,,ENG-Premier League,2021
+2021-05-19 18:00:00,Tottenham,Aston Villa,1485547,https://www.whoscored.com/Matches/1485547/Live/England-Premier-League-2020-2021-Tottenham-Aston-Villa,,ENG-Premier League,2021
+2021-05-19 18:00:00,Newcastle,Sheffield United,1485543,https://www.whoscored.com/Matches/1485543/Live/England-Premier-League-2020-2021-Newcastle-Sheffield-United,,ENG-Premier League,2021
+2021-05-19 18:00:00,Everton,Wolves,1485539,https://www.whoscored.com/Matches/1485539/Live/England-Premier-League-2020-2021-Everton-Wolves,,ENG-Premier League,2021
+2021-05-19 19:00:00,Crystal Palace,Arsenal,1485537,https://www.whoscored.com/Matches/1485537/Live/England-Premier-League-2020-2021-Crystal-Palace-Arsenal,,ENG-Premier League,2021
+2021-05-19 20:15:00,Burnley,Liverpool,1485533,https://www.whoscored.com/Matches/1485533/Live/England-Premier-League-2020-2021-Burnley-Liverpool,,ENG-Premier League,2021
+2021-05-19 20:15:00,West Bromwich Albion,West Ham,1485549,https://www.whoscored.com/Matches/1485549/Live/England-Premier-League-2020-2021-West-Bromwich-Albion-West-Ham,,ENG-Premier League,2021
+2021-05-23 16:00:00,Arsenal,Brighton,1485551,https://www.whoscored.com/Matches/1485551/Live/England-Premier-League-2020-2021-Arsenal-Brighton,,ENG-Premier League,2021
+2021-05-23 16:00:00,Aston Villa,Chelsea,1485553,https://www.whoscored.com/Matches/1485553/Live/England-Premier-League-2020-2021-Aston-Villa-Chelsea,,ENG-Premier League,2021
+2021-05-23 16:00:00,Fulham,Newcastle,1485555,https://www.whoscored.com/Matches/1485555/Live/England-Premier-League-2020-2021-Fulham-Newcastle,,ENG-Premier League,2021
+2021-05-23 16:00:00,Leeds,West Bromwich Albion,1485557,https://www.whoscored.com/Matches/1485557/Live/England-Premier-League-2020-2021-Leeds-West-Bromwich-Albion,,ENG-Premier League,2021
+2021-05-23 16:00:00,Leicester,Tottenham,1485558,https://www.whoscored.com/Matches/1485558/Live/England-Premier-League-2020-2021-Leicester-Tottenham,,ENG-Premier League,2021
+2021-05-23 16:00:00,Liverpool,Crystal Palace,1485559,https://www.whoscored.com/Matches/1485559/Live/England-Premier-League-2020-2021-Liverpool-Crystal-Palace,,ENG-Premier League,2021
+2021-05-23 16:00:00,Manchester City,Everton,1485560,https://www.whoscored.com/Matches/1485560/Live/England-Premier-League-2020-2021-Manchester-City-Everton,,ENG-Premier League,2021
+2021-05-23 16:00:00,Sheffield United,Burnley,1485561,https://www.whoscored.com/Matches/1485561/Live/England-Premier-League-2020-2021-Sheffield-United-Burnley,,ENG-Premier League,2021
+2021-05-23 16:00:00,West Ham,Southampton,1485562,https://www.whoscored.com/Matches/1485562/Live/England-Premier-League-2020-2021-West-Ham-Southampton,,ENG-Premier League,2021
+2021-05-23 16:00:00,Wolves,Manchester United,1485563,https://www.whoscored.com/Matches/1485563/Live/England-Premier-League-2020-2021-Wolves-Manchester-United,,ENG-Premier League,2021
+2021-05-01 12:30:00,Crystal Palace,Manchester City,1485477,https://www.whoscored.com/Matches/1485477/Live/England-Premier-League-2020-2021-Crystal-Palace-Manchester-City,,ENG-Premier League,2021
+2021-05-01 15:00:00,Brighton,Leeds,1485471,https://www.whoscored.com/Matches/1485471/Live/England-Premier-League-2020-2021-Brighton-Leeds,,ENG-Premier League,2021
+2021-05-01 17:30:00,Chelsea,Fulham,1485475,https://www.whoscored.com/Matches/1485475/Live/England-Premier-League-2020-2021-Chelsea-Fulham,,ENG-Premier League,2021
+2021-05-01 20:00:00,Everton,Aston Villa,1485479,https://www.whoscored.com/Matches/1485479/Live/England-Premier-League-2020-2021-Everton-Aston-Villa,,ENG-Premier League,2021
+2021-05-02 14:00:00,Newcastle,Arsenal,1485483,https://www.whoscored.com/Matches/1485483/Live/England-Premier-League-2020-2021-Newcastle-Arsenal,,ENG-Premier League,2021
+2021-05-02 19:15:00,Tottenham,Sheffield United,1485487,https://www.whoscored.com/Matches/1485487/Live/England-Premier-League-2020-2021-Tottenham-Sheffield-United,,ENG-Premier League,2021
+2021-05-03 18:00:00,West Bromwich Albion,Wolves,1485489,https://www.whoscored.com/Matches/1485489/Live/England-Premier-League-2020-2021-West-Bromwich-Albion-Wolves,,ENG-Premier League,2021
+2021-05-03 20:15:00,Burnley,West Ham,1485473,https://www.whoscored.com/Matches/1485473/Live/England-Premier-League-2020-2021-Burnley-West-Ham,,ENG-Premier League,2021
+2021-05-07 20:00:00,Leicester,Newcastle,1485499,https://www.whoscored.com/Matches/1485499/Live/England-Premier-League-2020-2021-Leicester-Newcastle,,ENG-Premier League,2021
+2021-05-08 12:30:00,Leeds,Tottenham,1485497,https://www.whoscored.com/Matches/1485497/Live/England-Premier-League-2020-2021-Leeds-Tottenham,,ENG-Premier League,2021
+2021-05-08 15:00:00,Sheffield United,Crystal Palace,1485505,https://www.whoscored.com/Matches/1485505/Live/England-Premier-League-2020-2021-Sheffield-United-Crystal-Palace,,ENG-Premier League,2021
+2021-05-08 17:30:00,Manchester City,Chelsea,1485503,https://www.whoscored.com/Matches/1485503/Live/England-Premier-League-2020-2021-Manchester-City-Chelsea,,ENG-Premier League,2021
+2021-05-08 20:15:00,Liverpool,Southampton,1485501,https://www.whoscored.com/Matches/1485501/Live/England-Premier-League-2020-2021-Liverpool-Southampton,,ENG-Premier League,2021
+2021-05-09 12:00:00,Wolves,Brighton,1485509,https://www.whoscored.com/Matches/1485509/Live/England-Premier-League-2020-2021-Wolves-Brighton,,ENG-Premier League,2021
+2021-05-09 14:05:00,Aston Villa,Manchester United,1485493,https://www.whoscored.com/Matches/1485493/Live/England-Premier-League-2020-2021-Aston-Villa-Manchester-United,,ENG-Premier League,2021
+2021-05-09 16:30:00,West Ham,Everton,1485507,https://www.whoscored.com/Matches/1485507/Live/England-Premier-League-2020-2021-West-Ham-Everton,,ENG-Premier League,2021
+2021-05-09 19:00:00,Arsenal,West Bromwich Albion,1485491,https://www.whoscored.com/Matches/1485491/Live/England-Premier-League-2020-2021-Arsenal-West-Bromwich-Albion,,ENG-Premier League,2021
+2021-05-10 20:00:00,Fulham,Burnley,1485495,https://www.whoscored.com/Matches/1485495/Live/England-Premier-League-2020-2021-Fulham-Burnley,,ENG-Premier League,2021
+2021-05-11 18:00:00,Manchester United,Leicester,1485517,https://www.whoscored.com/Matches/1485517/Live/England-Premier-League-2020-2021-Manchester-United-Leicester,,ENG-Premier League,2021
+2021-05-11 20:15:00,Southampton,Crystal Palace,1485534,https://www.whoscored.com/Matches/1485534/Live/England-Premier-League-2020-2021-Southampton-Crystal-Palace,,ENG-Premier League,2021
+2021-05-12 20:15:00,Chelsea,Arsenal,1485521,https://www.whoscored.com/Matches/1485521/Live/England-Premier-League-2020-2021-Chelsea-Arsenal,,ENG-Premier League,2021
+2021-05-13 18:00:00,Aston Villa,Everton,1485371,https://www.whoscored.com/Matches/1485371/Live/England-Premier-League-2020-2021-Aston-Villa-Everton,,ENG-Premier League,2021
+2021-05-13 20:15:00,Manchester United,Liverpool,1485481,https://www.whoscored.com/Matches/1485481/Live/England-Premier-League-2020-2021-Manchester-United-Liverpool,,ENG-Premier League,2021
+2021-05-14 20:00:00,Newcastle,Manchester City,1485523,https://www.whoscored.com/Matches/1485523/Live/England-Premier-League-2020-2021-Newcastle-Manchester-City,,ENG-Premier League,2021
+2021-05-15 12:30:00,Burnley,Leeds,1485513,https://www.whoscored.com/Matches/1485513/Live/England-Premier-League-2020-2021-Burnley-Leeds,,ENG-Premier League,2021
+2021-05-15 15:00:00,Southampton,Fulham,1485525,https://www.whoscored.com/Matches/1485525/Live/England-Premier-League-2020-2021-Southampton-Fulham,,ENG-Premier League,2021
+2021-05-15 20:00:00,Brighton,West Ham,1485511,https://www.whoscored.com/Matches/1485511/Live/England-Premier-League-2020-2021-Brighton-West-Ham,,ENG-Premier League,2021
+2021-05-16 12:00:00,Crystal Palace,Aston Villa,1485529,https://www.whoscored.com/Matches/1485529/Live/England-Premier-League-2020-2021-Crystal-Palace-Aston-Villa,,ENG-Premier League,2021
+2021-05-16 14:05:00,Tottenham,Wolves,1485527,https://www.whoscored.com/Matches/1485527/Live/England-Premier-League-2020-2021-Tottenham-Wolves,,ENG-Premier League,2021
+2021-05-16 16:30:00,West Bromwich Albion,Liverpool,1485519,https://www.whoscored.com/Matches/1485519/Live/England-Premier-League-2020-2021-West-Bromwich-Albion-Liverpool,,ENG-Premier League,2021
+2021-05-16 19:00:00,Everton,Sheffield United,1485515,https://www.whoscored.com/Matches/1485515/Live/England-Premier-League-2020-2021-Everton-Sheffield-United,,ENG-Premier League,2021
+2021-05-18 18:00:00,Manchester United,Fulham,1485541,https://www.whoscored.com/Matches/1485541/Live/England-Premier-League-2020-2021-Manchester-United-Fulham,,ENG-Premier League,2021
+2021-05-18 18:00:00,Southampton,Leeds,1485545,https://www.whoscored.com/Matches/1485545/Live/England-Premier-League-2020-2021-Southampton-Leeds,,ENG-Premier League,2021
+2021-05-18 19:00:00,Brighton,Manchester City,1485531,https://www.whoscored.com/Matches/1485531/Live/England-Premier-League-2020-2021-Brighton-Manchester-City,,ENG-Premier League,2021
+2021-05-18 20:15:00,Chelsea,Leicester,1485535,https://www.whoscored.com/Matches/1485535/Live/England-Premier-League-2020-2021-Chelsea-Leicester,,ENG-Premier League,2021
+2021-05-19 18:00:00,Tottenham,Aston Villa,1485547,https://www.whoscored.com/Matches/1485547/Live/England-Premier-League-2020-2021-Tottenham-Aston-Villa,,ENG-Premier League,2021
+2021-05-19 18:00:00,Newcastle,Sheffield United,1485543,https://www.whoscored.com/Matches/1485543/Live/England-Premier-League-2020-2021-Newcastle-Sheffield-United,,ENG-Premier League,2021
+2021-05-19 18:00:00,Everton,Wolves,1485539,https://www.whoscored.com/Matches/1485539/Live/England-Premier-League-2020-2021-Everton-Wolves,,ENG-Premier League,2021
+2021-05-19 19:00:00,Crystal Palace,Arsenal,1485537,https://www.whoscored.com/Matches/1485537/Live/England-Premier-League-2020-2021-Crystal-Palace-Arsenal,,ENG-Premier League,2021
+2021-05-19 20:15:00,Burnley,Liverpool,1485533,https://www.whoscored.com/Matches/1485533/Live/England-Premier-League-2020-2021-Burnley-Liverpool,,ENG-Premier League,2021
+2021-05-19 20:15:00,West Bromwich Albion,West Ham,1485549,https://www.whoscored.com/Matches/1485549/Live/England-Premier-League-2020-2021-West-Bromwich-Albion-West-Ham,,ENG-Premier League,2021
+2021-05-23 16:00:00,Arsenal,Brighton,1485551,https://www.whoscored.com/Matches/1485551/Live/England-Premier-League-2020-2021-Arsenal-Brighton,,ENG-Premier League,2021
+2021-05-23 16:00:00,Aston Villa,Chelsea,1485553,https://www.whoscored.com/Matches/1485553/Live/England-Premier-League-2020-2021-Aston-Villa-Chelsea,,ENG-Premier League,2021
+2021-05-23 16:00:00,Fulham,Newcastle,1485555,https://www.whoscored.com/Matches/1485555/Live/England-Premier-League-2020-2021-Fulham-Newcastle,,ENG-Premier League,2021
+2021-05-23 16:00:00,Leeds,West Bromwich Albion,1485557,https://www.whoscored.com/Matches/1485557/Live/England-Premier-League-2020-2021-Leeds-West-Bromwich-Albion,,ENG-Premier League,2021
+2021-05-23 16:00:00,Leicester,Tottenham,1485558,https://www.whoscored.com/Matches/1485558/Live/England-Premier-League-2020-2021-Leicester-Tottenham,,ENG-Premier League,2021
+2021-05-23 16:00:00,Liverpool,Crystal Palace,1485559,https://www.whoscored.com/Matches/1485559/Live/England-Premier-League-2020-2021-Liverpool-Crystal-Palace,,ENG-Premier League,2021
+2021-05-23 16:00:00,Manchester City,Everton,1485560,https://www.whoscored.com/Matches/1485560/Live/England-Premier-League-2020-2021-Manchester-City-Everton,,ENG-Premier League,2021
+2021-05-23 16:00:00,Sheffield United,Burnley,1485561,https://www.whoscored.com/Matches/1485561/Live/England-Premier-League-2020-2021-Sheffield-United-Burnley,,ENG-Premier League,2021
+2021-05-23 16:00:00,West Ham,Southampton,1485562,https://www.whoscored.com/Matches/1485562/Live/England-Premier-League-2020-2021-West-Ham-Southampton,,ENG-Premier League,2021
+2021-05-23 16:00:00,Wolves,Manchester United,1485563,https://www.whoscored.com/Matches/1485563/Live/England-Premier-League-2020-2021-Wolves-Manchester-United,,ENG-Premier League,2021
+2021-04-03 12:30:00,Chelsea,West Bromwich Albion,1485482,https://www.whoscored.com/Matches/1485482/Live/England-Premier-League-2020-2021-Chelsea-West-Bromwich-Albion,,ENG-Premier League,2021
+2021-04-03 15:00:00,Leeds,Sheffield United,1485486,https://www.whoscored.com/Matches/1485486/Live/England-Premier-League-2020-2021-Leeds-Sheffield-United,,ENG-Premier League,2021
+2021-04-03 17:30:00,Leicester,Manchester City,1485488,https://www.whoscored.com/Matches/1485488/Live/England-Premier-League-2020-2021-Leicester-Manchester-City,,ENG-Premier League,2021
+2021-04-03 20:00:00,Arsenal,Liverpool,1485478,https://www.whoscored.com/Matches/1485478/Live/England-Premier-League-2020-2021-Arsenal-Liverpool,,ENG-Premier League,2021
+2021-04-04 12:00:00,Southampton,Burnley,1485494,https://www.whoscored.com/Matches/1485494/Live/England-Premier-League-2020-2021-Southampton-Burnley,,ENG-Premier League,2021
+2021-04-04 14:05:00,Newcastle,Tottenham,1485492,https://www.whoscored.com/Matches/1485492/Live/England-Premier-League-2020-2021-Newcastle-Tottenham,,ENG-Premier League,2021
+2021-04-04 16:30:00,Aston Villa,Fulham,1485480,https://www.whoscored.com/Matches/1485480/Live/England-Premier-League-2020-2021-Aston-Villa-Fulham,,ENG-Premier League,2021
+2021-04-04 19:30:00,Manchester United,Brighton,1485490,https://www.whoscored.com/Matches/1485490/Live/England-Premier-League-2020-2021-Manchester-United-Brighton,,ENG-Premier League,2021
+2021-04-05 18:00:00,Everton,Crystal Palace,1485484,https://www.whoscored.com/Matches/1485484/Live/England-Premier-League-2020-2021-Everton-Crystal-Palace,,ENG-Premier League,2021
+2021-04-05 20:15:00,Wolves,West Ham,1485496,https://www.whoscored.com/Matches/1485496/Live/England-Premier-League-2020-2021-Wolves-West-Ham,,ENG-Premier League,2021
+2021-04-09 20:00:00,Fulham,Wolves,1485504,https://www.whoscored.com/Matches/1485504/Live/England-Premier-League-2020-2021-Fulham-Wolves,,ENG-Premier League,2021
+2021-04-10 12:30:00,Manchester City,Leeds,1485508,https://www.whoscored.com/Matches/1485508/Live/England-Premier-League-2020-2021-Manchester-City-Leeds,,ENG-Premier League,2021
+2021-04-10 15:00:00,Liverpool,Aston Villa,1485506,https://www.whoscored.com/Matches/1485506/Live/England-Premier-League-2020-2021-Liverpool-Aston-Villa,,ENG-Premier League,2021
+2021-04-10 17:30:00,Crystal Palace,Chelsea,1485502,https://www.whoscored.com/Matches/1485502/Live/England-Premier-League-2020-2021-Crystal-Palace-Chelsea,,ENG-Premier League,2021
+2021-04-11 12:00:00,Burnley,Newcastle,1485500,https://www.whoscored.com/Matches/1485500/Live/England-Premier-League-2020-2021-Burnley-Newcastle,,ENG-Premier League,2021
+2021-04-11 14:05:00,West Ham,Leicester,1485516,https://www.whoscored.com/Matches/1485516/Live/England-Premier-League-2020-2021-West-Ham-Leicester,,ENG-Premier League,2021
+2021-04-11 16:30:00,Tottenham,Manchester United,1485512,https://www.whoscored.com/Matches/1485512/Live/England-Premier-League-2020-2021-Tottenham-Manchester-United,,ENG-Premier League,2021
+2021-04-11 19:00:00,Sheffield United,Arsenal,1485510,https://www.whoscored.com/Matches/1485510/Live/England-Premier-League-2020-2021-Sheffield-United-Arsenal,,ENG-Premier League,2021
+2021-04-12 18:00:00,West Bromwich Albion,Southampton,1485514,https://www.whoscored.com/Matches/1485514/Live/England-Premier-League-2020-2021-West-Bromwich-Albion-Southampton,,ENG-Premier League,2021
+2021-04-12 20:15:00,Brighton,Everton,1485498,https://www.whoscored.com/Matches/1485498/Live/England-Premier-League-2020-2021-Brighton-Everton,,ENG-Premier League,2021
+2021-04-16 20:00:00,Everton,Tottenham,1485524,https://www.whoscored.com/Matches/1485524/Live/England-Premier-League-2020-2021-Everton-Tottenham,,ENG-Premier League,2021
+2021-04-17 12:30:00,Newcastle,West Ham,1485532,https://www.whoscored.com/Matches/1485532/Live/England-Premier-League-2020-2021-Newcastle-West-Ham,,ENG-Premier League,2021
+2021-04-17 20:15:00,Wolves,Sheffield United,1485536,https://www.whoscored.com/Matches/1485536/Live/England-Premier-League-2020-2021-Wolves-Sheffield-United,,ENG-Premier League,2021
+2021-04-18 13:30:00,Arsenal,Fulham,1485518,https://www.whoscored.com/Matches/1485518/Live/England-Premier-League-2020-2021-Arsenal-Fulham,,ENG-Premier League,2021
+2021-04-18 16:00:00,Manchester United,Burnley,1485530,https://www.whoscored.com/Matches/1485530/Live/England-Premier-League-2020-2021-Manchester-United-Burnley,,ENG-Premier League,2021
+2021-04-19 20:00:00,Leeds,Liverpool,1485526,https://www.whoscored.com/Matches/1485526/Live/England-Premier-League-2020-2021-Leeds-Liverpool,,ENG-Premier League,2021
+2021-04-20 20:15:00,Chelsea,Brighton,1485522,https://www.whoscored.com/Matches/1485522/Live/England-Premier-League-2020-2021-Chelsea-Brighton,,ENG-Premier League,2021
+2021-04-21 18:00:00,Tottenham,Southampton,1485472,https://www.whoscored.com/Matches/1485472/Live/England-Premier-League-2020-2021-Tottenham-Southampton,,ENG-Premier League,2021
+2021-04-21 20:15:00,Aston Villa,Manchester City,1485520,https://www.whoscored.com/Matches/1485520/Live/England-Premier-League-2020-2021-Aston-Villa-Manchester-City,,ENG-Premier League,2021
+2021-04-22 20:00:00,Leicester,West Bromwich Albion,1485528,https://www.whoscored.com/Matches/1485528/Live/England-Premier-League-2020-2021-Leicester-West-Bromwich-Albion,,ENG-Premier League,2021
+2021-04-23 20:00:00,Arsenal,Everton,1485538,https://www.whoscored.com/Matches/1485538/Live/England-Premier-League-2020-2021-Arsenal-Everton,,ENG-Premier League,2021
+2021-04-24 12:30:00,Liverpool,Newcastle,1485548,https://www.whoscored.com/Matches/1485548/Live/England-Premier-League-2020-2021-Liverpool-Newcastle,,ENG-Premier League,2021
+2021-04-24 17:30:00,West Ham,Chelsea,1485554,https://www.whoscored.com/Matches/1485554/Live/England-Premier-League-2020-2021-West-Ham-Chelsea,,ENG-Premier League,2021
+2021-04-24 20:00:00,Sheffield United,Brighton,1485552,https://www.whoscored.com/Matches/1485552/Live/England-Premier-League-2020-2021-Sheffield-United-Brighton,,ENG-Premier League,2021
+2021-04-25 12:00:00,Wolves,Burnley,1485556,https://www.whoscored.com/Matches/1485556/Live/England-Premier-League-2020-2021-Wolves-Burnley,,ENG-Premier League,2021
+2021-04-25 14:00:00,Leeds,Manchester United,1485544,https://www.whoscored.com/Matches/1485544/Live/England-Premier-League-2020-2021-Leeds-Manchester-United,,ENG-Premier League,2021
+2021-04-25 19:00:00,Aston Villa,West Bromwich Albion,1485540,https://www.whoscored.com/Matches/1485540/Live/England-Premier-League-2020-2021-Aston-Villa-West-Bromwich-Albion,,ENG-Premier League,2021
+2021-04-26 20:00:00,Leicester,Crystal Palace,1485546,https://www.whoscored.com/Matches/1485546/Live/England-Premier-League-2020-2021-Leicester-Crystal-Palace,,ENG-Premier League,2021
+2021-04-30 20:00:00,Southampton,Leicester,1485485,https://www.whoscored.com/Matches/1485485/Live/England-Premier-League-2020-2021-Southampton-Leicester,,ENG-Premier League,2021
+2021-03-01 20:00:00,Everton,Southampton,1485343,https://www.whoscored.com/Matches/1485343/Live/England-Premier-League-2020-2021-Everton-Southampton,,ENG-Premier League,2021
+2021-03-02 20:00:00,Manchester City,Wolves,1485441,https://www.whoscored.com/Matches/1485441/Live/England-Premier-League-2020-2021-Manchester-City-Wolves,,ENG-Premier League,2021
+2021-03-03 18:00:00,Sheffield United,Aston Villa,1485443,https://www.whoscored.com/Matches/1485443/Live/England-Premier-League-2020-2021-Sheffield-United-Aston-Villa,,ENG-Premier League,2021
+2021-03-03 18:00:00,Burnley,Leicester,1485430,https://www.whoscored.com/Matches/1485430/Live/England-Premier-League-2020-2021-Burnley-Leicester,,ENG-Premier League,2021
+2021-03-03 20:15:00,Crystal Palace,Manchester United,1485433,https://www.whoscored.com/Matches/1485433/Live/England-Premier-League-2020-2021-Crystal-Palace-Manchester-United,,ENG-Premier League,2021
+2021-03-04 18:00:00,Fulham,Tottenham,1485542,https://www.whoscored.com/Matches/1485542/Live/England-Premier-League-2020-2021-Fulham-Tottenham,,ENG-Premier League,2021
+2021-03-04 18:00:00,West Bromwich Albion,Everton,1485474,https://www.whoscored.com/Matches/1485474/Live/England-Premier-League-2020-2021-West-Bromwich-Albion-Everton,,ENG-Premier League,2021
+2021-03-04 20:15:00,Liverpool,Chelsea,1485439,https://www.whoscored.com/Matches/1485439/Live/England-Premier-League-2020-2021-Liverpool-Chelsea,,ENG-Premier League,2021
+2021-03-06 12:30:00,Burnley,Arsenal,1485373,https://www.whoscored.com/Matches/1485373/Live/England-Premier-League-2020-2021-Burnley-Arsenal,,ENG-Premier League,2021
+2021-03-06 15:00:00,Sheffield United,Southampton,1485385,https://www.whoscored.com/Matches/1485385/Live/England-Premier-League-2020-2021-Sheffield-United-Southampton,,ENG-Premier League,2021
+2021-03-06 17:30:00,Aston Villa,Wolves,1485367,https://www.whoscored.com/Matches/1485367/Live/England-Premier-League-2020-2021-Aston-Villa-Wolves,,ENG-Premier League,2021
+2021-03-06 20:00:00,Brighton,Leicester,1485370,https://www.whoscored.com/Matches/1485370/Live/England-Premier-League-2020-2021-Brighton-Leicester,,ENG-Premier League,2021
+2021-03-07 12:00:00,West Bromwich Albion,Newcastle,1485391,https://www.whoscored.com/Matches/1485391/Live/England-Premier-League-2020-2021-West-Bromwich-Albion-Newcastle,,ENG-Premier League,2021
+2021-03-07 14:00:00,Liverpool,Fulham,1485379,https://www.whoscored.com/Matches/1485379/Live/England-Premier-League-2020-2021-Liverpool-Fulham,,ENG-Premier League,2021
+2021-03-07 16:30:00,Manchester City,Manchester United,1485382,https://www.whoscored.com/Matches/1485382/Live/England-Premier-League-2020-2021-Manchester-City-Manchester-United,,ENG-Premier League,2021
+2021-03-07 19:15:00,Tottenham,Crystal Palace,1485388,https://www.whoscored.com/Matches/1485388/Live/England-Premier-League-2020-2021-Tottenham-Crystal-Palace,,ENG-Premier League,2021
+2021-03-08 18:00:00,Chelsea,Everton,1485376,https://www.whoscored.com/Matches/1485376/Live/England-Premier-League-2020-2021-Chelsea-Everton,,ENG-Premier League,2021
+2021-03-08 20:00:00,West Ham,Leeds,1485394,https://www.whoscored.com/Matches/1485394/Live/England-Premier-League-2020-2021-West-Ham-Leeds,,ENG-Premier League,2021
+2021-03-10 18:00:00,Manchester City,Southampton,1485550,https://www.whoscored.com/Matches/1485550/Live/England-Premier-League-2020-2021-Manchester-City-Southampton,,ENG-Premier League,2021
+2021-03-12 20:00:00,Newcastle,Aston Villa,1485418,https://www.whoscored.com/Matches/1485418/Live/England-Premier-League-2020-2021-Newcastle-Aston-Villa,,ENG-Premier League,2021
+2021-03-13 12:30:00,Leeds,Chelsea,1485409,https://www.whoscored.com/Matches/1485409/Live/England-Premier-League-2020-2021-Leeds-Chelsea,,ENG-Premier League,2021
+2021-03-13 15:00:00,Crystal Palace,West Bromwich Albion,1485400,https://www.whoscored.com/Matches/1485400/Live/England-Premier-League-2020-2021-Crystal-Palace-West-Bromwich-Albion,,ENG-Premier League,2021
+2021-03-13 17:30:00,Everton,Burnley,1485403,https://www.whoscored.com/Matches/1485403/Live/England-Premier-League-2020-2021-Everton-Burnley,,ENG-Premier League,2021
+2021-03-13 20:00:00,Fulham,Manchester City,1485406,https://www.whoscored.com/Matches/1485406/Live/England-Premier-League-2020-2021-Fulham-Manchester-City,,ENG-Premier League,2021
+2021-03-14 12:00:00,Southampton,Brighton,1485421,https://www.whoscored.com/Matches/1485421/Live/England-Premier-League-2020-2021-Southampton-Brighton,,ENG-Premier League,2021
+2021-03-14 14:00:00,Leicester,Sheffield United,1485412,https://www.whoscored.com/Matches/1485412/Live/England-Premier-League-2020-2021-Leicester-Sheffield-United,,ENG-Premier League,2021
+2021-03-14 16:30:00,Arsenal,Tottenham,1485397,https://www.whoscored.com/Matches/1485397/Live/England-Premier-League-2020-2021-Arsenal-Tottenham,,ENG-Premier League,2021
+2021-03-14 19:15:00,Manchester United,West Ham,1485415,https://www.whoscored.com/Matches/1485415/Live/England-Premier-League-2020-2021-Manchester-United-West-Ham,,ENG-Premier League,2021
+2021-03-15 20:00:00,Wolves,Liverpool,1485424,https://www.whoscored.com/Matches/1485424/Live/England-Premier-League-2020-2021-Wolves-Liverpool,,ENG-Premier League,2021
+2021-03-19 20:00:00,Fulham,Leeds,1485436,https://www.whoscored.com/Matches/1485436/Live/England-Premier-League-2020-2021-Fulham-Leeds,,ENG-Premier League,2021
+2021-03-20 20:00:00,Brighton,Newcastle,1485427,https://www.whoscored.com/Matches/1485427/Live/England-Premier-League-2020-2021-Brighton-Newcastle,,ENG-Premier League,2021
+2021-03-21 15:00:00,West Ham,Arsenal,1485476,https://www.whoscored.com/Matches/1485476/Live/England-Premier-League-2020-2021-West-Ham-Arsenal,,ENG-Premier League,2021
+2021-03-21 19:30:00,Aston Villa,Tottenham,1485341,https://www.whoscored.com/Matches/1485341/Live/England-Premier-League-2020-2021-Aston-Villa-Tottenham,,ENG-Premier League,2021
+2021-02-02 18:00:00,Sheffield United,West Bromwich Albion,1485351,https://www.whoscored.com/Matches/1485351/Live/England-Premier-League-2020-2021-Sheffield-United-West-Bromwich-Albion,,ENG-Premier League,2021
+2021-02-02 18:00:00,Wolves,Arsenal,1485354,https://www.whoscored.com/Matches/1485354/Live/England-Premier-League-2020-2021-Wolves-Arsenal,,ENG-Premier League,2021
+2021-02-02 20:15:00,Manchester United,Southampton,1485357,https://www.whoscored.com/Matches/1485357/Live/England-Premier-League-2020-2021-Manchester-United-Southampton,,ENG-Premier League,2021
+2021-02-02 20:15:00,Newcastle,Crystal Palace,1485360,https://www.whoscored.com/Matches/1485360/Live/England-Premier-League-2020-2021-Newcastle-Crystal-Palace,,ENG-Premier League,2021
+2021-02-03 18:00:00,Burnley,Manchester City,1485342,https://www.whoscored.com/Matches/1485342/Live/England-Premier-League-2020-2021-Burnley-Manchester-City,,ENG-Premier League,2021
+2021-02-03 18:00:00,Fulham,Leicester,1485345,https://www.whoscored.com/Matches/1485345/Live/England-Premier-League-2020-2021-Fulham-Leicester,,ENG-Premier League,2021
+2021-02-03 19:30:00,Leeds,Everton,1485348,https://www.whoscored.com/Matches/1485348/Live/England-Premier-League-2020-2021-Leeds-Everton,,ENG-Premier League,2021
+2021-02-03 20:15:00,Aston Villa,West Ham,1485339,https://www.whoscored.com/Matches/1485339/Live/England-Premier-League-2020-2021-Aston-Villa-West-Ham,,ENG-Premier League,2021
+2021-02-03 20:15:00,Liverpool,Brighton,1485366,https://www.whoscored.com/Matches/1485366/Live/England-Premier-League-2020-2021-Liverpool-Brighton,,ENG-Premier League,2021
+2021-02-04 20:00:00,Tottenham,Chelsea,1485363,https://www.whoscored.com/Matches/1485363/Live/England-Premier-League-2020-2021-Tottenham-Chelsea,,ENG-Premier League,2021
+2021-02-06 12:30:00,Aston Villa,Arsenal,1485369,https://www.whoscored.com/Matches/1485369/Live/England-Premier-League-2020-2021-Aston-Villa-Arsenal,,ENG-Premier League,2021
+2021-02-06 15:00:00,Burnley,Brighton,1485372,https://www.whoscored.com/Matches/1485372/Live/England-Premier-League-2020-2021-Burnley-Brighton,,ENG-Premier League,2021
+2021-02-06 15:00:00,Newcastle,Southampton,1485387,https://www.whoscored.com/Matches/1485387/Live/England-Premier-League-2020-2021-Newcastle-Southampton,,ENG-Premier League,2021
+2021-02-06 17:30:00,Fulham,West Ham,1485375,https://www.whoscored.com/Matches/1485375/Live/England-Premier-League-2020-2021-Fulham-West-Ham,,ENG-Premier League,2021
+2021-02-06 20:00:00,Manchester United,Everton,1485384,https://www.whoscored.com/Matches/1485384/Live/England-Premier-League-2020-2021-Manchester-United-Everton,,ENG-Premier League,2021
+2021-02-07 12:00:00,Tottenham,West Bromwich Albion,1485393,https://www.whoscored.com/Matches/1485393/Live/England-Premier-League-2020-2021-Tottenham-West-Bromwich-Albion,,ENG-Premier League,2021
+2021-02-07 14:00:00,Wolves,Leicester,1485396,https://www.whoscored.com/Matches/1485396/Live/England-Premier-League-2020-2021-Wolves-Leicester,,ENG-Premier League,2021
+2021-02-07 16:30:00,Liverpool,Manchester City,1485381,https://www.whoscored.com/Matches/1485381/Live/England-Premier-League-2020-2021-Liverpool-Manchester-City,,ENG-Premier League,2021
+2021-02-07 19:15:00,Sheffield United,Chelsea,1485390,https://www.whoscored.com/Matches/1485390/Live/England-Premier-League-2020-2021-Sheffield-United-Chelsea,,ENG-Premier League,2021
+2021-02-08 20:00:00,Leeds,Crystal Palace,1485378,https://www.whoscored.com/Matches/1485378/Live/England-Premier-League-2020-2021-Leeds-Crystal-Palace,,ENG-Premier League,2021
+2021-02-13 12:30:00,Leicester,Liverpool,1485414,https://www.whoscored.com/Matches/1485414/Live/England-Premier-League-2020-2021-Leicester-Liverpool,,ENG-Premier League,2021
+2021-02-13 15:00:00,Crystal Palace,Burnley,1485408,https://www.whoscored.com/Matches/1485408/Live/England-Premier-League-2020-2021-Crystal-Palace-Burnley,,ENG-Premier League,2021
+2021-02-13 17:30:00,Manchester City,Tottenham,1485417,https://www.whoscored.com/Matches/1485417/Live/England-Premier-League-2020-2021-Manchester-City-Tottenham,,ENG-Premier League,2021
+2021-02-13 20:00:00,Brighton,Aston Villa,1485402,https://www.whoscored.com/Matches/1485402/Live/England-Premier-League-2020-2021-Brighton-Aston-Villa,,ENG-Premier League,2021
+2021-02-14 12:00:00,Southampton,Wolves,1485420,https://www.whoscored.com/Matches/1485420/Live/England-Premier-League-2020-2021-Southampton-Wolves,,ENG-Premier League,2021
+2021-02-14 14:00:00,West Bromwich Albion,Manchester United,1485423,https://www.whoscored.com/Matches/1485423/Live/England-Premier-League-2020-2021-West-Bromwich-Albion-Manchester-United,,ENG-Premier League,2021
+2021-02-14 16:30:00,Arsenal,Leeds,1485399,https://www.whoscored.com/Matches/1485399/Live/England-Premier-League-2020-2021-Arsenal-Leeds,,ENG-Premier League,2021
+2021-02-14 19:00:00,Everton,Fulham,1485411,https://www.whoscored.com/Matches/1485411/Live/England-Premier-League-2020-2021-Everton-Fulham,,ENG-Premier League,2021
+2021-02-15 18:00:00,West Ham,Sheffield United,1485426,https://www.whoscored.com/Matches/1485426/Live/England-Premier-League-2020-2021-West-Ham-Sheffield-United,,ENG-Premier League,2021
+2021-02-15 20:00:00,Chelsea,Newcastle,1485405,https://www.whoscored.com/Matches/1485405/Live/England-Premier-League-2020-2021-Chelsea-Newcastle,,ENG-Premier League,2021
+2021-02-17 18:00:00,Burnley,Fulham,1485468,https://www.whoscored.com/Matches/1485468/Live/England-Premier-League-2020-2021-Burnley-Fulham,,ENG-Premier League,2021
+2021-02-17 20:15:00,Everton,Manchester City,1485458,https://www.whoscored.com/Matches/1485458/Live/England-Premier-League-2020-2021-Everton-Manchester-City,,ENG-Premier League,2021
+2021-02-19 20:00:00,Wolves,Leeds,1485334,https://www.whoscored.com/Matches/1485334/Live/England-Premier-League-2020-2021-Wolves-Leeds,,ENG-Premier League,2021
+2021-02-20 12:30:00,Southampton,Chelsea,1485328,https://www.whoscored.com/Matches/1485328/Live/England-Premier-League-2020-2021-Southampton-Chelsea,,ENG-Premier League,2021
+2021-02-20 15:00:00,Burnley,West Bromwich Albion,1485438,https://www.whoscored.com/Matches/1485438/Live/England-Premier-League-2020-2021-Burnley-West-Bromwich-Albion,,ENG-Premier League,2021
+2021-02-20 17:30:00,Liverpool,Everton,1485442,https://www.whoscored.com/Matches/1485442/Live/England-Premier-League-2020-2021-Liverpool-Everton,,ENG-Premier League,2021
+2021-02-20 20:00:00,Fulham,Sheffield United,1485440,https://www.whoscored.com/Matches/1485440/Live/England-Premier-League-2020-2021-Fulham-Sheffield-United,,ENG-Premier League,2021
+2021-02-21 12:00:00,West Ham,Tottenham,1485331,https://www.whoscored.com/Matches/1485331/Live/England-Premier-League-2020-2021-West-Ham-Tottenham,,ENG-Premier League,2021
+2021-02-21 14:05:00,Aston Villa,Leicester,1485432,https://www.whoscored.com/Matches/1485432/Live/England-Premier-League-2020-2021-Aston-Villa-Leicester,,ENG-Premier League,2021
+2021-02-21 16:30:00,Arsenal,Manchester City,1485429,https://www.whoscored.com/Matches/1485429/Live/England-Premier-League-2020-2021-Arsenal-Manchester-City,,ENG-Premier League,2021
+2021-02-21 19:00:00,Manchester United,Newcastle,1485325,https://www.whoscored.com/Matches/1485325/Live/England-Premier-League-2020-2021-Manchester-United-Newcastle,,ENG-Premier League,2021
+2021-02-22 20:00:00,Brighton,Crystal Palace,1485435,https://www.whoscored.com/Matches/1485435/Live/England-Premier-League-2020-2021-Brighton-Crystal-Palace,,ENG-Premier League,2021
+2021-02-23 18:00:00,Leeds,Southampton,1485347,https://www.whoscored.com/Matches/1485347/Live/England-Premier-League-2020-2021-Leeds-Southampton,,ENG-Premier League,2021
+2021-02-27 12:30:00,Manchester City,West Ham,1485352,https://www.whoscored.com/Matches/1485352/Live/England-Premier-League-2020-2021-Manchester-City-West-Ham,,ENG-Premier League,2021
+2021-02-27 15:00:00,West Bromwich Albion,Brighton,1485364,https://www.whoscored.com/Matches/1485364/Live/England-Premier-League-2020-2021-West-Bromwich-Albion-Brighton,,ENG-Premier League,2021
+2021-02-27 17:30:00,Leeds,Aston Villa,1485346,https://www.whoscored.com/Matches/1485346/Live/England-Premier-League-2020-2021-Leeds-Aston-Villa,,ENG-Premier League,2021
+2021-02-27 20:00:00,Newcastle,Wolves,1485355,https://www.whoscored.com/Matches/1485355/Live/England-Premier-League-2020-2021-Newcastle-Wolves,,ENG-Premier League,2021
+2021-02-28 12:00:00,Leicester,Arsenal,1485349,https://www.whoscored.com/Matches/1485349/Live/England-Premier-League-2020-2021-Leicester-Arsenal,,ENG-Premier League,2021
+2021-02-28 12:00:00,Crystal Palace,Fulham,1485340,https://www.whoscored.com/Matches/1485340/Live/England-Premier-League-2020-2021-Crystal-Palace-Fulham,,ENG-Premier League,2021
+2021-02-28 14:00:00,Tottenham,Burnley,1485361,https://www.whoscored.com/Matches/1485361/Live/England-Premier-League-2020-2021-Tottenham-Burnley,,ENG-Premier League,2021
+2021-02-28 16:30:00,Chelsea,Manchester United,1485337,https://www.whoscored.com/Matches/1485337/Live/England-Premier-League-2020-2021-Chelsea-Manchester-United,,ENG-Premier League,2021
+2021-02-28 19:15:00,Sheffield United,Liverpool,1485358,https://www.whoscored.com/Matches/1485358/Live/England-Premier-League-2020-2021-Sheffield-United-Liverpool,,ENG-Premier League,2021
+2021-01-01 17:30:00,Everton,West Ham,1485321,https://www.whoscored.com/Matches/1485321/Live/England-Premier-League-2020-2021-Everton-West-Ham,,ENG-Premier League,2021
+2021-01-01 20:00:00,Manchester United,Aston Villa,1485323,https://www.whoscored.com/Matches/1485323/Live/England-Premier-League-2020-2021-Manchester-United-Aston-Villa,,ENG-Premier League,2021
+2021-01-02 12:30:00,Tottenham,Leeds,1485332,https://www.whoscored.com/Matches/1485332/Live/England-Premier-League-2020-2021-Tottenham-Leeds,,ENG-Premier League,2021
+2021-01-02 15:00:00,Crystal Palace,Sheffield United,1485470,https://www.whoscored.com/Matches/1485470/Live/England-Premier-League-2020-2021-Crystal-Palace-Sheffield-United,,ENG-Premier League,2021
+2021-01-02 17:30:00,Brighton,Wolves,1485467,https://www.whoscored.com/Matches/1485467/Live/England-Premier-League-2020-2021-Brighton-Wolves,,ENG-Premier League,2021
+2021-01-02 20:00:00,West Bromwich Albion,Arsenal,1485335,https://www.whoscored.com/Matches/1485335/Live/England-Premier-League-2020-2021-West-Bromwich-Albion-Arsenal,,ENG-Premier League,2021
+2021-01-03 14:15:00,Newcastle,Leicester,1485326,https://www.whoscored.com/Matches/1485326/Live/England-Premier-League-2020-2021-Newcastle-Leicester,,ENG-Premier League,2021
+2021-01-03 16:30:00,Chelsea,Manchester City,1485469,https://www.whoscored.com/Matches/1485469/Live/England-Premier-League-2020-2021-Chelsea-Manchester-City,,ENG-Premier League,2021
+2021-01-04 20:00:00,Southampton,Liverpool,1485329,https://www.whoscored.com/Matches/1485329/Live/England-Premier-League-2020-2021-Southampton-Liverpool,,ENG-Premier League,2021
+2021-01-12 18:00:00,Sheffield United,Newcastle,1485353,https://www.whoscored.com/Matches/1485353/Live/England-Premier-League-2020-2021-Sheffield-United-Newcastle,,ENG-Premier League,2021
+2021-01-12 20:15:00,Wolves,Everton,1485359,https://www.whoscored.com/Matches/1485359/Live/England-Premier-League-2020-2021-Wolves-Everton,,ENG-Premier League,2021
+2021-01-12 20:15:00,Burnley,Manchester United,1485184,https://www.whoscored.com/Matches/1485184/Live/England-Premier-League-2020-2021-Burnley-Manchester-United,,ENG-Premier League,2021
+2021-01-13 18:00:00,Manchester City,Brighton,1485365,https://www.whoscored.com/Matches/1485365/Live/England-Premier-League-2020-2021-Manchester-City-Brighton,,ENG-Premier League,2021
+2021-01-13 20:15:00,Tottenham,Fulham,1485465,https://www.whoscored.com/Matches/1485465/Live/England-Premier-League-2020-2021-Tottenham-Fulham,,ENG-Premier League,2021
+2021-01-14 20:00:00,Arsenal,Crystal Palace,1485338,https://www.whoscored.com/Matches/1485338/Live/England-Premier-League-2020-2021-Arsenal-Crystal-Palace,,ENG-Premier League,2021
+2021-01-16 12:30:00,Wolves,West Bromwich Albion,1485395,https://www.whoscored.com/Matches/1485395/Live/England-Premier-League-2020-2021-Wolves-West-Bromwich-Albion,,ENG-Premier League,2021
+2021-01-16 15:00:00,West Ham,Burnley,1485392,https://www.whoscored.com/Matches/1485392/Live/England-Premier-League-2020-2021-West-Ham-Burnley,,ENG-Premier League,2021
+2021-01-16 15:00:00,Leeds,Brighton,1485377,https://www.whoscored.com/Matches/1485377/Live/England-Premier-League-2020-2021-Leeds-Brighton,,ENG-Premier League,2021
+2021-01-16 17:30:00,Fulham,Chelsea,1485374,https://www.whoscored.com/Matches/1485374/Live/England-Premier-League-2020-2021-Fulham-Chelsea,,ENG-Premier League,2021
+2021-01-16 20:00:00,Leicester,Southampton,1485380,https://www.whoscored.com/Matches/1485380/Live/England-Premier-League-2020-2021-Leicester-Southampton,,ENG-Premier League,2021
+2021-01-17 14:00:00,Sheffield United,Tottenham,1485389,https://www.whoscored.com/Matches/1485389/Live/England-Premier-League-2020-2021-Sheffield-United-Tottenham,,ENG-Premier League,2021
+2021-01-17 16:30:00,Liverpool,Manchester United,1485383,https://www.whoscored.com/Matches/1485383/Live/England-Premier-League-2020-2021-Liverpool-Manchester-United,,ENG-Premier League,2021
+2021-01-17 19:15:00,Manchester City,Crystal Palace,1485386,https://www.whoscored.com/Matches/1485386/Live/England-Premier-League-2020-2021-Manchester-City-Crystal-Palace,,ENG-Premier League,2021
+2021-01-18 20:00:00,Arsenal,Newcastle,1485368,https://www.whoscored.com/Matches/1485368/Live/England-Premier-League-2020-2021-Arsenal-Newcastle,,ENG-Premier League,2021
+2021-01-19 18:00:00,West Ham,West Bromwich Albion,1485356,https://www.whoscored.com/Matches/1485356/Live/England-Premier-League-2020-2021-West-Ham-West-Bromwich-Albion,,ENG-Premier League,2021
+2021-01-19 20:15:00,Leicester,Chelsea,1485350,https://www.whoscored.com/Matches/1485350/Live/England-Premier-League-2020-2021-Leicester-Chelsea,,ENG-Premier League,2021
+2021-01-20 18:00:00,Manchester City,Aston Villa,1485185,https://www.whoscored.com/Matches/1485185/Live/England-Premier-League-2020-2021-Manchester-City-Aston-Villa,,ENG-Premier League,2021
+2021-01-20 20:15:00,Fulham,Manchester United,1485344,https://www.whoscored.com/Matches/1485344/Live/England-Premier-League-2020-2021-Fulham-Manchester-United,,ENG-Premier League,2021
+2021-01-21 20:00:00,Liverpool,Burnley,1485362,https://www.whoscored.com/Matches/1485362/Live/England-Premier-League-2020-2021-Liverpool-Burnley,,ENG-Premier League,2021
+2021-01-23 20:00:00,Aston Villa,Newcastle,1485256,https://www.whoscored.com/Matches/1485256/Live/England-Premier-League-2020-2021-Aston-Villa-Newcastle,,ENG-Premier League,2021
+2021-01-26 18:00:00,Newcastle,Leeds,1485416,https://www.whoscored.com/Matches/1485416/Live/England-Premier-League-2020-2021-Newcastle-Leeds,,ENG-Premier League,2021
+2021-01-26 18:00:00,Crystal Palace,West Ham,1485425,https://www.whoscored.com/Matches/1485425/Live/England-Premier-League-2020-2021-Crystal-Palace-West-Ham,,ENG-Premier League,2021
+2021-01-26 20:15:00,Southampton,Arsenal,1485419,https://www.whoscored.com/Matches/1485419/Live/England-Premier-League-2020-2021-Southampton-Arsenal,,ENG-Premier League,2021
+2021-01-26 20:15:00,West Bromwich Albion,Manchester City,1485410,https://www.whoscored.com/Matches/1485410/Live/England-Premier-League-2020-2021-West-Bromwich-Albion-Manchester-City,,ENG-Premier League,2021
+2021-01-27 18:00:00,Chelsea,Wolves,1485413,https://www.whoscored.com/Matches/1485413/Live/England-Premier-League-2020-2021-Chelsea-Wolves,,ENG-Premier League,2021
+2021-01-27 18:00:00,Burnley,Aston Villa,1485401,https://www.whoscored.com/Matches/1485401/Live/England-Premier-League-2020-2021-Burnley-Aston-Villa,,ENG-Premier League,2021
+2021-01-27 19:30:00,Brighton,Fulham,1485398,https://www.whoscored.com/Matches/1485398/Live/England-Premier-League-2020-2021-Brighton-Fulham,,ENG-Premier League,2021
+2021-01-27 20:15:00,Everton,Leicester,1485404,https://www.whoscored.com/Matches/1485404/Live/England-Premier-League-2020-2021-Everton-Leicester,,ENG-Premier League,2021
+2021-01-27 20:15:00,Manchester United,Sheffield United,1485407,https://www.whoscored.com/Matches/1485407/Live/England-Premier-League-2020-2021-Manchester-United-Sheffield-United,,ENG-Premier League,2021
+2021-01-28 20:00:00,Tottenham,Liverpool,1485422,https://www.whoscored.com/Matches/1485422/Live/England-Premier-League-2020-2021-Tottenham-Liverpool,,ENG-Premier League,2021
+2021-01-30 12:30:00,Everton,Newcastle,1485322,https://www.whoscored.com/Matches/1485322/Live/England-Premier-League-2020-2021-Everton-Newcastle,,ENG-Premier League,2021
+2021-01-30 15:00:00,Manchester City,Sheffield United,1485327,https://www.whoscored.com/Matches/1485327/Live/England-Premier-League-2020-2021-Manchester-City-Sheffield-United,,ENG-Premier League,2021
+2021-01-30 15:00:00,West Bromwich Albion,Fulham,1485333,https://www.whoscored.com/Matches/1485333/Live/England-Premier-League-2020-2021-West-Bromwich-Albion-Fulham,,ENG-Premier League,2021
+2021-01-30 15:00:00,Crystal Palace,Wolves,1485437,https://www.whoscored.com/Matches/1485437/Live/England-Premier-League-2020-2021-Crystal-Palace-Wolves,,ENG-Premier League,2021
+2021-01-30 17:30:00,Arsenal,Manchester United,1485428,https://www.whoscored.com/Matches/1485428/Live/England-Premier-League-2020-2021-Arsenal-Manchester-United,,ENG-Premier League,2021
+2021-01-30 20:00:00,Southampton,Aston Villa,1485330,https://www.whoscored.com/Matches/1485330/Live/England-Premier-League-2020-2021-Southampton-Aston-Villa,,ENG-Premier League,2021
+2021-01-31 12:00:00,Chelsea,Burnley,1485434,https://www.whoscored.com/Matches/1485434/Live/England-Premier-League-2020-2021-Chelsea-Burnley,,ENG-Premier League,2021
+2021-01-31 14:00:00,Leicester,Leeds,1485324,https://www.whoscored.com/Matches/1485324/Live/England-Premier-League-2020-2021-Leicester-Leeds,,ENG-Premier League,2021
+2021-01-31 16:30:00,West Ham,Liverpool,1485336,https://www.whoscored.com/Matches/1485336/Live/England-Premier-League-2020-2021-West-Ham-Liverpool,,ENG-Premier League,2021
+2021-01-31 19:15:00,Brighton,Tottenham,1485431,https://www.whoscored.com/Matches/1485431/Live/England-Premier-League-2020-2021-Brighton-Tottenham,,ENG-Premier League,2021
+2020-12-05 12:30:00,Burnley,Everton,1485260,https://www.whoscored.com/Matches/1485260/Live/England-Premier-League-2020-2021-Burnley-Everton,,ENG-Premier League,2021
+2020-12-05 15:00:00,Manchester City,Fulham,1485266,https://www.whoscored.com/Matches/1485266/Live/England-Premier-League-2020-2021-Manchester-City-Fulham,,ENG-Premier League,2021
+2020-12-05 17:30:00,West Ham,Manchester United,1485274,https://www.whoscored.com/Matches/1485274/Live/England-Premier-League-2020-2021-West-Ham-Manchester-United,,ENG-Premier League,2021
+2020-12-05 20:00:00,Chelsea,Leeds,1485262,https://www.whoscored.com/Matches/1485262/Live/England-Premier-League-2020-2021-Chelsea-Leeds,,ENG-Premier League,2021
+2020-12-06 12:00:00,West Bromwich Albion,Crystal Palace,1485272,https://www.whoscored.com/Matches/1485272/Live/England-Premier-League-2020-2021-West-Bromwich-Albion-Crystal-Palace,,ENG-Premier League,2021
+2020-12-06 14:15:00,Sheffield United,Leicester,1485268,https://www.whoscored.com/Matches/1485268/Live/England-Premier-League-2020-2021-Sheffield-United-Leicester,,ENG-Premier League,2021
+2020-12-06 16:30:00,Tottenham,Arsenal,1485270,https://www.whoscored.com/Matches/1485270/Live/England-Premier-League-2020-2021-Tottenham-Arsenal,,ENG-Premier League,2021
+2020-12-06 19:15:00,Liverpool,Wolves,1485264,https://www.whoscored.com/Matches/1485264/Live/England-Premier-League-2020-2021-Liverpool-Wolves,,ENG-Premier League,2021
+2020-12-07 20:00:00,Brighton,Southampton,1485258,https://www.whoscored.com/Matches/1485258/Live/England-Premier-League-2020-2021-Brighton-Southampton,,ENG-Premier League,2021
+2020-12-11 20:00:00,Leeds,West Ham,1485284,https://www.whoscored.com/Matches/1485284/Live/England-Premier-League-2020-2021-Leeds-West-Ham,,ENG-Premier League,2021
+2020-12-12 12:30:00,Wolves,Aston Villa,1485294,https://www.whoscored.com/Matches/1485294/Live/England-Premier-League-2020-2021-Wolves-Aston-Villa,,ENG-Premier League,2021
+2020-12-12 15:00:00,Newcastle,West Bromwich Albion,1485290,https://www.whoscored.com/Matches/1485290/Live/England-Premier-League-2020-2021-Newcastle-West-Bromwich-Albion,,ENG-Premier League,2021
+2020-12-12 17:30:00,Manchester United,Manchester City,1485288,https://www.whoscored.com/Matches/1485288/Live/England-Premier-League-2020-2021-Manchester-United-Manchester-City,,ENG-Premier League,2021
+2020-12-12 20:00:00,Everton,Chelsea,1485280,https://www.whoscored.com/Matches/1485280/Live/England-Premier-League-2020-2021-Everton-Chelsea,,ENG-Premier League,2021
+2020-12-13 12:00:00,Southampton,Sheffield United,1485292,https://www.whoscored.com/Matches/1485292/Live/England-Premier-League-2020-2021-Southampton-Sheffield-United,,ENG-Premier League,2021
+2020-12-13 14:15:00,Crystal Palace,Tottenham,1485278,https://www.whoscored.com/Matches/1485278/Live/England-Premier-League-2020-2021-Crystal-Palace-Tottenham,,ENG-Premier League,2021
+2020-12-13 16:30:00,Fulham,Liverpool,1485282,https://www.whoscored.com/Matches/1485282/Live/England-Premier-League-2020-2021-Fulham-Liverpool,,ENG-Premier League,2021
+2020-12-13 19:15:00,Leicester,Brighton,1485286,https://www.whoscored.com/Matches/1485286/Live/England-Premier-League-2020-2021-Leicester-Brighton,,ENG-Premier League,2021
+2020-12-13 19:15:00,Arsenal,Burnley,1485276,https://www.whoscored.com/Matches/1485276/Live/England-Premier-League-2020-2021-Arsenal-Burnley,,ENG-Premier League,2021
+2020-12-15 18:00:00,Wolves,Chelsea,1485310,https://www.whoscored.com/Matches/1485310/Live/England-Premier-League-2020-2021-Wolves-Chelsea,,ENG-Premier League,2021
+2020-12-15 20:00:00,Manchester City,West Bromwich Albion,1485313,https://www.whoscored.com/Matches/1485313/Live/England-Premier-League-2020-2021-Manchester-City-West-Bromwich-Albion,,ENG-Premier League,2021
+2020-12-16 18:00:00,Leeds,Newcastle,1485302,https://www.whoscored.com/Matches/1485302/Live/England-Premier-League-2020-2021-Leeds-Newcastle,,ENG-Premier League,2021
+2020-12-16 18:00:00,Leicester,Everton,1485304,https://www.whoscored.com/Matches/1485304/Live/England-Premier-League-2020-2021-Leicester-Everton,,ENG-Premier League,2021
+2020-12-16 18:00:00,Arsenal,Southampton,1485296,https://www.whoscored.com/Matches/1485296/Live/England-Premier-League-2020-2021-Arsenal-Southampton,,ENG-Premier League,2021
+2020-12-16 20:00:00,Fulham,Brighton,1485300,https://www.whoscored.com/Matches/1485300/Live/England-Premier-League-2020-2021-Fulham-Brighton,,ENG-Premier League,2021
+2020-12-16 20:00:00,Liverpool,Tottenham,1485312,https://www.whoscored.com/Matches/1485312/Live/England-Premier-League-2020-2021-Liverpool-Tottenham,,ENG-Premier League,2021
+2020-12-16 20:00:00,West Ham,Crystal Palace,1485308,https://www.whoscored.com/Matches/1485308/Live/England-Premier-League-2020-2021-West-Ham-Crystal-Palace,,ENG-Premier League,2021
+2020-12-17 18:00:00,Aston Villa,Burnley,1485298,https://www.whoscored.com/Matches/1485298/Live/England-Premier-League-2020-2021-Aston-Villa-Burnley,,ENG-Premier League,2021
+2020-12-17 20:00:00,Sheffield United,Manchester United,1485306,https://www.whoscored.com/Matches/1485306/Live/England-Premier-League-2020-2021-Sheffield-United-Manchester-United,,ENG-Premier League,2021
+2020-12-19 12:30:00,Crystal Palace,Liverpool,1485317,https://www.whoscored.com/Matches/1485317/Live/England-Premier-League-2020-2021-Crystal-Palace-Liverpool,,ENG-Premier League,2021
+2020-12-19 15:00:00,Southampton,Manchester City,1485451,https://www.whoscored.com/Matches/1485451/Live/England-Premier-League-2020-2021-Southampton-Manchester-City,,ENG-Premier League,2021
+2020-12-19 17:30:00,Everton,Arsenal,1485318,https://www.whoscored.com/Matches/1485318/Live/England-Premier-League-2020-2021-Everton-Arsenal,,ENG-Premier League,2021
+2020-12-19 20:00:00,Newcastle,Fulham,1485320,https://www.whoscored.com/Matches/1485320/Live/England-Premier-League-2020-2021-Newcastle-Fulham,,ENG-Premier League,2021
+2020-12-20 12:00:00,Brighton,Sheffield United,1485314,https://www.whoscored.com/Matches/1485314/Live/England-Premier-League-2020-2021-Brighton-Sheffield-United,,ENG-Premier League,2021
+2020-12-20 14:15:00,Tottenham,Leicester,1485453,https://www.whoscored.com/Matches/1485453/Live/England-Premier-League-2020-2021-Tottenham-Leicester,,ENG-Premier League,2021
+2020-12-20 16:30:00,Manchester United,Leeds,1485319,https://www.whoscored.com/Matches/1485319/Live/England-Premier-League-2020-2021-Manchester-United-Leeds,,ENG-Premier League,2021
+2020-12-20 19:15:00,West Bromwich Albion,Aston Villa,1485455,https://www.whoscored.com/Matches/1485455/Live/England-Premier-League-2020-2021-West-Bromwich-Albion-Aston-Villa,,ENG-Premier League,2021
+2020-12-21 17:30:00,Burnley,Wolves,1485315,https://www.whoscored.com/Matches/1485315/Live/England-Premier-League-2020-2021-Burnley-Wolves,,ENG-Premier League,2021
+2020-12-21 20:00:00,Chelsea,West Ham,1485316,https://www.whoscored.com/Matches/1485316/Live/England-Premier-League-2020-2021-Chelsea-West-Ham,,ENG-Premier League,2021
+2020-12-26 12:30:00,Leicester,Manchester United,1485444,https://www.whoscored.com/Matches/1485444/Live/England-Premier-League-2020-2021-Leicester-Manchester-United,,ENG-Premier League,2021
+2020-12-26 15:00:00,Aston Villa,Crystal Palace,1485459,https://www.whoscored.com/Matches/1485459/Live/England-Premier-League-2020-2021-Aston-Villa-Crystal-Palace,,ENG-Premier League,2021
+2020-12-26 15:00:00,Fulham,Southampton,1485461,https://www.whoscored.com/Matches/1485461/Live/England-Premier-League-2020-2021-Fulham-Southampton,,ENG-Premier League,2021
+2020-12-26 17:30:00,Arsenal,Chelsea,1485457,https://www.whoscored.com/Matches/1485457/Live/England-Premier-League-2020-2021-Arsenal-Chelsea,,ENG-Premier League,2021
+2020-12-26 20:00:00,Manchester City,Newcastle,1485446,https://www.whoscored.com/Matches/1485446/Live/England-Premier-League-2020-2021-Manchester-City-Newcastle,,ENG-Premier League,2021
+2020-12-26 20:00:00,Sheffield United,Everton,1485447,https://www.whoscored.com/Matches/1485447/Live/England-Premier-League-2020-2021-Sheffield-United-Everton,,ENG-Premier League,2021
+2020-12-27 12:00:00,Leeds,Burnley,1485463,https://www.whoscored.com/Matches/1485463/Live/England-Premier-League-2020-2021-Leeds-Burnley,,ENG-Premier League,2021
+2020-12-27 14:15:00,West Ham,Brighton,1485448,https://www.whoscored.com/Matches/1485448/Live/England-Premier-League-2020-2021-West-Ham-Brighton,,ENG-Premier League,2021
+2020-12-27 16:30:00,Liverpool,West Bromwich Albion,1485445,https://www.whoscored.com/Matches/1485445/Live/England-Premier-League-2020-2021-Liverpool-West-Bromwich-Albion,,ENG-Premier League,2021
+2020-12-27 19:15:00,Wolves,Tottenham,1485449,https://www.whoscored.com/Matches/1485449/Live/England-Premier-League-2020-2021-Wolves-Tottenham,,ENG-Premier League,2021
+2020-12-28 15:00:00,Crystal Palace,Leicester,1485456,https://www.whoscored.com/Matches/1485456/Live/England-Premier-League-2020-2021-Crystal-Palace-Leicester,,ENG-Premier League,2021
+2020-12-28 17:30:00,Chelsea,Aston Villa,1485454,https://www.whoscored.com/Matches/1485454/Live/England-Premier-League-2020-2021-Chelsea-Aston-Villa,,ENG-Premier League,2021
+2020-12-29 18:00:00,Burnley,Sheffield United,1485452,https://www.whoscored.com/Matches/1485452/Live/England-Premier-League-2020-2021-Burnley-Sheffield-United,,ENG-Premier League,2021
+2020-12-29 18:00:00,Brighton,Arsenal,1485450,https://www.whoscored.com/Matches/1485450/Live/England-Premier-League-2020-2021-Brighton-Arsenal,,ENG-Premier League,2021
+2020-12-29 18:00:00,Southampton,West Ham,1485464,https://www.whoscored.com/Matches/1485464/Live/England-Premier-League-2020-2021-Southampton-West-Ham,,ENG-Premier League,2021
+2020-12-29 18:00:00,West Bromwich Albion,Leeds,1485466,https://www.whoscored.com/Matches/1485466/Live/England-Premier-League-2020-2021-West-Bromwich-Albion-Leeds,,ENG-Premier League,2021
+2020-12-29 20:00:00,Manchester United,Wolves,1485460,https://www.whoscored.com/Matches/1485460/Live/England-Premier-League-2020-2021-Manchester-United-Wolves,,ENG-Premier League,2021
+2020-12-30 20:00:00,Newcastle,Liverpool,1485462,https://www.whoscored.com/Matches/1485462/Live/England-Premier-League-2020-2021-Newcastle-Liverpool,,ENG-Premier League,2021
+2020-11-01 12:00:00,Aston Villa,Southampton,1485251,https://www.whoscored.com/Matches/1485251/Live/England-Premier-League-2020-2021-Aston-Villa-Southampton,,ENG-Premier League,2021
+2020-11-01 14:00:00,Newcastle,Everton,1485263,https://www.whoscored.com/Matches/1485263/Live/England-Premier-League-2020-2021-Newcastle-Everton,,ENG-Premier League,2021
+2020-11-01 16:30:00,Manchester United,Arsenal,1485261,https://www.whoscored.com/Matches/1485261/Live/England-Premier-League-2020-2021-Manchester-United-Arsenal,,ENG-Premier League,2021
+2020-11-01 19:15:00,Tottenham,Brighton,1485267,https://www.whoscored.com/Matches/1485267/Live/England-Premier-League-2020-2021-Tottenham-Brighton,,ENG-Premier League,2021
+2020-11-02 17:30:00,Fulham,West Bromwich Albion,1485255,https://www.whoscored.com/Matches/1485255/Live/England-Premier-League-2020-2021-Fulham-West-Bromwich-Albion,,ENG-Premier League,2021
+2020-11-02 20:00:00,Leeds,Leicester,1485257,https://www.whoscored.com/Matches/1485257/Live/England-Premier-League-2020-2021-Leeds-Leicester,,ENG-Premier League,2021
+2020-11-06 17:30:00,Brighton,Burnley,1485273,https://www.whoscored.com/Matches/1485273/Live/England-Premier-League-2020-2021-Brighton-Burnley,,ENG-Premier League,2021
+2020-11-06 20:00:00,Southampton,Newcastle,1485285,https://www.whoscored.com/Matches/1485285/Live/England-Premier-League-2020-2021-Southampton-Newcastle,,ENG-Premier League,2021
+2020-11-07 12:30:00,Everton,Manchester United,1485279,https://www.whoscored.com/Matches/1485279/Live/England-Premier-League-2020-2021-Everton-Manchester-United,,ENG-Premier League,2021
+2020-11-07 15:00:00,Crystal Palace,Leeds,1485277,https://www.whoscored.com/Matches/1485277/Live/England-Premier-League-2020-2021-Crystal-Palace-Leeds,,ENG-Premier League,2021
+2020-11-07 17:30:00,Chelsea,Sheffield United,1485275,https://www.whoscored.com/Matches/1485275/Live/England-Premier-League-2020-2021-Chelsea-Sheffield-United,,ENG-Premier League,2021
+2020-11-07 20:00:00,West Ham,Fulham,1485289,https://www.whoscored.com/Matches/1485289/Live/England-Premier-League-2020-2021-West-Ham-Fulham,,ENG-Premier League,2021
+2020-11-08 12:00:00,West Bromwich Albion,Tottenham,1485287,https://www.whoscored.com/Matches/1485287/Live/England-Premier-League-2020-2021-West-Bromwich-Albion-Tottenham,,ENG-Premier League,2021
+2020-11-08 14:00:00,Leicester,Wolves,1485281,https://www.whoscored.com/Matches/1485281/Live/England-Premier-League-2020-2021-Leicester-Wolves,,ENG-Premier League,2021
+2020-11-08 16:30:00,Manchester City,Liverpool,1485283,https://www.whoscored.com/Matches/1485283/Live/England-Premier-League-2020-2021-Manchester-City-Liverpool,,ENG-Premier League,2021
+2020-11-08 19:15:00,Arsenal,Aston Villa,1485271,https://www.whoscored.com/Matches/1485271/Live/England-Premier-League-2020-2021-Arsenal-Aston-Villa,,ENG-Premier League,2021
+2020-11-21 12:30:00,Newcastle,Chelsea,1485303,https://www.whoscored.com/Matches/1485303/Live/England-Premier-League-2020-2021-Newcastle-Chelsea,,ENG-Premier League,2021
+2020-11-21 15:00:00,Aston Villa,Brighton,1485291,https://www.whoscored.com/Matches/1485291/Live/England-Premier-League-2020-2021-Aston-Villa-Brighton,,ENG-Premier League,2021
+2020-11-21 17:30:00,Tottenham,Manchester City,1485307,https://www.whoscored.com/Matches/1485307/Live/England-Premier-League-2020-2021-Tottenham-Manchester-City,,ENG-Premier League,2021
+2020-11-21 20:00:00,Manchester United,West Bromwich Albion,1485301,https://www.whoscored.com/Matches/1485301/Live/England-Premier-League-2020-2021-Manchester-United-West-Bromwich-Albion,,ENG-Premier League,2021
+2020-11-22 12:00:00,Fulham,Everton,1485295,https://www.whoscored.com/Matches/1485295/Live/England-Premier-League-2020-2021-Fulham-Everton,,ENG-Premier League,2021
+2020-11-22 14:00:00,Sheffield United,West Ham,1485305,https://www.whoscored.com/Matches/1485305/Live/England-Premier-League-2020-2021-Sheffield-United-West-Ham,,ENG-Premier League,2021
+2020-11-22 16:30:00,Leeds,Arsenal,1485297,https://www.whoscored.com/Matches/1485297/Live/England-Premier-League-2020-2021-Leeds-Arsenal,,ENG-Premier League,2021
+2020-11-22 19:15:00,Liverpool,Leicester,1485299,https://www.whoscored.com/Matches/1485299/Live/England-Premier-League-2020-2021-Liverpool-Leicester,,ENG-Premier League,2021
+2020-11-23 17:30:00,Burnley,Crystal Palace,1485293,https://www.whoscored.com/Matches/1485293/Live/England-Premier-League-2020-2021-Burnley-Crystal-Palace,,ENG-Premier League,2021
+2020-11-23 20:00:00,Wolves,Southampton,1485309,https://www.whoscored.com/Matches/1485309/Live/England-Premier-League-2020-2021-Wolves-Southampton,,ENG-Premier League,2021
+2020-11-27 20:00:00,Crystal Palace,Newcastle,1485242,https://www.whoscored.com/Matches/1485242/Live/England-Premier-League-2020-2021-Crystal-Palace-Newcastle,,ENG-Premier League,2021
+2020-11-28 12:30:00,Brighton,Liverpool,1485238,https://www.whoscored.com/Matches/1485238/Live/England-Premier-League-2020-2021-Brighton-Liverpool,,ENG-Premier League,2021
+2020-11-28 15:00:00,Manchester City,Burnley,1485248,https://www.whoscored.com/Matches/1485248/Live/England-Premier-League-2020-2021-Manchester-City-Burnley,,ENG-Premier League,2021
+2020-11-28 17:30:00,Everton,Leeds,1485244,https://www.whoscored.com/Matches/1485244/Live/England-Premier-League-2020-2021-Everton-Leeds,,ENG-Premier League,2021
+2020-11-28 20:00:00,West Bromwich Albion,Sheffield United,1485252,https://www.whoscored.com/Matches/1485252/Live/England-Premier-League-2020-2021-West-Bromwich-Albion-Sheffield-United,,ENG-Premier League,2021
+2020-11-29 14:00:00,Southampton,Manchester United,1485250,https://www.whoscored.com/Matches/1485250/Live/England-Premier-League-2020-2021-Southampton-Manchester-United,,ENG-Premier League,2021
+2020-11-29 16:30:00,Chelsea,Tottenham,1485240,https://www.whoscored.com/Matches/1485240/Live/England-Premier-League-2020-2021-Chelsea-Tottenham,,ENG-Premier League,2021
+2020-11-29 19:15:00,Arsenal,Wolves,1485311,https://www.whoscored.com/Matches/1485311/Live/England-Premier-League-2020-2021-Arsenal-Wolves,,ENG-Premier League,2021
+2020-11-30 17:30:00,Leicester,Fulham,1485246,https://www.whoscored.com/Matches/1485246/Live/England-Premier-League-2020-2021-Leicester-Fulham,,ENG-Premier League,2021
+2020-11-30 20:00:00,West Ham,Aston Villa,1485254,https://www.whoscored.com/Matches/1485254/Live/England-Premier-League-2020-2021-West-Ham-Aston-Villa,,ENG-Premier League,2021
+2020-10-03 12:30:00,Chelsea,Crystal Palace,1485216,https://www.whoscored.com/Matches/1485216/Live/England-Premier-League-2020-2021-Chelsea-Crystal-Palace,,ENG-Premier League,2021
+2020-10-03 15:00:00,Everton,Brighton,1485217,https://www.whoscored.com/Matches/1485217/Live/England-Premier-League-2020-2021-Everton-Brighton,,ENG-Premier League,2021
+2020-10-03 17:30:00,Leeds,Manchester City,1485218,https://www.whoscored.com/Matches/1485218/Live/England-Premier-League-2020-2021-Leeds-Manchester-City,,ENG-Premier League,2021
+2020-10-03 20:00:00,Newcastle,Burnley,1485221,https://www.whoscored.com/Matches/1485221/Live/England-Premier-League-2020-2021-Newcastle-Burnley,,ENG-Premier League,2021
+2020-10-04 12:00:00,Southampton,West Bromwich Albion,1485222,https://www.whoscored.com/Matches/1485222/Live/England-Premier-League-2020-2021-Southampton-West-Bromwich-Albion,,ENG-Premier League,2021
+2020-10-04 12:00:00,Leicester,West Ham,1485219,https://www.whoscored.com/Matches/1485219/Live/England-Premier-League-2020-2021-Leicester-West-Ham,,ENG-Premier League,2021
+2020-10-04 14:00:00,Wolves,Fulham,1485223,https://www.whoscored.com/Matches/1485223/Live/England-Premier-League-2020-2021-Wolves-Fulham,,ENG-Premier League,2021
+2020-10-04 14:00:00,Arsenal,Sheffield United,1485214,https://www.whoscored.com/Matches/1485214/Live/England-Premier-League-2020-2021-Arsenal-Sheffield-United,,ENG-Premier League,2021
+2020-10-04 16:30:00,Manchester United,Tottenham,1485220,https://www.whoscored.com/Matches/1485220/Live/England-Premier-League-2020-2021-Manchester-United-Tottenham,,ENG-Premier League,2021
+2020-10-04 19:15:00,Aston Villa,Liverpool,1485215,https://www.whoscored.com/Matches/1485215/Live/England-Premier-League-2020-2021-Aston-Villa-Liverpool,,ENG-Premier League,2021
+2020-10-17 12:30:00,Everton,Liverpool,1485226,https://www.whoscored.com/Matches/1485226/Live/England-Premier-League-2020-2021-Everton-Liverpool,,ENG-Premier League,2021
+2020-10-17 15:00:00,Chelsea,Southampton,1485224,https://www.whoscored.com/Matches/1485224/Live/England-Premier-League-2020-2021-Chelsea-Southampton,,ENG-Premier League,2021
+2020-10-17 17:30:00,Manchester City,Arsenal,1485229,https://www.whoscored.com/Matches/1485229/Live/England-Premier-League-2020-2021-Manchester-City-Arsenal,,ENG-Premier League,2021
+2020-10-17 20:00:00,Newcastle,Manchester United,1485230,https://www.whoscored.com/Matches/1485230/Live/England-Premier-League-2020-2021-Newcastle-Manchester-United,,ENG-Premier League,2021
+2020-10-18 12:00:00,Sheffield United,Fulham,1485231,https://www.whoscored.com/Matches/1485231/Live/England-Premier-League-2020-2021-Sheffield-United-Fulham,,ENG-Premier League,2021
+2020-10-18 14:00:00,Crystal Palace,Brighton,1485225,https://www.whoscored.com/Matches/1485225/Live/England-Premier-League-2020-2021-Crystal-Palace-Brighton,,ENG-Premier League,2021
+2020-10-18 16:30:00,Tottenham,West Ham,1485232,https://www.whoscored.com/Matches/1485232/Live/England-Premier-League-2020-2021-Tottenham-West-Ham,,ENG-Premier League,2021
+2020-10-18 19:15:00,Leicester,Aston Villa,1485228,https://www.whoscored.com/Matches/1485228/Live/England-Premier-League-2020-2021-Leicester-Aston-Villa,,ENG-Premier League,2021
+2020-10-19 17:30:00,West Bromwich Albion,Burnley,1485233,https://www.whoscored.com/Matches/1485233/Live/England-Premier-League-2020-2021-West-Bromwich-Albion-Burnley,,ENG-Premier League,2021
+2020-10-19 20:00:00,Leeds,Wolves,1485227,https://www.whoscored.com/Matches/1485227/Live/England-Premier-League-2020-2021-Leeds-Wolves,,ENG-Premier League,2021
+2020-10-23 20:00:00,Aston Villa,Leeds,1485235,https://www.whoscored.com/Matches/1485235/Live/England-Premier-League-2020-2021-Aston-Villa-Leeds,,ENG-Premier League,2021
+2020-10-24 12:30:00,West Ham,Manchester City,1485247,https://www.whoscored.com/Matches/1485247/Live/England-Premier-League-2020-2021-West-Ham-Manchester-City,,ENG-Premier League,2021
+2020-10-24 15:00:00,Fulham,Crystal Palace,1485239,https://www.whoscored.com/Matches/1485239/Live/England-Premier-League-2020-2021-Fulham-Crystal-Palace,,ENG-Premier League,2021
+2020-10-24 17:30:00,Manchester United,Chelsea,1485243,https://www.whoscored.com/Matches/1485243/Live/England-Premier-League-2020-2021-Manchester-United-Chelsea,,ENG-Premier League,2021
+2020-10-24 20:00:00,Liverpool,Sheffield United,1485241,https://www.whoscored.com/Matches/1485241/Live/England-Premier-League-2020-2021-Liverpool-Sheffield-United,,ENG-Premier League,2021
+2020-10-25 14:00:00,Southampton,Everton,1485245,https://www.whoscored.com/Matches/1485245/Live/England-Premier-League-2020-2021-Southampton-Everton,,ENG-Premier League,2021
+2020-10-25 16:30:00,Wolves,Newcastle,1485249,https://www.whoscored.com/Matches/1485249/Live/England-Premier-League-2020-2021-Wolves-Newcastle,,ENG-Premier League,2021
+2020-10-25 19:15:00,Arsenal,Leicester,1485234,https://www.whoscored.com/Matches/1485234/Live/England-Premier-League-2020-2021-Arsenal-Leicester,,ENG-Premier League,2021
+2020-10-26 17:30:00,Brighton,West Bromwich Albion,1485236,https://www.whoscored.com/Matches/1485236/Live/England-Premier-League-2020-2021-Brighton-West-Bromwich-Albion,,ENG-Premier League,2021
+2020-10-26 20:00:00,Burnley,Tottenham,1485237,https://www.whoscored.com/Matches/1485237/Live/England-Premier-League-2020-2021-Burnley-Tottenham,,ENG-Premier League,2021
+2020-10-30 20:00:00,Wolves,Crystal Palace,1485269,https://www.whoscored.com/Matches/1485269/Live/England-Premier-League-2020-2021-Wolves-Crystal-Palace,,ENG-Premier League,2021
+2020-10-31 12:30:00,Sheffield United,Manchester City,1485265,https://www.whoscored.com/Matches/1485265/Live/England-Premier-League-2020-2021-Sheffield-United-Manchester-City,,ENG-Premier League,2021
+2020-10-31 15:00:00,Burnley,Chelsea,1485253,https://www.whoscored.com/Matches/1485253/Live/England-Premier-League-2020-2021-Burnley-Chelsea,,ENG-Premier League,2021
+2020-10-31 17:30:00,Liverpool,West Ham,1485259,https://www.whoscored.com/Matches/1485259/Live/England-Premier-League-2020-2021-Liverpool-West-Ham,,ENG-Premier League,2021
+2020-09-12 12:30:00,Fulham,Arsenal,1485187,https://www.whoscored.com/Matches/1485187/Live/England-Premier-League-2020-2021-Fulham-Arsenal,,ENG-Premier League,2021
+2020-09-12 15:00:00,Crystal Palace,Southampton,1485186,https://www.whoscored.com/Matches/1485186/Live/England-Premier-League-2020-2021-Crystal-Palace-Southampton,,ENG-Premier League,2021
+2020-09-12 17:30:00,Liverpool,Leeds,1485188,https://www.whoscored.com/Matches/1485188/Live/England-Premier-League-2020-2021-Liverpool-Leeds,,ENG-Premier League,2021
+2020-09-12 20:00:00,West Ham,Newcastle,1485191,https://www.whoscored.com/Matches/1485191/Live/England-Premier-League-2020-2021-West-Ham-Newcastle,,ENG-Premier League,2021
+2020-09-13 14:00:00,West Bromwich Albion,Leicester,1485190,https://www.whoscored.com/Matches/1485190/Live/England-Premier-League-2020-2021-West-Bromwich-Albion-Leicester,,ENG-Premier League,2021
+2020-09-13 16:30:00,Tottenham,Everton,1485189,https://www.whoscored.com/Matches/1485189/Live/England-Premier-League-2020-2021-Tottenham-Everton,,ENG-Premier League,2021
+2020-09-14 18:00:00,Sheffield United,Wolves,1485193,https://www.whoscored.com/Matches/1485193/Live/England-Premier-League-2020-2021-Sheffield-United-Wolves,,ENG-Premier League,2021
+2020-09-14 20:15:00,Brighton,Chelsea,1485192,https://www.whoscored.com/Matches/1485192/Live/England-Premier-League-2020-2021-Brighton-Chelsea,,ENG-Premier League,2021
+2020-09-19 12:30:00,Everton,West Bromwich Albion,1485197,https://www.whoscored.com/Matches/1485197/Live/England-Premier-League-2020-2021-Everton-West-Bromwich-Albion,,ENG-Premier League,2021
+2020-09-19 15:00:00,Leeds,Fulham,1485198,https://www.whoscored.com/Matches/1485198/Live/England-Premier-League-2020-2021-Leeds-Fulham,,ENG-Premier League,2021
+2020-09-19 17:30:00,Manchester United,Crystal Palace,1485200,https://www.whoscored.com/Matches/1485200/Live/England-Premier-League-2020-2021-Manchester-United-Crystal-Palace,,ENG-Premier League,2021
+2020-09-19 20:00:00,Arsenal,West Ham,1485194,https://www.whoscored.com/Matches/1485194/Live/England-Premier-League-2020-2021-Arsenal-West-Ham,,ENG-Premier League,2021
+2020-09-20 12:00:00,Southampton,Tottenham,1485202,https://www.whoscored.com/Matches/1485202/Live/England-Premier-League-2020-2021-Southampton-Tottenham,,ENG-Premier League,2021
+2020-09-20 14:00:00,Newcastle,Brighton,1485201,https://www.whoscored.com/Matches/1485201/Live/England-Premier-League-2020-2021-Newcastle-Brighton,,ENG-Premier League,2021
+2020-09-20 16:30:00,Chelsea,Liverpool,1485196,https://www.whoscored.com/Matches/1485196/Live/England-Premier-League-2020-2021-Chelsea-Liverpool,,ENG-Premier League,2021
+2020-09-20 19:00:00,Leicester,Burnley,1485199,https://www.whoscored.com/Matches/1485199/Live/England-Premier-League-2020-2021-Leicester-Burnley,,ENG-Premier League,2021
+2020-09-21 18:00:00,Aston Villa,Sheffield United,1485195,https://www.whoscored.com/Matches/1485195/Live/England-Premier-League-2020-2021-Aston-Villa-Sheffield-United,,ENG-Premier League,2021
+2020-09-21 20:15:00,Wolves,Manchester City,1485203,https://www.whoscored.com/Matches/1485203/Live/England-Premier-League-2020-2021-Wolves-Manchester-City,,ENG-Premier League,2021
+2020-09-26 12:30:00,Brighton,Manchester United,1485204,https://www.whoscored.com/Matches/1485204/Live/England-Premier-League-2020-2021-Brighton-Manchester-United,,ENG-Premier League,2021
+2020-09-26 15:00:00,Crystal Palace,Everton,1485206,https://www.whoscored.com/Matches/1485206/Live/England-Premier-League-2020-2021-Crystal-Palace-Everton,,ENG-Premier League,2021
+2020-09-26 17:30:00,West Bromwich Albion,Chelsea,1485212,https://www.whoscored.com/Matches/1485212/Live/England-Premier-League-2020-2021-West-Bromwich-Albion-Chelsea,,ENG-Premier League,2021
+2020-09-26 20:00:00,Burnley,Southampton,1485205,https://www.whoscored.com/Matches/1485205/Live/England-Premier-League-2020-2021-Burnley-Southampton,,ENG-Premier League,2021
+2020-09-27 12:00:00,Sheffield United,Leeds,1485210,https://www.whoscored.com/Matches/1485210/Live/England-Premier-League-2020-2021-Sheffield-United-Leeds,,ENG-Premier League,2021
+2020-09-27 14:00:00,Tottenham,Newcastle,1485211,https://www.whoscored.com/Matches/1485211/Live/England-Premier-League-2020-2021-Tottenham-Newcastle,,ENG-Premier League,2021
+2020-09-27 16:30:00,Manchester City,Leicester,1485209,https://www.whoscored.com/Matches/1485209/Live/England-Premier-League-2020-2021-Manchester-City-Leicester,,ENG-Premier League,2021
+2020-09-27 19:00:00,West Ham,Wolves,1485213,https://www.whoscored.com/Matches/1485213/Live/England-Premier-League-2020-2021-West-Ham-Wolves,,ENG-Premier League,2021
+2020-09-28 17:45:00,Fulham,Aston Villa,1485207,https://www.whoscored.com/Matches/1485207/Live/England-Premier-League-2020-2021-Fulham-Aston-Villa,,ENG-Premier League,2021
+2020-09-28 20:00:00,Liverpool,Arsenal,1485208,https://www.whoscored.com/Matches/1485208/Live/England-Premier-League-2020-2021-Liverpool-Arsenal,,ENG-Premier League,2021

@@ -1,0 +1,411 @@
+date,home_team,away_team,game_id,url,stage,league,season
+2018-05-04 19:45:00,Amiens,Paris Saint-Germain,1191025,https://www.whoscored.com/Matches/1191025/Live/France-Ligue-1-2017-2018-Amiens-Paris-Saint-Germain,,FRA-Ligue 1,1718
+2018-05-06 14:00:00,Saint-Etienne,Bordeaux,1191052,https://www.whoscored.com/Matches/1191052/Live/France-Ligue-1-2017-2018-Saint-Etienne-Bordeaux,,FRA-Ligue 1,1718
+2018-05-06 15:30:00,Lyon,Troyes,1191034,https://www.whoscored.com/Matches/1191034/Live/France-Ligue-1-2017-2018-Lyon-Troyes,,FRA-Ligue 1,1718
+2018-05-06 16:00:00,Metz,Angers,1191040,https://www.whoscored.com/Matches/1191040/Live/France-Ligue-1-2017-2018-Metz-Angers,,FRA-Ligue 1,1718
+2018-05-06 16:00:00,Nantes,Montpellier,1191044,https://www.whoscored.com/Matches/1191044/Live/France-Ligue-1-2017-2018-Nantes-Montpellier,,FRA-Ligue 1,1718
+2018-05-06 16:00:00,Caen,Monaco,1191028,https://www.whoscored.com/Matches/1191028/Live/France-Ligue-1-2017-2018-Caen-Monaco,,FRA-Ligue 1,1718
+2018-05-06 16:00:00,Dijon,Guingamp,1191031,https://www.whoscored.com/Matches/1191031/Live/France-Ligue-1-2017-2018-Dijon-Guingamp,,FRA-Ligue 1,1718
+2018-05-06 16:00:00,Rennes,Strasbourg,1191048,https://www.whoscored.com/Matches/1191048/Live/France-Ligue-1-2017-2018-Rennes-Strasbourg,,FRA-Ligue 1,1718
+2018-05-06 16:00:00,Toulouse,Lille,1191056,https://www.whoscored.com/Matches/1191056/Live/France-Ligue-1-2017-2018-Toulouse-Lille,,FRA-Ligue 1,1718
+2018-05-06 20:05:00,Marseille,Nice,1191037,https://www.whoscored.com/Matches/1191037/Live/France-Ligue-1-2017-2018-Marseille-Nice,,FRA-Ligue 1,1718
+2018-05-11 19:45:00,Guingamp,Marseille,1191072,https://www.whoscored.com/Matches/1191072/Live/France-Ligue-1-2017-2018-Guingamp-Marseille,,FRA-Ligue 1,1718
+2018-05-12 20:00:00,Lille,Dijon,1191075,https://www.whoscored.com/Matches/1191075/Live/France-Ligue-1-2017-2018-Lille-Dijon,,FRA-Ligue 1,1718
+2018-05-12 20:00:00,Angers,Nantes,1191064,https://www.whoscored.com/Matches/1191064/Live/France-Ligue-1-2017-2018-Angers-Nantes,,FRA-Ligue 1,1718
+2018-05-12 20:00:00,Bordeaux,Toulouse,1191068,https://www.whoscored.com/Matches/1191068/Live/France-Ligue-1-2017-2018-Bordeaux-Toulouse,,FRA-Ligue 1,1718
+2018-05-12 20:00:00,Amiens,Metz,1191060,https://www.whoscored.com/Matches/1191060/Live/France-Ligue-1-2017-2018-Amiens-Metz,,FRA-Ligue 1,1718
+2018-05-12 20:00:00,Strasbourg,Lyon,1191033,https://www.whoscored.com/Matches/1191033/Live/France-Ligue-1-2017-2018-Strasbourg-Lyon,,FRA-Ligue 1,1718
+2018-05-12 20:00:00,Paris Saint-Germain,Rennes,1191030,https://www.whoscored.com/Matches/1191030/Live/France-Ligue-1-2017-2018-Paris-Saint-Germain-Rennes,,FRA-Ligue 1,1718
+2018-05-12 20:00:00,Nice,Caen,1191027,https://www.whoscored.com/Matches/1191027/Live/France-Ligue-1-2017-2018-Nice-Caen,,FRA-Ligue 1,1718
+2018-05-12 20:00:00,Monaco,Saint-Etienne,1191021,https://www.whoscored.com/Matches/1191021/Live/France-Ligue-1-2017-2018-Monaco-Saint-Etienne,,FRA-Ligue 1,1718
+2018-05-12 20:00:00,Montpellier,Troyes,1191024,https://www.whoscored.com/Matches/1191024/Live/France-Ligue-1-2017-2018-Montpellier-Troyes,,FRA-Ligue 1,1718
+2018-05-19 20:00:00,Dijon,Angers,1191039,https://www.whoscored.com/Matches/1191039/Live/France-Ligue-1-2017-2018-Dijon-Angers,,FRA-Ligue 1,1718
+2018-05-19 20:00:00,Caen,Paris Saint-Germain,1191036,https://www.whoscored.com/Matches/1191036/Live/France-Ligue-1-2017-2018-Caen-Paris-Saint-Germain,,FRA-Ligue 1,1718
+2018-05-19 20:00:00,Marseille,Amiens,1191046,https://www.whoscored.com/Matches/1191046/Live/France-Ligue-1-2017-2018-Marseille-Amiens,,FRA-Ligue 1,1718
+2018-05-19 20:00:00,Lyon,Nice,1191042,https://www.whoscored.com/Matches/1191042/Live/France-Ligue-1-2017-2018-Lyon-Nice,,FRA-Ligue 1,1718
+2018-05-19 20:00:00,Saint-Etienne,Lille,1191062,https://www.whoscored.com/Matches/1191062/Live/France-Ligue-1-2017-2018-Saint-Etienne-Lille,,FRA-Ligue 1,1718
+2018-05-19 20:00:00,Rennes,Montpellier,1191058,https://www.whoscored.com/Matches/1191058/Live/France-Ligue-1-2017-2018-Rennes-Montpellier,,FRA-Ligue 1,1718
+2018-05-19 20:00:00,Metz,Bordeaux,1191050,https://www.whoscored.com/Matches/1191050/Live/France-Ligue-1-2017-2018-Metz-Bordeaux,,FRA-Ligue 1,1718
+2018-05-19 20:00:00,Nantes,Strasbourg,1191054,https://www.whoscored.com/Matches/1191054/Live/France-Ligue-1-2017-2018-Nantes-Strasbourg,,FRA-Ligue 1,1718
+2018-05-19 20:00:00,Troyes,Monaco,1191070,https://www.whoscored.com/Matches/1191070/Live/France-Ligue-1-2017-2018-Troyes-Monaco,,FRA-Ligue 1,1718
+2018-05-19 20:00:00,Toulouse,Guingamp,1191066,https://www.whoscored.com/Matches/1191066/Live/France-Ligue-1-2017-2018-Toulouse-Guingamp,,FRA-Ligue 1,1718
+2018-05-04 19:45:00,Amiens,Paris Saint-Germain,1191025,https://www.whoscored.com/Matches/1191025/Live/France-Ligue-1-2017-2018-Amiens-Paris-Saint-Germain,,FRA-Ligue 1,1718
+2018-05-06 14:00:00,Saint-Etienne,Bordeaux,1191052,https://www.whoscored.com/Matches/1191052/Live/France-Ligue-1-2017-2018-Saint-Etienne-Bordeaux,,FRA-Ligue 1,1718
+2018-05-06 15:30:00,Lyon,Troyes,1191034,https://www.whoscored.com/Matches/1191034/Live/France-Ligue-1-2017-2018-Lyon-Troyes,,FRA-Ligue 1,1718
+2018-05-06 16:00:00,Metz,Angers,1191040,https://www.whoscored.com/Matches/1191040/Live/France-Ligue-1-2017-2018-Metz-Angers,,FRA-Ligue 1,1718
+2018-05-06 16:00:00,Nantes,Montpellier,1191044,https://www.whoscored.com/Matches/1191044/Live/France-Ligue-1-2017-2018-Nantes-Montpellier,,FRA-Ligue 1,1718
+2018-05-06 16:00:00,Caen,Monaco,1191028,https://www.whoscored.com/Matches/1191028/Live/France-Ligue-1-2017-2018-Caen-Monaco,,FRA-Ligue 1,1718
+2018-05-06 16:00:00,Dijon,Guingamp,1191031,https://www.whoscored.com/Matches/1191031/Live/France-Ligue-1-2017-2018-Dijon-Guingamp,,FRA-Ligue 1,1718
+2018-05-06 16:00:00,Rennes,Strasbourg,1191048,https://www.whoscored.com/Matches/1191048/Live/France-Ligue-1-2017-2018-Rennes-Strasbourg,,FRA-Ligue 1,1718
+2018-05-06 16:00:00,Toulouse,Lille,1191056,https://www.whoscored.com/Matches/1191056/Live/France-Ligue-1-2017-2018-Toulouse-Lille,,FRA-Ligue 1,1718
+2018-05-06 20:05:00,Marseille,Nice,1191037,https://www.whoscored.com/Matches/1191037/Live/France-Ligue-1-2017-2018-Marseille-Nice,,FRA-Ligue 1,1718
+2018-05-11 19:45:00,Guingamp,Marseille,1191072,https://www.whoscored.com/Matches/1191072/Live/France-Ligue-1-2017-2018-Guingamp-Marseille,,FRA-Ligue 1,1718
+2018-05-12 20:00:00,Lille,Dijon,1191075,https://www.whoscored.com/Matches/1191075/Live/France-Ligue-1-2017-2018-Lille-Dijon,,FRA-Ligue 1,1718
+2018-05-12 20:00:00,Angers,Nantes,1191064,https://www.whoscored.com/Matches/1191064/Live/France-Ligue-1-2017-2018-Angers-Nantes,,FRA-Ligue 1,1718
+2018-05-12 20:00:00,Bordeaux,Toulouse,1191068,https://www.whoscored.com/Matches/1191068/Live/France-Ligue-1-2017-2018-Bordeaux-Toulouse,,FRA-Ligue 1,1718
+2018-05-12 20:00:00,Amiens,Metz,1191060,https://www.whoscored.com/Matches/1191060/Live/France-Ligue-1-2017-2018-Amiens-Metz,,FRA-Ligue 1,1718
+2018-05-12 20:00:00,Strasbourg,Lyon,1191033,https://www.whoscored.com/Matches/1191033/Live/France-Ligue-1-2017-2018-Strasbourg-Lyon,,FRA-Ligue 1,1718
+2018-05-12 20:00:00,Paris Saint-Germain,Rennes,1191030,https://www.whoscored.com/Matches/1191030/Live/France-Ligue-1-2017-2018-Paris-Saint-Germain-Rennes,,FRA-Ligue 1,1718
+2018-05-12 20:00:00,Nice,Caen,1191027,https://www.whoscored.com/Matches/1191027/Live/France-Ligue-1-2017-2018-Nice-Caen,,FRA-Ligue 1,1718
+2018-05-12 20:00:00,Monaco,Saint-Etienne,1191021,https://www.whoscored.com/Matches/1191021/Live/France-Ligue-1-2017-2018-Monaco-Saint-Etienne,,FRA-Ligue 1,1718
+2018-05-12 20:00:00,Montpellier,Troyes,1191024,https://www.whoscored.com/Matches/1191024/Live/France-Ligue-1-2017-2018-Montpellier-Troyes,,FRA-Ligue 1,1718
+2018-05-19 20:00:00,Dijon,Angers,1191039,https://www.whoscored.com/Matches/1191039/Live/France-Ligue-1-2017-2018-Dijon-Angers,,FRA-Ligue 1,1718
+2018-05-19 20:00:00,Caen,Paris Saint-Germain,1191036,https://www.whoscored.com/Matches/1191036/Live/France-Ligue-1-2017-2018-Caen-Paris-Saint-Germain,,FRA-Ligue 1,1718
+2018-05-19 20:00:00,Marseille,Amiens,1191046,https://www.whoscored.com/Matches/1191046/Live/France-Ligue-1-2017-2018-Marseille-Amiens,,FRA-Ligue 1,1718
+2018-05-19 20:00:00,Lyon,Nice,1191042,https://www.whoscored.com/Matches/1191042/Live/France-Ligue-1-2017-2018-Lyon-Nice,,FRA-Ligue 1,1718
+2018-05-19 20:00:00,Saint-Etienne,Lille,1191062,https://www.whoscored.com/Matches/1191062/Live/France-Ligue-1-2017-2018-Saint-Etienne-Lille,,FRA-Ligue 1,1718
+2018-05-19 20:00:00,Rennes,Montpellier,1191058,https://www.whoscored.com/Matches/1191058/Live/France-Ligue-1-2017-2018-Rennes-Montpellier,,FRA-Ligue 1,1718
+2018-05-19 20:00:00,Metz,Bordeaux,1191050,https://www.whoscored.com/Matches/1191050/Live/France-Ligue-1-2017-2018-Metz-Bordeaux,,FRA-Ligue 1,1718
+2018-05-19 20:00:00,Nantes,Strasbourg,1191054,https://www.whoscored.com/Matches/1191054/Live/France-Ligue-1-2017-2018-Nantes-Strasbourg,,FRA-Ligue 1,1718
+2018-05-19 20:00:00,Troyes,Monaco,1191070,https://www.whoscored.com/Matches/1191070/Live/France-Ligue-1-2017-2018-Troyes-Monaco,,FRA-Ligue 1,1718
+2018-05-19 20:00:00,Toulouse,Guingamp,1191066,https://www.whoscored.com/Matches/1191066/Live/France-Ligue-1-2017-2018-Toulouse-Guingamp,,FRA-Ligue 1,1718
+2018-04-01 14:00:00,Guingamp,Bordeaux,1191095,https://www.whoscored.com/Matches/1191095/Live/France-Ligue-1-2017-2018-Guingamp-Bordeaux,,FRA-Ligue 1,1718
+2018-04-01 16:00:00,Lille,Amiens,1191096,https://www.whoscored.com/Matches/1191096/Live/France-Ligue-1-2017-2018-Lille-Amiens,,FRA-Ligue 1,1718
+2018-04-01 16:00:00,Nantes,Saint-Etienne,1191100,https://www.whoscored.com/Matches/1191100/Live/France-Ligue-1-2017-2018-Nantes-Saint-Etienne,,FRA-Ligue 1,1718
+2018-04-01 16:00:00,Strasbourg,Metz,1191106,https://www.whoscored.com/Matches/1191106/Live/France-Ligue-1-2017-2018-Strasbourg-Metz,,FRA-Ligue 1,1718
+2018-04-01 16:00:00,Troyes,Nice,1191107,https://www.whoscored.com/Matches/1191107/Live/France-Ligue-1-2017-2018-Troyes-Nice,,FRA-Ligue 1,1718
+2018-04-01 16:00:00,Caen,Montpellier,1191093,https://www.whoscored.com/Matches/1191093/Live/France-Ligue-1-2017-2018-Caen-Montpellier,,FRA-Ligue 1,1718
+2018-04-01 20:00:00,Lyon,Toulouse,1191098,https://www.whoscored.com/Matches/1191098/Live/France-Ligue-1-2017-2018-Lyon-Toulouse,,FRA-Ligue 1,1718
+2018-04-04 17:45:00,Rennes,Monaco,1191104,https://www.whoscored.com/Matches/1191104/Live/France-Ligue-1-2017-2018-Rennes-Monaco,,FRA-Ligue 1,1718
+2018-04-06 19:45:00,Saint-Etienne,Paris Saint-Germain,1191041,https://www.whoscored.com/Matches/1191041/Live/France-Ligue-1-2017-2018-Saint-Etienne-Paris-Saint-Germain,,FRA-Ligue 1,1718
+2018-04-07 16:00:00,Monaco,Nantes,1191035,https://www.whoscored.com/Matches/1191035/Live/France-Ligue-1-2017-2018-Monaco-Nantes,,FRA-Ligue 1,1718
+2018-04-07 19:00:00,Angers,Strasbourg,1191020,https://www.whoscored.com/Matches/1191020/Live/France-Ligue-1-2017-2018-Angers-Strasbourg,,FRA-Ligue 1,1718
+2018-04-07 19:00:00,Bordeaux,Lille,1191023,https://www.whoscored.com/Matches/1191023/Live/France-Ligue-1-2017-2018-Bordeaux-Lille,,FRA-Ligue 1,1718
+2018-04-07 19:00:00,Guingamp,Troyes,1191026,https://www.whoscored.com/Matches/1191026/Live/France-Ligue-1-2017-2018-Guingamp-Troyes,,FRA-Ligue 1,1718
+2018-04-07 19:00:00,Toulouse,Dijon,1191045,https://www.whoscored.com/Matches/1191045/Live/France-Ligue-1-2017-2018-Toulouse-Dijon,,FRA-Ligue 1,1718
+2018-04-07 19:00:00,Amiens,Caen,1191108,https://www.whoscored.com/Matches/1191108/Live/France-Ligue-1-2017-2018-Amiens-Caen,,FRA-Ligue 1,1718
+2018-04-08 14:00:00,Nice,Rennes,1191038,https://www.whoscored.com/Matches/1191038/Live/France-Ligue-1-2017-2018-Nice-Rennes,,FRA-Ligue 1,1718
+2018-04-08 16:00:00,Metz,Lyon,1191032,https://www.whoscored.com/Matches/1191032/Live/France-Ligue-1-2017-2018-Metz-Lyon,,FRA-Ligue 1,1718
+2018-04-08 20:00:00,Marseille,Montpellier,1191029,https://www.whoscored.com/Matches/1191029/Live/France-Ligue-1-2017-2018-Marseille-Montpellier,,FRA-Ligue 1,1718
+2018-04-13 19:45:00,Angers,Nice,1191049,https://www.whoscored.com/Matches/1191049/Live/France-Ligue-1-2017-2018-Angers-Nice,,FRA-Ligue 1,1718
+2018-04-14 16:00:00,Lyon,Amiens,1191061,https://www.whoscored.com/Matches/1191061/Live/France-Ligue-1-2017-2018-Lyon-Amiens,,FRA-Ligue 1,1718
+2018-04-14 19:00:00,Nantes,Dijon,1191069,https://www.whoscored.com/Matches/1191069/Live/France-Ligue-1-2017-2018-Nantes-Dijon,,FRA-Ligue 1,1718
+2018-04-14 19:00:00,Rennes,Metz,1191076,https://www.whoscored.com/Matches/1191076/Live/France-Ligue-1-2017-2018-Rennes-Metz,,FRA-Ligue 1,1718
+2018-04-14 19:00:00,Strasbourg,Saint-Etienne,1191078,https://www.whoscored.com/Matches/1191078/Live/France-Ligue-1-2017-2018-Strasbourg-Saint-Etienne,,FRA-Ligue 1,1718
+2018-04-14 19:00:00,Lille,Guingamp,1191057,https://www.whoscored.com/Matches/1191057/Live/France-Ligue-1-2017-2018-Lille-Guingamp,,FRA-Ligue 1,1718
+2018-04-15 14:00:00,Montpellier,Bordeaux,1191065,https://www.whoscored.com/Matches/1191065/Live/France-Ligue-1-2017-2018-Montpellier-Bordeaux,,FRA-Ligue 1,1718
+2018-04-15 16:00:00,Troyes,Marseille,1191043,https://www.whoscored.com/Matches/1191043/Live/France-Ligue-1-2017-2018-Troyes-Marseille,,FRA-Ligue 1,1718
+2018-04-15 20:00:00,Paris Saint-Germain,Monaco,1191073,https://www.whoscored.com/Matches/1191073/Live/France-Ligue-1-2017-2018-Paris-Saint-Germain-Monaco,,FRA-Ligue 1,1718
+2018-04-20 18:30:00,Nantes,Rennes,1191071,https://www.whoscored.com/Matches/1191071/Live/France-Ligue-1-2017-2018-Nantes-Rennes,,FRA-Ligue 1,1718
+2018-04-20 20:00:00,Dijon,Lyon,1191055,https://www.whoscored.com/Matches/1191055/Live/France-Ligue-1-2017-2018-Dijon-Lyon,,FRA-Ligue 1,1718
+2018-04-21 16:00:00,Marseille,Lille,1191063,https://www.whoscored.com/Matches/1191063/Live/France-Ligue-1-2017-2018-Marseille-Lille,,FRA-Ligue 1,1718
+2018-04-21 19:00:00,Metz,Caen,1191067,https://www.whoscored.com/Matches/1191067/Live/France-Ligue-1-2017-2018-Metz-Caen,,FRA-Ligue 1,1718
+2018-04-21 19:00:00,Toulouse,Angers,1191079,https://www.whoscored.com/Matches/1191079/Live/France-Ligue-1-2017-2018-Toulouse-Angers,,FRA-Ligue 1,1718
+2018-04-21 19:00:00,Amiens,Strasbourg,1191047,https://www.whoscored.com/Matches/1191047/Live/France-Ligue-1-2017-2018-Amiens-Strasbourg,,FRA-Ligue 1,1718
+2018-04-21 19:00:00,Guingamp,Monaco,1191059,https://www.whoscored.com/Matches/1191059/Live/France-Ligue-1-2017-2018-Guingamp-Monaco,,FRA-Ligue 1,1718
+2018-04-22 14:00:00,Nice,Montpellier,1191074,https://www.whoscored.com/Matches/1191074/Live/France-Ligue-1-2017-2018-Nice-Montpellier,,FRA-Ligue 1,1718
+2018-04-22 16:00:00,Saint-Etienne,Troyes,1191077,https://www.whoscored.com/Matches/1191077/Live/France-Ligue-1-2017-2018-Saint-Etienne-Troyes,,FRA-Ligue 1,1718
+2018-04-22 20:00:00,Bordeaux,Paris Saint-Germain,1191051,https://www.whoscored.com/Matches/1191051/Live/France-Ligue-1-2017-2018-Bordeaux-Paris-Saint-Germain,,FRA-Ligue 1,1718
+2018-04-25 17:45:00,Caen,Toulouse,1191053,https://www.whoscored.com/Matches/1191053/Live/France-Ligue-1-2017-2018-Caen-Toulouse,,FRA-Ligue 1,1718
+2018-04-27 19:45:00,Montpellier,Saint-Etienne,1191085,https://www.whoscored.com/Matches/1191085/Live/France-Ligue-1-2017-2018-Montpellier-Saint-Etienne,,FRA-Ligue 1,1718
+2018-04-28 16:00:00,Lyon,Nantes,1191083,https://www.whoscored.com/Matches/1191083/Live/France-Ligue-1-2017-2018-Lyon-Nantes,,FRA-Ligue 1,1718
+2018-04-28 19:00:00,Monaco,Amiens,1191084,https://www.whoscored.com/Matches/1191084/Live/France-Ligue-1-2017-2018-Monaco-Amiens,,FRA-Ligue 1,1718
+2018-04-28 19:00:00,Bordeaux,Dijon,1191081,https://www.whoscored.com/Matches/1191081/Live/France-Ligue-1-2017-2018-Bordeaux-Dijon,,FRA-Ligue 1,1718
+2018-04-28 19:00:00,Lille,Metz,1191082,https://www.whoscored.com/Matches/1191082/Live/France-Ligue-1-2017-2018-Lille-Metz,,FRA-Ligue 1,1718
+2018-04-28 19:00:00,Troyes,Caen,1191022,https://www.whoscored.com/Matches/1191022/Live/France-Ligue-1-2017-2018-Troyes-Caen,,FRA-Ligue 1,1718
+2018-04-28 19:00:00,Strasbourg,Nice,1191019,https://www.whoscored.com/Matches/1191019/Live/France-Ligue-1-2017-2018-Strasbourg-Nice,,FRA-Ligue 1,1718
+2018-04-29 14:00:00,Rennes,Toulouse,1191087,https://www.whoscored.com/Matches/1191087/Live/France-Ligue-1-2017-2018-Rennes-Toulouse,,FRA-Ligue 1,1718
+2018-04-29 16:00:00,Angers,Marseille,1191080,https://www.whoscored.com/Matches/1191080/Live/France-Ligue-1-2017-2018-Angers-Marseille,,FRA-Ligue 1,1718
+2018-04-29 20:00:00,Paris Saint-Germain,Guingamp,1191086,https://www.whoscored.com/Matches/1191086/Live/France-Ligue-1-2017-2018-Paris-Saint-Germain-Guingamp,,FRA-Ligue 1,1718
+2018-03-02 18:00:00,Nice,Lille,1191016,https://www.whoscored.com/Matches/1191016/Live/France-Ligue-1-2017-2018-Nice-Lille,,FRA-Ligue 1,1718
+2018-03-02 19:45:00,Monaco,Bordeaux,1191012,https://www.whoscored.com/Matches/1191012/Live/France-Ligue-1-2017-2018-Monaco-Bordeaux,,FRA-Ligue 1,1718
+2018-03-03 16:00:00,Troyes,Paris Saint-Germain,1190948,https://www.whoscored.com/Matches/1190948/Live/France-Ligue-1-2017-2018-Troyes-Paris-Saint-Germain,,FRA-Ligue 1,1718
+2018-03-03 19:00:00,Amiens,Rennes,1190994,https://www.whoscored.com/Matches/1190994/Live/France-Ligue-1-2017-2018-Amiens-Rennes,,FRA-Ligue 1,1718
+2018-03-03 19:00:00,Angers,Guingamp,1190998,https://www.whoscored.com/Matches/1190998/Live/France-Ligue-1-2017-2018-Angers-Guingamp,,FRA-Ligue 1,1718
+2018-03-03 19:00:00,Saint-Etienne,Dijon,1191018,https://www.whoscored.com/Matches/1191018/Live/France-Ligue-1-2017-2018-Saint-Etienne-Dijon,,FRA-Ligue 1,1718
+2018-03-03 19:00:00,Metz,Toulouse,1191010,https://www.whoscored.com/Matches/1191010/Live/France-Ligue-1-2017-2018-Metz-Toulouse,,FRA-Ligue 1,1718
+2018-03-04 14:00:00,Caen,Strasbourg,1191002,https://www.whoscored.com/Matches/1191002/Live/France-Ligue-1-2017-2018-Caen-Strasbourg,,FRA-Ligue 1,1718
+2018-03-04 16:00:00,Montpellier,Lyon,1191014,https://www.whoscored.com/Matches/1191014/Live/France-Ligue-1-2017-2018-Montpellier-Lyon,,FRA-Ligue 1,1718
+2018-03-04 20:00:00,Marseille,Nantes,1191006,https://www.whoscored.com/Matches/1191006/Live/France-Ligue-1-2017-2018-Marseille-Nantes,,FRA-Ligue 1,1718
+2018-03-09 19:45:00,Strasbourg,Monaco,1190983,https://www.whoscored.com/Matches/1190983/Live/France-Ligue-1-2017-2018-Strasbourg-Monaco,,FRA-Ligue 1,1718
+2018-03-10 16:00:00,Paris Saint-Germain,Metz,1190975,https://www.whoscored.com/Matches/1190975/Live/France-Ligue-1-2017-2018-Paris-Saint-Germain-Metz,,FRA-Ligue 1,1718
+2018-03-10 19:00:00,Rennes,Saint-Etienne,1190979,https://www.whoscored.com/Matches/1190979/Live/France-Ligue-1-2017-2018-Rennes-Saint-Etienne,,FRA-Ligue 1,1718
+2018-03-10 19:00:00,Lille,Montpellier,1190963,https://www.whoscored.com/Matches/1190963/Live/France-Ligue-1-2017-2018-Lille-Montpellier,,FRA-Ligue 1,1718
+2018-03-10 19:00:00,Bordeaux,Angers,1190951,https://www.whoscored.com/Matches/1190951/Live/France-Ligue-1-2017-2018-Bordeaux-Angers,,FRA-Ligue 1,1718
+2018-03-10 19:00:00,Dijon,Amiens,1190955,https://www.whoscored.com/Matches/1190955/Live/France-Ligue-1-2017-2018-Dijon-Amiens,,FRA-Ligue 1,1718
+2018-03-10 19:00:00,Nantes,Troyes,1190971,https://www.whoscored.com/Matches/1190971/Live/France-Ligue-1-2017-2018-Nantes-Troyes,,FRA-Ligue 1,1718
+2018-03-11 14:00:00,Guingamp,Nice,1190959,https://www.whoscored.com/Matches/1190959/Live/France-Ligue-1-2017-2018-Guingamp-Nice,,FRA-Ligue 1,1718
+2018-03-11 16:00:00,Lyon,Caen,1190967,https://www.whoscored.com/Matches/1190967/Live/France-Ligue-1-2017-2018-Lyon-Caen,,FRA-Ligue 1,1718
+2018-03-11 20:00:00,Toulouse,Marseille,1190987,https://www.whoscored.com/Matches/1190987/Live/France-Ligue-1-2017-2018-Toulouse-Marseille,,FRA-Ligue 1,1718
+2018-03-14 16:00:00,Paris Saint-Germain,Angers,1191102,https://www.whoscored.com/Matches/1191102/Live/France-Ligue-1-2017-2018-Paris-Saint-Germain-Angers,,FRA-Ligue 1,1718
+2018-03-16 19:45:00,Monaco,Lille,1191088,https://www.whoscored.com/Matches/1191088/Live/France-Ligue-1-2017-2018-Monaco-Lille,,FRA-Ligue 1,1718
+2018-03-17 16:00:00,Bordeaux,Rennes,1190999,https://www.whoscored.com/Matches/1190999/Live/France-Ligue-1-2017-2018-Bordeaux-Rennes,,FRA-Ligue 1,1718
+2018-03-17 19:00:00,Amiens,Troyes,1190991,https://www.whoscored.com/Matches/1190991/Live/France-Ligue-1-2017-2018-Amiens-Troyes,,FRA-Ligue 1,1718
+2018-03-17 19:00:00,Angers,Caen,1190995,https://www.whoscored.com/Matches/1190995/Live/France-Ligue-1-2017-2018-Angers-Caen,,FRA-Ligue 1,1718
+2018-03-17 19:00:00,Montpellier,Dijon,1191089,https://www.whoscored.com/Matches/1191089/Live/France-Ligue-1-2017-2018-Montpellier-Dijon,,FRA-Ligue 1,1718
+2018-03-17 19:00:00,Toulouse,Strasbourg,1191092,https://www.whoscored.com/Matches/1191092/Live/France-Ligue-1-2017-2018-Toulouse-Strasbourg,,FRA-Ligue 1,1718
+2018-03-18 12:00:00,Nice,Paris Saint-Germain,1191090,https://www.whoscored.com/Matches/1191090/Live/France-Ligue-1-2017-2018-Nice-Paris-Saint-Germain,,FRA-Ligue 1,1718
+2018-03-18 14:00:00,Metz,Nantes,1191007,https://www.whoscored.com/Matches/1191007/Live/France-Ligue-1-2017-2018-Metz-Nantes,,FRA-Ligue 1,1718
+2018-03-18 16:00:00,Saint-Etienne,Guingamp,1191091,https://www.whoscored.com/Matches/1191091/Live/France-Ligue-1-2017-2018-Saint-Etienne-Guingamp,,FRA-Ligue 1,1718
+2018-03-18 20:00:00,Marseille,Lyon,1191003,https://www.whoscored.com/Matches/1191003/Live/France-Ligue-1-2017-2018-Marseille-Lyon,,FRA-Ligue 1,1718
+2018-03-31 16:00:00,Dijon,Marseille,1191094,https://www.whoscored.com/Matches/1191094/Live/France-Ligue-1-2017-2018-Dijon-Marseille,,FRA-Ligue 1,1718
+2018-02-02 19:45:00,Marseille,Metz,1190988,https://www.whoscored.com/Matches/1190988/Live/France-Ligue-1-2017-2018-Marseille-Metz,,FRA-Ligue 1,1718
+2018-02-03 16:00:00,Lille,Paris Saint-Germain,1190984,https://www.whoscored.com/Matches/1190984/Live/France-Ligue-1-2017-2018-Lille-Paris-Saint-Germain,,FRA-Ligue 1,1718
+2018-02-03 19:00:00,Montpellier,Angers,1190996,https://www.whoscored.com/Matches/1190996/Live/France-Ligue-1-2017-2018-Montpellier-Angers,,FRA-Ligue 1,1718
+2018-02-03 19:00:00,Nice,Toulouse,1191000,https://www.whoscored.com/Matches/1191000/Live/France-Ligue-1-2017-2018-Nice-Toulouse,,FRA-Ligue 1,1718
+2018-02-03 19:00:00,Strasbourg,Bordeaux,1191008,https://www.whoscored.com/Matches/1191008/Live/France-Ligue-1-2017-2018-Strasbourg-Bordeaux,,FRA-Ligue 1,1718
+2018-02-03 19:00:00,Amiens,Saint-Etienne,1190976,https://www.whoscored.com/Matches/1190976/Live/France-Ligue-1-2017-2018-Amiens-Saint-Etienne,,FRA-Ligue 1,1718
+2018-02-04 14:00:00,Rennes,Guingamp,1191004,https://www.whoscored.com/Matches/1191004/Live/France-Ligue-1-2017-2018-Rennes-Guingamp,,FRA-Ligue 1,1718
+2018-02-04 16:00:00,Caen,Nantes,1190980,https://www.whoscored.com/Matches/1190980/Live/France-Ligue-1-2017-2018-Caen-Nantes,,FRA-Ligue 1,1718
+2018-02-04 20:00:00,Monaco,Lyon,1190992,https://www.whoscored.com/Matches/1190992/Live/France-Ligue-1-2017-2018-Monaco-Lyon,,FRA-Ligue 1,1718
+2018-02-09 19:45:00,Saint-Etienne,Marseille,1190965,https://www.whoscored.com/Matches/1190965/Live/France-Ligue-1-2017-2018-Saint-Etienne-Marseille,,FRA-Ligue 1,1718
+2018-02-10 16:00:00,Toulouse,Paris Saint-Germain,1190973,https://www.whoscored.com/Matches/1190973/Live/France-Ligue-1-2017-2018-Toulouse-Paris-Saint-Germain,,FRA-Ligue 1,1718
+2018-02-10 19:00:00,Guingamp,Caen,1190949,https://www.whoscored.com/Matches/1190949/Live/France-Ligue-1-2017-2018-Guingamp-Caen,,FRA-Ligue 1,1718
+2018-02-10 19:00:00,Metz,Montpellier,1190957,https://www.whoscored.com/Matches/1190957/Live/France-Ligue-1-2017-2018-Metz-Montpellier,,FRA-Ligue 1,1718
+2018-02-10 19:00:00,Angers,Monaco,1191013,https://www.whoscored.com/Matches/1191013/Live/France-Ligue-1-2017-2018-Angers-Monaco,,FRA-Ligue 1,1718
+2018-02-10 19:00:00,Bordeaux,Amiens,1191015,https://www.whoscored.com/Matches/1191015/Live/France-Ligue-1-2017-2018-Bordeaux-Amiens,,FRA-Ligue 1,1718
+2018-02-10 19:00:00,Dijon,Nice,1191017,https://www.whoscored.com/Matches/1191017/Live/France-Ligue-1-2017-2018-Dijon-Nice,,FRA-Ligue 1,1718
+2018-02-11 14:00:00,Strasbourg,Troyes,1190969,https://www.whoscored.com/Matches/1190969/Live/France-Ligue-1-2017-2018-Strasbourg-Troyes,,FRA-Ligue 1,1718
+2018-02-11 16:00:00,Nantes,Lille,1190961,https://www.whoscored.com/Matches/1190961/Live/France-Ligue-1-2017-2018-Nantes-Lille,,FRA-Ligue 1,1718
+2018-02-11 20:00:00,Lyon,Rennes,1190953,https://www.whoscored.com/Matches/1190953/Live/France-Ligue-1-2017-2018-Lyon-Rennes,,FRA-Ligue 1,1718
+2018-02-16 19:45:00,Monaco,Dijon,1190997,https://www.whoscored.com/Matches/1190997/Live/France-Ligue-1-2017-2018-Monaco-Dijon,,FRA-Ligue 1,1718
+2018-02-17 16:00:00,Paris Saint-Germain,Strasbourg,1191009,https://www.whoscored.com/Matches/1191009/Live/France-Ligue-1-2017-2018-Paris-Saint-Germain-Strasbourg,,FRA-Ligue 1,1718
+2018-02-17 19:00:00,Montpellier,Guingamp,1191001,https://www.whoscored.com/Matches/1191001/Live/France-Ligue-1-2017-2018-Montpellier-Guingamp,,FRA-Ligue 1,1718
+2018-02-17 19:00:00,Angers,Saint-Etienne,1190981,https://www.whoscored.com/Matches/1190981/Live/France-Ligue-1-2017-2018-Angers-Saint-Etienne,,FRA-Ligue 1,1718
+2018-02-17 19:00:00,Caen,Rennes,1190985,https://www.whoscored.com/Matches/1190985/Live/France-Ligue-1-2017-2018-Caen-Rennes,,FRA-Ligue 1,1718
+2018-02-17 19:00:00,Troyes,Metz,1190950,https://www.whoscored.com/Matches/1190950/Live/France-Ligue-1-2017-2018-Troyes-Metz,,FRA-Ligue 1,1718
+2018-02-17 19:00:00,Amiens,Toulouse,1190977,https://www.whoscored.com/Matches/1190977/Live/France-Ligue-1-2017-2018-Amiens-Toulouse,,FRA-Ligue 1,1718
+2018-02-18 14:00:00,Nice,Nantes,1191005,https://www.whoscored.com/Matches/1191005/Live/France-Ligue-1-2017-2018-Nice-Nantes,,FRA-Ligue 1,1718
+2018-02-18 16:00:00,Lille,Lyon,1190989,https://www.whoscored.com/Matches/1190989/Live/France-Ligue-1-2017-2018-Lille-Lyon,,FRA-Ligue 1,1718
+2018-02-18 20:00:00,Marseille,Bordeaux,1190993,https://www.whoscored.com/Matches/1190993/Live/France-Ligue-1-2017-2018-Marseille-Bordeaux,,FRA-Ligue 1,1718
+2018-02-20 17:30:00,Troyes,Dijon,1191011,https://www.whoscored.com/Matches/1191011/Live/France-Ligue-1-2017-2018-Troyes-Dijon,,FRA-Ligue 1,1718
+2018-02-23 19:45:00,Strasbourg,Montpellier,1190986,https://www.whoscored.com/Matches/1190986/Live/France-Ligue-1-2017-2018-Strasbourg-Montpellier,,FRA-Ligue 1,1718
+2018-02-24 16:00:00,Toulouse,Monaco,1190990,https://www.whoscored.com/Matches/1190990/Live/France-Ligue-1-2017-2018-Toulouse-Monaco,,FRA-Ligue 1,1718
+2018-02-24 19:00:00,Rennes,Troyes,1190982,https://www.whoscored.com/Matches/1190982/Live/France-Ligue-1-2017-2018-Rennes-Troyes,,FRA-Ligue 1,1718
+2018-02-24 19:00:00,Nantes,Amiens,1190974,https://www.whoscored.com/Matches/1190974/Live/France-Ligue-1-2017-2018-Nantes-Amiens,,FRA-Ligue 1,1718
+2018-02-24 19:00:00,Lille,Angers,1190966,https://www.whoscored.com/Matches/1190966/Live/France-Ligue-1-2017-2018-Lille-Angers,,FRA-Ligue 1,1718
+2018-02-24 19:00:00,Guingamp,Metz,1190962,https://www.whoscored.com/Matches/1190962/Live/France-Ligue-1-2017-2018-Guingamp-Metz,,FRA-Ligue 1,1718
+2018-02-24 19:00:00,Dijon,Caen,1190958,https://www.whoscored.com/Matches/1190958/Live/France-Ligue-1-2017-2018-Dijon-Caen,,FRA-Ligue 1,1718
+2018-02-25 14:00:00,Bordeaux,Nice,1190954,https://www.whoscored.com/Matches/1190954/Live/France-Ligue-1-2017-2018-Bordeaux-Nice,,FRA-Ligue 1,1718
+2018-02-25 16:00:00,Lyon,Saint-Etienne,1190970,https://www.whoscored.com/Matches/1190970/Live/France-Ligue-1-2017-2018-Lyon-Saint-Etienne,,FRA-Ligue 1,1718
+2018-02-25 20:00:00,Paris Saint-Germain,Marseille,1190978,https://www.whoscored.com/Matches/1190978/Live/France-Ligue-1-2017-2018-Paris-Saint-Germain-Marseille,,FRA-Ligue 1,1718
+2018-01-12 19:45:00,Strasbourg,Guingamp,1190889,https://www.whoscored.com/Matches/1190889/Live/France-Ligue-1-2017-2018-Strasbourg-Guingamp,,FRA-Ligue 1,1718
+2018-01-13 16:00:00,Rennes,Marseille,1190883,https://www.whoscored.com/Matches/1190883/Live/France-Ligue-1-2017-2018-Rennes-Marseille,,FRA-Ligue 1,1718
+2018-01-13 19:00:00,Troyes,Bordeaux,1190892,https://www.whoscored.com/Matches/1190892/Live/France-Ligue-1-2017-2018-Troyes-Bordeaux,,FRA-Ligue 1,1718
+2018-01-13 19:00:00,Caen,Lille,1190866,https://www.whoscored.com/Matches/1190866/Live/France-Ligue-1-2017-2018-Caen-Lille,,FRA-Ligue 1,1718
+2018-01-13 19:00:00,Dijon,Metz,1190868,https://www.whoscored.com/Matches/1190868/Live/France-Ligue-1-2017-2018-Dijon-Metz,,FRA-Ligue 1,1718
+2018-01-13 19:00:00,Montpellier,Monaco,1190874,https://www.whoscored.com/Matches/1190874/Live/France-Ligue-1-2017-2018-Montpellier-Monaco,,FRA-Ligue 1,1718
+2018-01-13 19:00:00,Nice,Amiens,1190880,https://www.whoscored.com/Matches/1190880/Live/France-Ligue-1-2017-2018-Nice-Amiens,,FRA-Ligue 1,1718
+2018-01-14 14:00:00,Saint-Etienne,Toulouse,1190886,https://www.whoscored.com/Matches/1190886/Live/France-Ligue-1-2017-2018-Saint-Etienne-Toulouse,,FRA-Ligue 1,1718
+2018-01-14 16:00:00,Lyon,Angers,1190871,https://www.whoscored.com/Matches/1190871/Live/France-Ligue-1-2017-2018-Lyon-Angers,,FRA-Ligue 1,1718
+2018-01-14 20:00:00,Nantes,Paris Saint-Germain,1190877,https://www.whoscored.com/Matches/1190877/Live/France-Ligue-1-2017-2018-Nantes-Paris-Saint-Germain,,FRA-Ligue 1,1718
+2018-01-16 18:00:00,Bordeaux,Caen,1190901,https://www.whoscored.com/Matches/1190901/Live/France-Ligue-1-2017-2018-Bordeaux-Caen,,FRA-Ligue 1,1718
+2018-01-16 18:00:00,Marseille,Strasbourg,1190910,https://www.whoscored.com/Matches/1190910/Live/France-Ligue-1-2017-2018-Marseille-Strasbourg,,FRA-Ligue 1,1718
+2018-01-16 20:00:00,Monaco,Nice,1190916,https://www.whoscored.com/Matches/1190916/Live/France-Ligue-1-2017-2018-Monaco-Nice,,FRA-Ligue 1,1718
+2018-01-17 18:00:00,Metz,Saint-Etienne,1190913,https://www.whoscored.com/Matches/1190913/Live/France-Ligue-1-2017-2018-Metz-Saint-Etienne,,FRA-Ligue 1,1718
+2018-01-17 18:00:00,Guingamp,Lyon,1190904,https://www.whoscored.com/Matches/1190904/Live/France-Ligue-1-2017-2018-Guingamp-Lyon,,FRA-Ligue 1,1718
+2018-01-17 18:00:00,Lille,Rennes,1190907,https://www.whoscored.com/Matches/1190907/Live/France-Ligue-1-2017-2018-Lille-Rennes,,FRA-Ligue 1,1718
+2018-01-17 18:00:00,Amiens,Montpellier,1190895,https://www.whoscored.com/Matches/1190895/Live/France-Ligue-1-2017-2018-Amiens-Montpellier,,FRA-Ligue 1,1718
+2018-01-17 18:00:00,Angers,Troyes,1190898,https://www.whoscored.com/Matches/1190898/Live/France-Ligue-1-2017-2018-Angers-Troyes,,FRA-Ligue 1,1718
+2018-01-17 18:00:00,Toulouse,Nantes,1190922,https://www.whoscored.com/Matches/1190922/Live/France-Ligue-1-2017-2018-Toulouse-Nantes,,FRA-Ligue 1,1718
+2018-01-17 20:00:00,Paris Saint-Germain,Dijon,1190919,https://www.whoscored.com/Matches/1190919/Live/France-Ligue-1-2017-2018-Paris-Saint-Germain-Dijon,,FRA-Ligue 1,1718
+2018-01-19 19:45:00,Caen,Marseille,1190928,https://www.whoscored.com/Matches/1190928/Live/France-Ligue-1-2017-2018-Caen-Marseille,,FRA-Ligue 1,1718
+2018-01-20 16:00:00,Nantes,Bordeaux,1190939,https://www.whoscored.com/Matches/1190939/Live/France-Ligue-1-2017-2018-Nantes-Bordeaux,,FRA-Ligue 1,1718
+2018-01-20 19:00:00,Amiens,Guingamp,1190925,https://www.whoscored.com/Matches/1190925/Live/France-Ligue-1-2017-2018-Amiens-Guingamp,,FRA-Ligue 1,1718
+2018-01-20 19:00:00,Rennes,Angers,1190943,https://www.whoscored.com/Matches/1190943/Live/France-Ligue-1-2017-2018-Rennes-Angers,,FRA-Ligue 1,1718
+2018-01-20 19:00:00,Strasbourg,Dijon,1190945,https://www.whoscored.com/Matches/1190945/Live/France-Ligue-1-2017-2018-Strasbourg-Dijon,,FRA-Ligue 1,1718
+2018-01-20 19:00:00,Montpellier,Toulouse,1190937,https://www.whoscored.com/Matches/1190937/Live/France-Ligue-1-2017-2018-Montpellier-Toulouse,,FRA-Ligue 1,1718
+2018-01-20 19:00:00,Troyes,Lille,1191097,https://www.whoscored.com/Matches/1191097/Live/France-Ligue-1-2017-2018-Troyes-Lille,,FRA-Ligue 1,1718
+2018-01-21 14:00:00,Nice,Saint-Etienne,1190941,https://www.whoscored.com/Matches/1190941/Live/France-Ligue-1-2017-2018-Nice-Saint-Etienne,,FRA-Ligue 1,1718
+2018-01-21 16:00:00,Monaco,Metz,1190934,https://www.whoscored.com/Matches/1190934/Live/France-Ligue-1-2017-2018-Monaco-Metz,,FRA-Ligue 1,1718
+2018-01-21 20:00:00,Lyon,Paris Saint-Germain,1190931,https://www.whoscored.com/Matches/1190931/Live/France-Ligue-1-2017-2018-Lyon-Paris-Saint-Germain,,FRA-Ligue 1,1718
+2018-01-26 19:45:00,Dijon,Rennes,1191103,https://www.whoscored.com/Matches/1191103/Live/France-Ligue-1-2017-2018-Dijon-Rennes,,FRA-Ligue 1,1718
+2018-01-27 16:00:00,Paris Saint-Germain,Montpellier,1190964,https://www.whoscored.com/Matches/1190964/Live/France-Ligue-1-2017-2018-Paris-Saint-Germain-Montpellier,,FRA-Ligue 1,1718
+2018-01-27 19:00:00,Saint-Etienne,Caen,1190968,https://www.whoscored.com/Matches/1190968/Live/France-Ligue-1-2017-2018-Saint-Etienne-Caen,,FRA-Ligue 1,1718
+2018-01-27 19:00:00,Toulouse,Troyes,1190972,https://www.whoscored.com/Matches/1190972/Live/France-Ligue-1-2017-2018-Toulouse-Troyes,,FRA-Ligue 1,1718
+2018-01-27 19:00:00,Metz,Nice,1190960,https://www.whoscored.com/Matches/1190960/Live/France-Ligue-1-2017-2018-Metz-Nice,,FRA-Ligue 1,1718
+2018-01-27 19:00:00,Guingamp,Nantes,1191105,https://www.whoscored.com/Matches/1191105/Live/France-Ligue-1-2017-2018-Guingamp-Nantes,,FRA-Ligue 1,1718
+2018-01-27 19:00:00,Angers,Amiens,1191099,https://www.whoscored.com/Matches/1191099/Live/France-Ligue-1-2017-2018-Angers-Amiens,,FRA-Ligue 1,1718
+2018-01-28 14:00:00,Lille,Strasbourg,1190952,https://www.whoscored.com/Matches/1190952/Live/France-Ligue-1-2017-2018-Lille-Strasbourg,,FRA-Ligue 1,1718
+2018-01-28 16:00:00,Bordeaux,Lyon,1191101,https://www.whoscored.com/Matches/1191101/Live/France-Ligue-1-2017-2018-Bordeaux-Lyon,,FRA-Ligue 1,1718
+2018-01-28 20:00:00,Marseille,Monaco,1190956,https://www.whoscored.com/Matches/1190956/Live/France-Ligue-1-2017-2018-Marseille-Monaco,,FRA-Ligue 1,1718
+2017-12-01 19:45:00,Dijon,Bordeaux,1190930,https://www.whoscored.com/Matches/1190930/Live/France-Ligue-1-2017-2018-Dijon-Bordeaux,,FRA-Ligue 1,1718
+2017-12-02 16:00:00,Strasbourg,Paris Saint-Germain,1190867,https://www.whoscored.com/Matches/1190867/Live/France-Ligue-1-2017-2018-Strasbourg-Paris-Saint-Germain,,FRA-Ligue 1,1718
+2017-12-02 19:00:00,Troyes,Guingamp,1190869,https://www.whoscored.com/Matches/1190869/Live/France-Ligue-1-2017-2018-Troyes-Guingamp,,FRA-Ligue 1,1718
+2017-12-02 19:00:00,Nice,Metz,1190861,https://www.whoscored.com/Matches/1190861/Live/France-Ligue-1-2017-2018-Nice-Metz,,FRA-Ligue 1,1718
+2017-12-02 19:00:00,Rennes,Amiens,1190863,https://www.whoscored.com/Matches/1190863/Live/France-Ligue-1-2017-2018-Rennes-Amiens,,FRA-Ligue 1,1718
+2017-12-02 19:00:00,Lille,Toulouse,1190933,https://www.whoscored.com/Matches/1190933/Live/France-Ligue-1-2017-2018-Lille-Toulouse,,FRA-Ligue 1,1718
+2017-12-02 19:00:00,Monaco,Angers,1190936,https://www.whoscored.com/Matches/1190936/Live/France-Ligue-1-2017-2018-Monaco-Angers,,FRA-Ligue 1,1718
+2017-12-03 14:00:00,Saint-Etienne,Nantes,1190865,https://www.whoscored.com/Matches/1190865/Live/France-Ligue-1-2017-2018-Saint-Etienne-Nantes,,FRA-Ligue 1,1718
+2017-12-03 16:00:00,Caen,Lyon,1190927,https://www.whoscored.com/Matches/1190927/Live/France-Ligue-1-2017-2018-Caen-Lyon,,FRA-Ligue 1,1718
+2017-12-03 20:00:00,Montpellier,Marseille,1190859,https://www.whoscored.com/Matches/1190859/Live/France-Ligue-1-2017-2018-Montpellier-Marseille,,FRA-Ligue 1,1718
+2017-12-08 19:45:00,Bordeaux,Strasbourg,1190878,https://www.whoscored.com/Matches/1190878/Live/France-Ligue-1-2017-2018-Bordeaux-Strasbourg,,FRA-Ligue 1,1718
+2017-12-09 16:00:00,Paris Saint-Germain,Lille,1190896,https://www.whoscored.com/Matches/1190896/Live/France-Ligue-1-2017-2018-Paris-Saint-Germain-Lille,,FRA-Ligue 1,1718
+2017-12-09 19:00:00,Toulouse,Caen,1190899,https://www.whoscored.com/Matches/1190899/Live/France-Ligue-1-2017-2018-Toulouse-Caen,,FRA-Ligue 1,1718
+2017-12-09 19:00:00,Guingamp,Dijon,1190881,https://www.whoscored.com/Matches/1190881/Live/France-Ligue-1-2017-2018-Guingamp-Dijon,,FRA-Ligue 1,1718
+2017-12-09 19:00:00,Metz,Rennes,1190887,https://www.whoscored.com/Matches/1190887/Live/France-Ligue-1-2017-2018-Metz-Rennes,,FRA-Ligue 1,1718
+2017-12-09 19:00:00,Monaco,Troyes,1190890,https://www.whoscored.com/Matches/1190890/Live/France-Ligue-1-2017-2018-Monaco-Troyes,,FRA-Ligue 1,1718
+2017-12-09 19:00:00,Angers,Montpellier,1190875,https://www.whoscored.com/Matches/1190875/Live/France-Ligue-1-2017-2018-Angers-Montpellier,,FRA-Ligue 1,1718
+2017-12-10 14:00:00,Amiens,Lyon,1190872,https://www.whoscored.com/Matches/1190872/Live/France-Ligue-1-2017-2018-Amiens-Lyon,,FRA-Ligue 1,1718
+2017-12-10 16:00:00,Nantes,Nice,1190893,https://www.whoscored.com/Matches/1190893/Live/France-Ligue-1-2017-2018-Nantes-Nice,,FRA-Ligue 1,1718
+2017-12-10 20:00:00,Marseille,Saint-Etienne,1190884,https://www.whoscored.com/Matches/1190884/Live/France-Ligue-1-2017-2018-Marseille-Saint-Etienne,,FRA-Ligue 1,1718
+2017-12-15 19:45:00,Saint-Etienne,Monaco,1190923,https://www.whoscored.com/Matches/1190923/Live/France-Ligue-1-2017-2018-Saint-Etienne-Monaco,,FRA-Ligue 1,1718
+2017-12-16 16:00:00,Rennes,Paris Saint-Germain,1190920,https://www.whoscored.com/Matches/1190920/Live/France-Ligue-1-2017-2018-Rennes-Paris-Saint-Germain,,FRA-Ligue 1,1718
+2017-12-16 19:00:00,Montpellier,Metz,1190911,https://www.whoscored.com/Matches/1190911/Live/France-Ligue-1-2017-2018-Montpellier-Metz,,FRA-Ligue 1,1718
+2017-12-16 19:00:00,Strasbourg,Toulouse,1190926,https://www.whoscored.com/Matches/1190926/Live/France-Ligue-1-2017-2018-Strasbourg-Toulouse,,FRA-Ligue 1,1718
+2017-12-16 19:00:00,Troyes,Amiens,1190929,https://www.whoscored.com/Matches/1190929/Live/France-Ligue-1-2017-2018-Troyes-Amiens,,FRA-Ligue 1,1718
+2017-12-16 19:00:00,Caen,Guingamp,1190902,https://www.whoscored.com/Matches/1190902/Live/France-Ligue-1-2017-2018-Caen-Guingamp,,FRA-Ligue 1,1718
+2017-12-16 19:00:00,Dijon,Lille,1190905,https://www.whoscored.com/Matches/1190905/Live/France-Ligue-1-2017-2018-Dijon-Lille,,FRA-Ligue 1,1718
+2017-12-17 14:00:00,Nantes,Angers,1190914,https://www.whoscored.com/Matches/1190914/Live/France-Ligue-1-2017-2018-Nantes-Angers,,FRA-Ligue 1,1718
+2017-12-17 16:00:00,Nice,Bordeaux,1190917,https://www.whoscored.com/Matches/1190917/Live/France-Ligue-1-2017-2018-Nice-Bordeaux,,FRA-Ligue 1,1718
+2017-12-17 20:00:00,Lyon,Marseille,1190908,https://www.whoscored.com/Matches/1190908/Live/France-Ligue-1-2017-2018-Lyon-Marseille,,FRA-Ligue 1,1718
+2017-12-20 19:50:00,Toulouse,Lyon,1190864,https://www.whoscored.com/Matches/1190864/Live/France-Ligue-1-2017-2018-Toulouse-Lyon,,FRA-Ligue 1,1718
+2017-12-20 19:50:00,Paris Saint-Germain,Caen,1190862,https://www.whoscored.com/Matches/1190862/Live/France-Ligue-1-2017-2018-Paris-Saint-Germain-Caen,,FRA-Ligue 1,1718
+2017-12-20 19:50:00,Bordeaux,Montpellier,1190938,https://www.whoscored.com/Matches/1190938/Live/France-Ligue-1-2017-2018-Bordeaux-Montpellier,,FRA-Ligue 1,1718
+2017-12-20 19:50:00,Guingamp,Saint-Etienne,1190940,https://www.whoscored.com/Matches/1190940/Live/France-Ligue-1-2017-2018-Guingamp-Saint-Etienne,,FRA-Ligue 1,1718
+2017-12-20 19:50:00,Lille,Nice,1190942,https://www.whoscored.com/Matches/1190942/Live/France-Ligue-1-2017-2018-Lille-Nice,,FRA-Ligue 1,1718
+2017-12-20 19:50:00,Marseille,Troyes,1190944,https://www.whoscored.com/Matches/1190944/Live/France-Ligue-1-2017-2018-Marseille-Troyes,,FRA-Ligue 1,1718
+2017-12-20 19:50:00,Metz,Strasbourg,1190946,https://www.whoscored.com/Matches/1190946/Live/France-Ligue-1-2017-2018-Metz-Strasbourg,,FRA-Ligue 1,1718
+2017-12-20 19:50:00,Monaco,Rennes,1190947,https://www.whoscored.com/Matches/1190947/Live/France-Ligue-1-2017-2018-Monaco-Rennes,,FRA-Ligue 1,1718
+2017-12-20 19:50:00,Angers,Dijon,1190935,https://www.whoscored.com/Matches/1190935/Live/France-Ligue-1-2017-2018-Angers-Dijon,,FRA-Ligue 1,1718
+2017-12-20 19:50:00,Amiens,Nantes,1190932,https://www.whoscored.com/Matches/1190932/Live/France-Ligue-1-2017-2018-Amiens-Nantes,,FRA-Ligue 1,1718
+2017-11-03 19:45:00,Rennes,Bordeaux,1190834,https://www.whoscored.com/Matches/1190834/Live/France-Ligue-1-2017-2018-Rennes-Bordeaux,,FRA-Ligue 1,1718
+2017-11-04 16:00:00,Angers,Paris Saint-Germain,1190851,https://www.whoscored.com/Matches/1190851/Live/France-Ligue-1-2017-2018-Angers-Paris-Saint-Germain,,FRA-Ligue 1,1718
+2017-11-04 19:00:00,Montpellier,Amiens,1190828,https://www.whoscored.com/Matches/1190828/Live/France-Ligue-1-2017-2018-Montpellier-Amiens,,FRA-Ligue 1,1718
+2017-11-04 19:00:00,Nantes,Toulouse,1190830,https://www.whoscored.com/Matches/1190830/Live/France-Ligue-1-2017-2018-Nantes-Toulouse,,FRA-Ligue 1,1718
+2017-11-04 19:00:00,Troyes,Strasbourg,1190838,https://www.whoscored.com/Matches/1190838/Live/France-Ligue-1-2017-2018-Troyes-Strasbourg,,FRA-Ligue 1,1718
+2017-11-04 19:00:00,Monaco,Guingamp,1190857,https://www.whoscored.com/Matches/1190857/Live/France-Ligue-1-2017-2018-Monaco-Guingamp,,FRA-Ligue 1,1718
+2017-11-05 14:00:00,Nice,Dijon,1190832,https://www.whoscored.com/Matches/1190832/Live/France-Ligue-1-2017-2018-Nice-Dijon,,FRA-Ligue 1,1718
+2017-11-05 16:00:00,Marseille,Caen,1190853,https://www.whoscored.com/Matches/1190853/Live/France-Ligue-1-2017-2018-Marseille-Caen,,FRA-Ligue 1,1718
+2017-11-05 16:00:00,Metz,Lille,1190855,https://www.whoscored.com/Matches/1190855/Live/France-Ligue-1-2017-2018-Metz-Lille,,FRA-Ligue 1,1718
+2017-11-05 20:00:00,Saint-Etienne,Lyon,1190836,https://www.whoscored.com/Matches/1190836/Live/France-Ligue-1-2017-2018-Saint-Etienne-Lyon,,FRA-Ligue 1,1718
+2017-11-17 18:00:00,Lille,Saint-Etienne,1190850,https://www.whoscored.com/Matches/1190850/Live/France-Ligue-1-2017-2018-Lille-Saint-Etienne,,FRA-Ligue 1,1718
+2017-11-17 19:45:00,Amiens,Monaco,1190840,https://www.whoscored.com/Matches/1190840/Live/France-Ligue-1-2017-2018-Amiens-Monaco,,FRA-Ligue 1,1718
+2017-11-18 16:00:00,Paris Saint-Germain,Nantes,1190854,https://www.whoscored.com/Matches/1190854/Live/France-Ligue-1-2017-2018-Paris-Saint-Germain-Nantes,,FRA-Ligue 1,1718
+2017-11-18 19:00:00,Strasbourg,Rennes,1190856,https://www.whoscored.com/Matches/1190856/Live/France-Ligue-1-2017-2018-Strasbourg-Rennes,,FRA-Ligue 1,1718
+2017-11-18 19:00:00,Dijon,Troyes,1190846,https://www.whoscored.com/Matches/1190846/Live/France-Ligue-1-2017-2018-Dijon-Troyes,,FRA-Ligue 1,1718
+2017-11-18 19:00:00,Guingamp,Angers,1190848,https://www.whoscored.com/Matches/1190848/Live/France-Ligue-1-2017-2018-Guingamp-Angers,,FRA-Ligue 1,1718
+2017-11-18 19:00:00,Toulouse,Metz,1190858,https://www.whoscored.com/Matches/1190858/Live/France-Ligue-1-2017-2018-Toulouse-Metz,,FRA-Ligue 1,1718
+2017-11-19 14:00:00,Caen,Nice,1190844,https://www.whoscored.com/Matches/1190844/Live/France-Ligue-1-2017-2018-Caen-Nice,,FRA-Ligue 1,1718
+2017-11-19 16:00:00,Lyon,Montpellier,1190852,https://www.whoscored.com/Matches/1190852/Live/France-Ligue-1-2017-2018-Lyon-Montpellier,,FRA-Ligue 1,1718
+2017-11-19 20:00:00,Bordeaux,Marseille,1190842,https://www.whoscored.com/Matches/1190842/Live/France-Ligue-1-2017-2018-Bordeaux-Marseille,,FRA-Ligue 1,1718
+2017-11-20 18:00:00,Amiens,Lille,1247272,https://www.whoscored.com/Matches/1247272/Live/France-Ligue-1-2017-2018-Amiens-Lille,,FRA-Ligue 1,1718
+2017-11-24 19:45:00,Saint-Etienne,Strasbourg,1190891,https://www.whoscored.com/Matches/1190891/Live/France-Ligue-1-2017-2018-Saint-Etienne-Strasbourg,,FRA-Ligue 1,1718
+2017-11-25 16:00:00,Rennes,Nantes,1190888,https://www.whoscored.com/Matches/1190888/Live/France-Ligue-1-2017-2018-Rennes-Nantes,,FRA-Ligue 1,1718
+2017-11-25 19:00:00,Troyes,Angers,1190894,https://www.whoscored.com/Matches/1190894/Live/France-Ligue-1-2017-2018-Troyes-Angers,,FRA-Ligue 1,1718
+2017-11-25 19:00:00,Caen,Bordeaux,1190860,https://www.whoscored.com/Matches/1190860/Live/France-Ligue-1-2017-2018-Caen-Bordeaux,,FRA-Ligue 1,1718
+2017-11-25 19:00:00,Dijon,Toulouse,1190870,https://www.whoscored.com/Matches/1190870/Live/France-Ligue-1-2017-2018-Dijon-Toulouse,,FRA-Ligue 1,1718
+2017-11-25 19:00:00,Metz,Amiens,1190876,https://www.whoscored.com/Matches/1190876/Live/France-Ligue-1-2017-2018-Metz-Amiens,,FRA-Ligue 1,1718
+2017-11-25 19:00:00,Montpellier,Lille,1190882,https://www.whoscored.com/Matches/1190882/Live/France-Ligue-1-2017-2018-Montpellier-Lille,,FRA-Ligue 1,1718
+2017-11-26 14:00:00,Nice,Lyon,1190885,https://www.whoscored.com/Matches/1190885/Live/France-Ligue-1-2017-2018-Nice-Lyon,,FRA-Ligue 1,1718
+2017-11-26 16:00:00,Marseille,Guingamp,1190873,https://www.whoscored.com/Matches/1190873/Live/France-Ligue-1-2017-2018-Marseille-Guingamp,,FRA-Ligue 1,1718
+2017-11-26 20:00:00,Monaco,Paris Saint-Germain,1190879,https://www.whoscored.com/Matches/1190879/Live/France-Ligue-1-2017-2018-Monaco-Paris-Saint-Germain,,FRA-Ligue 1,1718
+2017-11-28 18:00:00,Amiens,Dijon,1190897,https://www.whoscored.com/Matches/1190897/Live/France-Ligue-1-2017-2018-Amiens-Dijon,,FRA-Ligue 1,1718
+2017-11-28 18:00:00,Strasbourg,Caen,1190921,https://www.whoscored.com/Matches/1190921/Live/France-Ligue-1-2017-2018-Strasbourg-Caen,,FRA-Ligue 1,1718
+2017-11-28 20:00:00,Bordeaux,Saint-Etienne,1190903,https://www.whoscored.com/Matches/1190903/Live/France-Ligue-1-2017-2018-Bordeaux-Saint-Etienne,,FRA-Ligue 1,1718
+2017-11-29 18:00:00,Guingamp,Montpellier,1190906,https://www.whoscored.com/Matches/1190906/Live/France-Ligue-1-2017-2018-Guingamp-Montpellier,,FRA-Ligue 1,1718
+2017-11-29 18:00:00,Lyon,Lille,1190909,https://www.whoscored.com/Matches/1190909/Live/France-Ligue-1-2017-2018-Lyon-Lille,,FRA-Ligue 1,1718
+2017-11-29 18:00:00,Metz,Marseille,1190912,https://www.whoscored.com/Matches/1190912/Live/France-Ligue-1-2017-2018-Metz-Marseille,,FRA-Ligue 1,1718
+2017-11-29 18:00:00,Nantes,Monaco,1190915,https://www.whoscored.com/Matches/1190915/Live/France-Ligue-1-2017-2018-Nantes-Monaco,,FRA-Ligue 1,1718
+2017-11-29 18:00:00,Angers,Rennes,1190900,https://www.whoscored.com/Matches/1190900/Live/France-Ligue-1-2017-2018-Angers-Rennes,,FRA-Ligue 1,1718
+2017-11-29 18:00:00,Toulouse,Nice,1190924,https://www.whoscored.com/Matches/1190924/Live/France-Ligue-1-2017-2018-Toulouse-Nice,,FRA-Ligue 1,1718
+2017-11-29 20:00:00,Paris Saint-Germain,Troyes,1190918,https://www.whoscored.com/Matches/1190918/Live/France-Ligue-1-2017-2018-Paris-Saint-Germain-Troyes,,FRA-Ligue 1,1718
+2017-10-01 14:00:00,Troyes,Saint-Etienne,1190800,https://www.whoscored.com/Matches/1190800/Live/France-Ligue-1-2017-2018-Troyes-Saint-Etienne,,FRA-Ligue 1,1718
+2017-10-01 16:00:00,Angers,Lyon,1190813,https://www.whoscored.com/Matches/1190813/Live/France-Ligue-1-2017-2018-Angers-Lyon,,FRA-Ligue 1,1718
+2017-10-01 20:00:00,Nice,Marseille,1190795,https://www.whoscored.com/Matches/1190795/Live/France-Ligue-1-2017-2018-Nice-Marseille,,FRA-Ligue 1,1718
+2017-10-13 19:45:00,Lyon,Monaco,1190812,https://www.whoscored.com/Matches/1190812/Live/France-Ligue-1-2017-2018-Lyon-Monaco,,FRA-Ligue 1,1718
+2017-10-14 16:00:00,Dijon,Paris Saint-Germain,1190806,https://www.whoscored.com/Matches/1190806/Live/France-Ligue-1-2017-2018-Dijon-Paris-Saint-Germain,,FRA-Ligue 1,1718
+2017-10-14 19:00:00,Guingamp,Rennes,1190808,https://www.whoscored.com/Matches/1190808/Live/France-Ligue-1-2017-2018-Guingamp-Rennes,,FRA-Ligue 1,1718
+2017-10-14 19:00:00,Lille,Troyes,1190810,https://www.whoscored.com/Matches/1190810/Live/France-Ligue-1-2017-2018-Lille-Troyes,,FRA-Ligue 1,1718
+2017-10-14 19:00:00,Caen,Angers,1190804,https://www.whoscored.com/Matches/1190804/Live/France-Ligue-1-2017-2018-Caen-Angers,,FRA-Ligue 1,1718
+2017-10-14 19:00:00,Toulouse,Amiens,1190818,https://www.whoscored.com/Matches/1190818/Live/France-Ligue-1-2017-2018-Toulouse-Amiens,,FRA-Ligue 1,1718
+2017-10-14 19:00:00,Saint-Etienne,Metz,1190816,https://www.whoscored.com/Matches/1190816/Live/France-Ligue-1-2017-2018-Saint-Etienne-Metz,,FRA-Ligue 1,1718
+2017-10-15 14:00:00,Bordeaux,Nantes,1190802,https://www.whoscored.com/Matches/1190802/Live/France-Ligue-1-2017-2018-Bordeaux-Nantes,,FRA-Ligue 1,1718
+2017-10-15 16:00:00,Montpellier,Nice,1190814,https://www.whoscored.com/Matches/1190814/Live/France-Ligue-1-2017-2018-Montpellier-Nice,,FRA-Ligue 1,1718
+2017-10-15 20:00:00,Strasbourg,Marseille,1190817,https://www.whoscored.com/Matches/1190817/Live/France-Ligue-1-2017-2018-Strasbourg-Marseille,,FRA-Ligue 1,1718
+2017-10-20 19:45:00,Saint-Etienne,Montpellier,1190827,https://www.whoscored.com/Matches/1190827/Live/France-Ligue-1-2017-2018-Saint-Etienne-Montpellier,,FRA-Ligue 1,1718
+2017-10-21 16:00:00,Monaco,Caen,1190823,https://www.whoscored.com/Matches/1190823/Live/France-Ligue-1-2017-2018-Monaco-Caen,,FRA-Ligue 1,1718
+2017-10-21 19:00:00,Nantes,Guingamp,1190824,https://www.whoscored.com/Matches/1190824/Live/France-Ligue-1-2017-2018-Nantes-Guingamp,,FRA-Ligue 1,1718
+2017-10-21 19:00:00,Metz,Dijon,1190822,https://www.whoscored.com/Matches/1190822/Live/France-Ligue-1-2017-2018-Metz-Dijon,,FRA-Ligue 1,1718
+2017-10-21 19:00:00,Rennes,Lille,1190826,https://www.whoscored.com/Matches/1190826/Live/France-Ligue-1-2017-2018-Rennes-Lille,,FRA-Ligue 1,1718
+2017-10-21 19:00:00,Amiens,Bordeaux,1190819,https://www.whoscored.com/Matches/1190819/Live/France-Ligue-1-2017-2018-Amiens-Bordeaux,,FRA-Ligue 1,1718
+2017-10-21 19:00:00,Angers,Toulouse,1190820,https://www.whoscored.com/Matches/1190820/Live/France-Ligue-1-2017-2018-Angers-Toulouse,,FRA-Ligue 1,1718
+2017-10-22 14:00:00,Nice,Strasbourg,1190825,https://www.whoscored.com/Matches/1190825/Live/France-Ligue-1-2017-2018-Nice-Strasbourg,,FRA-Ligue 1,1718
+2017-10-22 16:00:00,Troyes,Lyon,1190829,https://www.whoscored.com/Matches/1190829/Live/France-Ligue-1-2017-2018-Troyes-Lyon,,FRA-Ligue 1,1718
+2017-10-22 20:00:00,Marseille,Paris Saint-Germain,1190821,https://www.whoscored.com/Matches/1190821/Live/France-Ligue-1-2017-2018-Marseille-Paris-Saint-Germain,,FRA-Ligue 1,1718
+2017-10-27 19:45:00,Paris Saint-Germain,Nice,1190845,https://www.whoscored.com/Matches/1190845/Live/France-Ligue-1-2017-2018-Paris-Saint-Germain-Nice,,FRA-Ligue 1,1718
+2017-10-28 16:00:00,Bordeaux,Monaco,1190831,https://www.whoscored.com/Matches/1190831/Live/France-Ligue-1-2017-2018-Bordeaux-Monaco,,FRA-Ligue 1,1718
+2017-10-28 19:00:00,Caen,Troyes,1190833,https://www.whoscored.com/Matches/1190833/Live/France-Ligue-1-2017-2018-Caen-Troyes,,FRA-Ligue 1,1718
+2017-10-28 19:00:00,Dijon,Nantes,1190835,https://www.whoscored.com/Matches/1190835/Live/France-Ligue-1-2017-2018-Dijon-Nantes,,FRA-Ligue 1,1718
+2017-10-28 19:00:00,Guingamp,Amiens,1190837,https://www.whoscored.com/Matches/1190837/Live/France-Ligue-1-2017-2018-Guingamp-Amiens,,FRA-Ligue 1,1718
+2017-10-28 19:00:00,Strasbourg,Angers,1190847,https://www.whoscored.com/Matches/1190847/Live/France-Ligue-1-2017-2018-Strasbourg-Angers,,FRA-Ligue 1,1718
+2017-10-28 19:00:00,Montpellier,Rennes,1190843,https://www.whoscored.com/Matches/1190843/Live/France-Ligue-1-2017-2018-Montpellier-Rennes,,FRA-Ligue 1,1718
+2017-10-29 14:00:00,Lyon,Metz,1190841,https://www.whoscored.com/Matches/1190841/Live/France-Ligue-1-2017-2018-Lyon-Metz,,FRA-Ligue 1,1718
+2017-10-29 16:00:00,Toulouse,Saint-Etienne,1190849,https://www.whoscored.com/Matches/1190849/Live/France-Ligue-1-2017-2018-Toulouse-Saint-Etienne,,FRA-Ligue 1,1718
+2017-10-29 20:00:00,Lille,Marseille,1190839,https://www.whoscored.com/Matches/1190839/Live/France-Ligue-1-2017-2018-Lille-Marseille,,FRA-Ligue 1,1718
+2017-09-08 18:00:00,Lille,Bordeaux,1190770,https://www.whoscored.com/Matches/1190770/Live/France-Ligue-1-2017-2018-Lille-Bordeaux,,FRA-Ligue 1,1718
+2017-09-08 19:45:00,Metz,Paris Saint-Germain,1190785,https://www.whoscored.com/Matches/1190785/Live/France-Ligue-1-2017-2018-Metz-Paris-Saint-Germain,,FRA-Ligue 1,1718
+2017-09-09 16:00:00,Nice,Monaco,1190773,https://www.whoscored.com/Matches/1190773/Live/France-Ligue-1-2017-2018-Nice-Monaco,,FRA-Ligue 1,1718
+2017-09-09 19:00:00,Strasbourg,Amiens,1190775,https://www.whoscored.com/Matches/1190775/Live/France-Ligue-1-2017-2018-Strasbourg-Amiens,,FRA-Ligue 1,1718
+2017-09-09 19:00:00,Troyes,Toulouse,1190776,https://www.whoscored.com/Matches/1190776/Live/France-Ligue-1-2017-2018-Troyes-Toulouse,,FRA-Ligue 1,1718
+2017-09-09 19:00:00,Caen,Dijon,1190769,https://www.whoscored.com/Matches/1190769/Live/France-Ligue-1-2017-2018-Caen-Dijon,,FRA-Ligue 1,1718
+2017-09-09 19:00:00,Montpellier,Nantes,1190787,https://www.whoscored.com/Matches/1190787/Live/France-Ligue-1-2017-2018-Montpellier-Nantes,,FRA-Ligue 1,1718
+2017-09-10 14:00:00,Saint-Etienne,Angers,1190774,https://www.whoscored.com/Matches/1190774/Live/France-Ligue-1-2017-2018-Saint-Etienne-Angers,,FRA-Ligue 1,1718
+2017-09-10 16:00:00,Lyon,Guingamp,1190771,https://www.whoscored.com/Matches/1190771/Live/France-Ligue-1-2017-2018-Lyon-Guingamp,,FRA-Ligue 1,1718
+2017-09-10 20:00:00,Marseille,Rennes,1190772,https://www.whoscored.com/Matches/1190772/Live/France-Ligue-1-2017-2018-Marseille-Rennes,,FRA-Ligue 1,1718
+2017-09-15 19:45:00,Toulouse,Bordeaux,1190786,https://www.whoscored.com/Matches/1190786/Live/France-Ligue-1-2017-2018-Toulouse-Bordeaux,,FRA-Ligue 1,1718
+2017-09-16 16:00:00,Monaco,Strasbourg,1190781,https://www.whoscored.com/Matches/1190781/Live/France-Ligue-1-2017-2018-Monaco-Strasbourg,,FRA-Ligue 1,1718
+2017-09-16 19:00:00,Nantes,Caen,1190782,https://www.whoscored.com/Matches/1190782/Live/France-Ligue-1-2017-2018-Nantes-Caen,,FRA-Ligue 1,1718
+2017-09-16 19:00:00,Dijon,Saint-Etienne,1190779,https://www.whoscored.com/Matches/1190779/Live/France-Ligue-1-2017-2018-Dijon-Saint-Etienne,,FRA-Ligue 1,1718
+2017-09-16 19:00:00,Guingamp,Lille,1190780,https://www.whoscored.com/Matches/1190780/Live/France-Ligue-1-2017-2018-Guingamp-Lille,,FRA-Ligue 1,1718
+2017-09-16 19:00:00,Troyes,Montpellier,1190788,https://www.whoscored.com/Matches/1190788/Live/France-Ligue-1-2017-2018-Troyes-Montpellier,,FRA-Ligue 1,1718
+2017-09-17 14:00:00,Amiens,Marseille,1190777,https://www.whoscored.com/Matches/1190777/Live/France-Ligue-1-2017-2018-Amiens-Marseille,,FRA-Ligue 1,1718
+2017-09-17 16:00:00,Angers,Metz,1190778,https://www.whoscored.com/Matches/1190778/Live/France-Ligue-1-2017-2018-Angers-Metz,,FRA-Ligue 1,1718
+2017-09-17 16:00:00,Rennes,Nice,1190784,https://www.whoscored.com/Matches/1190784/Live/France-Ligue-1-2017-2018-Rennes-Nice,,FRA-Ligue 1,1718
+2017-09-17 20:00:00,Paris Saint-Germain,Lyon,1190783,https://www.whoscored.com/Matches/1190783/Live/France-Ligue-1-2017-2018-Paris-Saint-Germain-Lyon,,FRA-Ligue 1,1718
+2017-09-22 18:00:00,Nice,Angers,1190805,https://www.whoscored.com/Matches/1190805/Live/France-Ligue-1-2017-2018-Nice-Angers,,FRA-Ligue 1,1718
+2017-09-22 19:45:00,Lille,Monaco,1190791,https://www.whoscored.com/Matches/1190791/Live/France-Ligue-1-2017-2018-Lille-Monaco,,FRA-Ligue 1,1718
+2017-09-23 16:00:00,Montpellier,Paris Saint-Germain,1190803,https://www.whoscored.com/Matches/1190803/Live/France-Ligue-1-2017-2018-Montpellier-Paris-Saint-Germain,,FRA-Ligue 1,1718
+2017-09-23 19:00:00,Metz,Troyes,1190801,https://www.whoscored.com/Matches/1190801/Live/France-Ligue-1-2017-2018-Metz-Troyes,,FRA-Ligue 1,1718
+2017-09-23 19:00:00,Bordeaux,Guingamp,1190789,https://www.whoscored.com/Matches/1190789/Live/France-Ligue-1-2017-2018-Bordeaux-Guingamp,,FRA-Ligue 1,1718
+2017-09-23 19:00:00,Caen,Amiens,1190790,https://www.whoscored.com/Matches/1190790/Live/France-Ligue-1-2017-2018-Caen-Amiens,,FRA-Ligue 1,1718
+2017-09-23 19:00:00,Lyon,Dijon,1190797,https://www.whoscored.com/Matches/1190797/Live/France-Ligue-1-2017-2018-Lyon-Dijon,,FRA-Ligue 1,1718
+2017-09-24 14:00:00,Saint-Etienne,Rennes,1190807,https://www.whoscored.com/Matches/1190807/Live/France-Ligue-1-2017-2018-Saint-Etienne-Rennes,,FRA-Ligue 1,1718
+2017-09-24 16:00:00,Strasbourg,Nantes,1190809,https://www.whoscored.com/Matches/1190809/Live/France-Ligue-1-2017-2018-Strasbourg-Nantes,,FRA-Ligue 1,1718
+2017-09-24 20:00:00,Marseille,Toulouse,1190799,https://www.whoscored.com/Matches/1190799/Live/France-Ligue-1-2017-2018-Marseille-Toulouse,,FRA-Ligue 1,1718
+2017-09-29 19:45:00,Monaco,Montpellier,1190793,https://www.whoscored.com/Matches/1190793/Live/France-Ligue-1-2017-2018-Monaco-Montpellier,,FRA-Ligue 1,1718
+2017-09-30 16:00:00,Paris Saint-Germain,Bordeaux,1190796,https://www.whoscored.com/Matches/1190796/Live/France-Ligue-1-2017-2018-Paris-Saint-Germain-Bordeaux,,FRA-Ligue 1,1718
+2017-09-30 19:00:00,Rennes,Caen,1190798,https://www.whoscored.com/Matches/1190798/Live/France-Ligue-1-2017-2018-Rennes-Caen,,FRA-Ligue 1,1718
+2017-09-30 19:00:00,Dijon,Strasbourg,1190815,https://www.whoscored.com/Matches/1190815/Live/France-Ligue-1-2017-2018-Dijon-Strasbourg,,FRA-Ligue 1,1718
+2017-09-30 19:00:00,Nantes,Metz,1190794,https://www.whoscored.com/Matches/1190794/Live/France-Ligue-1-2017-2018-Nantes-Metz,,FRA-Ligue 1,1718
+2017-09-30 19:00:00,Guingamp,Toulouse,1190792,https://www.whoscored.com/Matches/1190792/Live/France-Ligue-1-2017-2018-Guingamp-Toulouse,,FRA-Ligue 1,1718
+2017-08-04 19:45:00,Monaco,Toulouse,1190738,https://www.whoscored.com/Matches/1190738/Live/France-Ligue-1-2017-2018-Monaco-Toulouse,,FRA-Ligue 1,1718
+2017-08-05 16:15:00,Paris Saint-Germain,Amiens,1190732,https://www.whoscored.com/Matches/1190732/Live/France-Ligue-1-2017-2018-Paris-Saint-Germain-Amiens,,FRA-Ligue 1,1718
+2017-08-05 19:00:00,Lyon,Strasbourg,1190729,https://www.whoscored.com/Matches/1190729/Live/France-Ligue-1-2017-2018-Lyon-Strasbourg,,FRA-Ligue 1,1718
+2017-08-05 19:00:00,Metz,Guingamp,1190730,https://www.whoscored.com/Matches/1190730/Live/France-Ligue-1-2017-2018-Metz-Guingamp,,FRA-Ligue 1,1718
+2017-08-05 19:00:00,Saint-Etienne,Nice,1190731,https://www.whoscored.com/Matches/1190731/Live/France-Ligue-1-2017-2018-Saint-Etienne-Nice,,FRA-Ligue 1,1718
+2017-08-05 19:00:00,Troyes,Rennes,1190734,https://www.whoscored.com/Matches/1190734/Live/France-Ligue-1-2017-2018-Troyes-Rennes,,FRA-Ligue 1,1718
+2017-08-05 19:00:00,Montpellier,Caen,1190736,https://www.whoscored.com/Matches/1190736/Live/France-Ligue-1-2017-2018-Montpellier-Caen,,FRA-Ligue 1,1718
+2017-08-06 14:00:00,Lille,Nantes,1190733,https://www.whoscored.com/Matches/1190733/Live/France-Ligue-1-2017-2018-Lille-Nantes,,FRA-Ligue 1,1718
+2017-08-06 16:00:00,Angers,Bordeaux,1190735,https://www.whoscored.com/Matches/1190735/Live/France-Ligue-1-2017-2018-Angers-Bordeaux,,FRA-Ligue 1,1718
+2017-08-06 20:00:00,Marseille,Dijon,1190737,https://www.whoscored.com/Matches/1190737/Live/France-Ligue-1-2017-2018-Marseille-Dijon,,FRA-Ligue 1,1718
+2017-08-11 18:00:00,Nice,Troyes,1190745,https://www.whoscored.com/Matches/1190745/Live/France-Ligue-1-2017-2018-Nice-Troyes,,FRA-Ligue 1,1718
+2017-08-11 19:45:00,Rennes,Lyon,1190746,https://www.whoscored.com/Matches/1190746/Live/France-Ligue-1-2017-2018-Rennes-Lyon,,FRA-Ligue 1,1718
+2017-08-12 16:00:00,Nantes,Marseille,1190744,https://www.whoscored.com/Matches/1190744/Live/France-Ligue-1-2017-2018-Nantes-Marseille,,FRA-Ligue 1,1718
+2017-08-12 19:00:00,Toulouse,Montpellier,1190748,https://www.whoscored.com/Matches/1190748/Live/France-Ligue-1-2017-2018-Toulouse-Montpellier,,FRA-Ligue 1,1718
+2017-08-12 19:00:00,Amiens,Angers,1190739,https://www.whoscored.com/Matches/1190739/Live/France-Ligue-1-2017-2018-Amiens-Angers,,FRA-Ligue 1,1718
+2017-08-12 19:00:00,Bordeaux,Metz,1190740,https://www.whoscored.com/Matches/1190740/Live/France-Ligue-1-2017-2018-Bordeaux-Metz,,FRA-Ligue 1,1718
+2017-08-12 19:00:00,Caen,Saint-Etienne,1190741,https://www.whoscored.com/Matches/1190741/Live/France-Ligue-1-2017-2018-Caen-Saint-Etienne,,FRA-Ligue 1,1718
+2017-08-13 14:00:00,Strasbourg,Lille,1190747,https://www.whoscored.com/Matches/1190747/Live/France-Ligue-1-2017-2018-Strasbourg-Lille,,FRA-Ligue 1,1718
+2017-08-13 16:00:00,Dijon,Monaco,1190742,https://www.whoscored.com/Matches/1190742/Live/France-Ligue-1-2017-2018-Dijon-Monaco,,FRA-Ligue 1,1718
+2017-08-13 20:00:00,Guingamp,Paris Saint-Germain,1190743,https://www.whoscored.com/Matches/1190743/Live/France-Ligue-1-2017-2018-Guingamp-Paris-Saint-Germain,,FRA-Ligue 1,1718
+2017-08-18 19:45:00,Metz,Monaco,1190752,https://www.whoscored.com/Matches/1190752/Live/France-Ligue-1-2017-2018-Metz-Monaco,,FRA-Ligue 1,1718
+2017-08-19 16:00:00,Lyon,Bordeaux,1190750,https://www.whoscored.com/Matches/1190750/Live/France-Ligue-1-2017-2018-Lyon-Bordeaux,,FRA-Ligue 1,1718
+2017-08-19 19:00:00,Montpellier,Strasbourg,1190753,https://www.whoscored.com/Matches/1190753/Live/France-Ligue-1-2017-2018-Montpellier-Strasbourg,,FRA-Ligue 1,1718
+2017-08-19 19:00:00,Nice,Guingamp,1190754,https://www.whoscored.com/Matches/1190754/Live/France-Ligue-1-2017-2018-Nice-Guingamp,,FRA-Ligue 1,1718
+2017-08-19 19:00:00,Rennes,Dijon,1190756,https://www.whoscored.com/Matches/1190756/Live/France-Ligue-1-2017-2018-Rennes-Dijon,,FRA-Ligue 1,1718
+2017-08-19 19:00:00,Saint-Etienne,Amiens,1190757,https://www.whoscored.com/Matches/1190757/Live/France-Ligue-1-2017-2018-Saint-Etienne-Amiens,,FRA-Ligue 1,1718
+2017-08-19 19:00:00,Troyes,Nantes,1190758,https://www.whoscored.com/Matches/1190758/Live/France-Ligue-1-2017-2018-Troyes-Nantes,,FRA-Ligue 1,1718
+2017-08-20 14:00:00,Lille,Caen,1190749,https://www.whoscored.com/Matches/1190749/Live/France-Ligue-1-2017-2018-Lille-Caen,,FRA-Ligue 1,1718
+2017-08-20 16:00:00,Marseille,Angers,1190751,https://www.whoscored.com/Matches/1190751/Live/France-Ligue-1-2017-2018-Marseille-Angers,,FRA-Ligue 1,1718
+2017-08-20 20:00:00,Paris Saint-Germain,Toulouse,1190755,https://www.whoscored.com/Matches/1190755/Live/France-Ligue-1-2017-2018-Paris-Saint-Germain-Toulouse,,FRA-Ligue 1,1718
+2017-08-25 19:45:00,Paris Saint-Germain,Saint-Etienne,1190767,https://www.whoscored.com/Matches/1190767/Live/France-Ligue-1-2017-2018-Paris-Saint-Germain-Saint-Etienne,,FRA-Ligue 1,1718
+2017-08-26 16:15:00,Nantes,Lyon,1190766,https://www.whoscored.com/Matches/1190766/Live/France-Ligue-1-2017-2018-Nantes-Lyon,,FRA-Ligue 1,1718
+2017-08-26 19:00:00,Bordeaux,Troyes,1190761,https://www.whoscored.com/Matches/1190761/Live/France-Ligue-1-2017-2018-Bordeaux-Troyes,,FRA-Ligue 1,1718
+2017-08-26 19:00:00,Caen,Metz,1190762,https://www.whoscored.com/Matches/1190762/Live/France-Ligue-1-2017-2018-Caen-Metz,,FRA-Ligue 1,1718
+2017-08-26 19:00:00,Dijon,Montpellier,1190763,https://www.whoscored.com/Matches/1190763/Live/France-Ligue-1-2017-2018-Dijon-Montpellier,,FRA-Ligue 1,1718
+2017-08-26 19:00:00,Amiens,Nice,1190759,https://www.whoscored.com/Matches/1190759/Live/France-Ligue-1-2017-2018-Amiens-Nice,,FRA-Ligue 1,1718
+2017-08-26 19:00:00,Toulouse,Rennes,1190768,https://www.whoscored.com/Matches/1190768/Live/France-Ligue-1-2017-2018-Toulouse-Rennes,,FRA-Ligue 1,1718
+2017-08-27 14:00:00,Guingamp,Strasbourg,1190764,https://www.whoscored.com/Matches/1190764/Live/France-Ligue-1-2017-2018-Guingamp-Strasbourg,,FRA-Ligue 1,1718
+2017-08-27 16:00:00,Angers,Lille,1190760,https://www.whoscored.com/Matches/1190760/Live/France-Ligue-1-2017-2018-Angers-Lille,,FRA-Ligue 1,1718
+2017-08-27 20:00:00,Monaco,Marseille,1190765,https://www.whoscored.com/Matches/1190765/Live/France-Ligue-1-2017-2018-Monaco-Marseille,,FRA-Ligue 1,1718

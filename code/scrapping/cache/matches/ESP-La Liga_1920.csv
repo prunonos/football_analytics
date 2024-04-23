@@ -1,0 +1,438 @@
+date,home_team,away_team,game_id,url,stage,league,season
+2020-07-01 18:30:00,Deportivo Alaves,Granada,1394480,https://www.whoscored.com/Matches/1394480/Live/Spain-LaLiga-2019-2020-Deportivo-Alaves-Granada,,ESP-La Liga,1920
+2020-07-01 18:30:00,Valencia,Athletic Club,1394406,https://www.whoscored.com/Matches/1394406/Live/Spain-LaLiga-2019-2020-Valencia-Athletic-Club,,ESP-La Liga,1920
+2020-07-01 21:00:00,Real Valladolid,Levante,1394409,https://www.whoscored.com/Matches/1394409/Live/Spain-LaLiga-2019-2020-Real-Valladolid-Levante,,ESP-La Liga,1920
+2020-07-01 21:00:00,Real Betis,Villarreal,1394484,https://www.whoscored.com/Matches/1394484/Live/Spain-LaLiga-2019-2020-Real-Betis-Villarreal,,ESP-La Liga,1920
+2020-07-02 18:30:00,Eibar,Osasuna,1394486,https://www.whoscored.com/Matches/1394486/Live/Spain-LaLiga-2019-2020-Eibar-Osasuna,,ESP-La Liga,1920
+2020-07-02 18:30:00,Real Sociedad,Espanyol,1394403,https://www.whoscored.com/Matches/1394403/Live/Spain-LaLiga-2019-2020-Real-Sociedad-Espanyol,,ESP-La Liga,1920
+2020-07-02 21:00:00,Real Madrid,Getafe,1394400,https://www.whoscored.com/Matches/1394400/Live/Spain-LaLiga-2019-2020-Real-Madrid-Getafe,,ESP-La Liga,1920
+2020-07-03 21:00:00,Atletico Madrid,Mallorca,1394415,https://www.whoscored.com/Matches/1394415/Live/Spain-LaLiga-2019-2020-Atletico-Madrid-Mallorca,,ESP-La Liga,1920
+2020-07-04 16:00:00,Celta Vigo,Real Betis,1394418,https://www.whoscored.com/Matches/1394418/Live/Spain-LaLiga-2019-2020-Celta-Vigo-Real-Betis,,ESP-La Liga,1920
+2020-07-04 18:30:00,Real Valladolid,Deportivo Alaves,1394439,https://www.whoscored.com/Matches/1394439/Live/Spain-LaLiga-2019-2020-Real-Valladolid-Deportivo-Alaves,,ESP-La Liga,1920
+2020-07-04 21:00:00,Granada,Valencia,1394424,https://www.whoscored.com/Matches/1394424/Live/Spain-LaLiga-2019-2020-Granada-Valencia,,ESP-La Liga,1920
+2020-07-05 13:00:00,Athletic Club,Real Madrid,1394412,https://www.whoscored.com/Matches/1394412/Live/Spain-LaLiga-2019-2020-Athletic-Club-Real-Madrid,,ESP-La Liga,1920
+2020-07-05 16:00:00,Espanyol,Leganes,1394421,https://www.whoscored.com/Matches/1394421/Live/Spain-LaLiga-2019-2020-Espanyol-Leganes,,ESP-La Liga,1920
+2020-07-05 18:30:00,Osasuna,Getafe,1394430,https://www.whoscored.com/Matches/1394430/Live/Spain-LaLiga-2019-2020-Osasuna-Getafe,,ESP-La Liga,1920
+2020-07-05 21:00:00,Villarreal,Barcelona,1394436,https://www.whoscored.com/Matches/1394436/Live/Spain-LaLiga-2019-2020-Villarreal-Barcelona,,ESP-La Liga,1920
+2020-07-06 18:30:00,Levante,Real Sociedad,1394427,https://www.whoscored.com/Matches/1394427/Live/Spain-LaLiga-2019-2020-Levante-Real-Sociedad,,ESP-La Liga,1920
+2020-07-06 21:00:00,Sevilla,Eibar,1394433,https://www.whoscored.com/Matches/1394433/Live/Spain-LaLiga-2019-2020-Sevilla-Eibar,,ESP-La Liga,1920
+2020-07-07 18:30:00,Valencia,Real Valladolid,1394408,https://www.whoscored.com/Matches/1394408/Live/Spain-LaLiga-2019-2020-Valencia-Real-Valladolid,,ESP-La Liga,1920
+2020-07-07 21:00:00,Celta Vigo,Atletico Madrid,1394447,https://www.whoscored.com/Matches/1394447/Live/Spain-LaLiga-2019-2020-Celta-Vigo-Atletico-Madrid,,ESP-La Liga,1920
+2020-07-08 19:30:00,Real Betis,Osasuna,1394445,https://www.whoscored.com/Matches/1394445/Live/Spain-LaLiga-2019-2020-Real-Betis-Osasuna,,ESP-La Liga,1920
+2020-07-08 19:30:00,Getafe,Villarreal,1394396,https://www.whoscored.com/Matches/1394396/Live/Spain-LaLiga-2019-2020-Getafe-Villarreal,,ESP-La Liga,1920
+2020-07-08 21:00:00,Barcelona,Espanyol,1394443,https://www.whoscored.com/Matches/1394443/Live/Spain-LaLiga-2019-2020-Barcelona-Espanyol,,ESP-La Liga,1920
+2020-07-09 18:30:00,Mallorca,Levante,1394399,https://www.whoscored.com/Matches/1394399/Live/Spain-LaLiga-2019-2020-Mallorca-Levante,,ESP-La Liga,1920
+2020-07-09 18:30:00,Eibar,Leganes,1394393,https://www.whoscored.com/Matches/1394393/Live/Spain-LaLiga-2019-2020-Eibar-Leganes,,ESP-La Liga,1920
+2020-07-09 21:00:00,Athletic Club,Sevilla,1394441,https://www.whoscored.com/Matches/1394441/Live/Spain-LaLiga-2019-2020-Athletic-Club-Sevilla,,ESP-La Liga,1920
+2020-07-10 18:30:00,Real Sociedad,Granada,1394405,https://www.whoscored.com/Matches/1394405/Live/Spain-LaLiga-2019-2020-Real-Sociedad-Granada,,ESP-La Liga,1920
+2020-07-10 21:00:00,Real Madrid,Deportivo Alaves,1394402,https://www.whoscored.com/Matches/1394402/Live/Spain-LaLiga-2019-2020-Real-Madrid-Deportivo-Alaves,,ESP-La Liga,1920
+2020-07-11 16:00:00,Osasuna,Celta Vigo,1394429,https://www.whoscored.com/Matches/1394429/Live/Spain-LaLiga-2019-2020-Osasuna-Celta-Vigo,,ESP-La Liga,1920
+2020-07-11 18:30:00,Real Valladolid,Barcelona,1394438,https://www.whoscored.com/Matches/1394438/Live/Spain-LaLiga-2019-2020-Real-Valladolid-Barcelona,,ESP-La Liga,1920
+2020-07-11 21:00:00,Atletico Madrid,Real Betis,1394414,https://www.whoscored.com/Matches/1394414/Live/Spain-LaLiga-2019-2020-Atletico-Madrid-Real-Betis,,ESP-La Liga,1920
+2020-07-12 13:00:00,Espanyol,Eibar,1394417,https://www.whoscored.com/Matches/1394417/Live/Spain-LaLiga-2019-2020-Espanyol-Eibar,,ESP-La Liga,1920
+2020-07-12 16:00:00,Levante,Athletic Club,1394426,https://www.whoscored.com/Matches/1394426/Live/Spain-LaLiga-2019-2020-Levante-Athletic-Club,,ESP-La Liga,1920
+2020-07-12 18:30:00,Leganes,Valencia,1394423,https://www.whoscored.com/Matches/1394423/Live/Spain-LaLiga-2019-2020-Leganes-Valencia,,ESP-La Liga,1920
+2020-07-12 21:00:00,Sevilla,Mallorca,1394432,https://www.whoscored.com/Matches/1394432/Live/Spain-LaLiga-2019-2020-Sevilla-Mallorca,,ESP-La Liga,1920
+2020-07-13 18:30:00,Villarreal,Real Sociedad,1394435,https://www.whoscored.com/Matches/1394435/Live/Spain-LaLiga-2019-2020-Villarreal-Real-Sociedad,,ESP-La Liga,1920
+2020-07-13 18:30:00,Deportivo Alaves,Getafe,1394411,https://www.whoscored.com/Matches/1394411/Live/Spain-LaLiga-2019-2020-Deportivo-Alaves-Getafe,,ESP-La Liga,1920
+2020-07-13 21:00:00,Granada,Real Madrid,1394420,https://www.whoscored.com/Matches/1394420/Live/Spain-LaLiga-2019-2020-Granada-Real-Madrid,,ESP-La Liga,1920
+2020-07-16 17:30:00,Eibar,Real Valladolid,1394392,https://www.whoscored.com/Matches/1394392/Live/Spain-LaLiga-2019-2020-Eibar-Real-Valladolid,,ESP-La Liga,1920
+2020-07-16 20:00:00,Getafe,Atletico Madrid,1394395,https://www.whoscored.com/Matches/1394395/Live/Spain-LaLiga-2019-2020-Getafe-Atletico-Madrid,,ESP-La Liga,1920
+2020-07-16 20:00:00,Mallorca,Granada,1394398,https://www.whoscored.com/Matches/1394398/Live/Spain-LaLiga-2019-2020-Mallorca-Granada,,ESP-La Liga,1920
+2020-07-16 20:00:00,Valencia,Espanyol,1394407,https://www.whoscored.com/Matches/1394407/Live/Spain-LaLiga-2019-2020-Valencia-Espanyol,,ESP-La Liga,1920
+2020-07-16 20:00:00,Real Madrid,Villarreal,1394401,https://www.whoscored.com/Matches/1394401/Live/Spain-LaLiga-2019-2020-Real-Madrid-Villarreal,,ESP-La Liga,1920
+2020-07-16 20:00:00,Real Sociedad,Sevilla,1394404,https://www.whoscored.com/Matches/1394404/Live/Spain-LaLiga-2019-2020-Real-Sociedad-Sevilla,,ESP-La Liga,1920
+2020-07-16 20:00:00,Athletic Club,Leganes,1394440,https://www.whoscored.com/Matches/1394440/Live/Spain-LaLiga-2019-2020-Athletic-Club-Leganes,,ESP-La Liga,1920
+2020-07-16 20:00:00,Celta Vigo,Levante,1394446,https://www.whoscored.com/Matches/1394446/Live/Spain-LaLiga-2019-2020-Celta-Vigo-Levante,,ESP-La Liga,1920
+2020-07-16 20:00:00,Barcelona,Osasuna,1394442,https://www.whoscored.com/Matches/1394442/Live/Spain-LaLiga-2019-2020-Barcelona-Osasuna,,ESP-La Liga,1920
+2020-07-16 20:00:00,Real Betis,Deportivo Alaves,1394444,https://www.whoscored.com/Matches/1394444/Live/Spain-LaLiga-2019-2020-Real-Betis-Deportivo-Alaves,,ESP-La Liga,1920
+2020-07-19 16:00:00,Deportivo Alaves,Barcelona,1394410,https://www.whoscored.com/Matches/1394410/Live/Spain-LaLiga-2019-2020-Deportivo-Alaves-Barcelona,,ESP-La Liga,1920
+2020-07-19 17:30:00,Real Valladolid,Real Betis,1394437,https://www.whoscored.com/Matches/1394437/Live/Spain-LaLiga-2019-2020-Real-Valladolid-Real-Betis,,ESP-La Liga,1920
+2020-07-19 17:30:00,Villarreal,Eibar,1394434,https://www.whoscored.com/Matches/1394434/Live/Spain-LaLiga-2019-2020-Villarreal-Eibar,,ESP-La Liga,1920
+2020-07-19 20:00:00,Sevilla,Valencia,1394431,https://www.whoscored.com/Matches/1394431/Live/Spain-LaLiga-2019-2020-Sevilla-Valencia,,ESP-La Liga,1920
+2020-07-19 20:00:00,Osasuna,Mallorca,1394428,https://www.whoscored.com/Matches/1394428/Live/Spain-LaLiga-2019-2020-Osasuna-Mallorca,,ESP-La Liga,1920
+2020-07-19 20:00:00,Levante,Getafe,1394425,https://www.whoscored.com/Matches/1394425/Live/Spain-LaLiga-2019-2020-Levante-Getafe,,ESP-La Liga,1920
+2020-07-19 20:00:00,Atletico Madrid,Real Sociedad,1394413,https://www.whoscored.com/Matches/1394413/Live/Spain-LaLiga-2019-2020-Atletico-Madrid-Real-Sociedad,,ESP-La Liga,1920
+2020-07-19 20:00:00,Espanyol,Celta Vigo,1394416,https://www.whoscored.com/Matches/1394416/Live/Spain-LaLiga-2019-2020-Espanyol-Celta-Vigo,,ESP-La Liga,1920
+2020-07-19 20:00:00,Leganes,Real Madrid,1394422,https://www.whoscored.com/Matches/1394422/Live/Spain-LaLiga-2019-2020-Leganes-Real-Madrid,,ESP-La Liga,1920
+2020-07-19 20:00:00,Granada,Athletic Club,1394419,https://www.whoscored.com/Matches/1394419/Live/Spain-LaLiga-2019-2020-Granada-Athletic-Club,,ESP-La Liga,1920
+2020-07-01 18:30:00,Deportivo Alaves,Granada,1394480,https://www.whoscored.com/Matches/1394480/Live/Spain-LaLiga-2019-2020-Deportivo-Alaves-Granada,,ESP-La Liga,1920
+2020-07-01 18:30:00,Valencia,Athletic Club,1394406,https://www.whoscored.com/Matches/1394406/Live/Spain-LaLiga-2019-2020-Valencia-Athletic-Club,,ESP-La Liga,1920
+2020-07-01 21:00:00,Real Valladolid,Levante,1394409,https://www.whoscored.com/Matches/1394409/Live/Spain-LaLiga-2019-2020-Real-Valladolid-Levante,,ESP-La Liga,1920
+2020-07-01 21:00:00,Real Betis,Villarreal,1394484,https://www.whoscored.com/Matches/1394484/Live/Spain-LaLiga-2019-2020-Real-Betis-Villarreal,,ESP-La Liga,1920
+2020-07-02 18:30:00,Eibar,Osasuna,1394486,https://www.whoscored.com/Matches/1394486/Live/Spain-LaLiga-2019-2020-Eibar-Osasuna,,ESP-La Liga,1920
+2020-07-02 18:30:00,Real Sociedad,Espanyol,1394403,https://www.whoscored.com/Matches/1394403/Live/Spain-LaLiga-2019-2020-Real-Sociedad-Espanyol,,ESP-La Liga,1920
+2020-07-02 21:00:00,Real Madrid,Getafe,1394400,https://www.whoscored.com/Matches/1394400/Live/Spain-LaLiga-2019-2020-Real-Madrid-Getafe,,ESP-La Liga,1920
+2020-07-03 21:00:00,Atletico Madrid,Mallorca,1394415,https://www.whoscored.com/Matches/1394415/Live/Spain-LaLiga-2019-2020-Atletico-Madrid-Mallorca,,ESP-La Liga,1920
+2020-07-04 16:00:00,Celta Vigo,Real Betis,1394418,https://www.whoscored.com/Matches/1394418/Live/Spain-LaLiga-2019-2020-Celta-Vigo-Real-Betis,,ESP-La Liga,1920
+2020-07-04 18:30:00,Real Valladolid,Deportivo Alaves,1394439,https://www.whoscored.com/Matches/1394439/Live/Spain-LaLiga-2019-2020-Real-Valladolid-Deportivo-Alaves,,ESP-La Liga,1920
+2020-07-04 21:00:00,Granada,Valencia,1394424,https://www.whoscored.com/Matches/1394424/Live/Spain-LaLiga-2019-2020-Granada-Valencia,,ESP-La Liga,1920
+2020-07-05 13:00:00,Athletic Club,Real Madrid,1394412,https://www.whoscored.com/Matches/1394412/Live/Spain-LaLiga-2019-2020-Athletic-Club-Real-Madrid,,ESP-La Liga,1920
+2020-07-05 16:00:00,Espanyol,Leganes,1394421,https://www.whoscored.com/Matches/1394421/Live/Spain-LaLiga-2019-2020-Espanyol-Leganes,,ESP-La Liga,1920
+2020-07-05 18:30:00,Osasuna,Getafe,1394430,https://www.whoscored.com/Matches/1394430/Live/Spain-LaLiga-2019-2020-Osasuna-Getafe,,ESP-La Liga,1920
+2020-07-05 21:00:00,Villarreal,Barcelona,1394436,https://www.whoscored.com/Matches/1394436/Live/Spain-LaLiga-2019-2020-Villarreal-Barcelona,,ESP-La Liga,1920
+2020-07-06 18:30:00,Levante,Real Sociedad,1394427,https://www.whoscored.com/Matches/1394427/Live/Spain-LaLiga-2019-2020-Levante-Real-Sociedad,,ESP-La Liga,1920
+2020-07-06 21:00:00,Sevilla,Eibar,1394433,https://www.whoscored.com/Matches/1394433/Live/Spain-LaLiga-2019-2020-Sevilla-Eibar,,ESP-La Liga,1920
+2020-07-07 18:30:00,Valencia,Real Valladolid,1394408,https://www.whoscored.com/Matches/1394408/Live/Spain-LaLiga-2019-2020-Valencia-Real-Valladolid,,ESP-La Liga,1920
+2020-07-07 21:00:00,Celta Vigo,Atletico Madrid,1394447,https://www.whoscored.com/Matches/1394447/Live/Spain-LaLiga-2019-2020-Celta-Vigo-Atletico-Madrid,,ESP-La Liga,1920
+2020-07-08 19:30:00,Real Betis,Osasuna,1394445,https://www.whoscored.com/Matches/1394445/Live/Spain-LaLiga-2019-2020-Real-Betis-Osasuna,,ESP-La Liga,1920
+2020-07-08 19:30:00,Getafe,Villarreal,1394396,https://www.whoscored.com/Matches/1394396/Live/Spain-LaLiga-2019-2020-Getafe-Villarreal,,ESP-La Liga,1920
+2020-07-08 21:00:00,Barcelona,Espanyol,1394443,https://www.whoscored.com/Matches/1394443/Live/Spain-LaLiga-2019-2020-Barcelona-Espanyol,,ESP-La Liga,1920
+2020-07-09 18:30:00,Mallorca,Levante,1394399,https://www.whoscored.com/Matches/1394399/Live/Spain-LaLiga-2019-2020-Mallorca-Levante,,ESP-La Liga,1920
+2020-07-09 18:30:00,Eibar,Leganes,1394393,https://www.whoscored.com/Matches/1394393/Live/Spain-LaLiga-2019-2020-Eibar-Leganes,,ESP-La Liga,1920
+2020-07-09 21:00:00,Athletic Club,Sevilla,1394441,https://www.whoscored.com/Matches/1394441/Live/Spain-LaLiga-2019-2020-Athletic-Club-Sevilla,,ESP-La Liga,1920
+2020-07-10 18:30:00,Real Sociedad,Granada,1394405,https://www.whoscored.com/Matches/1394405/Live/Spain-LaLiga-2019-2020-Real-Sociedad-Granada,,ESP-La Liga,1920
+2020-07-10 21:00:00,Real Madrid,Deportivo Alaves,1394402,https://www.whoscored.com/Matches/1394402/Live/Spain-LaLiga-2019-2020-Real-Madrid-Deportivo-Alaves,,ESP-La Liga,1920
+2020-07-11 16:00:00,Osasuna,Celta Vigo,1394429,https://www.whoscored.com/Matches/1394429/Live/Spain-LaLiga-2019-2020-Osasuna-Celta-Vigo,,ESP-La Liga,1920
+2020-07-11 18:30:00,Real Valladolid,Barcelona,1394438,https://www.whoscored.com/Matches/1394438/Live/Spain-LaLiga-2019-2020-Real-Valladolid-Barcelona,,ESP-La Liga,1920
+2020-07-11 21:00:00,Atletico Madrid,Real Betis,1394414,https://www.whoscored.com/Matches/1394414/Live/Spain-LaLiga-2019-2020-Atletico-Madrid-Real-Betis,,ESP-La Liga,1920
+2020-07-12 13:00:00,Espanyol,Eibar,1394417,https://www.whoscored.com/Matches/1394417/Live/Spain-LaLiga-2019-2020-Espanyol-Eibar,,ESP-La Liga,1920
+2020-07-12 16:00:00,Levante,Athletic Club,1394426,https://www.whoscored.com/Matches/1394426/Live/Spain-LaLiga-2019-2020-Levante-Athletic-Club,,ESP-La Liga,1920
+2020-07-12 18:30:00,Leganes,Valencia,1394423,https://www.whoscored.com/Matches/1394423/Live/Spain-LaLiga-2019-2020-Leganes-Valencia,,ESP-La Liga,1920
+2020-07-12 21:00:00,Sevilla,Mallorca,1394432,https://www.whoscored.com/Matches/1394432/Live/Spain-LaLiga-2019-2020-Sevilla-Mallorca,,ESP-La Liga,1920
+2020-07-13 18:30:00,Villarreal,Real Sociedad,1394435,https://www.whoscored.com/Matches/1394435/Live/Spain-LaLiga-2019-2020-Villarreal-Real-Sociedad,,ESP-La Liga,1920
+2020-07-13 18:30:00,Deportivo Alaves,Getafe,1394411,https://www.whoscored.com/Matches/1394411/Live/Spain-LaLiga-2019-2020-Deportivo-Alaves-Getafe,,ESP-La Liga,1920
+2020-07-13 21:00:00,Granada,Real Madrid,1394420,https://www.whoscored.com/Matches/1394420/Live/Spain-LaLiga-2019-2020-Granada-Real-Madrid,,ESP-La Liga,1920
+2020-07-16 17:30:00,Eibar,Real Valladolid,1394392,https://www.whoscored.com/Matches/1394392/Live/Spain-LaLiga-2019-2020-Eibar-Real-Valladolid,,ESP-La Liga,1920
+2020-07-16 20:00:00,Getafe,Atletico Madrid,1394395,https://www.whoscored.com/Matches/1394395/Live/Spain-LaLiga-2019-2020-Getafe-Atletico-Madrid,,ESP-La Liga,1920
+2020-07-16 20:00:00,Mallorca,Granada,1394398,https://www.whoscored.com/Matches/1394398/Live/Spain-LaLiga-2019-2020-Mallorca-Granada,,ESP-La Liga,1920
+2020-07-16 20:00:00,Valencia,Espanyol,1394407,https://www.whoscored.com/Matches/1394407/Live/Spain-LaLiga-2019-2020-Valencia-Espanyol,,ESP-La Liga,1920
+2020-07-16 20:00:00,Real Madrid,Villarreal,1394401,https://www.whoscored.com/Matches/1394401/Live/Spain-LaLiga-2019-2020-Real-Madrid-Villarreal,,ESP-La Liga,1920
+2020-07-16 20:00:00,Real Sociedad,Sevilla,1394404,https://www.whoscored.com/Matches/1394404/Live/Spain-LaLiga-2019-2020-Real-Sociedad-Sevilla,,ESP-La Liga,1920
+2020-07-16 20:00:00,Athletic Club,Leganes,1394440,https://www.whoscored.com/Matches/1394440/Live/Spain-LaLiga-2019-2020-Athletic-Club-Leganes,,ESP-La Liga,1920
+2020-07-16 20:00:00,Celta Vigo,Levante,1394446,https://www.whoscored.com/Matches/1394446/Live/Spain-LaLiga-2019-2020-Celta-Vigo-Levante,,ESP-La Liga,1920
+2020-07-16 20:00:00,Barcelona,Osasuna,1394442,https://www.whoscored.com/Matches/1394442/Live/Spain-LaLiga-2019-2020-Barcelona-Osasuna,,ESP-La Liga,1920
+2020-07-16 20:00:00,Real Betis,Deportivo Alaves,1394444,https://www.whoscored.com/Matches/1394444/Live/Spain-LaLiga-2019-2020-Real-Betis-Deportivo-Alaves,,ESP-La Liga,1920
+2020-07-19 16:00:00,Deportivo Alaves,Barcelona,1394410,https://www.whoscored.com/Matches/1394410/Live/Spain-LaLiga-2019-2020-Deportivo-Alaves-Barcelona,,ESP-La Liga,1920
+2020-07-19 17:30:00,Real Valladolid,Real Betis,1394437,https://www.whoscored.com/Matches/1394437/Live/Spain-LaLiga-2019-2020-Real-Valladolid-Real-Betis,,ESP-La Liga,1920
+2020-07-19 17:30:00,Villarreal,Eibar,1394434,https://www.whoscored.com/Matches/1394434/Live/Spain-LaLiga-2019-2020-Villarreal-Eibar,,ESP-La Liga,1920
+2020-07-19 20:00:00,Sevilla,Valencia,1394431,https://www.whoscored.com/Matches/1394431/Live/Spain-LaLiga-2019-2020-Sevilla-Valencia,,ESP-La Liga,1920
+2020-07-19 20:00:00,Osasuna,Mallorca,1394428,https://www.whoscored.com/Matches/1394428/Live/Spain-LaLiga-2019-2020-Osasuna-Mallorca,,ESP-La Liga,1920
+2020-07-19 20:00:00,Levante,Getafe,1394425,https://www.whoscored.com/Matches/1394425/Live/Spain-LaLiga-2019-2020-Levante-Getafe,,ESP-La Liga,1920
+2020-07-19 20:00:00,Atletico Madrid,Real Sociedad,1394413,https://www.whoscored.com/Matches/1394413/Live/Spain-LaLiga-2019-2020-Atletico-Madrid-Real-Sociedad,,ESP-La Liga,1920
+2020-07-19 20:00:00,Espanyol,Celta Vigo,1394416,https://www.whoscored.com/Matches/1394416/Live/Spain-LaLiga-2019-2020-Espanyol-Celta-Vigo,,ESP-La Liga,1920
+2020-07-19 20:00:00,Leganes,Real Madrid,1394422,https://www.whoscored.com/Matches/1394422/Live/Spain-LaLiga-2019-2020-Leganes-Real-Madrid,,ESP-La Liga,1920
+2020-07-19 20:00:00,Granada,Athletic Club,1394419,https://www.whoscored.com/Matches/1394419/Live/Spain-LaLiga-2019-2020-Granada-Athletic-Club,,ESP-La Liga,1920
+2020-06-11 21:00:00,Sevilla,Real Betis,1394368,https://www.whoscored.com/Matches/1394368/Live/Spain-LaLiga-2019-2020-Sevilla-Real-Betis,,ESP-La Liga,1920
+2020-06-12 18:30:00,Granada,Getafe,1394353,https://www.whoscored.com/Matches/1394353/Live/Spain-LaLiga-2019-2020-Granada-Getafe,,ESP-La Liga,1920
+2020-06-12 21:00:00,Valencia,Levante,1394371,https://www.whoscored.com/Matches/1394371/Live/Spain-LaLiga-2019-2020-Valencia-Levante,,ESP-La Liga,1920
+2020-06-13 13:00:00,Espanyol,Deportivo Alaves,1394350,https://www.whoscored.com/Matches/1394350/Live/Spain-LaLiga-2019-2020-Espanyol-Deportivo-Alaves,,ESP-La Liga,1920
+2020-06-13 16:00:00,Celta Vigo,Villarreal,1394347,https://www.whoscored.com/Matches/1394347/Live/Spain-LaLiga-2019-2020-Celta-Vigo-Villarreal,,ESP-La Liga,1920
+2020-06-13 18:30:00,Leganes,Real Valladolid,1394356,https://www.whoscored.com/Matches/1394356/Live/Spain-LaLiga-2019-2020-Leganes-Real-Valladolid,,ESP-La Liga,1920
+2020-06-13 21:00:00,Mallorca,Barcelona,1394359,https://www.whoscored.com/Matches/1394359/Live/Spain-LaLiga-2019-2020-Mallorca-Barcelona,,ESP-La Liga,1920
+2020-06-14 13:00:00,Athletic Club,Atletico Madrid,1394344,https://www.whoscored.com/Matches/1394344/Live/Spain-LaLiga-2019-2020-Athletic-Club-Atletico-Madrid,,ESP-La Liga,1920
+2020-06-14 18:30:00,Real Madrid,Eibar,1394362,https://www.whoscored.com/Matches/1394362/Live/Spain-LaLiga-2019-2020-Real-Madrid-Eibar,,ESP-La Liga,1920
+2020-06-14 21:00:00,Real Sociedad,Osasuna,1394365,https://www.whoscored.com/Matches/1394365/Live/Spain-LaLiga-2019-2020-Real-Sociedad-Osasuna,,ESP-La Liga,1920
+2020-06-15 18:30:00,Levante,Sevilla,1394386,https://www.whoscored.com/Matches/1394386/Live/Spain-LaLiga-2019-2020-Levante-Sevilla,,ESP-La Liga,1920
+2020-06-15 21:00:00,Real Betis,Granada,1394380,https://www.whoscored.com/Matches/1394380/Live/Spain-LaLiga-2019-2020-Real-Betis-Granada,,ESP-La Liga,1920
+2020-06-16 18:30:00,Villarreal,Mallorca,1394391,https://www.whoscored.com/Matches/1394391/Live/Spain-LaLiga-2019-2020-Villarreal-Mallorca,,ESP-La Liga,1920
+2020-06-16 18:30:00,Getafe,Espanyol,1394384,https://www.whoscored.com/Matches/1394384/Live/Spain-LaLiga-2019-2020-Getafe-Espanyol,,ESP-La Liga,1920
+2020-06-16 21:00:00,Barcelona,Leganes,1394377,https://www.whoscored.com/Matches/1394377/Live/Spain-LaLiga-2019-2020-Barcelona-Leganes,,ESP-La Liga,1920
+2020-06-17 18:30:00,Eibar,Athletic Club,1394382,https://www.whoscored.com/Matches/1394382/Live/Spain-LaLiga-2019-2020-Eibar-Athletic-Club,,ESP-La Liga,1920
+2020-06-17 18:30:00,Real Valladolid,Celta Vigo,1394337,https://www.whoscored.com/Matches/1394337/Live/Spain-LaLiga-2019-2020-Real-Valladolid-Celta-Vigo,,ESP-La Liga,1920
+2020-06-17 21:00:00,Osasuna,Atletico Madrid,1394388,https://www.whoscored.com/Matches/1394388/Live/Spain-LaLiga-2019-2020-Osasuna-Atletico-Madrid,,ESP-La Liga,1920
+2020-06-18 18:30:00,Deportivo Alaves,Real Sociedad,1394374,https://www.whoscored.com/Matches/1394374/Live/Spain-LaLiga-2019-2020-Deportivo-Alaves-Real-Sociedad,,ESP-La Liga,1920
+2020-06-18 21:00:00,Real Madrid,Valencia,1394390,https://www.whoscored.com/Matches/1394390/Live/Spain-LaLiga-2019-2020-Real-Madrid-Valencia,,ESP-La Liga,1920
+2020-06-19 18:30:00,Mallorca,Leganes,1394358,https://www.whoscored.com/Matches/1394358/Live/Spain-LaLiga-2019-2020-Mallorca-Leganes,,ESP-La Liga,1920
+2020-06-19 18:30:00,Granada,Villarreal,1394355,https://www.whoscored.com/Matches/1394355/Live/Spain-LaLiga-2019-2020-Granada-Villarreal,,ESP-La Liga,1920
+2020-06-19 21:00:00,Sevilla,Barcelona,1394364,https://www.whoscored.com/Matches/1394364/Live/Spain-LaLiga-2019-2020-Sevilla-Barcelona,,ESP-La Liga,1920
+2020-06-20 13:00:00,Espanyol,Levante,1394349,https://www.whoscored.com/Matches/1394349/Live/Spain-LaLiga-2019-2020-Espanyol-Levante,,ESP-La Liga,1920
+2020-06-20 16:00:00,Athletic Club,Real Betis,1394340,https://www.whoscored.com/Matches/1394340/Live/Spain-LaLiga-2019-2020-Athletic-Club-Real-Betis,,ESP-La Liga,1920
+2020-06-20 18:30:00,Getafe,Eibar,1394352,https://www.whoscored.com/Matches/1394352/Live/Spain-LaLiga-2019-2020-Getafe-Eibar,,ESP-La Liga,1920
+2020-06-20 21:00:00,Atletico Madrid,Real Valladolid,1394343,https://www.whoscored.com/Matches/1394343/Live/Spain-LaLiga-2019-2020-Atletico-Madrid-Real-Valladolid,,ESP-La Liga,1920
+2020-06-21 13:00:00,Celta Vigo,Deportivo Alaves,1394346,https://www.whoscored.com/Matches/1394346/Live/Spain-LaLiga-2019-2020-Celta-Vigo-Deportivo-Alaves,,ESP-La Liga,1920
+2020-06-21 18:30:00,Valencia,Osasuna,1394367,https://www.whoscored.com/Matches/1394367/Live/Spain-LaLiga-2019-2020-Valencia-Osasuna,,ESP-La Liga,1920
+2020-06-21 21:00:00,Real Sociedad,Real Madrid,1394361,https://www.whoscored.com/Matches/1394361/Live/Spain-LaLiga-2019-2020-Real-Sociedad-Real-Madrid,,ESP-La Liga,1920
+2020-06-22 18:30:00,Villarreal,Sevilla,1394456,https://www.whoscored.com/Matches/1394456/Live/Spain-LaLiga-2019-2020-Villarreal-Sevilla,,ESP-La Liga,1920
+2020-06-22 21:00:00,Leganes,Granada,1394448,https://www.whoscored.com/Matches/1394448/Live/Spain-LaLiga-2019-2020-Leganes-Granada,,ESP-La Liga,1920
+2020-06-23 18:30:00,Levante,Atletico Madrid,1394450,https://www.whoscored.com/Matches/1394450/Live/Spain-LaLiga-2019-2020-Levante-Atletico-Madrid,,ESP-La Liga,1920
+2020-06-23 18:30:00,Real Valladolid,Getafe,1394458,https://www.whoscored.com/Matches/1394458/Live/Spain-LaLiga-2019-2020-Real-Valladolid-Getafe,,ESP-La Liga,1920
+2020-06-23 21:00:00,Barcelona,Athletic Club,1394373,https://www.whoscored.com/Matches/1394373/Live/Spain-LaLiga-2019-2020-Barcelona-Athletic-Club,,ESP-La Liga,1920
+2020-06-24 18:30:00,Deportivo Alaves,Osasuna,1394370,https://www.whoscored.com/Matches/1394370/Live/Spain-LaLiga-2019-2020-Deportivo-Alaves-Osasuna,,ESP-La Liga,1920
+2020-06-24 18:30:00,Real Sociedad,Celta Vigo,1394454,https://www.whoscored.com/Matches/1394454/Live/Spain-LaLiga-2019-2020-Real-Sociedad-Celta-Vigo,,ESP-La Liga,1920
+2020-06-24 21:00:00,Real Madrid,Mallorca,1394452,https://www.whoscored.com/Matches/1394452/Live/Spain-LaLiga-2019-2020-Real-Madrid-Mallorca,,ESP-La Liga,1920
+2020-06-25 18:30:00,Eibar,Valencia,1394379,https://www.whoscored.com/Matches/1394379/Live/Spain-LaLiga-2019-2020-Eibar-Valencia,,ESP-La Liga,1920
+2020-06-25 21:00:00,Real Betis,Espanyol,1394376,https://www.whoscored.com/Matches/1394376/Live/Spain-LaLiga-2019-2020-Real-Betis-Espanyol,,ESP-La Liga,1920
+2020-06-26 21:00:00,Sevilla,Real Valladolid,1394476,https://www.whoscored.com/Matches/1394476/Live/Spain-LaLiga-2019-2020-Sevilla-Real-Valladolid,,ESP-La Liga,1920
+2020-06-27 13:00:00,Athletic Club,Mallorca,1394460,https://www.whoscored.com/Matches/1394460/Live/Spain-LaLiga-2019-2020-Athletic-Club-Mallorca,,ESP-La Liga,1920
+2020-06-27 16:00:00,Celta Vigo,Barcelona,1394464,https://www.whoscored.com/Matches/1394464/Live/Spain-LaLiga-2019-2020-Celta-Vigo-Barcelona,,ESP-La Liga,1920
+2020-06-27 18:30:00,Osasuna,Leganes,1394474,https://www.whoscored.com/Matches/1394474/Live/Spain-LaLiga-2019-2020-Osasuna-Leganes,,ESP-La Liga,1920
+2020-06-27 21:00:00,Atletico Madrid,Deportivo Alaves,1394462,https://www.whoscored.com/Matches/1394462/Live/Spain-LaLiga-2019-2020-Atletico-Madrid-Deportivo-Alaves,,ESP-La Liga,1920
+2020-06-28 13:00:00,Levante,Real Betis,1394472,https://www.whoscored.com/Matches/1394472/Live/Spain-LaLiga-2019-2020-Levante-Real-Betis,,ESP-La Liga,1920
+2020-06-28 16:00:00,Villarreal,Valencia,1394478,https://www.whoscored.com/Matches/1394478/Live/Spain-LaLiga-2019-2020-Villarreal-Valencia,,ESP-La Liga,1920
+2020-06-28 18:30:00,Granada,Eibar,1394470,https://www.whoscored.com/Matches/1394470/Live/Spain-LaLiga-2019-2020-Granada-Eibar,,ESP-La Liga,1920
+2020-06-28 21:00:00,Espanyol,Real Madrid,1394466,https://www.whoscored.com/Matches/1394466/Live/Spain-LaLiga-2019-2020-Espanyol-Real-Madrid,,ESP-La Liga,1920
+2020-06-29 21:00:00,Getafe,Real Sociedad,1394468,https://www.whoscored.com/Matches/1394468/Live/Spain-LaLiga-2019-2020-Getafe-Real-Sociedad,,ESP-La Liga,1920
+2020-06-30 18:30:00,Mallorca,Celta Vigo,1394397,https://www.whoscored.com/Matches/1394397/Live/Spain-LaLiga-2019-2020-Mallorca-Celta-Vigo,,ESP-La Liga,1920
+2020-06-30 20:00:00,Leganes,Sevilla,1394394,https://www.whoscored.com/Matches/1394394/Live/Spain-LaLiga-2019-2020-Leganes-Sevilla,,ESP-La Liga,1920
+2020-06-30 21:00:00,Barcelona,Atletico Madrid,1394482,https://www.whoscored.com/Matches/1394482/Live/Spain-LaLiga-2019-2020-Barcelona-Atletico-Madrid,,ESP-La Liga,1920
+2020-03-01 11:00:00,Sevilla,Osasuna,1394366,https://www.whoscored.com/Matches/1394366/Live/Spain-LaLiga-2019-2020-Sevilla-Osasuna,,ESP-La Liga,1920
+2020-03-01 13:00:00,Athletic Club,Villarreal,1394342,https://www.whoscored.com/Matches/1394342/Live/Spain-LaLiga-2019-2020-Athletic-Club-Villarreal,,ESP-La Liga,1920
+2020-03-01 15:00:00,Espanyol,Atletico Madrid,1394348,https://www.whoscored.com/Matches/1394348/Live/Spain-LaLiga-2019-2020-Espanyol-Atletico-Madrid,,ESP-La Liga,1920
+2020-03-01 17:30:00,Mallorca,Getafe,1394357,https://www.whoscored.com/Matches/1394357/Live/Spain-LaLiga-2019-2020-Mallorca-Getafe,,ESP-La Liga,1920
+2020-03-01 20:00:00,Real Madrid,Barcelona,1394360,https://www.whoscored.com/Matches/1394360/Live/Spain-LaLiga-2019-2020-Real-Madrid-Barcelona,,ESP-La Liga,1920
+2020-03-06 20:00:00,Deportivo Alaves,Valencia,1394372,https://www.whoscored.com/Matches/1394372/Live/Spain-LaLiga-2019-2020-Deportivo-Alaves-Valencia,,ESP-La Liga,1920
+2020-03-07 12:00:00,Eibar,Mallorca,1394383,https://www.whoscored.com/Matches/1394383/Live/Spain-LaLiga-2019-2020-Eibar-Mallorca,,ESP-La Liga,1920
+2020-03-07 15:00:00,Atletico Madrid,Sevilla,1394375,https://www.whoscored.com/Matches/1394375/Live/Spain-LaLiga-2019-2020-Atletico-Madrid-Sevilla,,ESP-La Liga,1920
+2020-03-07 17:30:00,Barcelona,Real Sociedad,1394378,https://www.whoscored.com/Matches/1394378/Live/Spain-LaLiga-2019-2020-Barcelona-Real-Sociedad,,ESP-La Liga,1920
+2020-03-07 20:00:00,Getafe,Celta Vigo,1394385,https://www.whoscored.com/Matches/1394385/Live/Spain-LaLiga-2019-2020-Getafe-Celta-Vigo,,ESP-La Liga,1920
+2020-03-08 11:00:00,Osasuna,Espanyol,1394389,https://www.whoscored.com/Matches/1394389/Live/Spain-LaLiga-2019-2020-Osasuna-Espanyol,,ESP-La Liga,1920
+2020-03-08 13:00:00,Real Valladolid,Athletic Club,1394341,https://www.whoscored.com/Matches/1394341/Live/Spain-LaLiga-2019-2020-Real-Valladolid-Athletic-Club,,ESP-La Liga,1920
+2020-03-08 15:00:00,Levante,Granada,1394387,https://www.whoscored.com/Matches/1394387/Live/Spain-LaLiga-2019-2020-Levante-Granada,,ESP-La Liga,1920
+2020-03-08 17:30:00,Villarreal,Leganes,1394338,https://www.whoscored.com/Matches/1394338/Live/Spain-LaLiga-2019-2020-Villarreal-Leganes,,ESP-La Liga,1920
+2020-03-08 20:00:00,Real Betis,Real Madrid,1394381,https://www.whoscored.com/Matches/1394381/Live/Spain-LaLiga-2019-2020-Real-Betis-Real-Madrid,,ESP-La Liga,1920
+2020-03-10 19:00:00,Eibar,Real Sociedad,1394453,https://www.whoscored.com/Matches/1394453/Live/Spain-LaLiga-2019-2020-Eibar-Real-Sociedad,,ESP-La Liga,1920
+2020-02-01 12:00:00,Granada,Espanyol,1394489,https://www.whoscored.com/Matches/1394489/Live/Spain-LaLiga-2019-2020-Granada-Espanyol,,ESP-La Liga,1920
+2020-02-01 15:00:00,Real Madrid,Atletico Madrid,1394493,https://www.whoscored.com/Matches/1394493/Live/Spain-LaLiga-2019-2020-Real-Madrid-Atletico-Madrid,,ESP-La Liga,1920
+2020-02-01 17:30:00,Mallorca,Real Valladolid,1394491,https://www.whoscored.com/Matches/1394491/Live/Spain-LaLiga-2019-2020-Mallorca-Real-Valladolid,,ESP-La Liga,1920
+2020-02-01 20:00:00,Valencia,Celta Vigo,1394497,https://www.whoscored.com/Matches/1394497/Live/Spain-LaLiga-2019-2020-Valencia-Celta-Vigo,,ESP-La Liga,1920
+2020-02-02 11:00:00,Leganes,Real Sociedad,1394490,https://www.whoscored.com/Matches/1394490/Live/Spain-LaLiga-2019-2020-Leganes-Real-Sociedad,,ESP-La Liga,1920
+2020-02-02 13:00:00,Eibar,Real Betis,1394488,https://www.whoscored.com/Matches/1394488/Live/Spain-LaLiga-2019-2020-Eibar-Real-Betis,,ESP-La Liga,1920
+2020-02-02 15:00:00,Athletic Club,Getafe,1394508,https://www.whoscored.com/Matches/1394508/Live/Spain-LaLiga-2019-2020-Athletic-Club-Getafe,,ESP-La Liga,1920
+2020-02-02 17:30:00,Sevilla,Deportivo Alaves,1394495,https://www.whoscored.com/Matches/1394495/Live/Spain-LaLiga-2019-2020-Sevilla-Deportivo-Alaves,,ESP-La Liga,1920
+2020-02-02 17:30:00,Villarreal,Osasuna,1394499,https://www.whoscored.com/Matches/1394499/Live/Spain-LaLiga-2019-2020-Villarreal-Osasuna,,ESP-La Liga,1920
+2020-02-02 20:00:00,Barcelona,Levante,1394487,https://www.whoscored.com/Matches/1394487/Live/Spain-LaLiga-2019-2020-Barcelona-Levante,,ESP-La Liga,1920
+2020-02-07 20:00:00,Deportivo Alaves,Eibar,1394501,https://www.whoscored.com/Matches/1394501/Live/Spain-LaLiga-2019-2020-Deportivo-Alaves-Eibar,,ESP-La Liga,1920
+2020-02-08 12:00:00,Levante,Leganes,1394511,https://www.whoscored.com/Matches/1394511/Live/Spain-LaLiga-2019-2020-Levante-Leganes,,ESP-La Liga,1920
+2020-02-08 15:00:00,Getafe,Valencia,1394510,https://www.whoscored.com/Matches/1394510/Live/Spain-LaLiga-2019-2020-Getafe-Valencia,,ESP-La Liga,1920
+2020-02-08 17:30:00,Real Valladolid,Villarreal,1394514,https://www.whoscored.com/Matches/1394514/Live/Spain-LaLiga-2019-2020-Real-Valladolid-Villarreal,,ESP-La Liga,1920
+2020-02-08 20:00:00,Atletico Madrid,Granada,1394503,https://www.whoscored.com/Matches/1394503/Live/Spain-LaLiga-2019-2020-Atletico-Madrid-Granada,,ESP-La Liga,1920
+2020-02-09 11:00:00,Espanyol,Mallorca,1394509,https://www.whoscored.com/Matches/1394509/Live/Spain-LaLiga-2019-2020-Espanyol-Mallorca,,ESP-La Liga,1920
+2020-02-09 13:00:00,Real Sociedad,Athletic Club,1394513,https://www.whoscored.com/Matches/1394513/Live/Spain-LaLiga-2019-2020-Real-Sociedad-Athletic-Club,,ESP-La Liga,1920
+2020-02-09 15:00:00,Osasuna,Real Madrid,1394512,https://www.whoscored.com/Matches/1394512/Live/Spain-LaLiga-2019-2020-Osasuna-Real-Madrid,,ESP-La Liga,1920
+2020-02-09 17:30:00,Celta Vigo,Sevilla,1394507,https://www.whoscored.com/Matches/1394507/Live/Spain-LaLiga-2019-2020-Celta-Vigo-Sevilla,,ESP-La Liga,1920
+2020-02-09 20:00:00,Real Betis,Barcelona,1394505,https://www.whoscored.com/Matches/1394505/Live/Spain-LaLiga-2019-2020-Real-Betis-Barcelona,,ESP-La Liga,1920
+2020-02-14 20:00:00,Valencia,Atletico Madrid,1394465,https://www.whoscored.com/Matches/1394465/Live/Spain-LaLiga-2019-2020-Valencia-Atletico-Madrid,,ESP-La Liga,1920
+2020-02-15 12:00:00,Mallorca,Deportivo Alaves,1394459,https://www.whoscored.com/Matches/1394459/Live/Spain-LaLiga-2019-2020-Mallorca-Deportivo-Alaves,,ESP-La Liga,1920
+2020-02-15 15:00:00,Barcelona,Getafe,1394451,https://www.whoscored.com/Matches/1394451/Live/Spain-LaLiga-2019-2020-Barcelona-Getafe,,ESP-La Liga,1920
+2020-02-15 17:30:00,Villarreal,Levante,1394467,https://www.whoscored.com/Matches/1394467/Live/Spain-LaLiga-2019-2020-Villarreal-Levante,,ESP-La Liga,1920
+2020-02-15 20:00:00,Granada,Real Valladolid,1394455,https://www.whoscored.com/Matches/1394455/Live/Spain-LaLiga-2019-2020-Granada-Real-Valladolid,,ESP-La Liga,1920
+2020-02-16 11:00:00,Sevilla,Espanyol,1394463,https://www.whoscored.com/Matches/1394463/Live/Spain-LaLiga-2019-2020-Sevilla-Espanyol,,ESP-La Liga,1920
+2020-02-16 13:00:00,Leganes,Real Betis,1394457,https://www.whoscored.com/Matches/1394457/Live/Spain-LaLiga-2019-2020-Leganes-Real-Betis,,ESP-La Liga,1920
+2020-02-16 17:30:00,Athletic Club,Osasuna,1394449,https://www.whoscored.com/Matches/1394449/Live/Spain-LaLiga-2019-2020-Athletic-Club-Osasuna,,ESP-La Liga,1920
+2020-02-16 20:00:00,Real Madrid,Celta Vigo,1394461,https://www.whoscored.com/Matches/1394461/Live/Spain-LaLiga-2019-2020-Real-Madrid-Celta-Vigo,,ESP-La Liga,1920
+2020-02-21 20:00:00,Real Betis,Mallorca,1394475,https://www.whoscored.com/Matches/1394475/Live/Spain-LaLiga-2019-2020-Real-Betis-Mallorca,,ESP-La Liga,1920
+2020-02-22 12:00:00,Celta Vigo,Leganes,1394477,https://www.whoscored.com/Matches/1394477/Live/Spain-LaLiga-2019-2020-Celta-Vigo-Leganes,,ESP-La Liga,1920
+2020-02-22 15:00:00,Barcelona,Eibar,1394473,https://www.whoscored.com/Matches/1394473/Live/Spain-LaLiga-2019-2020-Barcelona-Eibar,,ESP-La Liga,1920
+2020-02-22 17:30:00,Real Sociedad,Valencia,1394485,https://www.whoscored.com/Matches/1394485/Live/Spain-LaLiga-2019-2020-Real-Sociedad-Valencia,,ESP-La Liga,1920
+2020-02-22 20:00:00,Levante,Real Madrid,1394481,https://www.whoscored.com/Matches/1394481/Live/Spain-LaLiga-2019-2020-Levante-Real-Madrid,,ESP-La Liga,1920
+2020-02-23 11:00:00,Osasuna,Granada,1394483,https://www.whoscored.com/Matches/1394483/Live/Spain-LaLiga-2019-2020-Osasuna-Granada,,ESP-La Liga,1920
+2020-02-23 13:00:00,Deportivo Alaves,Athletic Club,1394469,https://www.whoscored.com/Matches/1394469/Live/Spain-LaLiga-2019-2020-Deportivo-Alaves-Athletic-Club,,ESP-La Liga,1920
+2020-02-23 15:00:00,Real Valladolid,Espanyol,1394339,https://www.whoscored.com/Matches/1394339/Live/Spain-LaLiga-2019-2020-Real-Valladolid-Espanyol,,ESP-La Liga,1920
+2020-02-23 17:30:00,Getafe,Sevilla,1394479,https://www.whoscored.com/Matches/1394479/Live/Spain-LaLiga-2019-2020-Getafe-Sevilla,,ESP-La Liga,1920
+2020-02-23 20:00:00,Atletico Madrid,Villarreal,1394471,https://www.whoscored.com/Matches/1394471/Live/Spain-LaLiga-2019-2020-Atletico-Madrid-Villarreal,,ESP-La Liga,1920
+2020-02-28 20:00:00,Real Sociedad,Real Valladolid,1394363,https://www.whoscored.com/Matches/1394363/Live/Spain-LaLiga-2019-2020-Real-Sociedad-Real-Valladolid,,ESP-La Liga,1920
+2020-02-29 12:00:00,Eibar,Levante,1394345,https://www.whoscored.com/Matches/1394345/Live/Spain-LaLiga-2019-2020-Eibar-Levante,,ESP-La Liga,1920
+2020-02-29 15:00:00,Valencia,Real Betis,1394369,https://www.whoscored.com/Matches/1394369/Live/Spain-LaLiga-2019-2020-Valencia-Real-Betis,,ESP-La Liga,1920
+2020-02-29 17:30:00,Leganes,Deportivo Alaves,1394354,https://www.whoscored.com/Matches/1394354/Live/Spain-LaLiga-2019-2020-Leganes-Deportivo-Alaves,,ESP-La Liga,1920
+2020-02-29 20:00:00,Granada,Celta Vigo,1394351,https://www.whoscored.com/Matches/1394351/Live/Spain-LaLiga-2019-2020-Granada-Celta-Vigo,,ESP-La Liga,1920
+2020-01-03 18:00:00,Real Valladolid,Leganes,1394290,https://www.whoscored.com/Matches/1394290/Live/Spain-LaLiga-2019-2020-Real-Valladolid-Leganes,,ESP-La Liga,1920
+2020-01-03 20:00:00,Sevilla,Athletic Club,1394284,https://www.whoscored.com/Matches/1394284/Live/Spain-LaLiga-2019-2020-Sevilla-Athletic-Club,,ESP-La Liga,1920
+2020-01-04 12:00:00,Valencia,Eibar,1394287,https://www.whoscored.com/Matches/1394287/Live/Spain-LaLiga-2019-2020-Valencia-Eibar,,ESP-La Liga,1920
+2020-01-04 15:00:00,Getafe,Real Madrid,1394275,https://www.whoscored.com/Matches/1394275/Live/Spain-LaLiga-2019-2020-Getafe-Real-Madrid,,ESP-La Liga,1920
+2020-01-04 17:30:00,Atletico Madrid,Levante,1394266,https://www.whoscored.com/Matches/1394266/Live/Spain-LaLiga-2019-2020-Atletico-Madrid-Levante,,ESP-La Liga,1920
+2020-01-04 20:00:00,Espanyol,Barcelona,1394272,https://www.whoscored.com/Matches/1394272/Live/Spain-LaLiga-2019-2020-Espanyol-Barcelona,,ESP-La Liga,1920
+2020-01-05 11:00:00,Granada,Mallorca,1394278,https://www.whoscored.com/Matches/1394278/Live/Spain-LaLiga-2019-2020-Granada-Mallorca,,ESP-La Liga,1920
+2020-01-05 13:00:00,Real Sociedad,Villarreal,1394281,https://www.whoscored.com/Matches/1394281/Live/Spain-LaLiga-2019-2020-Real-Sociedad-Villarreal,,ESP-La Liga,1920
+2020-01-05 15:00:00,Deportivo Alaves,Real Betis,1394263,https://www.whoscored.com/Matches/1394263/Live/Spain-LaLiga-2019-2020-Deportivo-Alaves-Real-Betis,,ESP-La Liga,1920
+2020-01-05 20:00:00,Celta Vigo,Osasuna,1394269,https://www.whoscored.com/Matches/1394269/Live/Spain-LaLiga-2019-2020-Celta-Vigo-Osasuna,,ESP-La Liga,1920
+2020-01-17 20:00:00,Leganes,Getafe,1394305,https://www.whoscored.com/Matches/1394305/Live/Spain-LaLiga-2019-2020-Leganes-Getafe,,ESP-La Liga,1920
+2020-01-18 12:00:00,Levante,Deportivo Alaves,1394308,https://www.whoscored.com/Matches/1394308/Live/Spain-LaLiga-2019-2020-Levante-Deportivo-Alaves,,ESP-La Liga,1920
+2020-01-18 15:00:00,Real Madrid,Sevilla,1394317,https://www.whoscored.com/Matches/1394317/Live/Spain-LaLiga-2019-2020-Real-Madrid-Sevilla,,ESP-La Liga,1920
+2020-01-18 17:30:00,Osasuna,Real Valladolid,1394314,https://www.whoscored.com/Matches/1394314/Live/Spain-LaLiga-2019-2020-Osasuna-Real-Valladolid,,ESP-La Liga,1920
+2020-01-18 20:00:00,Eibar,Atletico Madrid,1394302,https://www.whoscored.com/Matches/1394302/Live/Spain-LaLiga-2019-2020-Eibar-Atletico-Madrid,,ESP-La Liga,1920
+2020-01-19 11:00:00,Mallorca,Valencia,1394311,https://www.whoscored.com/Matches/1394311/Live/Spain-LaLiga-2019-2020-Mallorca-Valencia,,ESP-La Liga,1920
+2020-01-19 13:00:00,Real Betis,Real Sociedad,1394299,https://www.whoscored.com/Matches/1394299/Live/Spain-LaLiga-2019-2020-Real-Betis-Real-Sociedad,,ESP-La Liga,1920
+2020-01-19 15:00:00,Villarreal,Espanyol,1394320,https://www.whoscored.com/Matches/1394320/Live/Spain-LaLiga-2019-2020-Villarreal-Espanyol,,ESP-La Liga,1920
+2020-01-19 17:30:00,Athletic Club,Celta Vigo,1394293,https://www.whoscored.com/Matches/1394293/Live/Spain-LaLiga-2019-2020-Athletic-Club-Celta-Vigo,,ESP-La Liga,1920
+2020-01-19 20:00:00,Barcelona,Granada,1394296,https://www.whoscored.com/Matches/1394296/Live/Spain-LaLiga-2019-2020-Barcelona-Granada,,ESP-La Liga,1920
+2020-01-24 20:00:00,Osasuna,Levante,1394498,https://www.whoscored.com/Matches/1394498/Live/Spain-LaLiga-2019-2020-Osasuna-Levante,,ESP-La Liga,1920
+2020-01-25 12:00:00,Espanyol,Athletic Club,1394494,https://www.whoscored.com/Matches/1394494/Live/Spain-LaLiga-2019-2020-Espanyol-Athletic-Club,,ESP-La Liga,1920
+2020-01-25 15:00:00,Valencia,Barcelona,1394504,https://www.whoscored.com/Matches/1394504/Live/Spain-LaLiga-2019-2020-Valencia-Barcelona,,ESP-La Liga,1920
+2020-01-25 17:30:00,Deportivo Alaves,Villarreal,1394322,https://www.whoscored.com/Matches/1394322/Live/Spain-LaLiga-2019-2020-Deportivo-Alaves-Villarreal,,ESP-La Liga,1920
+2020-01-25 20:00:00,Sevilla,Granada,1394502,https://www.whoscored.com/Matches/1394502/Live/Spain-LaLiga-2019-2020-Sevilla-Granada,,ESP-La Liga,1920
+2020-01-26 11:00:00,Atletico Madrid,Leganes,1394324,https://www.whoscored.com/Matches/1394324/Live/Spain-LaLiga-2019-2020-Atletico-Madrid-Leganes,,ESP-La Liga,1920
+2020-01-26 13:00:00,Celta Vigo,Eibar,1394492,https://www.whoscored.com/Matches/1394492/Live/Spain-LaLiga-2019-2020-Celta-Vigo-Eibar,,ESP-La Liga,1920
+2020-01-26 15:00:00,Getafe,Real Betis,1394496,https://www.whoscored.com/Matches/1394496/Live/Spain-LaLiga-2019-2020-Getafe-Real-Betis,,ESP-La Liga,1920
+2020-01-26 17:30:00,Real Sociedad,Mallorca,1394500,https://www.whoscored.com/Matches/1394500/Live/Spain-LaLiga-2019-2020-Real-Sociedad-Mallorca,,ESP-La Liga,1920
+2020-01-26 20:00:00,Real Valladolid,Real Madrid,1394506,https://www.whoscored.com/Matches/1394506/Live/Spain-LaLiga-2019-2020-Real-Valladolid-Real-Madrid,,ESP-La Liga,1920
+2019-12-01 11:00:00,Sevilla,Leganes,1394332,https://www.whoscored.com/Matches/1394332/Live/Spain-LaLiga-2019-2020-Sevilla-Leganes,,ESP-La Liga,1920
+2019-12-01 13:00:00,Athletic Club,Granada,1394325,https://www.whoscored.com/Matches/1394325/Live/Spain-LaLiga-2019-2020-Athletic-Club-Granada,,ESP-La Liga,1920
+2019-12-01 15:00:00,Espanyol,Osasuna,1394328,https://www.whoscored.com/Matches/1394328/Live/Spain-LaLiga-2019-2020-Espanyol-Osasuna,,ESP-La Liga,1920
+2019-12-01 17:30:00,Getafe,Levante,1394329,https://www.whoscored.com/Matches/1394329/Live/Spain-LaLiga-2019-2020-Getafe-Levante,,ESP-La Liga,1920
+2019-12-01 20:00:00,Atletico Madrid,Barcelona,1394326,https://www.whoscored.com/Matches/1394326/Live/Spain-LaLiga-2019-2020-Atletico-Madrid-Barcelona,,ESP-La Liga,1920
+2019-12-06 20:00:00,Villarreal,Atletico Madrid,1394209,https://www.whoscored.com/Matches/1394209/Live/Spain-LaLiga-2019-2020-Villarreal-Atletico-Madrid,,ESP-La Liga,1920
+2019-12-07 12:00:00,Real Madrid,Espanyol,1394207,https://www.whoscored.com/Matches/1394207/Live/Spain-LaLiga-2019-2020-Real-Madrid-Espanyol,,ESP-La Liga,1920
+2019-12-07 15:00:00,Granada,Deportivo Alaves,1394199,https://www.whoscored.com/Matches/1394199/Live/Spain-LaLiga-2019-2020-Granada-Deportivo-Alaves,,ESP-La Liga,1920
+2019-12-07 17:30:00,Levante,Valencia,1394203,https://www.whoscored.com/Matches/1394203/Live/Spain-LaLiga-2019-2020-Levante-Valencia,,ESP-La Liga,1920
+2019-12-07 20:00:00,Barcelona,Mallorca,1394334,https://www.whoscored.com/Matches/1394334/Live/Spain-LaLiga-2019-2020-Barcelona-Mallorca,,ESP-La Liga,1920
+2019-12-08 11:00:00,Eibar,Getafe,1394336,https://www.whoscored.com/Matches/1394336/Live/Spain-LaLiga-2019-2020-Eibar-Getafe,,ESP-La Liga,1920
+2019-12-08 13:00:00,Real Betis,Athletic Club,1394335,https://www.whoscored.com/Matches/1394335/Live/Spain-LaLiga-2019-2020-Real-Betis-Athletic-Club,,ESP-La Liga,1920
+2019-12-08 15:00:00,Real Valladolid,Real Sociedad,1394211,https://www.whoscored.com/Matches/1394211/Live/Spain-LaLiga-2019-2020-Real-Valladolid-Real-Sociedad,,ESP-La Liga,1920
+2019-12-08 17:30:00,Leganes,Celta Vigo,1394201,https://www.whoscored.com/Matches/1394201/Live/Spain-LaLiga-2019-2020-Leganes-Celta-Vigo,,ESP-La Liga,1920
+2019-12-08 20:00:00,Osasuna,Sevilla,1394205,https://www.whoscored.com/Matches/1394205/Live/Spain-LaLiga-2019-2020-Osasuna-Sevilla,,ESP-La Liga,1920
+2019-12-13 20:00:00,Deportivo Alaves,Leganes,1394213,https://www.whoscored.com/Matches/1394213/Live/Spain-LaLiga-2019-2020-Deportivo-Alaves-Leganes,,ESP-La Liga,1920
+2019-12-14 12:00:00,Granada,Levante,1394225,https://www.whoscored.com/Matches/1394225/Live/Spain-LaLiga-2019-2020-Granada-Levante,,ESP-La Liga,1920
+2019-12-14 15:00:00,Real Sociedad,Barcelona,1394227,https://www.whoscored.com/Matches/1394227/Live/Spain-LaLiga-2019-2020-Real-Sociedad-Barcelona,,ESP-La Liga,1920
+2019-12-14 17:30:00,Athletic Club,Eibar,1394215,https://www.whoscored.com/Matches/1394215/Live/Spain-LaLiga-2019-2020-Athletic-Club-Eibar,,ESP-La Liga,1920
+2019-12-14 20:00:00,Atletico Madrid,Osasuna,1394217,https://www.whoscored.com/Matches/1394217/Live/Spain-LaLiga-2019-2020-Atletico-Madrid-Osasuna,,ESP-La Liga,1920
+2019-12-15 11:00:00,Getafe,Real Valladolid,1394223,https://www.whoscored.com/Matches/1394223/Live/Spain-LaLiga-2019-2020-Getafe-Real-Valladolid,,ESP-La Liga,1920
+2019-12-15 13:00:00,Celta Vigo,Mallorca,1394219,https://www.whoscored.com/Matches/1394219/Live/Spain-LaLiga-2019-2020-Celta-Vigo-Mallorca,,ESP-La Liga,1920
+2019-12-15 15:00:00,Espanyol,Real Betis,1394221,https://www.whoscored.com/Matches/1394221/Live/Spain-LaLiga-2019-2020-Espanyol-Real-Betis,,ESP-La Liga,1920
+2019-12-15 17:30:00,Sevilla,Villarreal,1394229,https://www.whoscored.com/Matches/1394229/Live/Spain-LaLiga-2019-2020-Sevilla-Villarreal,,ESP-La Liga,1920
+2019-12-15 20:00:00,Valencia,Real Madrid,1394231,https://www.whoscored.com/Matches/1394231/Live/Spain-LaLiga-2019-2020-Valencia-Real-Madrid,,ESP-La Liga,1920
+2019-12-18 19:00:00,Barcelona,Real Madrid,1394515,https://www.whoscored.com/Matches/1394515/Live/Spain-LaLiga-2019-2020-Barcelona-Real-Madrid,,ESP-La Liga,1920
+2019-12-20 20:00:00,Eibar,Granada,1394239,https://www.whoscored.com/Matches/1394239/Live/Spain-LaLiga-2019-2020-Eibar-Granada,,ESP-La Liga,1920
+2019-12-21 12:00:00,Mallorca,Sevilla,1394248,https://www.whoscored.com/Matches/1394248/Live/Spain-LaLiga-2019-2020-Mallorca-Sevilla,,ESP-La Liga,1920
+2019-12-21 15:00:00,Barcelona,Deportivo Alaves,1394233,https://www.whoscored.com/Matches/1394233/Live/Spain-LaLiga-2019-2020-Barcelona-Deportivo-Alaves,,ESP-La Liga,1920
+2019-12-21 17:30:00,Villarreal,Getafe,1394257,https://www.whoscored.com/Matches/1394257/Live/Spain-LaLiga-2019-2020-Villarreal-Getafe,,ESP-La Liga,1920
+2019-12-21 20:00:00,Real Valladolid,Valencia,1394260,https://www.whoscored.com/Matches/1394260/Live/Spain-LaLiga-2019-2020-Real-Valladolid-Valencia,,ESP-La Liga,1920
+2019-12-22 11:00:00,Leganes,Espanyol,1394242,https://www.whoscored.com/Matches/1394242/Live/Spain-LaLiga-2019-2020-Leganes-Espanyol,,ESP-La Liga,1920
+2019-12-22 13:00:00,Osasuna,Real Sociedad,1394251,https://www.whoscored.com/Matches/1394251/Live/Spain-LaLiga-2019-2020-Osasuna-Real-Sociedad,,ESP-La Liga,1920
+2019-12-22 15:00:00,Real Betis,Atletico Madrid,1394236,https://www.whoscored.com/Matches/1394236/Live/Spain-LaLiga-2019-2020-Real-Betis-Atletico-Madrid,,ESP-La Liga,1920
+2019-12-22 17:30:00,Levante,Celta Vigo,1394245,https://www.whoscored.com/Matches/1394245/Live/Spain-LaLiga-2019-2020-Levante-Celta-Vigo,,ESP-La Liga,1920
+2019-12-22 20:00:00,Real Madrid,Athletic Club,1394254,https://www.whoscored.com/Matches/1394254/Live/Spain-LaLiga-2019-2020-Real-Madrid-Athletic-Club,,ESP-La Liga,1920
+2019-11-02 12:00:00,Espanyol,Valencia,1394238,https://www.whoscored.com/Matches/1394238/Live/Spain-LaLiga-2019-2020-Espanyol-Valencia,,ESP-La Liga,1920
+2019-11-02 15:00:00,Levante,Barcelona,1394247,https://www.whoscored.com/Matches/1394247/Live/Spain-LaLiga-2019-2020-Levante-Barcelona,,ESP-La Liga,1920
+2019-11-02 17:30:00,Sevilla,Atletico Madrid,1394256,https://www.whoscored.com/Matches/1394256/Live/Spain-LaLiga-2019-2020-Sevilla-Atletico-Madrid,,ESP-La Liga,1920
+2019-11-02 20:00:00,Real Madrid,Real Betis,1394253,https://www.whoscored.com/Matches/1394253/Live/Spain-LaLiga-2019-2020-Real-Madrid-Real-Betis,,ESP-La Liga,1920
+2019-11-03 11:00:00,Real Valladolid,Mallorca,1394262,https://www.whoscored.com/Matches/1394262/Live/Spain-LaLiga-2019-2020-Real-Valladolid-Mallorca,,ESP-La Liga,1920
+2019-11-03 13:00:00,Villarreal,Athletic Club,1394259,https://www.whoscored.com/Matches/1394259/Live/Spain-LaLiga-2019-2020-Villarreal-Athletic-Club,,ESP-La Liga,1920
+2019-11-03 15:00:00,Osasuna,Deportivo Alaves,1394250,https://www.whoscored.com/Matches/1394250/Live/Spain-LaLiga-2019-2020-Osasuna-Deportivo-Alaves,,ESP-La Liga,1920
+2019-11-03 17:30:00,Celta Vigo,Getafe,1394235,https://www.whoscored.com/Matches/1394235/Live/Spain-LaLiga-2019-2020-Celta-Vigo-Getafe,,ESP-La Liga,1920
+2019-11-03 17:30:00,Leganes,Eibar,1394244,https://www.whoscored.com/Matches/1394244/Live/Spain-LaLiga-2019-2020-Leganes-Eibar,,ESP-La Liga,1920
+2019-11-03 20:00:00,Granada,Real Sociedad,1394241,https://www.whoscored.com/Matches/1394241/Live/Spain-LaLiga-2019-2020-Granada-Real-Sociedad,,ESP-La Liga,1920
+2019-11-08 20:00:00,Real Sociedad,Leganes,1394289,https://www.whoscored.com/Matches/1394289/Live/Spain-LaLiga-2019-2020-Real-Sociedad-Leganes,,ESP-La Liga,1920
+2019-11-09 12:00:00,Deportivo Alaves,Real Valladolid,1394265,https://www.whoscored.com/Matches/1394265/Live/Spain-LaLiga-2019-2020-Deportivo-Alaves-Real-Valladolid,,ESP-La Liga,1920
+2019-11-09 15:00:00,Valencia,Granada,1394292,https://www.whoscored.com/Matches/1394292/Live/Spain-LaLiga-2019-2020-Valencia-Granada,,ESP-La Liga,1920
+2019-11-09 17:30:00,Eibar,Real Madrid,1394280,https://www.whoscored.com/Matches/1394280/Live/Spain-LaLiga-2019-2020-Eibar-Real-Madrid,,ESP-La Liga,1920
+2019-11-09 20:00:00,Barcelona,Celta Vigo,1394274,https://www.whoscored.com/Matches/1394274/Live/Spain-LaLiga-2019-2020-Barcelona-Celta-Vigo,,ESP-La Liga,1920
+2019-11-10 11:00:00,Mallorca,Villarreal,1394286,https://www.whoscored.com/Matches/1394286/Live/Spain-LaLiga-2019-2020-Mallorca-Villarreal,,ESP-La Liga,1920
+2019-11-10 13:00:00,Athletic Club,Levante,1394268,https://www.whoscored.com/Matches/1394268/Live/Spain-LaLiga-2019-2020-Athletic-Club-Levante,,ESP-La Liga,1920
+2019-11-10 15:00:00,Atletico Madrid,Espanyol,1394271,https://www.whoscored.com/Matches/1394271/Live/Spain-LaLiga-2019-2020-Atletico-Madrid-Espanyol,,ESP-La Liga,1920
+2019-11-10 17:30:00,Getafe,Osasuna,1394283,https://www.whoscored.com/Matches/1394283/Live/Spain-LaLiga-2019-2020-Getafe-Osasuna,,ESP-La Liga,1920
+2019-11-10 20:00:00,Real Betis,Sevilla,1394277,https://www.whoscored.com/Matches/1394277/Live/Spain-LaLiga-2019-2020-Real-Betis-Sevilla,,ESP-La Liga,1920
+2019-11-22 20:00:00,Levante,Mallorca,1394310,https://www.whoscored.com/Matches/1394310/Live/Spain-LaLiga-2019-2020-Levante-Mallorca,,ESP-La Liga,1920
+2019-11-23 12:00:00,Leganes,Barcelona,1394307,https://www.whoscored.com/Matches/1394307/Live/Spain-LaLiga-2019-2020-Leganes-Barcelona,,ESP-La Liga,1920
+2019-11-23 15:00:00,Real Betis,Valencia,1394295,https://www.whoscored.com/Matches/1394295/Live/Spain-LaLiga-2019-2020-Real-Betis-Valencia,,ESP-La Liga,1920
+2019-11-23 17:30:00,Granada,Atletico Madrid,1394304,https://www.whoscored.com/Matches/1394304/Live/Spain-LaLiga-2019-2020-Granada-Atletico-Madrid,,ESP-La Liga,1920
+2019-11-23 20:00:00,Real Madrid,Real Sociedad,1394316,https://www.whoscored.com/Matches/1394316/Live/Spain-LaLiga-2019-2020-Real-Madrid-Real-Sociedad,,ESP-La Liga,1920
+2019-11-24 11:00:00,Espanyol,Getafe,1394301,https://www.whoscored.com/Matches/1394301/Live/Spain-LaLiga-2019-2020-Espanyol-Getafe,,ESP-La Liga,1920
+2019-11-24 13:00:00,Osasuna,Athletic Club,1394313,https://www.whoscored.com/Matches/1394313/Live/Spain-LaLiga-2019-2020-Osasuna-Athletic-Club,,ESP-La Liga,1920
+2019-11-24 15:00:00,Eibar,Deportivo Alaves,1394298,https://www.whoscored.com/Matches/1394298/Live/Spain-LaLiga-2019-2020-Eibar-Deportivo-Alaves,,ESP-La Liga,1920
+2019-11-24 17:30:00,Villarreal,Celta Vigo,1394319,https://www.whoscored.com/Matches/1394319/Live/Spain-LaLiga-2019-2020-Villarreal-Celta-Vigo,,ESP-La Liga,1920
+2019-11-24 20:00:00,Real Valladolid,Sevilla,1394321,https://www.whoscored.com/Matches/1394321/Live/Spain-LaLiga-2019-2020-Real-Valladolid-Sevilla,,ESP-La Liga,1920
+2019-11-29 20:00:00,Celta Vigo,Real Valladolid,1394327,https://www.whoscored.com/Matches/1394327/Live/Spain-LaLiga-2019-2020-Celta-Vigo-Real-Valladolid,,ESP-La Liga,1920
+2019-11-30 12:00:00,Deportivo Alaves,Real Madrid,1394323,https://www.whoscored.com/Matches/1394323/Live/Spain-LaLiga-2019-2020-Deportivo-Alaves-Real-Madrid,,ESP-La Liga,1920
+2019-11-30 15:00:00,Real Sociedad,Eibar,1394331,https://www.whoscored.com/Matches/1394331/Live/Spain-LaLiga-2019-2020-Real-Sociedad-Eibar,,ESP-La Liga,1920
+2019-11-30 17:30:00,Mallorca,Real Betis,1394330,https://www.whoscored.com/Matches/1394330/Live/Spain-LaLiga-2019-2020-Mallorca-Real-Betis,,ESP-La Liga,1920
+2019-11-30 20:00:00,Valencia,Villarreal,1394333,https://www.whoscored.com/Matches/1394333/Live/Spain-LaLiga-2019-2020-Valencia-Villarreal,,ESP-La Liga,1920
+2019-10-04 20:00:00,Real Betis,Eibar,1394264,https://www.whoscored.com/Matches/1394264/Live/Spain-LaLiga-2019-2020-Real-Betis-Eibar,,ESP-La Liga,1920
+2019-10-05 12:00:00,Leganes,Levante,1394270,https://www.whoscored.com/Matches/1394270/Live/Spain-LaLiga-2019-2020-Leganes-Levante,,ESP-La Liga,1920
+2019-10-05 15:00:00,Real Madrid,Granada,1394279,https://www.whoscored.com/Matches/1394279/Live/Spain-LaLiga-2019-2020-Real-Madrid-Granada,,ESP-La Liga,1920
+2019-10-05 17:30:00,Valencia,Deportivo Alaves,1394285,https://www.whoscored.com/Matches/1394285/Live/Spain-LaLiga-2019-2020-Valencia-Deportivo-Alaves,,ESP-La Liga,1920
+2019-10-05 20:00:00,Osasuna,Villarreal,1394276,https://www.whoscored.com/Matches/1394276/Live/Spain-LaLiga-2019-2020-Osasuna-Villarreal,,ESP-La Liga,1920
+2019-10-06 11:00:00,Mallorca,Espanyol,1394273,https://www.whoscored.com/Matches/1394273/Live/Spain-LaLiga-2019-2020-Mallorca-Espanyol,,ESP-La Liga,1920
+2019-10-06 13:00:00,Celta Vigo,Athletic Club,1394267,https://www.whoscored.com/Matches/1394267/Live/Spain-LaLiga-2019-2020-Celta-Vigo-Athletic-Club,,ESP-La Liga,1920
+2019-10-06 15:00:00,Real Valladolid,Atletico Madrid,1394288,https://www.whoscored.com/Matches/1394288/Live/Spain-LaLiga-2019-2020-Real-Valladolid-Atletico-Madrid,,ESP-La Liga,1920
+2019-10-06 17:30:00,Real Sociedad,Getafe,1394282,https://www.whoscored.com/Matches/1394282/Live/Spain-LaLiga-2019-2020-Real-Sociedad-Getafe,,ESP-La Liga,1920
+2019-10-06 20:00:00,Barcelona,Sevilla,1394261,https://www.whoscored.com/Matches/1394261/Live/Spain-LaLiga-2019-2020-Barcelona-Sevilla,,ESP-La Liga,1920
+2019-10-18 20:00:00,Granada,Osasuna,1394309,https://www.whoscored.com/Matches/1394309/Live/Spain-LaLiga-2019-2020-Granada-Osasuna,,ESP-La Liga,1920
+2019-10-19 12:00:00,Eibar,Barcelona,1394300,https://www.whoscored.com/Matches/1394300/Live/Spain-LaLiga-2019-2020-Eibar-Barcelona,,ESP-La Liga,1920
+2019-10-19 15:00:00,Atletico Madrid,Valencia,1394297,https://www.whoscored.com/Matches/1394297/Live/Spain-LaLiga-2019-2020-Atletico-Madrid-Valencia,,ESP-La Liga,1920
+2019-10-19 17:30:00,Getafe,Leganes,1394306,https://www.whoscored.com/Matches/1394306/Live/Spain-LaLiga-2019-2020-Getafe-Leganes,,ESP-La Liga,1920
+2019-10-19 20:00:00,Mallorca,Real Madrid,1394312,https://www.whoscored.com/Matches/1394312/Live/Spain-LaLiga-2019-2020-Mallorca-Real-Madrid,,ESP-La Liga,1920
+2019-10-20 11:00:00,Deportivo Alaves,Celta Vigo,1394291,https://www.whoscored.com/Matches/1394291/Live/Spain-LaLiga-2019-2020-Deportivo-Alaves-Celta-Vigo,,ESP-La Liga,1920
+2019-10-20 13:00:00,Real Sociedad,Real Betis,1394315,https://www.whoscored.com/Matches/1394315/Live/Spain-LaLiga-2019-2020-Real-Sociedad-Real-Betis,,ESP-La Liga,1920
+2019-10-20 15:00:00,Espanyol,Villarreal,1394303,https://www.whoscored.com/Matches/1394303/Live/Spain-LaLiga-2019-2020-Espanyol-Villarreal,,ESP-La Liga,1920
+2019-10-20 17:30:00,Athletic Club,Real Valladolid,1394294,https://www.whoscored.com/Matches/1394294/Live/Spain-LaLiga-2019-2020-Athletic-Club-Real-Valladolid,,ESP-La Liga,1920
+2019-10-20 20:00:00,Sevilla,Levante,1394318,https://www.whoscored.com/Matches/1394318/Live/Spain-LaLiga-2019-2020-Sevilla-Levante,,ESP-La Liga,1920
+2019-10-25 20:00:00,Villarreal,Deportivo Alaves,1394210,https://www.whoscored.com/Matches/1394210/Live/Spain-LaLiga-2019-2020-Villarreal-Deportivo-Alaves,,ESP-La Liga,1920
+2019-10-26 15:00:00,Leganes,Mallorca,1394202,https://www.whoscored.com/Matches/1394202/Live/Spain-LaLiga-2019-2020-Leganes-Mallorca,,ESP-La Liga,1920
+2019-10-26 17:30:00,Real Valladolid,Eibar,1394212,https://www.whoscored.com/Matches/1394212/Live/Spain-LaLiga-2019-2020-Real-Valladolid-Eibar,,ESP-La Liga,1920
+2019-10-26 20:00:00,Atletico Madrid,Athletic Club,1394517,https://www.whoscored.com/Matches/1394517/Live/Spain-LaLiga-2019-2020-Atletico-Madrid-Athletic-Club,,ESP-La Liga,1920
+2019-10-27 11:00:00,Celta Vigo,Real Sociedad,1394516,https://www.whoscored.com/Matches/1394516/Live/Spain-LaLiga-2019-2020-Celta-Vigo-Real-Sociedad,,ESP-La Liga,1920
+2019-10-27 13:00:00,Granada,Real Betis,1394200,https://www.whoscored.com/Matches/1394200/Live/Spain-LaLiga-2019-2020-Granada-Real-Betis,,ESP-La Liga,1920
+2019-10-27 15:00:00,Levante,Espanyol,1394204,https://www.whoscored.com/Matches/1394204/Live/Spain-LaLiga-2019-2020-Levante-Espanyol,,ESP-La Liga,1920
+2019-10-27 17:30:00,Sevilla,Getafe,1394208,https://www.whoscored.com/Matches/1394208/Live/Spain-LaLiga-2019-2020-Sevilla-Getafe,,ESP-La Liga,1920
+2019-10-27 20:00:00,Osasuna,Valencia,1394206,https://www.whoscored.com/Matches/1394206/Live/Spain-LaLiga-2019-2020-Osasuna-Valencia,,ESP-La Liga,1920
+2019-10-29 18:00:00,Deportivo Alaves,Atletico Madrid,1394214,https://www.whoscored.com/Matches/1394214/Live/Spain-LaLiga-2019-2020-Deportivo-Alaves-Atletico-Madrid,,ESP-La Liga,1920
+2019-10-29 20:15:00,Barcelona,Real Valladolid,1394218,https://www.whoscored.com/Matches/1394218/Live/Spain-LaLiga-2019-2020-Barcelona-Real-Valladolid,,ESP-La Liga,1920
+2019-10-30 18:00:00,Real Sociedad,Levante,1394230,https://www.whoscored.com/Matches/1394230/Live/Spain-LaLiga-2019-2020-Real-Sociedad-Levante,,ESP-La Liga,1920
+2019-10-30 18:00:00,Valencia,Sevilla,1394232,https://www.whoscored.com/Matches/1394232/Live/Spain-LaLiga-2019-2020-Valencia-Sevilla,,ESP-La Liga,1920
+2019-10-30 19:00:00,Athletic Club,Espanyol,1394216,https://www.whoscored.com/Matches/1394216/Live/Spain-LaLiga-2019-2020-Athletic-Club-Espanyol,,ESP-La Liga,1920
+2019-10-30 20:00:00,Real Betis,Celta Vigo,1394220,https://www.whoscored.com/Matches/1394220/Live/Spain-LaLiga-2019-2020-Real-Betis-Celta-Vigo,,ESP-La Liga,1920
+2019-10-30 20:15:00,Real Madrid,Leganes,1394228,https://www.whoscored.com/Matches/1394228/Live/Spain-LaLiga-2019-2020-Real-Madrid-Leganes,,ESP-La Liga,1920
+2019-10-31 18:00:00,Mallorca,Osasuna,1394226,https://www.whoscored.com/Matches/1394226/Live/Spain-LaLiga-2019-2020-Mallorca-Osasuna,,ESP-La Liga,1920
+2019-10-31 18:00:00,Eibar,Villarreal,1394222,https://www.whoscored.com/Matches/1394222/Live/Spain-LaLiga-2019-2020-Eibar-Villarreal,,ESP-La Liga,1920
+2019-10-31 20:15:00,Getafe,Granada,1394224,https://www.whoscored.com/Matches/1394224/Live/Spain-LaLiga-2019-2020-Getafe-Granada,,ESP-La Liga,1920
+2019-09-01 16:00:00,Valencia,Mallorca,1394166,https://www.whoscored.com/Matches/1394166/Live/Spain-LaLiga-2019-2020-Valencia-Mallorca,,ESP-La Liga,1920
+2019-09-01 18:00:00,Espanyol,Granada,1394161,https://www.whoscored.com/Matches/1394161/Live/Spain-LaLiga-2019-2020-Espanyol-Granada,,ESP-La Liga,1920
+2019-09-01 18:00:00,Atletico Madrid,Eibar,1394159,https://www.whoscored.com/Matches/1394159/Live/Spain-LaLiga-2019-2020-Atletico-Madrid-Eibar,,ESP-La Liga,1920
+2019-09-01 20:00:00,Villarreal,Real Madrid,1394167,https://www.whoscored.com/Matches/1394167/Live/Spain-LaLiga-2019-2020-Villarreal-Real-Madrid,,ESP-La Liga,1920
+2019-09-13 20:00:00,Mallorca,Athletic Club,1394184,https://www.whoscored.com/Matches/1394184/Live/Spain-LaLiga-2019-2020-Mallorca-Athletic-Club,,ESP-La Liga,1920
+2019-09-14 12:00:00,Real Madrid,Levante,1394186,https://www.whoscored.com/Matches/1394186/Live/Spain-LaLiga-2019-2020-Real-Madrid-Levante,,ESP-La Liga,1920
+2019-09-14 15:00:00,Leganes,Villarreal,1394182,https://www.whoscored.com/Matches/1394182/Live/Spain-LaLiga-2019-2020-Leganes-Villarreal,,ESP-La Liga,1920
+2019-09-14 17:30:00,Real Sociedad,Atletico Madrid,1394188,https://www.whoscored.com/Matches/1394188/Live/Spain-LaLiga-2019-2020-Real-Sociedad-Atletico-Madrid,,ESP-La Liga,1920
+2019-09-14 20:00:00,Barcelona,Valencia,1394169,https://www.whoscored.com/Matches/1394169/Live/Spain-LaLiga-2019-2020-Barcelona-Valencia,,ESP-La Liga,1920
+2019-09-15 11:00:00,Eibar,Espanyol,1394180,https://www.whoscored.com/Matches/1394180/Live/Spain-LaLiga-2019-2020-Eibar-Espanyol,,ESP-La Liga,1920
+2019-09-15 13:00:00,Deportivo Alaves,Sevilla,1394168,https://www.whoscored.com/Matches/1394168/Live/Spain-LaLiga-2019-2020-Deportivo-Alaves-Sevilla,,ESP-La Liga,1920
+2019-09-15 15:00:00,Celta Vigo,Granada,1394178,https://www.whoscored.com/Matches/1394178/Live/Spain-LaLiga-2019-2020-Celta-Vigo-Granada,,ESP-La Liga,1920
+2019-09-15 17:30:00,Real Valladolid,Osasuna,1394190,https://www.whoscored.com/Matches/1394190/Live/Spain-LaLiga-2019-2020-Real-Valladolid-Osasuna,,ESP-La Liga,1920
+2019-09-15 20:00:00,Real Betis,Getafe,1394170,https://www.whoscored.com/Matches/1394170/Live/Spain-LaLiga-2019-2020-Real-Betis-Getafe,,ESP-La Liga,1920
+2019-09-20 20:00:00,Osasuna,Real Betis,1394173,https://www.whoscored.com/Matches/1394173/Live/Spain-LaLiga-2019-2020-Osasuna-Real-Betis,,ESP-La Liga,1920
+2019-09-21 12:00:00,Villarreal,Real Valladolid,1394176,https://www.whoscored.com/Matches/1394176/Live/Spain-LaLiga-2019-2020-Villarreal-Real-Valladolid,,ESP-La Liga,1920
+2019-09-21 15:00:00,Levante,Eibar,1394172,https://www.whoscored.com/Matches/1394172/Live/Spain-LaLiga-2019-2020-Levante-Eibar,,ESP-La Liga,1920
+2019-09-21 17:30:00,Atletico Madrid,Celta Vigo,1394194,https://www.whoscored.com/Matches/1394194/Live/Spain-LaLiga-2019-2020-Atletico-Madrid-Celta-Vigo,,ESP-La Liga,1920
+2019-09-21 20:00:00,Granada,Barcelona,1394171,https://www.whoscored.com/Matches/1394171/Live/Spain-LaLiga-2019-2020-Granada-Barcelona,,ESP-La Liga,1920
+2019-09-22 11:00:00,Getafe,Mallorca,1394198,https://www.whoscored.com/Matches/1394198/Live/Spain-LaLiga-2019-2020-Getafe-Mallorca,,ESP-La Liga,1920
+2019-09-22 13:00:00,Espanyol,Real Sociedad,1394196,https://www.whoscored.com/Matches/1394196/Live/Spain-LaLiga-2019-2020-Espanyol-Real-Sociedad,,ESP-La Liga,1920
+2019-09-22 15:00:00,Valencia,Leganes,1394175,https://www.whoscored.com/Matches/1394175/Live/Spain-LaLiga-2019-2020-Valencia-Leganes,,ESP-La Liga,1920
+2019-09-22 17:30:00,Athletic Club,Deportivo Alaves,1394192,https://www.whoscored.com/Matches/1394192/Live/Spain-LaLiga-2019-2020-Athletic-Club-Deportivo-Alaves,,ESP-La Liga,1920
+2019-09-22 20:00:00,Sevilla,Real Madrid,1394174,https://www.whoscored.com/Matches/1394174/Live/Spain-LaLiga-2019-2020-Sevilla-Real-Madrid,,ESP-La Liga,1920
+2019-09-24 18:00:00,Real Valladolid,Granada,1394195,https://www.whoscored.com/Matches/1394195/Live/Spain-LaLiga-2019-2020-Real-Valladolid-Granada,,ESP-La Liga,1920
+2019-09-24 19:00:00,Real Betis,Levante,1394179,https://www.whoscored.com/Matches/1394179/Live/Spain-LaLiga-2019-2020-Real-Betis-Levante,,ESP-La Liga,1920
+2019-09-24 20:00:00,Barcelona,Villarreal,1394177,https://www.whoscored.com/Matches/1394177/Live/Spain-LaLiga-2019-2020-Barcelona-Villarreal,,ESP-La Liga,1920
+2019-09-25 18:00:00,Leganes,Athletic Club,1394185,https://www.whoscored.com/Matches/1394185/Live/Spain-LaLiga-2019-2020-Leganes-Athletic-Club,,ESP-La Liga,1920
+2019-09-25 18:00:00,Mallorca,Atletico Madrid,1394187,https://www.whoscored.com/Matches/1394187/Live/Spain-LaLiga-2019-2020-Mallorca-Atletico-Madrid,,ESP-La Liga,1920
+2019-09-25 19:00:00,Valencia,Getafe,1394193,https://www.whoscored.com/Matches/1394193/Live/Spain-LaLiga-2019-2020-Valencia-Getafe,,ESP-La Liga,1920
+2019-09-25 20:00:00,Real Madrid,Osasuna,1394189,https://www.whoscored.com/Matches/1394189/Live/Spain-LaLiga-2019-2020-Real-Madrid-Osasuna,,ESP-La Liga,1920
+2019-09-26 18:00:00,Eibar,Sevilla,1394183,https://www.whoscored.com/Matches/1394183/Live/Spain-LaLiga-2019-2020-Eibar-Sevilla,,ESP-La Liga,1920
+2019-09-26 19:00:00,Celta Vigo,Espanyol,1394181,https://www.whoscored.com/Matches/1394181/Live/Spain-LaLiga-2019-2020-Celta-Vigo-Espanyol,,ESP-La Liga,1920
+2019-09-26 20:00:00,Real Sociedad,Deportivo Alaves,1394191,https://www.whoscored.com/Matches/1394191/Live/Spain-LaLiga-2019-2020-Real-Sociedad-Deportivo-Alaves,,ESP-La Liga,1920
+2019-09-27 20:00:00,Villarreal,Real Betis,1394258,https://www.whoscored.com/Matches/1394258/Live/Spain-LaLiga-2019-2020-Villarreal-Real-Betis,,ESP-La Liga,1920
+2019-09-28 12:00:00,Athletic Club,Valencia,1394234,https://www.whoscored.com/Matches/1394234/Live/Spain-LaLiga-2019-2020-Athletic-Club-Valencia,,ESP-La Liga,1920
+2019-09-28 15:00:00,Getafe,Barcelona,1394246,https://www.whoscored.com/Matches/1394246/Live/Spain-LaLiga-2019-2020-Getafe-Barcelona,,ESP-La Liga,1920
+2019-09-28 17:30:00,Granada,Leganes,1394249,https://www.whoscored.com/Matches/1394249/Live/Spain-LaLiga-2019-2020-Granada-Leganes,,ESP-La Liga,1920
+2019-09-28 20:00:00,Atletico Madrid,Real Madrid,1394237,https://www.whoscored.com/Matches/1394237/Live/Spain-LaLiga-2019-2020-Atletico-Madrid-Real-Madrid,,ESP-La Liga,1920
+2019-09-29 11:00:00,Espanyol,Real Valladolid,1394243,https://www.whoscored.com/Matches/1394243/Live/Spain-LaLiga-2019-2020-Espanyol-Real-Valladolid,,ESP-La Liga,1920
+2019-09-29 13:00:00,Eibar,Celta Vigo,1394240,https://www.whoscored.com/Matches/1394240/Live/Spain-LaLiga-2019-2020-Eibar-Celta-Vigo,,ESP-La Liga,1920
+2019-09-29 15:00:00,Deportivo Alaves,Mallorca,1394197,https://www.whoscored.com/Matches/1394197/Live/Spain-LaLiga-2019-2020-Deportivo-Alaves-Mallorca,,ESP-La Liga,1920
+2019-09-29 17:30:00,Levante,Osasuna,1394252,https://www.whoscored.com/Matches/1394252/Live/Spain-LaLiga-2019-2020-Levante-Osasuna,,ESP-La Liga,1920
+2019-09-29 20:00:00,Sevilla,Real Sociedad,1394255,https://www.whoscored.com/Matches/1394255/Live/Spain-LaLiga-2019-2020-Sevilla-Real-Sociedad,,ESP-La Liga,1920
+2019-08-16 20:00:00,Athletic Club,Barcelona,1394139,https://www.whoscored.com/Matches/1394139/Live/Spain-LaLiga-2019-2020-Athletic-Club-Barcelona,,ESP-La Liga,1920
+2019-08-17 16:00:00,Celta Vigo,Real Madrid,1394142,https://www.whoscored.com/Matches/1394142/Live/Spain-LaLiga-2019-2020-Celta-Vigo-Real-Madrid,,ESP-La Liga,1920
+2019-08-17 18:00:00,Valencia,Real Sociedad,1394146,https://www.whoscored.com/Matches/1394146/Live/Spain-LaLiga-2019-2020-Valencia-Real-Sociedad,,ESP-La Liga,1920
+2019-08-17 19:00:00,Mallorca,Eibar,1394145,https://www.whoscored.com/Matches/1394145/Live/Spain-LaLiga-2019-2020-Mallorca-Eibar,,ESP-La Liga,1920
+2019-08-17 20:00:00,Leganes,Osasuna,1394144,https://www.whoscored.com/Matches/1394144/Live/Spain-LaLiga-2019-2020-Leganes-Osasuna,,ESP-La Liga,1920
+2019-08-17 20:00:00,Villarreal,Granada,1394147,https://www.whoscored.com/Matches/1394147/Live/Spain-LaLiga-2019-2020-Villarreal-Granada,,ESP-La Liga,1920
+2019-08-18 16:00:00,Deportivo Alaves,Levante,1394138,https://www.whoscored.com/Matches/1394138/Live/Spain-LaLiga-2019-2020-Deportivo-Alaves-Levante,,ESP-La Liga,1920
+2019-08-18 18:00:00,Espanyol,Sevilla,1394143,https://www.whoscored.com/Matches/1394143/Live/Spain-LaLiga-2019-2020-Espanyol-Sevilla,,ESP-La Liga,1920
+2019-08-18 20:00:00,Real Betis,Real Valladolid,1394141,https://www.whoscored.com/Matches/1394141/Live/Spain-LaLiga-2019-2020-Real-Betis-Real-Valladolid,,ESP-La Liga,1920
+2019-08-18 21:00:00,Atletico Madrid,Getafe,1394140,https://www.whoscored.com/Matches/1394140/Live/Spain-LaLiga-2019-2020-Atletico-Madrid-Getafe,,ESP-La Liga,1920
+2019-08-23 19:00:00,Granada,Sevilla,1394152,https://www.whoscored.com/Matches/1394152/Live/Spain-LaLiga-2019-2020-Granada-Sevilla,,ESP-La Liga,1920
+2019-08-23 21:00:00,Levante,Villarreal,1394154,https://www.whoscored.com/Matches/1394154/Live/Spain-LaLiga-2019-2020-Levante-Villarreal,,ESP-La Liga,1920
+2019-08-24 16:00:00,Osasuna,Eibar,1394156,https://www.whoscored.com/Matches/1394156/Live/Spain-LaLiga-2019-2020-Osasuna-Eibar,,ESP-La Liga,1920
+2019-08-24 18:00:00,Real Madrid,Real Valladolid,1394157,https://www.whoscored.com/Matches/1394157/Live/Spain-LaLiga-2019-2020-Real-Madrid-Real-Valladolid,,ESP-La Liga,1920
+2019-08-24 20:00:00,Celta Vigo,Valencia,1394150,https://www.whoscored.com/Matches/1394150/Live/Spain-LaLiga-2019-2020-Celta-Vigo-Valencia,,ESP-La Liga,1920
+2019-08-24 20:00:00,Getafe,Athletic Club,1394151,https://www.whoscored.com/Matches/1394151/Live/Spain-LaLiga-2019-2020-Getafe-Athletic-Club,,ESP-La Liga,1920
+2019-08-25 16:00:00,Deportivo Alaves,Espanyol,1394148,https://www.whoscored.com/Matches/1394148/Live/Spain-LaLiga-2019-2020-Deportivo-Alaves-Espanyol,,ESP-La Liga,1920
+2019-08-25 16:00:00,Mallorca,Real Sociedad,1394155,https://www.whoscored.com/Matches/1394155/Live/Spain-LaLiga-2019-2020-Mallorca-Real-Sociedad,,ESP-La Liga,1920
+2019-08-25 18:00:00,Leganes,Atletico Madrid,1394153,https://www.whoscored.com/Matches/1394153/Live/Spain-LaLiga-2019-2020-Leganes-Atletico-Madrid,,ESP-La Liga,1920
+2019-08-25 20:00:00,Barcelona,Real Betis,1394149,https://www.whoscored.com/Matches/1394149/Live/Spain-LaLiga-2019-2020-Barcelona-Real-Betis,,ESP-La Liga,1920
+2019-08-30 19:00:00,Sevilla,Celta Vigo,1394165,https://www.whoscored.com/Matches/1394165/Live/Spain-LaLiga-2019-2020-Sevilla-Celta-Vigo,,ESP-La Liga,1920
+2019-08-30 21:00:00,Athletic Club,Real Sociedad,1394158,https://www.whoscored.com/Matches/1394158/Live/Spain-LaLiga-2019-2020-Athletic-Club-Real-Sociedad,,ESP-La Liga,1920
+2019-08-31 16:00:00,Osasuna,Barcelona,1394164,https://www.whoscored.com/Matches/1394164/Live/Spain-LaLiga-2019-2020-Osasuna-Barcelona,,ESP-La Liga,1920
+2019-08-31 18:00:00,Getafe,Deportivo Alaves,1394162,https://www.whoscored.com/Matches/1394162/Live/Spain-LaLiga-2019-2020-Getafe-Deportivo-Alaves,,ESP-La Liga,1920
+2019-08-31 18:00:00,Levante,Real Valladolid,1394163,https://www.whoscored.com/Matches/1394163/Live/Spain-LaLiga-2019-2020-Levante-Real-Valladolid,,ESP-La Liga,1920
+2019-08-31 20:00:00,Real Betis,Leganes,1394160,https://www.whoscored.com/Matches/1394160/Live/Spain-LaLiga-2019-2020-Real-Betis-Leganes,,ESP-La Liga,1920

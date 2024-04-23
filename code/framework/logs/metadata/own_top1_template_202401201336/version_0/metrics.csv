@@ -1,0 +1,3 @@
+val_loss,val_accuracy,val_rps,epoch,step,train_loss_epoch,train_accuracy_epoch
+1.113303542137146,0.375,0.3734506368637085,0,1,,
+,,,0,1,1.0103689432144165,0.5625

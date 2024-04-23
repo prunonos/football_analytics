@@ -1,11 +1,11 @@
 General:
-  name: 'hist_longterm_anova'
+  name: 'hist_longterm_anova50_f1'
   experiment_path: 'hl_anova'
 Data:
   dataset :  'historical_longterm'
   drop: 
     -
-  factor: -1
+  factor: 1
   regression: False
   runtype: 'anova'
   dims: 50

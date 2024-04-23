@@ -1,0 +1,428 @@
+date,home_team,away_team,game_id,url,stage,league,season
+2011-05-01 16:00:00,Malaga,Hercules,434342,https://www.whoscored.com/Matches/434342/Live/Spain-LaLiga-2010-2011-Malaga-Hercules,,ESP-La Liga,1011
+2011-05-01 16:00:00,Racing Santander,Mallorca,434344,https://www.whoscored.com/Matches/434344/Live/Spain-LaLiga-2010-2011-Racing-Santander-Mallorca,,ESP-La Liga,1011
+2011-05-01 16:00:00,Levante,Sporting Gijon,434338,https://www.whoscored.com/Matches/434338/Live/Spain-LaLiga-2010-2011-Levante-Sporting-Gijon,,ESP-La Liga,1011
+2011-05-01 16:00:00,Almeria,Sevilla,434332,https://www.whoscored.com/Matches/434332/Live/Spain-LaLiga-2010-2011-Almeria-Sevilla,,ESP-La Liga,1011
+2011-05-01 18:00:00,Villarreal,Getafe,434331,https://www.whoscored.com/Matches/434331/Live/Spain-LaLiga-2010-2011-Villarreal-Getafe,,ESP-La Liga,1011
+2011-05-01 20:00:00,Osasuna,Valencia,434334,https://www.whoscored.com/Matches/434334/Live/Spain-LaLiga-2010-2011-Osasuna-Valencia,,ESP-La Liga,1011
+2011-05-02 20:00:00,Espanyol,Athletic Club,434336,https://www.whoscored.com/Matches/434336/Live/Spain-LaLiga-2010-2011-Espanyol-Athletic-Club,,ESP-La Liga,1011
+2011-05-07 17:00:00,Sporting Gijon,Deportivo La Coruna,433879,https://www.whoscored.com/Matches/433879/Live/Spain-LaLiga-2010-2011-Sporting-Gijon-Deportivo-La-Coruna,,ESP-La Liga,1011
+2011-05-07 17:00:00,Hercules,Racing Santander,433883,https://www.whoscored.com/Matches/433883/Live/Spain-LaLiga-2010-2011-Hercules-Racing-Santander,,ESP-La Liga,1011
+2011-05-07 17:00:00,Getafe,Almeria,433866,https://www.whoscored.com/Matches/433866/Live/Spain-LaLiga-2010-2011-Getafe-Almeria,,ESP-La Liga,1011
+2011-05-07 17:00:00,Valencia,Real Sociedad,433874,https://www.whoscored.com/Matches/433874/Live/Spain-LaLiga-2010-2011-Valencia-Real-Sociedad,,ESP-La Liga,1011
+2011-05-07 17:00:00,Athletic Club,Levante,433876,https://www.whoscored.com/Matches/433876/Live/Spain-LaLiga-2010-2011-Athletic-Club-Levante,,ESP-La Liga,1011
+2011-05-07 19:00:00,Atletico Madrid,Malaga,433878,https://www.whoscored.com/Matches/433878/Live/Spain-LaLiga-2010-2011-Atletico-Madrid-Malaga,,ESP-La Liga,1011
+2011-05-07 21:00:00,Sevilla,Real Madrid,433869,https://www.whoscored.com/Matches/433869/Live/Spain-LaLiga-2010-2011-Sevilla-Real-Madrid,,ESP-La Liga,1011
+2011-05-08 11:00:00,Mallorca,Villarreal,433861,https://www.whoscored.com/Matches/433861/Live/Spain-LaLiga-2010-2011-Mallorca-Villarreal,,ESP-La Liga,1011
+2011-05-08 18:00:00,Barcelona,Espanyol,433875,https://www.whoscored.com/Matches/433875/Live/Spain-LaLiga-2010-2011-Barcelona-Espanyol,,ESP-La Liga,1011
+2011-05-08 20:00:00,Real Zaragoza,Osasuna,433872,https://www.whoscored.com/Matches/433872/Live/Spain-LaLiga-2010-2011-Real-Zaragoza-Osasuna,,ESP-La Liga,1011
+2011-05-10 19:00:00,Deportivo La Coruna,Athletic Club,433848,https://www.whoscored.com/Matches/433848/Live/Spain-LaLiga-2010-2011-Deportivo-La-Coruna-Athletic-Club,,ESP-La Liga,1011
+2011-05-10 20:00:00,Malaga,Sporting Gijon,433854,https://www.whoscored.com/Matches/433854/Live/Spain-LaLiga-2010-2011-Malaga-Sporting-Gijon,,ESP-La Liga,1011
+2011-05-10 20:00:00,Racing Santander,Atletico Madrid,433855,https://www.whoscored.com/Matches/433855/Live/Spain-LaLiga-2010-2011-Racing-Santander-Atletico-Madrid,,ESP-La Liga,1011
+2011-05-10 21:00:00,Real Madrid,Getafe,433840,https://www.whoscored.com/Matches/433840/Live/Spain-LaLiga-2010-2011-Real-Madrid-Getafe,,ESP-La Liga,1011
+2011-05-11 19:00:00,Real Sociedad,Real Zaragoza,433843,https://www.whoscored.com/Matches/433843/Live/Spain-LaLiga-2010-2011-Real-Sociedad-Real-Zaragoza,,ESP-La Liga,1011
+2011-05-11 19:00:00,Levante,Barcelona,433849,https://www.whoscored.com/Matches/433849/Live/Spain-LaLiga-2010-2011-Levante-Barcelona,,ESP-La Liga,1011
+2011-05-11 19:00:00,Almeria,Villarreal,433838,https://www.whoscored.com/Matches/433838/Live/Spain-LaLiga-2010-2011-Almeria-Villarreal,,ESP-La Liga,1011
+2011-05-11 20:00:00,Hercules,Mallorca,433857,https://www.whoscored.com/Matches/433857/Live/Spain-LaLiga-2010-2011-Hercules-Mallorca,,ESP-La Liga,1011
+2011-05-11 20:00:00,Espanyol,Valencia,433845,https://www.whoscored.com/Matches/433845/Live/Spain-LaLiga-2010-2011-Espanyol-Valencia,,ESP-La Liga,1011
+2011-05-11 21:00:00,Osasuna,Sevilla,433841,https://www.whoscored.com/Matches/433841/Live/Spain-LaLiga-2010-2011-Osasuna-Sevilla,,ESP-La Liga,1011
+2011-05-15 20:00:00,Almeria,Mallorca,433813,https://www.whoscored.com/Matches/433813/Live/Spain-LaLiga-2010-2011-Almeria-Mallorca,,ESP-La Liga,1011
+2011-05-15 20:00:00,Villarreal,Real Madrid,433814,https://www.whoscored.com/Matches/433814/Live/Spain-LaLiga-2010-2011-Villarreal-Real-Madrid,,ESP-La Liga,1011
+2011-05-15 20:00:00,Getafe,Osasuna,433818,https://www.whoscored.com/Matches/433818/Live/Spain-LaLiga-2010-2011-Getafe-Osasuna,,ESP-La Liga,1011
+2011-05-15 20:00:00,Sevilla,Real Sociedad,433820,https://www.whoscored.com/Matches/433820/Live/Spain-LaLiga-2010-2011-Sevilla-Real-Sociedad,,ESP-La Liga,1011
+2011-05-15 20:00:00,Real Zaragoza,Espanyol,433821,https://www.whoscored.com/Matches/433821/Live/Spain-LaLiga-2010-2011-Real-Zaragoza-Espanyol,,ESP-La Liga,1011
+2011-05-15 20:00:00,Valencia,Levante,433823,https://www.whoscored.com/Matches/433823/Live/Spain-LaLiga-2010-2011-Valencia-Levante,,ESP-La Liga,1011
+2011-05-15 20:00:00,Barcelona,Deportivo La Coruna,433824,https://www.whoscored.com/Matches/433824/Live/Spain-LaLiga-2010-2011-Barcelona-Deportivo-La-Coruna,,ESP-La Liga,1011
+2011-05-15 20:00:00,Athletic Club,Malaga,433825,https://www.whoscored.com/Matches/433825/Live/Spain-LaLiga-2010-2011-Athletic-Club-Malaga,,ESP-La Liga,1011
+2011-05-15 20:00:00,Sporting Gijon,Racing Santander,433827,https://www.whoscored.com/Matches/433827/Live/Spain-LaLiga-2010-2011-Sporting-Gijon-Racing-Santander,,ESP-La Liga,1011
+2011-05-15 20:00:00,Atletico Madrid,Hercules,433831,https://www.whoscored.com/Matches/433831/Live/Spain-LaLiga-2010-2011-Atletico-Madrid-Hercules,,ESP-La Liga,1011
+2011-05-21 17:00:00,Malaga,Barcelona,433801,https://www.whoscored.com/Matches/433801/Live/Spain-LaLiga-2010-2011-Malaga-Barcelona,,ESP-La Liga,1011
+2011-05-21 19:00:00,Hercules,Sporting Gijon,433805,https://www.whoscored.com/Matches/433805/Live/Spain-LaLiga-2010-2011-Hercules-Sporting-Gijon,,ESP-La Liga,1011
+2011-05-21 19:00:00,Real Madrid,Almeria,433793,https://www.whoscored.com/Matches/433793/Live/Spain-LaLiga-2010-2011-Real-Madrid-Almeria,,ESP-La Liga,1011
+2011-05-21 21:00:00,Osasuna,Villarreal,433795,https://www.whoscored.com/Matches/433795/Live/Spain-LaLiga-2010-2011-Osasuna-Villarreal,,ESP-La Liga,1011
+2011-05-21 21:00:00,Real Sociedad,Getafe,433796,https://www.whoscored.com/Matches/433796/Live/Spain-LaLiga-2010-2011-Real-Sociedad-Getafe,,ESP-La Liga,1011
+2011-05-21 21:00:00,Espanyol,Sevilla,433798,https://www.whoscored.com/Matches/433798/Live/Spain-LaLiga-2010-2011-Espanyol-Sevilla,,ESP-La Liga,1011
+2011-05-21 21:00:00,Levante,Real Zaragoza,433799,https://www.whoscored.com/Matches/433799/Live/Spain-LaLiga-2010-2011-Levante-Real-Zaragoza,,ESP-La Liga,1011
+2011-05-21 21:00:00,Deportivo La Coruna,Valencia,433800,https://www.whoscored.com/Matches/433800/Live/Spain-LaLiga-2010-2011-Deportivo-La-Coruna-Valencia,,ESP-La Liga,1011
+2011-05-21 21:00:00,Mallorca,Atletico Madrid,433806,https://www.whoscored.com/Matches/433806/Live/Spain-LaLiga-2010-2011-Mallorca-Atletico-Madrid,,ESP-La Liga,1011
+2011-05-21 21:00:00,Racing Santander,Athletic Club,433802,https://www.whoscored.com/Matches/433802/Live/Spain-LaLiga-2010-2011-Racing-Santander-Athletic-Club,,ESP-La Liga,1011
+2011-05-01 16:00:00,Malaga,Hercules,434342,https://www.whoscored.com/Matches/434342/Live/Spain-LaLiga-2010-2011-Malaga-Hercules,,ESP-La Liga,1011
+2011-05-01 16:00:00,Racing Santander,Mallorca,434344,https://www.whoscored.com/Matches/434344/Live/Spain-LaLiga-2010-2011-Racing-Santander-Mallorca,,ESP-La Liga,1011
+2011-05-01 16:00:00,Levante,Sporting Gijon,434338,https://www.whoscored.com/Matches/434338/Live/Spain-LaLiga-2010-2011-Levante-Sporting-Gijon,,ESP-La Liga,1011
+2011-05-01 16:00:00,Almeria,Sevilla,434332,https://www.whoscored.com/Matches/434332/Live/Spain-LaLiga-2010-2011-Almeria-Sevilla,,ESP-La Liga,1011
+2011-05-01 18:00:00,Villarreal,Getafe,434331,https://www.whoscored.com/Matches/434331/Live/Spain-LaLiga-2010-2011-Villarreal-Getafe,,ESP-La Liga,1011
+2011-05-01 20:00:00,Osasuna,Valencia,434334,https://www.whoscored.com/Matches/434334/Live/Spain-LaLiga-2010-2011-Osasuna-Valencia,,ESP-La Liga,1011
+2011-05-02 20:00:00,Espanyol,Athletic Club,434336,https://www.whoscored.com/Matches/434336/Live/Spain-LaLiga-2010-2011-Espanyol-Athletic-Club,,ESP-La Liga,1011
+2011-05-07 17:00:00,Sporting Gijon,Deportivo La Coruna,433879,https://www.whoscored.com/Matches/433879/Live/Spain-LaLiga-2010-2011-Sporting-Gijon-Deportivo-La-Coruna,,ESP-La Liga,1011
+2011-05-07 17:00:00,Hercules,Racing Santander,433883,https://www.whoscored.com/Matches/433883/Live/Spain-LaLiga-2010-2011-Hercules-Racing-Santander,,ESP-La Liga,1011
+2011-05-07 17:00:00,Getafe,Almeria,433866,https://www.whoscored.com/Matches/433866/Live/Spain-LaLiga-2010-2011-Getafe-Almeria,,ESP-La Liga,1011
+2011-05-07 17:00:00,Valencia,Real Sociedad,433874,https://www.whoscored.com/Matches/433874/Live/Spain-LaLiga-2010-2011-Valencia-Real-Sociedad,,ESP-La Liga,1011
+2011-05-07 17:00:00,Athletic Club,Levante,433876,https://www.whoscored.com/Matches/433876/Live/Spain-LaLiga-2010-2011-Athletic-Club-Levante,,ESP-La Liga,1011
+2011-05-07 19:00:00,Atletico Madrid,Malaga,433878,https://www.whoscored.com/Matches/433878/Live/Spain-LaLiga-2010-2011-Atletico-Madrid-Malaga,,ESP-La Liga,1011
+2011-05-07 21:00:00,Sevilla,Real Madrid,433869,https://www.whoscored.com/Matches/433869/Live/Spain-LaLiga-2010-2011-Sevilla-Real-Madrid,,ESP-La Liga,1011
+2011-05-08 11:00:00,Mallorca,Villarreal,433861,https://www.whoscored.com/Matches/433861/Live/Spain-LaLiga-2010-2011-Mallorca-Villarreal,,ESP-La Liga,1011
+2011-05-08 18:00:00,Barcelona,Espanyol,433875,https://www.whoscored.com/Matches/433875/Live/Spain-LaLiga-2010-2011-Barcelona-Espanyol,,ESP-La Liga,1011
+2011-05-08 20:00:00,Real Zaragoza,Osasuna,433872,https://www.whoscored.com/Matches/433872/Live/Spain-LaLiga-2010-2011-Real-Zaragoza-Osasuna,,ESP-La Liga,1011
+2011-05-10 19:00:00,Deportivo La Coruna,Athletic Club,433848,https://www.whoscored.com/Matches/433848/Live/Spain-LaLiga-2010-2011-Deportivo-La-Coruna-Athletic-Club,,ESP-La Liga,1011
+2011-05-10 20:00:00,Malaga,Sporting Gijon,433854,https://www.whoscored.com/Matches/433854/Live/Spain-LaLiga-2010-2011-Malaga-Sporting-Gijon,,ESP-La Liga,1011
+2011-05-10 20:00:00,Racing Santander,Atletico Madrid,433855,https://www.whoscored.com/Matches/433855/Live/Spain-LaLiga-2010-2011-Racing-Santander-Atletico-Madrid,,ESP-La Liga,1011
+2011-05-10 21:00:00,Real Madrid,Getafe,433840,https://www.whoscored.com/Matches/433840/Live/Spain-LaLiga-2010-2011-Real-Madrid-Getafe,,ESP-La Liga,1011
+2011-05-11 19:00:00,Real Sociedad,Real Zaragoza,433843,https://www.whoscored.com/Matches/433843/Live/Spain-LaLiga-2010-2011-Real-Sociedad-Real-Zaragoza,,ESP-La Liga,1011
+2011-05-11 19:00:00,Levante,Barcelona,433849,https://www.whoscored.com/Matches/433849/Live/Spain-LaLiga-2010-2011-Levante-Barcelona,,ESP-La Liga,1011
+2011-05-11 19:00:00,Almeria,Villarreal,433838,https://www.whoscored.com/Matches/433838/Live/Spain-LaLiga-2010-2011-Almeria-Villarreal,,ESP-La Liga,1011
+2011-05-11 20:00:00,Hercules,Mallorca,433857,https://www.whoscored.com/Matches/433857/Live/Spain-LaLiga-2010-2011-Hercules-Mallorca,,ESP-La Liga,1011
+2011-05-11 20:00:00,Espanyol,Valencia,433845,https://www.whoscored.com/Matches/433845/Live/Spain-LaLiga-2010-2011-Espanyol-Valencia,,ESP-La Liga,1011
+2011-05-11 21:00:00,Osasuna,Sevilla,433841,https://www.whoscored.com/Matches/433841/Live/Spain-LaLiga-2010-2011-Osasuna-Sevilla,,ESP-La Liga,1011
+2011-05-15 20:00:00,Almeria,Mallorca,433813,https://www.whoscored.com/Matches/433813/Live/Spain-LaLiga-2010-2011-Almeria-Mallorca,,ESP-La Liga,1011
+2011-05-15 20:00:00,Villarreal,Real Madrid,433814,https://www.whoscored.com/Matches/433814/Live/Spain-LaLiga-2010-2011-Villarreal-Real-Madrid,,ESP-La Liga,1011
+2011-05-15 20:00:00,Getafe,Osasuna,433818,https://www.whoscored.com/Matches/433818/Live/Spain-LaLiga-2010-2011-Getafe-Osasuna,,ESP-La Liga,1011
+2011-05-15 20:00:00,Sevilla,Real Sociedad,433820,https://www.whoscored.com/Matches/433820/Live/Spain-LaLiga-2010-2011-Sevilla-Real-Sociedad,,ESP-La Liga,1011
+2011-05-15 20:00:00,Real Zaragoza,Espanyol,433821,https://www.whoscored.com/Matches/433821/Live/Spain-LaLiga-2010-2011-Real-Zaragoza-Espanyol,,ESP-La Liga,1011
+2011-05-15 20:00:00,Valencia,Levante,433823,https://www.whoscored.com/Matches/433823/Live/Spain-LaLiga-2010-2011-Valencia-Levante,,ESP-La Liga,1011
+2011-05-15 20:00:00,Barcelona,Deportivo La Coruna,433824,https://www.whoscored.com/Matches/433824/Live/Spain-LaLiga-2010-2011-Barcelona-Deportivo-La-Coruna,,ESP-La Liga,1011
+2011-05-15 20:00:00,Athletic Club,Malaga,433825,https://www.whoscored.com/Matches/433825/Live/Spain-LaLiga-2010-2011-Athletic-Club-Malaga,,ESP-La Liga,1011
+2011-05-15 20:00:00,Sporting Gijon,Racing Santander,433827,https://www.whoscored.com/Matches/433827/Live/Spain-LaLiga-2010-2011-Sporting-Gijon-Racing-Santander,,ESP-La Liga,1011
+2011-05-15 20:00:00,Atletico Madrid,Hercules,433831,https://www.whoscored.com/Matches/433831/Live/Spain-LaLiga-2010-2011-Atletico-Madrid-Hercules,,ESP-La Liga,1011
+2011-05-21 17:00:00,Malaga,Barcelona,433801,https://www.whoscored.com/Matches/433801/Live/Spain-LaLiga-2010-2011-Malaga-Barcelona,,ESP-La Liga,1011
+2011-05-21 19:00:00,Hercules,Sporting Gijon,433805,https://www.whoscored.com/Matches/433805/Live/Spain-LaLiga-2010-2011-Hercules-Sporting-Gijon,,ESP-La Liga,1011
+2011-05-21 19:00:00,Real Madrid,Almeria,433793,https://www.whoscored.com/Matches/433793/Live/Spain-LaLiga-2010-2011-Real-Madrid-Almeria,,ESP-La Liga,1011
+2011-05-21 21:00:00,Osasuna,Villarreal,433795,https://www.whoscored.com/Matches/433795/Live/Spain-LaLiga-2010-2011-Osasuna-Villarreal,,ESP-La Liga,1011
+2011-05-21 21:00:00,Real Sociedad,Getafe,433796,https://www.whoscored.com/Matches/433796/Live/Spain-LaLiga-2010-2011-Real-Sociedad-Getafe,,ESP-La Liga,1011
+2011-05-21 21:00:00,Espanyol,Sevilla,433798,https://www.whoscored.com/Matches/433798/Live/Spain-LaLiga-2010-2011-Espanyol-Sevilla,,ESP-La Liga,1011
+2011-05-21 21:00:00,Levante,Real Zaragoza,433799,https://www.whoscored.com/Matches/433799/Live/Spain-LaLiga-2010-2011-Levante-Real-Zaragoza,,ESP-La Liga,1011
+2011-05-21 21:00:00,Deportivo La Coruna,Valencia,433800,https://www.whoscored.com/Matches/433800/Live/Spain-LaLiga-2010-2011-Deportivo-La-Coruna-Valencia,,ESP-La Liga,1011
+2011-05-21 21:00:00,Mallorca,Atletico Madrid,433806,https://www.whoscored.com/Matches/433806/Live/Spain-LaLiga-2010-2011-Mallorca-Atletico-Madrid,,ESP-La Liga,1011
+2011-05-21 21:00:00,Racing Santander,Athletic Club,433802,https://www.whoscored.com/Matches/433802/Live/Spain-LaLiga-2010-2011-Racing-Santander-Athletic-Club,,ESP-La Liga,1011
+2011-04-02 17:00:00,Real Madrid,Sporting Gijon,434244,https://www.whoscored.com/Matches/434244/Live/Spain-LaLiga-2010-2011-Real-Madrid-Sporting-Gijon,,ESP-La Liga,1011
+2011-04-02 19:00:00,Getafe,Valencia,434230,https://www.whoscored.com/Matches/434230/Live/Spain-LaLiga-2010-2011-Getafe-Valencia,,ESP-La Liga,1011
+2011-04-02 21:00:00,Villarreal,Barcelona,434233,https://www.whoscored.com/Matches/434233/Live/Spain-LaLiga-2010-2011-Villarreal-Barcelona,,ESP-La Liga,1011
+2011-04-03 16:00:00,Real Sociedad,Hercules,434250,https://www.whoscored.com/Matches/434250/Live/Spain-LaLiga-2010-2011-Real-Sociedad-Hercules,,ESP-La Liga,1011
+2011-04-03 16:00:00,Espanyol,Racing Santander,434254,https://www.whoscored.com/Matches/434254/Live/Spain-LaLiga-2010-2011-Espanyol-Racing-Santander,,ESP-La Liga,1011
+2011-04-03 16:00:00,Levante,Malaga,434255,https://www.whoscored.com/Matches/434255/Live/Spain-LaLiga-2010-2011-Levante-Malaga,,ESP-La Liga,1011
+2011-04-03 16:00:00,Deportivo La Coruna,Mallorca,434259,https://www.whoscored.com/Matches/434259/Live/Spain-LaLiga-2010-2011-Deportivo-La-Coruna-Mallorca,,ESP-La Liga,1011
+2011-04-03 18:00:00,Sevilla,Real Zaragoza,434228,https://www.whoscored.com/Matches/434228/Live/Spain-LaLiga-2010-2011-Sevilla-Real-Zaragoza,,ESP-La Liga,1011
+2011-04-03 20:00:00,Osasuna,Atletico Madrid,434248,https://www.whoscored.com/Matches/434248/Live/Spain-LaLiga-2010-2011-Osasuna-Atletico-Madrid,,ESP-La Liga,1011
+2011-04-04 20:00:00,Almeria,Athletic Club,434241,https://www.whoscored.com/Matches/434241/Live/Spain-LaLiga-2010-2011-Almeria-Athletic-Club,,ESP-La Liga,1011
+2011-04-09 17:00:00,Athletic Club,Real Madrid,434283,https://www.whoscored.com/Matches/434283/Live/Spain-LaLiga-2010-2011-Athletic-Club-Real-Madrid,,ESP-La Liga,1011
+2011-04-09 19:00:00,Barcelona,Almeria,434281,https://www.whoscored.com/Matches/434281/Live/Spain-LaLiga-2010-2011-Barcelona-Almeria,,ESP-La Liga,1011
+2011-04-09 21:00:00,Mallorca,Sevilla,434276,https://www.whoscored.com/Matches/434276/Live/Spain-LaLiga-2010-2011-Mallorca-Sevilla,,ESP-La Liga,1011
+2011-04-10 16:00:00,Sporting Gijon,Osasuna,434284,https://www.whoscored.com/Matches/434284/Live/Spain-LaLiga-2010-2011-Sporting-Gijon-Osasuna,,ESP-La Liga,1011
+2011-04-10 16:00:00,Hercules,Espanyol,434288,https://www.whoscored.com/Matches/434288/Live/Spain-LaLiga-2010-2011-Hercules-Espanyol,,ESP-La Liga,1011
+2011-04-10 16:00:00,Racing Santander,Levante,434289,https://www.whoscored.com/Matches/434289/Live/Spain-LaLiga-2010-2011-Racing-Santander-Levante,,ESP-La Liga,1011
+2011-04-10 16:00:00,Malaga,Deportivo La Coruna,434291,https://www.whoscored.com/Matches/434291/Live/Spain-LaLiga-2010-2011-Malaga-Deportivo-La-Coruna,,ESP-La Liga,1011
+2011-04-10 18:00:00,Atletico Madrid,Real Sociedad,434286,https://www.whoscored.com/Matches/434286/Live/Spain-LaLiga-2010-2011-Atletico-Madrid-Real-Sociedad,,ESP-La Liga,1011
+2011-04-10 20:00:00,Valencia,Villarreal,434279,https://www.whoscored.com/Matches/434279/Live/Spain-LaLiga-2010-2011-Valencia-Villarreal,,ESP-La Liga,1011
+2011-04-11 20:00:00,Real Zaragoza,Getafe,434278,https://www.whoscored.com/Matches/434278/Live/Spain-LaLiga-2010-2011-Real-Zaragoza-Getafe,,ESP-La Liga,1011
+2011-04-16 17:00:00,Getafe,Sevilla,434294,https://www.whoscored.com/Matches/434294/Live/Spain-LaLiga-2010-2011-Getafe-Sevilla,,ESP-La Liga,1011
+2011-04-16 17:00:00,Malaga,Mallorca,434310,https://www.whoscored.com/Matches/434310/Live/Spain-LaLiga-2010-2011-Malaga-Mallorca,,ESP-La Liga,1011
+2011-04-16 19:00:00,Almeria,Valencia,434299,https://www.whoscored.com/Matches/434299/Live/Spain-LaLiga-2010-2011-Almeria-Valencia,,ESP-La Liga,1011
+2011-04-16 21:00:00,Real Madrid,Barcelona,434301,https://www.whoscored.com/Matches/434301/Live/Spain-LaLiga-2010-2011-Real-Madrid-Barcelona,,ESP-La Liga,1011
+2011-04-17 16:00:00,Real Sociedad,Sporting Gijon,434304,https://www.whoscored.com/Matches/434304/Live/Spain-LaLiga-2010-2011-Real-Sociedad-Sporting-Gijon,,ESP-La Liga,1011
+2011-04-17 16:00:00,Levante,Hercules,434307,https://www.whoscored.com/Matches/434307/Live/Spain-LaLiga-2010-2011-Levante-Hercules,,ESP-La Liga,1011
+2011-04-17 16:00:00,Deportivo La Coruna,Racing Santander,434308,https://www.whoscored.com/Matches/434308/Live/Spain-LaLiga-2010-2011-Deportivo-La-Coruna-Racing-Santander,,ESP-La Liga,1011
+2011-04-17 18:00:00,Osasuna,Athletic Club,434302,https://www.whoscored.com/Matches/434302/Live/Spain-LaLiga-2010-2011-Osasuna-Athletic-Club,,ESP-La Liga,1011
+2011-04-17 20:00:00,Espanyol,Atletico Madrid,434305,https://www.whoscored.com/Matches/434305/Live/Spain-LaLiga-2010-2011-Espanyol-Atletico-Madrid,,ESP-La Liga,1011
+2011-04-18 20:00:00,Villarreal,Real Zaragoza,434296,https://www.whoscored.com/Matches/434296/Live/Spain-LaLiga-2010-2011-Villarreal-Real-Zaragoza,,ESP-La Liga,1011
+2011-04-23 17:00:00,Valencia,Real Madrid,434319,https://www.whoscored.com/Matches/434319/Live/Spain-LaLiga-2010-2011-Valencia-Real-Madrid,,ESP-La Liga,1011
+2011-04-23 19:00:00,Barcelona,Osasuna,434320,https://www.whoscored.com/Matches/434320/Live/Spain-LaLiga-2010-2011-Barcelona-Osasuna,,ESP-La Liga,1011
+2011-04-23 21:00:00,Athletic Club,Real Sociedad,434322,https://www.whoscored.com/Matches/434322/Live/Spain-LaLiga-2010-2011-Athletic-Club-Real-Sociedad,,ESP-La Liga,1011
+2011-04-24 16:00:00,Sporting Gijon,Espanyol,434325,https://www.whoscored.com/Matches/434325/Live/Spain-LaLiga-2010-2011-Sporting-Gijon-Espanyol,,ESP-La Liga,1011
+2011-04-24 16:00:00,Hercules,Deportivo La Coruna,434329,https://www.whoscored.com/Matches/434329/Live/Spain-LaLiga-2010-2011-Hercules-Deportivo-La-Coruna,,ESP-La Liga,1011
+2011-04-24 16:00:00,Racing Santander,Malaga,434330,https://www.whoscored.com/Matches/434330/Live/Spain-LaLiga-2010-2011-Racing-Santander-Malaga,,ESP-La Liga,1011
+2011-04-24 16:00:00,Mallorca,Getafe,434313,https://www.whoscored.com/Matches/434313/Live/Spain-LaLiga-2010-2011-Mallorca-Getafe,,ESP-La Liga,1011
+2011-04-24 18:00:00,Atletico Madrid,Levante,434327,https://www.whoscored.com/Matches/434327/Live/Spain-LaLiga-2010-2011-Atletico-Madrid-Levante,,ESP-La Liga,1011
+2011-04-24 20:00:00,Sevilla,Villarreal,434316,https://www.whoscored.com/Matches/434316/Live/Spain-LaLiga-2010-2011-Sevilla-Villarreal,,ESP-La Liga,1011
+2011-04-25 20:00:00,Real Zaragoza,Almeria,434317,https://www.whoscored.com/Matches/434317/Live/Spain-LaLiga-2010-2011-Real-Zaragoza-Almeria,,ESP-La Liga,1011
+2011-04-30 17:00:00,Real Madrid,Real Zaragoza,434333,https://www.whoscored.com/Matches/434333/Live/Spain-LaLiga-2010-2011-Real-Madrid-Real-Zaragoza,,ESP-La Liga,1011
+2011-04-30 19:00:00,Real Sociedad,Barcelona,434335,https://www.whoscored.com/Matches/434335/Live/Spain-LaLiga-2010-2011-Real-Sociedad-Barcelona,,ESP-La Liga,1011
+2011-04-30 21:00:00,Deportivo La Coruna,Atletico Madrid,434340,https://www.whoscored.com/Matches/434340/Live/Spain-LaLiga-2010-2011-Deportivo-La-Coruna-Atletico-Madrid,,ESP-La Liga,1011
+2011-03-01 19:00:00,Espanyol,Mallorca,434092,https://www.whoscored.com/Matches/434092/Live/Spain-LaLiga-2010-2011-Espanyol-Mallorca,,ESP-La Liga,1011
+2011-03-01 21:00:00,Sevilla,Sporting Gijon,434074,https://www.whoscored.com/Matches/434074/Live/Spain-LaLiga-2010-2011-Sevilla-Sporting-Gijon,,ESP-La Liga,1011
+2011-03-02 19:00:00,Getafe,Atletico Madrid,434078,https://www.whoscored.com/Matches/434078/Live/Spain-LaLiga-2010-2011-Getafe-Atletico-Madrid,,ESP-La Liga,1011
+2011-03-02 19:00:00,Villarreal,Hercules,434081,https://www.whoscored.com/Matches/434081/Live/Spain-LaLiga-2010-2011-Villarreal-Hercules,,ESP-La Liga,1011
+2011-03-02 19:00:00,Osasuna,Deportivo La Coruna,434090,https://www.whoscored.com/Matches/434090/Live/Spain-LaLiga-2010-2011-Osasuna-Deportivo-La-Coruna,,ESP-La Liga,1011
+2011-03-02 19:00:00,Real Sociedad,Levante,434091,https://www.whoscored.com/Matches/434091/Live/Spain-LaLiga-2010-2011-Real-Sociedad-Levante,,ESP-La Liga,1011
+2011-03-02 19:00:00,Real Zaragoza,Athletic Club,434072,https://www.whoscored.com/Matches/434072/Live/Spain-LaLiga-2010-2011-Real-Zaragoza-Athletic-Club,,ESP-La Liga,1011
+2011-03-02 21:00:00,Valencia,Barcelona,434069,https://www.whoscored.com/Matches/434069/Live/Spain-LaLiga-2010-2011-Valencia-Barcelona,,ESP-La Liga,1011
+2011-03-03 19:00:00,Almeria,Racing Santander,434085,https://www.whoscored.com/Matches/434085/Live/Spain-LaLiga-2010-2011-Almeria-Racing-Santander,,ESP-La Liga,1011
+2011-03-03 21:00:00,Real Madrid,Malaga,434087,https://www.whoscored.com/Matches/434087/Live/Spain-LaLiga-2010-2011-Real-Madrid-Malaga,,ESP-La Liga,1011
+2011-03-05 17:00:00,Mallorca,Valencia,434107,https://www.whoscored.com/Matches/434107/Live/Spain-LaLiga-2010-2011-Mallorca-Valencia,,ESP-La Liga,1011
+2011-03-05 19:00:00,Barcelona,Real Zaragoza,434110,https://www.whoscored.com/Matches/434110/Live/Spain-LaLiga-2010-2011-Barcelona-Real-Zaragoza,,ESP-La Liga,1011
+2011-03-05 21:00:00,Atletico Madrid,Villarreal,434116,https://www.whoscored.com/Matches/434116/Live/Spain-LaLiga-2010-2011-Atletico-Madrid-Villarreal,,ESP-La Liga,1011
+2011-03-06 16:00:00,Hercules,Almeria,434118,https://www.whoscored.com/Matches/434118/Live/Spain-LaLiga-2010-2011-Hercules-Almeria,,ESP-La Liga,1011
+2011-03-06 16:00:00,Malaga,Osasuna,434124,https://www.whoscored.com/Matches/434124/Live/Spain-LaLiga-2010-2011-Malaga-Osasuna,,ESP-La Liga,1011
+2011-03-06 16:00:00,Sporting Gijon,Getafe,434113,https://www.whoscored.com/Matches/434113/Live/Spain-LaLiga-2010-2011-Sporting-Gijon-Getafe,,ESP-La Liga,1011
+2011-03-06 16:00:00,Levante,Espanyol,434128,https://www.whoscored.com/Matches/434128/Live/Spain-LaLiga-2010-2011-Levante-Espanyol,,ESP-La Liga,1011
+2011-03-06 18:00:00,Athletic Club,Sevilla,434109,https://www.whoscored.com/Matches/434109/Live/Spain-LaLiga-2010-2011-Athletic-Club-Sevilla,,ESP-La Liga,1011
+2011-03-06 20:00:00,Racing Santander,Real Madrid,434121,https://www.whoscored.com/Matches/434121/Live/Spain-LaLiga-2010-2011-Racing-Santander-Real-Madrid,,ESP-La Liga,1011
+2011-03-07 20:00:00,Deportivo La Coruna,Real Sociedad,434127,https://www.whoscored.com/Matches/434127/Live/Spain-LaLiga-2010-2011-Deportivo-La-Coruna-Real-Sociedad,,ESP-La Liga,1011
+2011-03-12 17:00:00,Almeria,Atletico Madrid,434170,https://www.whoscored.com/Matches/434170/Live/Spain-LaLiga-2010-2011-Almeria-Atletico-Madrid,,ESP-La Liga,1011
+2011-03-12 19:00:00,Real Madrid,Hercules,434175,https://www.whoscored.com/Matches/434175/Live/Spain-LaLiga-2010-2011-Real-Madrid-Hercules,,ESP-La Liga,1011
+2011-03-12 21:00:00,Real Zaragoza,Valencia,434157,https://www.whoscored.com/Matches/434157/Live/Spain-LaLiga-2010-2011-Real-Zaragoza-Valencia,,ESP-La Liga,1011
+2011-03-13 16:00:00,Osasuna,Racing Santander,434179,https://www.whoscored.com/Matches/434179/Live/Spain-LaLiga-2010-2011-Osasuna-Racing-Santander,,ESP-La Liga,1011
+2011-03-13 16:00:00,Real Sociedad,Malaga,434180,https://www.whoscored.com/Matches/434180/Live/Spain-LaLiga-2010-2011-Real-Sociedad-Malaga,,ESP-La Liga,1011
+2011-03-13 16:00:00,Levante,Mallorca,434183,https://www.whoscored.com/Matches/434183/Live/Spain-LaLiga-2010-2011-Levante-Mallorca,,ESP-La Liga,1011
+2011-03-13 16:00:00,Espanyol,Deportivo La Coruna,434191,https://www.whoscored.com/Matches/434191/Live/Spain-LaLiga-2010-2011-Espanyol-Deportivo-La-Coruna,,ESP-La Liga,1011
+2011-03-13 18:00:00,Villarreal,Sporting Gijon,434150,https://www.whoscored.com/Matches/434150/Live/Spain-LaLiga-2010-2011-Villarreal-Sporting-Gijon,,ESP-La Liga,1011
+2011-03-13 20:00:00,Sevilla,Barcelona,434165,https://www.whoscored.com/Matches/434165/Live/Spain-LaLiga-2010-2011-Sevilla-Barcelona,,ESP-La Liga,1011
+2011-03-14 20:00:00,Getafe,Athletic Club,434167,https://www.whoscored.com/Matches/434167/Live/Spain-LaLiga-2010-2011-Getafe-Athletic-Club,,ESP-La Liga,1011
+2011-03-19 17:00:00,Mallorca,Real Zaragoza,434194,https://www.whoscored.com/Matches/434194/Live/Spain-LaLiga-2010-2011-Mallorca-Real-Zaragoza,,ESP-La Liga,1011
+2011-03-19 19:00:00,Barcelona,Getafe,434200,https://www.whoscored.com/Matches/434200/Live/Spain-LaLiga-2010-2011-Barcelona-Getafe,,ESP-La Liga,1011
+2011-03-19 21:00:00,Atletico Madrid,Real Madrid,434212,https://www.whoscored.com/Matches/434212/Live/Spain-LaLiga-2010-2011-Atletico-Madrid-Real-Madrid,,ESP-La Liga,1011
+2011-03-20 16:00:00,Hercules,Osasuna,434216,https://www.whoscored.com/Matches/434216/Live/Spain-LaLiga-2010-2011-Hercules-Osasuna,,ESP-La Liga,1011
+2011-03-20 16:00:00,Racing Santander,Real Sociedad,434219,https://www.whoscored.com/Matches/434219/Live/Spain-LaLiga-2010-2011-Racing-Santander-Real-Sociedad,,ESP-La Liga,1011
+2011-03-20 16:00:00,Malaga,Espanyol,434222,https://www.whoscored.com/Matches/434222/Live/Spain-LaLiga-2010-2011-Malaga-Espanyol,,ESP-La Liga,1011
+2011-03-20 16:00:00,Deportivo La Coruna,Levante,434224,https://www.whoscored.com/Matches/434224/Live/Spain-LaLiga-2010-2011-Deportivo-La-Coruna-Levante,,ESP-La Liga,1011
+2011-03-20 16:00:00,Sporting Gijon,Almeria,434209,https://www.whoscored.com/Matches/434209/Live/Spain-LaLiga-2010-2011-Sporting-Gijon-Almeria,,ESP-La Liga,1011
+2011-03-20 18:00:00,Athletic Club,Villarreal,434205,https://www.whoscored.com/Matches/434205/Live/Spain-LaLiga-2010-2011-Athletic-Club-Villarreal,,ESP-La Liga,1011
+2011-03-20 20:00:00,Valencia,Sevilla,434196,https://www.whoscored.com/Matches/434196/Live/Spain-LaLiga-2010-2011-Valencia-Sevilla,,ESP-La Liga,1011
+2011-02-05 17:00:00,Athletic Club,Sporting Gijon,434204,https://www.whoscored.com/Matches/434204/Live/Spain-LaLiga-2010-2011-Athletic-Club-Sporting-Gijon,,ESP-La Liga,1011
+2011-02-05 17:00:00,Real Zaragoza,Racing Santander,434210,https://www.whoscored.com/Matches/434210/Live/Spain-LaLiga-2010-2011-Real-Zaragoza-Racing-Santander,,ESP-La Liga,1011
+2011-02-05 17:00:00,Getafe,Deportivo La Coruna,434215,https://www.whoscored.com/Matches/434215/Live/Spain-LaLiga-2010-2011-Getafe-Deportivo-La-Coruna,,ESP-La Liga,1011
+2011-02-05 17:00:00,Almeria,Espanyol,434220,https://www.whoscored.com/Matches/434220/Live/Spain-LaLiga-2010-2011-Almeria-Espanyol,,ESP-La Liga,1011
+2011-02-05 17:00:00,Osasuna,Mallorca,434225,https://www.whoscored.com/Matches/434225/Live/Spain-LaLiga-2010-2011-Osasuna-Mallorca,,ESP-La Liga,1011
+2011-02-05 19:00:00,Villarreal,Levante,434217,https://www.whoscored.com/Matches/434217/Live/Spain-LaLiga-2010-2011-Villarreal-Levante,,ESP-La Liga,1011
+2011-02-05 21:00:00,Barcelona,Atletico Madrid,434203,https://www.whoscored.com/Matches/434203/Live/Spain-LaLiga-2010-2011-Barcelona-Atletico-Madrid,,ESP-La Liga,1011
+2011-02-06 16:00:00,Sevilla,Malaga,434213,https://www.whoscored.com/Matches/434213/Live/Spain-LaLiga-2010-2011-Sevilla-Malaga,,ESP-La Liga,1011
+2011-02-06 18:00:00,Real Madrid,Real Sociedad,434223,https://www.whoscored.com/Matches/434223/Live/Spain-LaLiga-2010-2011-Real-Madrid-Real-Sociedad,,ESP-La Liga,1011
+2011-02-06 20:00:00,Valencia,Hercules,434207,https://www.whoscored.com/Matches/434207/Live/Spain-LaLiga-2010-2011-Valencia-Hercules,,ESP-La Liga,1011
+2011-02-12 17:00:00,Atletico Madrid,Valencia,434232,https://www.whoscored.com/Matches/434232/Live/Spain-LaLiga-2010-2011-Atletico-Madrid-Valencia,,ESP-La Liga,1011
+2011-02-12 19:00:00,Sporting Gijon,Barcelona,434229,https://www.whoscored.com/Matches/434229/Live/Spain-LaLiga-2010-2011-Sporting-Gijon-Barcelona,,ESP-La Liga,1011
+2011-02-12 21:00:00,Racing Santander,Sevilla,434236,https://www.whoscored.com/Matches/434236/Live/Spain-LaLiga-2010-2011-Racing-Santander-Sevilla,,ESP-La Liga,1011
+2011-02-13 16:00:00,Malaga,Getafe,434238,https://www.whoscored.com/Matches/434238/Live/Spain-LaLiga-2010-2011-Malaga-Getafe,,ESP-La Liga,1011
+2011-02-13 16:00:00,Levante,Almeria,434243,https://www.whoscored.com/Matches/434243/Live/Spain-LaLiga-2010-2011-Levante-Almeria,,ESP-La Liga,1011
+2011-02-13 16:00:00,Real Sociedad,Osasuna,434247,https://www.whoscored.com/Matches/434247/Live/Spain-LaLiga-2010-2011-Real-Sociedad-Osasuna,,ESP-La Liga,1011
+2011-02-13 16:00:00,Hercules,Real Zaragoza,434235,https://www.whoscored.com/Matches/434235/Live/Spain-LaLiga-2010-2011-Hercules-Real-Zaragoza,,ESP-La Liga,1011
+2011-02-13 18:00:00,Deportivo La Coruna,Villarreal,434240,https://www.whoscored.com/Matches/434240/Live/Spain-LaLiga-2010-2011-Deportivo-La-Coruna-Villarreal,,ESP-La Liga,1011
+2011-02-13 20:00:00,Espanyol,Real Madrid,434246,https://www.whoscored.com/Matches/434246/Live/Spain-LaLiga-2010-2011-Espanyol-Real-Madrid,,ESP-La Liga,1011
+2011-02-14 20:00:00,Mallorca,Athletic Club,434227,https://www.whoscored.com/Matches/434227/Live/Spain-LaLiga-2010-2011-Mallorca-Athletic-Club,,ESP-La Liga,1011
+2011-02-19 17:00:00,Valencia,Sporting Gijon,434253,https://www.whoscored.com/Matches/434253/Live/Spain-LaLiga-2010-2011-Valencia-Sporting-Gijon,,ESP-La Liga,1011
+2011-02-19 19:00:00,Real Madrid,Levante,434265,https://www.whoscored.com/Matches/434265/Live/Spain-LaLiga-2010-2011-Real-Madrid-Levante,,ESP-La Liga,1011
+2011-02-19 21:00:00,Real Zaragoza,Atletico Madrid,434257,https://www.whoscored.com/Matches/434257/Live/Spain-LaLiga-2010-2011-Real-Zaragoza-Atletico-Madrid,,ESP-La Liga,1011
+2011-02-20 16:00:00,Osasuna,Espanyol,434268,https://www.whoscored.com/Matches/434268/Live/Spain-LaLiga-2010-2011-Osasuna-Espanyol,,ESP-La Liga,1011
+2011-02-20 16:00:00,Getafe,Racing Santander,434261,https://www.whoscored.com/Matches/434261/Live/Spain-LaLiga-2010-2011-Getafe-Racing-Santander,,ESP-La Liga,1011
+2011-02-20 16:00:00,Villarreal,Malaga,434263,https://www.whoscored.com/Matches/434263/Live/Spain-LaLiga-2010-2011-Villarreal-Malaga,,ESP-La Liga,1011
+2011-02-20 16:00:00,Almeria,Deportivo La Coruna,434264,https://www.whoscored.com/Matches/434264/Live/Spain-LaLiga-2010-2011-Almeria-Deportivo-La-Coruna,,ESP-La Liga,1011
+2011-02-20 18:00:00,Sevilla,Hercules,434260,https://www.whoscored.com/Matches/434260/Live/Spain-LaLiga-2010-2011-Sevilla-Hercules,,ESP-La Liga,1011
+2011-02-20 20:00:00,Barcelona,Athletic Club,434251,https://www.whoscored.com/Matches/434251/Live/Spain-LaLiga-2010-2011-Barcelona-Athletic-Club,,ESP-La Liga,1011
+2011-02-21 20:00:00,Real Sociedad,Mallorca,434269,https://www.whoscored.com/Matches/434269/Live/Spain-LaLiga-2010-2011-Real-Sociedad-Mallorca,,ESP-La Liga,1011
+2011-02-26 17:00:00,Espanyol,Real Sociedad,434060,https://www.whoscored.com/Matches/434060/Live/Spain-LaLiga-2010-2011-Espanyol-Real-Sociedad,,ESP-La Liga,1011
+2011-02-26 17:00:00,Sporting Gijon,Real Zaragoza,434036,https://www.whoscored.com/Matches/434036/Live/Spain-LaLiga-2010-2011-Sporting-Gijon-Real-Zaragoza,,ESP-La Liga,1011
+2011-02-26 17:00:00,Atletico Madrid,Sevilla,434038,https://www.whoscored.com/Matches/434038/Live/Spain-LaLiga-2010-2011-Atletico-Madrid-Sevilla,,ESP-La Liga,1011
+2011-02-26 19:00:00,Mallorca,Barcelona,434026,https://www.whoscored.com/Matches/434026/Live/Spain-LaLiga-2010-2011-Mallorca-Barcelona,,ESP-La Liga,1011
+2011-02-26 21:00:00,Deportivo La Coruna,Real Madrid,434052,https://www.whoscored.com/Matches/434052/Live/Spain-LaLiga-2010-2011-Deportivo-La-Coruna-Real-Madrid,,ESP-La Liga,1011
+2011-02-27 16:00:00,Levante,Osasuna,434056,https://www.whoscored.com/Matches/434056/Live/Spain-LaLiga-2010-2011-Levante-Osasuna,,ESP-La Liga,1011
+2011-02-27 16:00:00,Hercules,Getafe,434041,https://www.whoscored.com/Matches/434041/Live/Spain-LaLiga-2010-2011-Hercules-Getafe,,ESP-La Liga,1011
+2011-02-27 18:00:00,Racing Santander,Villarreal,434048,https://www.whoscored.com/Matches/434048/Live/Spain-LaLiga-2010-2011-Racing-Santander-Villarreal,,ESP-La Liga,1011
+2011-02-27 20:00:00,Athletic Club,Valencia,434029,https://www.whoscored.com/Matches/434029/Live/Spain-LaLiga-2010-2011-Athletic-Club-Valencia,,ESP-La Liga,1011
+2011-02-28 20:00:00,Malaga,Almeria,434049,https://www.whoscored.com/Matches/434049/Live/Spain-LaLiga-2010-2011-Malaga-Almeria,,ESP-La Liga,1011
+2011-01-02 15:00:00,Athletic Club,Deportivo La Coruna,434100,https://www.whoscored.com/Matches/434100/Live/Spain-LaLiga-2010-2011-Athletic-Club-Deportivo-La-Coruna,,ESP-La Liga,1011
+2011-01-02 17:00:00,Sporting Gijon,Malaga,434101,https://www.whoscored.com/Matches/434101/Live/Spain-LaLiga-2010-2011-Sporting-Gijon-Malaga,,ESP-La Liga,1011
+2011-01-02 17:00:00,Barcelona,Levante,434098,https://www.whoscored.com/Matches/434098/Live/Spain-LaLiga-2010-2011-Barcelona-Levante,,ESP-La Liga,1011
+2011-01-02 19:00:00,Sevilla,Osasuna,434095,https://www.whoscored.com/Matches/434095/Live/Spain-LaLiga-2010-2011-Sevilla-Osasuna,,ESP-La Liga,1011
+2011-01-02 21:00:00,Valencia,Espanyol,434097,https://www.whoscored.com/Matches/434097/Live/Spain-LaLiga-2010-2011-Valencia-Espanyol,,ESP-La Liga,1011
+2011-01-03 19:00:00,Real Zaragoza,Real Sociedad,434096,https://www.whoscored.com/Matches/434096/Live/Spain-LaLiga-2010-2011-Real-Zaragoza-Real-Sociedad,,ESP-La Liga,1011
+2011-01-03 19:00:00,Villarreal,Almeria,434093,https://www.whoscored.com/Matches/434093/Live/Spain-LaLiga-2010-2011-Villarreal-Almeria,,ESP-La Liga,1011
+2011-01-03 19:00:00,Atletico Madrid,Racing Santander,434104,https://www.whoscored.com/Matches/434104/Live/Spain-LaLiga-2010-2011-Atletico-Madrid-Racing-Santander,,ESP-La Liga,1011
+2011-01-03 19:00:00,Mallorca,Hercules,434105,https://www.whoscored.com/Matches/434105/Live/Spain-LaLiga-2010-2011-Mallorca-Hercules,,ESP-La Liga,1011
+2011-01-03 21:00:00,Getafe,Real Madrid,434094,https://www.whoscored.com/Matches/434094/Live/Spain-LaLiga-2010-2011-Getafe-Real-Madrid,,ESP-La Liga,1011
+2011-01-08 17:00:00,Malaga,Athletic Club,434131,https://www.whoscored.com/Matches/434131/Live/Spain-LaLiga-2010-2011-Malaga-Athletic-Club,,ESP-La Liga,1011
+2011-01-08 19:00:00,Real Sociedad,Sevilla,434123,https://www.whoscored.com/Matches/434123/Live/Spain-LaLiga-2010-2011-Real-Sociedad-Sevilla,,ESP-La Liga,1011
+2011-01-08 21:00:00,Deportivo La Coruna,Barcelona,434130,https://www.whoscored.com/Matches/434130/Live/Spain-LaLiga-2010-2011-Deportivo-La-Coruna-Barcelona,,ESP-La Liga,1011
+2011-01-09 16:00:00,Osasuna,Getafe,434122,https://www.whoscored.com/Matches/434122/Live/Spain-LaLiga-2010-2011-Osasuna-Getafe,,ESP-La Liga,1011
+2011-01-09 16:00:00,Espanyol,Real Zaragoza,434126,https://www.whoscored.com/Matches/434126/Live/Spain-LaLiga-2010-2011-Espanyol-Real-Zaragoza,,ESP-La Liga,1011
+2011-01-09 16:00:00,Racing Santander,Sporting Gijon,434132,https://www.whoscored.com/Matches/434132/Live/Spain-LaLiga-2010-2011-Racing-Santander-Sporting-Gijon,,ESP-La Liga,1011
+2011-01-09 16:00:00,Mallorca,Almeria,434117,https://www.whoscored.com/Matches/434117/Live/Spain-LaLiga-2010-2011-Mallorca-Almeria,,ESP-La Liga,1011
+2011-01-09 18:00:00,Real Madrid,Villarreal,434120,https://www.whoscored.com/Matches/434120/Live/Spain-LaLiga-2010-2011-Real-Madrid-Villarreal,,ESP-La Liga,1011
+2011-01-09 20:00:00,Levante,Valencia,434129,https://www.whoscored.com/Matches/434129/Live/Spain-LaLiga-2010-2011-Levante-Valencia,,ESP-La Liga,1011
+2011-01-10 20:00:00,Hercules,Atletico Madrid,434133,https://www.whoscored.com/Matches/434133/Live/Spain-LaLiga-2010-2011-Hercules-Atletico-Madrid,,ESP-La Liga,1011
+2011-01-15 17:00:00,Villarreal,Osasuna,434145,https://www.whoscored.com/Matches/434145/Live/Spain-LaLiga-2010-2011-Villarreal-Osasuna,,ESP-La Liga,1011
+2011-01-15 17:00:00,Getafe,Real Sociedad,434147,https://www.whoscored.com/Matches/434147/Live/Spain-LaLiga-2010-2011-Getafe-Real-Sociedad,,ESP-La Liga,1011
+2011-01-15 17:00:00,Sporting Gijon,Hercules,434154,https://www.whoscored.com/Matches/434154/Live/Spain-LaLiga-2010-2011-Sporting-Gijon-Hercules,,ESP-La Liga,1011
+2011-01-15 17:00:00,Real Zaragoza,Levante,434149,https://www.whoscored.com/Matches/434149/Live/Spain-LaLiga-2010-2011-Real-Zaragoza-Levante,,ESP-La Liga,1011
+2011-01-15 19:00:00,Athletic Club,Racing Santander,434153,https://www.whoscored.com/Matches/434153/Live/Spain-LaLiga-2010-2011-Athletic-Club-Racing-Santander,,ESP-La Liga,1011
+2011-01-15 21:00:00,Sevilla,Espanyol,434148,https://www.whoscored.com/Matches/434148/Live/Spain-LaLiga-2010-2011-Sevilla-Espanyol,,ESP-La Liga,1011
+2011-01-16 16:00:00,Valencia,Deportivo La Coruna,434151,https://www.whoscored.com/Matches/434151/Live/Spain-LaLiga-2010-2011-Valencia-Deportivo-La-Coruna,,ESP-La Liga,1011
+2011-01-16 18:00:00,Almeria,Real Madrid,434144,https://www.whoscored.com/Matches/434144/Live/Spain-LaLiga-2010-2011-Almeria-Real-Madrid,,ESP-La Liga,1011
+2011-01-16 20:00:00,Barcelona,Malaga,434152,https://www.whoscored.com/Matches/434152/Live/Spain-LaLiga-2010-2011-Barcelona-Malaga,,ESP-La Liga,1011
+2011-01-17 20:00:00,Atletico Madrid,Mallorca,434155,https://www.whoscored.com/Matches/434155/Live/Spain-LaLiga-2010-2011-Atletico-Madrid-Mallorca,,ESP-La Liga,1011
+2011-01-22 17:00:00,Sevilla,Levante,434168,https://www.whoscored.com/Matches/434168/Live/Spain-LaLiga-2010-2011-Sevilla-Levante,,ESP-La Liga,1011
+2011-01-22 19:00:00,Barcelona,Racing Santander,434160,https://www.whoscored.com/Matches/434160/Live/Spain-LaLiga-2010-2011-Barcelona-Racing-Santander,,ESP-La Liga,1011
+2011-01-22 21:00:00,Valencia,Malaga,434163,https://www.whoscored.com/Matches/434163/Live/Spain-LaLiga-2010-2011-Valencia-Malaga,,ESP-La Liga,1011
+2011-01-23 16:00:00,Real Zaragoza,Deportivo La Coruna,434164,https://www.whoscored.com/Matches/434164/Live/Spain-LaLiga-2010-2011-Real-Zaragoza-Deportivo-La-Coruna,,ESP-La Liga,1011
+2011-01-23 16:00:00,Almeria,Osasuna,434176,https://www.whoscored.com/Matches/434176/Live/Spain-LaLiga-2010-2011-Almeria-Osasuna,,ESP-La Liga,1011
+2011-01-23 16:00:00,Sporting Gijon,Atletico Madrid,434156,https://www.whoscored.com/Matches/434156/Live/Spain-LaLiga-2010-2011-Sporting-Gijon-Atletico-Madrid,,ESP-La Liga,1011
+2011-01-23 16:00:00,Getafe,Espanyol,434171,https://www.whoscored.com/Matches/434171/Live/Spain-LaLiga-2010-2011-Getafe-Espanyol,,ESP-La Liga,1011
+2011-01-23 18:00:00,Real Madrid,Mallorca,434177,https://www.whoscored.com/Matches/434177/Live/Spain-LaLiga-2010-2011-Real-Madrid-Mallorca,,ESP-La Liga,1011
+2011-01-23 20:00:00,Villarreal,Real Sociedad,434172,https://www.whoscored.com/Matches/434172/Live/Spain-LaLiga-2010-2011-Villarreal-Real-Sociedad,,ESP-La Liga,1011
+2011-01-24 20:00:00,Athletic Club,Hercules,434158,https://www.whoscored.com/Matches/434158/Live/Spain-LaLiga-2010-2011-Athletic-Club-Hercules,,ESP-La Liga,1011
+2011-01-29 17:00:00,Mallorca,Sporting Gijon,434182,https://www.whoscored.com/Matches/434182/Live/Spain-LaLiga-2010-2011-Mallorca-Sporting-Gijon,,ESP-La Liga,1011
+2011-01-29 17:00:00,Malaga,Real Zaragoza,434189,https://www.whoscored.com/Matches/434189/Live/Spain-LaLiga-2010-2011-Malaga-Real-Zaragoza,,ESP-La Liga,1011
+2011-01-29 17:00:00,Levante,Getafe,434192,https://www.whoscored.com/Matches/434192/Live/Spain-LaLiga-2010-2011-Levante-Getafe,,ESP-La Liga,1011
+2011-01-29 17:00:00,Real Sociedad,Almeria,434195,https://www.whoscored.com/Matches/434195/Live/Spain-LaLiga-2010-2011-Real-Sociedad-Almeria,,ESP-La Liga,1011
+2011-01-29 19:00:00,Hercules,Barcelona,434185,https://www.whoscored.com/Matches/434185/Live/Spain-LaLiga-2010-2011-Hercules-Barcelona,,ESP-La Liga,1011
+2011-01-29 21:00:00,Deportivo La Coruna,Sevilla,434190,https://www.whoscored.com/Matches/434190/Live/Spain-LaLiga-2010-2011-Deportivo-La-Coruna-Sevilla,,ESP-La Liga,1011
+2011-01-30 16:00:00,Atletico Madrid,Athletic Club,434184,https://www.whoscored.com/Matches/434184/Live/Spain-LaLiga-2010-2011-Atletico-Madrid-Athletic-Club,,ESP-La Liga,1011
+2011-01-30 18:00:00,Osasuna,Real Madrid,434198,https://www.whoscored.com/Matches/434198/Live/Spain-LaLiga-2010-2011-Osasuna-Real-Madrid,,ESP-La Liga,1011
+2011-01-30 20:00:00,Espanyol,Villarreal,434193,https://www.whoscored.com/Matches/434193/Live/Spain-LaLiga-2010-2011-Espanyol-Villarreal,,ESP-La Liga,1011
+2011-01-31 20:00:00,Racing Santander,Valencia,434186,https://www.whoscored.com/Matches/434186/Live/Spain-LaLiga-2010-2011-Racing-Santander-Valencia,,ESP-La Liga,1011
+2010-12-04 17:00:00,Levante,Atletico Madrid,434059,https://www.whoscored.com/Matches/434059/Live/Spain-LaLiga-2010-2011-Levante-Atletico-Madrid,,ESP-La Liga,1011
+2010-12-04 19:45:00,Osasuna,Barcelona,434055,https://www.whoscored.com/Matches/434055/Live/Spain-LaLiga-2010-2011-Osasuna-Barcelona,,ESP-La Liga,1011
+2010-12-04 21:00:00,Real Madrid,Valencia,434054,https://www.whoscored.com/Matches/434054/Live/Spain-LaLiga-2010-2011-Real-Madrid-Valencia,,ESP-La Liga,1011
+2010-12-05 16:00:00,Almeria,Real Zaragoza,434053,https://www.whoscored.com/Matches/434053/Live/Spain-LaLiga-2010-2011-Almeria-Real-Zaragoza,,ESP-La Liga,1011
+2010-12-05 16:00:00,Getafe,Mallorca,434050,https://www.whoscored.com/Matches/434050/Live/Spain-LaLiga-2010-2011-Getafe-Mallorca,,ESP-La Liga,1011
+2010-12-05 16:00:00,Malaga,Racing Santander,434062,https://www.whoscored.com/Matches/434062/Live/Spain-LaLiga-2010-2011-Malaga-Racing-Santander,,ESP-La Liga,1011
+2010-12-05 16:00:00,Espanyol,Sporting Gijon,434058,https://www.whoscored.com/Matches/434058/Live/Spain-LaLiga-2010-2011-Espanyol-Sporting-Gijon,,ESP-La Liga,1011
+2010-12-05 18:00:00,Villarreal,Sevilla,434051,https://www.whoscored.com/Matches/434051/Live/Spain-LaLiga-2010-2011-Villarreal-Sevilla,,ESP-La Liga,1011
+2010-12-05 20:00:00,Real Sociedad,Athletic Club,434057,https://www.whoscored.com/Matches/434057/Live/Spain-LaLiga-2010-2011-Real-Sociedad-Athletic-Club,,ESP-La Liga,1011
+2010-12-06 20:00:00,Deportivo La Coruna,Hercules,434061,https://www.whoscored.com/Matches/434061/Live/Spain-LaLiga-2010-2011-Deportivo-La-Coruna-Hercules,,ESP-La Liga,1011
+2010-12-11 17:00:00,Getafe,Villarreal,434063,https://www.whoscored.com/Matches/434063/Live/Spain-LaLiga-2010-2011-Getafe-Villarreal,,ESP-La Liga,1011
+2010-12-11 19:00:00,Sevilla,Almeria,434064,https://www.whoscored.com/Matches/434064/Live/Spain-LaLiga-2010-2011-Sevilla-Almeria,,ESP-La Liga,1011
+2010-12-11 21:00:00,Atletico Madrid,Deportivo La Coruna,434071,https://www.whoscored.com/Matches/434071/Live/Spain-LaLiga-2010-2011-Atletico-Madrid-Deportivo-La-Coruna,,ESP-La Liga,1011
+2010-12-12 16:00:00,Hercules,Malaga,434073,https://www.whoscored.com/Matches/434073/Live/Spain-LaLiga-2010-2011-Hercules-Malaga,,ESP-La Liga,1011
+2010-12-12 16:00:00,Mallorca,Racing Santander,434075,https://www.whoscored.com/Matches/434075/Live/Spain-LaLiga-2010-2011-Mallorca-Racing-Santander,,ESP-La Liga,1011
+2010-12-12 16:00:00,Athletic Club,Espanyol,434068,https://www.whoscored.com/Matches/434068/Live/Spain-LaLiga-2010-2011-Athletic-Club-Espanyol,,ESP-La Liga,1011
+2010-12-12 16:00:00,Sporting Gijon,Levante,434070,https://www.whoscored.com/Matches/434070/Live/Spain-LaLiga-2010-2011-Sporting-Gijon-Levante,,ESP-La Liga,1011
+2010-12-12 18:00:00,Real Zaragoza,Real Madrid,434065,https://www.whoscored.com/Matches/434065/Live/Spain-LaLiga-2010-2011-Real-Zaragoza-Real-Madrid,,ESP-La Liga,1011
+2010-12-12 20:00:00,Barcelona,Real Sociedad,434067,https://www.whoscored.com/Matches/434067/Live/Spain-LaLiga-2010-2011-Barcelona-Real-Sociedad,,ESP-La Liga,1011
+2010-12-13 20:00:00,Valencia,Osasuna,434066,https://www.whoscored.com/Matches/434066/Live/Spain-LaLiga-2010-2011-Valencia-Osasuna,,ESP-La Liga,1011
+2010-12-18 17:00:00,Villarreal,Mallorca,434076,https://www.whoscored.com/Matches/434076/Live/Spain-LaLiga-2010-2011-Villarreal-Mallorca,,ESP-La Liga,1011
+2010-12-18 17:00:00,Levante,Athletic Club,434084,https://www.whoscored.com/Matches/434084/Live/Spain-LaLiga-2010-2011-Levante-Athletic-Club,,ESP-La Liga,1011
+2010-12-18 17:00:00,Deportivo La Coruna,Sporting Gijon,434086,https://www.whoscored.com/Matches/434086/Live/Spain-LaLiga-2010-2011-Deportivo-La-Coruna-Sporting-Gijon,,ESP-La Liga,1011
+2010-12-18 19:00:00,Espanyol,Barcelona,434083,https://www.whoscored.com/Matches/434083/Live/Spain-LaLiga-2010-2011-Espanyol-Barcelona,,ESP-La Liga,1011
+2010-12-18 21:00:00,Real Sociedad,Valencia,434082,https://www.whoscored.com/Matches/434082/Live/Spain-LaLiga-2010-2011-Real-Sociedad-Valencia,,ESP-La Liga,1011
+2010-12-19 16:00:00,Osasuna,Real Zaragoza,434080,https://www.whoscored.com/Matches/434080/Live/Spain-LaLiga-2010-2011-Osasuna-Real-Zaragoza,,ESP-La Liga,1011
+2010-12-19 16:00:00,Almeria,Getafe,434077,https://www.whoscored.com/Matches/434077/Live/Spain-LaLiga-2010-2011-Almeria-Getafe,,ESP-La Liga,1011
+2010-12-19 18:00:00,Malaga,Atletico Madrid,434088,https://www.whoscored.com/Matches/434088/Live/Spain-LaLiga-2010-2011-Malaga-Atletico-Madrid,,ESP-La Liga,1011
+2010-12-19 20:00:00,Real Madrid,Sevilla,434079,https://www.whoscored.com/Matches/434079/Live/Spain-LaLiga-2010-2011-Real-Madrid-Sevilla,,ESP-La Liga,1011
+2010-12-20 20:00:00,Racing Santander,Hercules,434089,https://www.whoscored.com/Matches/434089/Live/Spain-LaLiga-2010-2011-Racing-Santander-Hercules,,ESP-La Liga,1011
+2010-11-01 20:00:00,Mallorca,Levante,433991,https://www.whoscored.com/Matches/433991/Live/Spain-LaLiga-2010-2011-Mallorca-Levante,,ESP-La Liga,1011
+2010-11-06 19:00:00,Real Sociedad,Racing Santander,434009,https://www.whoscored.com/Matches/434009/Live/Spain-LaLiga-2010-2011-Real-Sociedad-Racing-Santander,,ESP-La Liga,1011
+2010-11-06 21:00:00,Espanyol,Malaga,434011,https://www.whoscored.com/Matches/434011/Live/Spain-LaLiga-2010-2011-Espanyol-Malaga,,ESP-La Liga,1011
+2010-11-07 16:00:00,Levante,Deportivo La Coruna,434012,https://www.whoscored.com/Matches/434012/Live/Spain-LaLiga-2010-2011-Levante-Deportivo-La-Coruna,,ESP-La Liga,1011
+2010-11-07 16:00:00,Villarreal,Athletic Club,434001,https://www.whoscored.com/Matches/434001/Live/Spain-LaLiga-2010-2011-Villarreal-Athletic-Club,,ESP-La Liga,1011
+2010-11-07 16:00:00,Almeria,Sporting Gijon,434003,https://www.whoscored.com/Matches/434003/Live/Spain-LaLiga-2010-2011-Almeria-Sporting-Gijon,,ESP-La Liga,1011
+2010-11-07 16:00:00,Osasuna,Hercules,434005,https://www.whoscored.com/Matches/434005/Live/Spain-LaLiga-2010-2011-Osasuna-Hercules,,ESP-La Liga,1011
+2010-11-07 16:00:00,Real Zaragoza,Mallorca,433993,https://www.whoscored.com/Matches/433993/Live/Spain-LaLiga-2010-2011-Real-Zaragoza-Mallorca,,ESP-La Liga,1011
+2010-11-07 18:00:00,Getafe,Barcelona,434000,https://www.whoscored.com/Matches/434000/Live/Spain-LaLiga-2010-2011-Getafe-Barcelona,,ESP-La Liga,1011
+2010-11-07 20:00:00,Real Madrid,Atletico Madrid,434006,https://www.whoscored.com/Matches/434006/Live/Spain-LaLiga-2010-2011-Real-Madrid-Atletico-Madrid,,ESP-La Liga,1011
+2010-11-08 20:30:00,Sevilla,Valencia,433997,https://www.whoscored.com/Matches/433997/Live/Spain-LaLiga-2010-2011-Sevilla-Valencia,,ESP-La Liga,1011
+2010-11-13 17:00:00,Athletic Club,Almeria,434016,https://www.whoscored.com/Matches/434016/Live/Spain-LaLiga-2010-2011-Athletic-Club-Almeria,,ESP-La Liga,1011
+2010-11-13 19:00:00,Atletico Madrid,Osasuna,434018,https://www.whoscored.com/Matches/434018/Live/Spain-LaLiga-2010-2011-Atletico-Madrid-Osasuna,,ESP-La Liga,1011
+2010-11-13 21:00:00,Barcelona,Villarreal,434015,https://www.whoscored.com/Matches/434015/Live/Spain-LaLiga-2010-2011-Barcelona-Villarreal,,ESP-La Liga,1011
+2010-11-14 16:00:00,Hercules,Real Sociedad,434019,https://www.whoscored.com/Matches/434019/Live/Spain-LaLiga-2010-2011-Hercules-Real-Sociedad,,ESP-La Liga,1011
+2010-11-14 16:00:00,Racing Santander,Espanyol,434020,https://www.whoscored.com/Matches/434020/Live/Spain-LaLiga-2010-2011-Racing-Santander-Espanyol,,ESP-La Liga,1011
+2010-11-14 16:00:00,Malaga,Levante,434021,https://www.whoscored.com/Matches/434021/Live/Spain-LaLiga-2010-2011-Malaga-Levante,,ESP-La Liga,1011
+2010-11-14 16:00:00,Mallorca,Deportivo La Coruna,434022,https://www.whoscored.com/Matches/434022/Live/Spain-LaLiga-2010-2011-Mallorca-Deportivo-La-Coruna,,ESP-La Liga,1011
+2010-11-14 16:00:00,Real Zaragoza,Sevilla,434013,https://www.whoscored.com/Matches/434013/Live/Spain-LaLiga-2010-2011-Real-Zaragoza-Sevilla,,ESP-La Liga,1011
+2010-11-14 18:00:00,Sporting Gijon,Real Madrid,434017,https://www.whoscored.com/Matches/434017/Live/Spain-LaLiga-2010-2011-Sporting-Gijon-Real-Madrid,,ESP-La Liga,1011
+2010-11-14 20:00:00,Valencia,Getafe,434014,https://www.whoscored.com/Matches/434014/Live/Spain-LaLiga-2010-2011-Valencia-Getafe,,ESP-La Liga,1011
+2010-11-20 17:00:00,Villarreal,Valencia,434025,https://www.whoscored.com/Matches/434025/Live/Spain-LaLiga-2010-2011-Villarreal-Valencia,,ESP-La Liga,1011
+2010-11-20 19:00:00,Almeria,Barcelona,434027,https://www.whoscored.com/Matches/434027/Live/Spain-LaLiga-2010-2011-Almeria-Barcelona,,ESP-La Liga,1011
+2010-11-20 21:00:00,Real Madrid,Athletic Club,434028,https://www.whoscored.com/Matches/434028/Live/Spain-LaLiga-2010-2011-Real-Madrid-Athletic-Club,,ESP-La Liga,1011
+2010-11-21 16:00:00,Osasuna,Sporting Gijon,434030,https://www.whoscored.com/Matches/434030/Live/Spain-LaLiga-2010-2011-Osasuna-Sporting-Gijon,,ESP-La Liga,1011
+2010-11-21 16:00:00,Espanyol,Hercules,434032,https://www.whoscored.com/Matches/434032/Live/Spain-LaLiga-2010-2011-Espanyol-Hercules,,ESP-La Liga,1011
+2010-11-21 16:00:00,Levante,Racing Santander,434033,https://www.whoscored.com/Matches/434033/Live/Spain-LaLiga-2010-2011-Levante-Racing-Santander,,ESP-La Liga,1011
+2010-11-21 16:00:00,Deportivo La Coruna,Malaga,434034,https://www.whoscored.com/Matches/434034/Live/Spain-LaLiga-2010-2011-Deportivo-La-Coruna-Malaga,,ESP-La Liga,1011
+2010-11-21 18:00:00,Sevilla,Mallorca,434023,https://www.whoscored.com/Matches/434023/Live/Spain-LaLiga-2010-2011-Sevilla-Mallorca,,ESP-La Liga,1011
+2010-11-21 20:00:00,Real Sociedad,Atletico Madrid,434031,https://www.whoscored.com/Matches/434031/Live/Spain-LaLiga-2010-2011-Real-Sociedad-Atletico-Madrid,,ESP-La Liga,1011
+2010-11-22 20:00:00,Getafe,Real Zaragoza,434024,https://www.whoscored.com/Matches/434024/Live/Spain-LaLiga-2010-2011-Getafe-Real-Zaragoza,,ESP-La Liga,1011
+2010-11-27 17:00:00,Real Zaragoza,Villarreal,434037,https://www.whoscored.com/Matches/434037/Live/Spain-LaLiga-2010-2011-Real-Zaragoza-Villarreal,,ESP-La Liga,1011
+2010-11-27 19:00:00,Sevilla,Getafe,434035,https://www.whoscored.com/Matches/434035/Live/Spain-LaLiga-2010-2011-Sevilla-Getafe,,ESP-La Liga,1011
+2010-11-27 21:00:00,Atletico Madrid,Espanyol,434044,https://www.whoscored.com/Matches/434044/Live/Spain-LaLiga-2010-2011-Atletico-Madrid-Espanyol,,ESP-La Liga,1011
+2010-11-28 16:00:00,Hercules,Levante,434045,https://www.whoscored.com/Matches/434045/Live/Spain-LaLiga-2010-2011-Hercules-Levante,,ESP-La Liga,1011
+2010-11-28 16:00:00,Racing Santander,Deportivo La Coruna,434046,https://www.whoscored.com/Matches/434046/Live/Spain-LaLiga-2010-2011-Racing-Santander-Deportivo-La-Coruna,,ESP-La Liga,1011
+2010-11-28 16:00:00,Mallorca,Malaga,434047,https://www.whoscored.com/Matches/434047/Live/Spain-LaLiga-2010-2011-Mallorca-Malaga,,ESP-La Liga,1011
+2010-11-28 16:00:00,Sporting Gijon,Real Sociedad,434043,https://www.whoscored.com/Matches/434043/Live/Spain-LaLiga-2010-2011-Sporting-Gijon-Real-Sociedad,,ESP-La Liga,1011
+2010-11-28 18:00:00,Athletic Club,Osasuna,434042,https://www.whoscored.com/Matches/434042/Live/Spain-LaLiga-2010-2011-Athletic-Club-Osasuna,,ESP-La Liga,1011
+2010-11-28 20:00:00,Valencia,Almeria,434039,https://www.whoscored.com/Matches/434039/Live/Spain-LaLiga-2010-2011-Valencia-Almeria,,ESP-La Liga,1011
+2010-11-29 20:00:00,Barcelona,Real Madrid,434040,https://www.whoscored.com/Matches/434040/Live/Spain-LaLiga-2010-2011-Barcelona-Real-Madrid,,ESP-La Liga,1011
+2010-10-02 17:00:00,Real Zaragoza,Sporting Gijon,433925,https://www.whoscored.com/Matches/433925/Live/Spain-LaLiga-2010-2011-Real-Zaragoza-Sporting-Gijon,,ESP-La Liga,1011
+2010-10-02 19:00:00,Real Sociedad,Espanyol,433933,https://www.whoscored.com/Matches/433933/Live/Spain-LaLiga-2010-2011-Real-Sociedad-Espanyol,,ESP-La Liga,1011
+2010-10-02 21:00:00,Valencia,Athletic Club,433923,https://www.whoscored.com/Matches/433923/Live/Spain-LaLiga-2010-2011-Valencia-Athletic-Club,,ESP-La Liga,1011
+2010-10-03 16:00:00,Sevilla,Atletico Madrid,433926,https://www.whoscored.com/Matches/433926/Live/Spain-LaLiga-2010-2011-Sevilla-Atletico-Madrid,,ESP-La Liga,1011
+2010-10-03 16:00:00,Getafe,Hercules,433927,https://www.whoscored.com/Matches/433927/Live/Spain-LaLiga-2010-2011-Getafe-Hercules,,ESP-La Liga,1011
+2010-10-03 16:00:00,Villarreal,Racing Santander,433928,https://www.whoscored.com/Matches/433928/Live/Spain-LaLiga-2010-2011-Villarreal-Racing-Santander,,ESP-La Liga,1011
+2010-10-03 16:00:00,Almeria,Malaga,433929,https://www.whoscored.com/Matches/433929/Live/Spain-LaLiga-2010-2011-Almeria-Malaga,,ESP-La Liga,1011
+2010-10-03 16:00:00,Osasuna,Levante,433932,https://www.whoscored.com/Matches/433932/Live/Spain-LaLiga-2010-2011-Osasuna-Levante,,ESP-La Liga,1011
+2010-10-03 18:00:00,Barcelona,Mallorca,433920,https://www.whoscored.com/Matches/433920/Live/Spain-LaLiga-2010-2011-Barcelona-Mallorca,,ESP-La Liga,1011
+2010-10-03 20:00:00,Real Madrid,Deportivo La Coruna,433930,https://www.whoscored.com/Matches/433930/Live/Spain-LaLiga-2010-2011-Real-Madrid-Deportivo-La-Coruna,,ESP-La Liga,1011
+2010-10-16 17:00:00,Atletico Madrid,Getafe,433942,https://www.whoscored.com/Matches/433942/Live/Spain-LaLiga-2010-2011-Atletico-Madrid-Getafe,,ESP-La Liga,1011
+2010-10-16 19:00:00,Barcelona,Valencia,433937,https://www.whoscored.com/Matches/433937/Live/Spain-LaLiga-2010-2011-Barcelona-Valencia,,ESP-La Liga,1011
+2010-10-16 21:00:00,Malaga,Real Madrid,433949,https://www.whoscored.com/Matches/433949/Live/Spain-LaLiga-2010-2011-Malaga-Real-Madrid,,ESP-La Liga,1011
+2010-10-17 16:00:00,Deportivo La Coruna,Osasuna,433950,https://www.whoscored.com/Matches/433950/Live/Spain-LaLiga-2010-2011-Deportivo-La-Coruna-Osasuna,,ESP-La Liga,1011
+2010-10-17 16:00:00,Levante,Real Sociedad,433951,https://www.whoscored.com/Matches/433951/Live/Spain-LaLiga-2010-2011-Levante-Real-Sociedad,,ESP-La Liga,1011
+2010-10-17 16:00:00,Mallorca,Espanyol,433952,https://www.whoscored.com/Matches/433952/Live/Spain-LaLiga-2010-2011-Mallorca-Espanyol,,ESP-La Liga,1011
+2010-10-17 16:00:00,Racing Santander,Almeria,433948,https://www.whoscored.com/Matches/433948/Live/Spain-LaLiga-2010-2011-Racing-Santander-Almeria,,ESP-La Liga,1011
+2010-10-17 18:00:00,Athletic Club,Real Zaragoza,433936,https://www.whoscored.com/Matches/433936/Live/Spain-LaLiga-2010-2011-Athletic-Club-Real-Zaragoza,,ESP-La Liga,1011
+2010-10-17 20:00:00,Sporting Gijon,Sevilla,433940,https://www.whoscored.com/Matches/433940/Live/Spain-LaLiga-2010-2011-Sporting-Gijon-Sevilla,,ESP-La Liga,1011
+2010-10-18 20:00:00,Hercules,Villarreal,433945,https://www.whoscored.com/Matches/433945/Live/Spain-LaLiga-2010-2011-Hercules-Villarreal,,ESP-La Liga,1011
+2010-10-23 17:00:00,Real Zaragoza,Barcelona,433956,https://www.whoscored.com/Matches/433956/Live/Spain-LaLiga-2010-2011-Real-Zaragoza-Barcelona,,ESP-La Liga,1011
+2010-10-23 19:00:00,Real Madrid,Racing Santander,433966,https://www.whoscored.com/Matches/433966/Live/Spain-LaLiga-2010-2011-Real-Madrid-Racing-Santander,,ESP-La Liga,1011
+2010-10-23 21:00:00,Valencia,Mallorca,433953,https://www.whoscored.com/Matches/433953/Live/Spain-LaLiga-2010-2011-Valencia-Mallorca,,ESP-La Liga,1011
+2010-10-24 16:00:00,Osasuna,Malaga,433968,https://www.whoscored.com/Matches/433968/Live/Spain-LaLiga-2010-2011-Osasuna-Malaga,,ESP-La Liga,1011
+2010-10-24 16:00:00,Getafe,Sporting Gijon,433961,https://www.whoscored.com/Matches/433961/Live/Spain-LaLiga-2010-2011-Getafe-Sporting-Gijon,,ESP-La Liga,1011
+2010-10-24 16:00:00,Espanyol,Levante,433972,https://www.whoscored.com/Matches/433972/Live/Spain-LaLiga-2010-2011-Espanyol-Levante,,ESP-La Liga,1011
+2010-10-24 16:00:00,Almeria,Hercules,433965,https://www.whoscored.com/Matches/433965/Live/Spain-LaLiga-2010-2011-Almeria-Hercules,,ESP-La Liga,1011
+2010-10-24 18:00:00,Sevilla,Athletic Club,433958,https://www.whoscored.com/Matches/433958/Live/Spain-LaLiga-2010-2011-Sevilla-Athletic-Club,,ESP-La Liga,1011
+2010-10-24 20:00:00,Villarreal,Atletico Madrid,433962,https://www.whoscored.com/Matches/433962/Live/Spain-LaLiga-2010-2011-Villarreal-Atletico-Madrid,,ESP-La Liga,1011
+2010-10-25 20:00:00,Real Sociedad,Deportivo La Coruna,433970,https://www.whoscored.com/Matches/433970/Live/Spain-LaLiga-2010-2011-Real-Sociedad-Deportivo-La-Coruna,,ESP-La Liga,1011
+2010-10-30 17:00:00,Valencia,Real Zaragoza,433973,https://www.whoscored.com/Matches/433973/Live/Spain-LaLiga-2010-2011-Valencia-Real-Zaragoza,,ESP-La Liga,1011
+2010-10-30 19:00:00,Hercules,Real Madrid,433983,https://www.whoscored.com/Matches/433983/Live/Spain-LaLiga-2010-2011-Hercules-Real-Madrid,,ESP-La Liga,1011
+2010-10-30 21:00:00,Barcelona,Sevilla,433974,https://www.whoscored.com/Matches/433974/Live/Spain-LaLiga-2010-2011-Barcelona-Sevilla,,ESP-La Liga,1011
+2010-10-31 16:00:00,Racing Santander,Osasuna,433985,https://www.whoscored.com/Matches/433985/Live/Spain-LaLiga-2010-2011-Racing-Santander-Osasuna,,ESP-La Liga,1011
+2010-10-31 16:00:00,Malaga,Real Sociedad,433987,https://www.whoscored.com/Matches/433987/Live/Spain-LaLiga-2010-2011-Malaga-Real-Sociedad,,ESP-La Liga,1011
+2010-10-31 16:00:00,Deportivo La Coruna,Espanyol,433989,https://www.whoscored.com/Matches/433989/Live/Spain-LaLiga-2010-2011-Deportivo-La-Coruna-Espanyol,,ESP-La Liga,1011
+2010-10-31 16:00:00,Sporting Gijon,Villarreal,433978,https://www.whoscored.com/Matches/433978/Live/Spain-LaLiga-2010-2011-Sporting-Gijon-Villarreal,,ESP-La Liga,1011
+2010-10-31 18:00:00,Atletico Madrid,Almeria,433982,https://www.whoscored.com/Matches/433982/Live/Spain-LaLiga-2010-2011-Atletico-Madrid-Almeria,,ESP-La Liga,1011
+2010-10-31 20:00:00,Athletic Club,Getafe,433975,https://www.whoscored.com/Matches/433975/Live/Spain-LaLiga-2010-2011-Athletic-Club-Getafe,,ESP-La Liga,1011
+2010-09-11 17:00:00,Barcelona,Hercules,433835,https://www.whoscored.com/Matches/433835/Live/Spain-LaLiga-2010-2011-Barcelona-Hercules,,ESP-La Liga,1011
+2010-09-11 17:00:00,Valencia,Racing Santander,433836,https://www.whoscored.com/Matches/433836/Live/Spain-LaLiga-2010-2011-Valencia-Racing-Santander,,ESP-La Liga,1011
+2010-09-11 19:00:00,Real Madrid,Osasuna,433852,https://www.whoscored.com/Matches/433852/Live/Spain-LaLiga-2010-2011-Real-Madrid-Osasuna,,ESP-La Liga,1011
+2010-09-11 21:00:00,Athletic Club,Atletico Madrid,433833,https://www.whoscored.com/Matches/433833/Live/Spain-LaLiga-2010-2011-Athletic-Club-Atletico-Madrid,,ESP-La Liga,1011
+2010-09-12 16:00:00,Sporting Gijon,Mallorca,433830,https://www.whoscored.com/Matches/433830/Live/Spain-LaLiga-2010-2011-Sporting-Gijon-Mallorca,,ESP-La Liga,1011
+2010-09-12 16:00:00,Getafe,Levante,433842,https://www.whoscored.com/Matches/433842/Live/Spain-LaLiga-2010-2011-Getafe-Levante,,ESP-La Liga,1011
+2010-09-12 16:00:00,Real Zaragoza,Malaga,433837,https://www.whoscored.com/Matches/433837/Live/Spain-LaLiga-2010-2011-Real-Zaragoza-Malaga,,ESP-La Liga,1011
+2010-09-12 18:00:00,Villarreal,Espanyol,433844,https://www.whoscored.com/Matches/433844/Live/Spain-LaLiga-2010-2011-Villarreal-Espanyol,,ESP-La Liga,1011
+2010-09-12 20:00:00,Sevilla,Deportivo La Coruna,433839,https://www.whoscored.com/Matches/433839/Live/Spain-LaLiga-2010-2011-Sevilla-Deportivo-La-Coruna,,ESP-La Liga,1011
+2010-09-13 20:00:00,Almeria,Real Sociedad,433850,https://www.whoscored.com/Matches/433850/Live/Spain-LaLiga-2010-2011-Almeria-Real-Sociedad,,ESP-La Liga,1011
+2010-09-18 17:00:00,Espanyol,Almeria,433881,https://www.whoscored.com/Matches/433881/Live/Spain-LaLiga-2010-2011-Espanyol-Almeria,,ESP-La Liga,1011
+2010-09-18 17:00:00,Mallorca,Osasuna,433888,https://www.whoscored.com/Matches/433888/Live/Spain-LaLiga-2010-2011-Mallorca-Osasuna,,ESP-La Liga,1011
+2010-09-18 19:00:00,Sporting Gijon,Athletic Club,433859,https://www.whoscored.com/Matches/433859/Live/Spain-LaLiga-2010-2011-Sporting-Gijon-Athletic-Club,,ESP-La Liga,1011
+2010-09-18 21:00:00,Real Sociedad,Real Madrid,433886,https://www.whoscored.com/Matches/433886/Live/Spain-LaLiga-2010-2011-Real-Sociedad-Real-Madrid,,ESP-La Liga,1011
+2010-09-19 16:00:00,Hercules,Valencia,433863,https://www.whoscored.com/Matches/433863/Live/Spain-LaLiga-2010-2011-Hercules-Valencia,,ESP-La Liga,1011
+2010-09-19 16:00:00,Racing Santander,Real Zaragoza,433865,https://www.whoscored.com/Matches/433865/Live/Spain-LaLiga-2010-2011-Racing-Santander-Real-Zaragoza,,ESP-La Liga,1011
+2010-09-19 16:00:00,Levante,Villarreal,433873,https://www.whoscored.com/Matches/433873/Live/Spain-LaLiga-2010-2011-Levante-Villarreal,,ESP-La Liga,1011
+2010-09-19 18:00:00,Atletico Madrid,Barcelona,433860,https://www.whoscored.com/Matches/433860/Live/Spain-LaLiga-2010-2011-Atletico-Madrid-Barcelona,,ESP-La Liga,1011
+2010-09-19 20:00:00,Malaga,Sevilla,433868,https://www.whoscored.com/Matches/433868/Live/Spain-LaLiga-2010-2011-Malaga-Sevilla,,ESP-La Liga,1011
+2010-09-20 20:00:00,Deportivo La Coruna,Getafe,433871,https://www.whoscored.com/Matches/433871/Live/Spain-LaLiga-2010-2011-Deportivo-La-Coruna-Getafe,,ESP-La Liga,1011
+2010-09-21 19:00:00,Osasuna,Real Sociedad,433902,https://www.whoscored.com/Matches/433902/Live/Spain-LaLiga-2010-2011-Osasuna-Real-Sociedad,,ESP-La Liga,1011
+2010-09-21 19:00:00,Athletic Club,Mallorca,433893,https://www.whoscored.com/Matches/433893/Live/Spain-LaLiga-2010-2011-Athletic-Club-Mallorca,,ESP-La Liga,1011
+2010-09-21 21:00:00,Real Madrid,Espanyol,433901,https://www.whoscored.com/Matches/433901/Live/Spain-LaLiga-2010-2011-Real-Madrid-Espanyol,,ESP-La Liga,1011
+2010-09-22 19:00:00,Almeria,Levante,433900,https://www.whoscored.com/Matches/433900/Live/Spain-LaLiga-2010-2011-Almeria-Levante,,ESP-La Liga,1011
+2010-09-22 19:00:00,Barcelona,Sporting Gijon,433894,https://www.whoscored.com/Matches/433894/Live/Spain-LaLiga-2010-2011-Barcelona-Sporting-Gijon,,ESP-La Liga,1011
+2010-09-22 19:00:00,Real Zaragoza,Hercules,433896,https://www.whoscored.com/Matches/433896/Live/Spain-LaLiga-2010-2011-Real-Zaragoza-Hercules,,ESP-La Liga,1011
+2010-09-22 21:00:00,Valencia,Atletico Madrid,433895,https://www.whoscored.com/Matches/433895/Live/Spain-LaLiga-2010-2011-Valencia-Atletico-Madrid,,ESP-La Liga,1011
+2010-09-23 19:00:00,Getafe,Malaga,433898,https://www.whoscored.com/Matches/433898/Live/Spain-LaLiga-2010-2011-Getafe-Malaga,,ESP-La Liga,1011
+2010-09-23 19:00:00,Villarreal,Deportivo La Coruna,433899,https://www.whoscored.com/Matches/433899/Live/Spain-LaLiga-2010-2011-Villarreal-Deportivo-La-Coruna,,ESP-La Liga,1011
+2010-09-23 21:00:00,Sevilla,Racing Santander,433897,https://www.whoscored.com/Matches/433897/Live/Spain-LaLiga-2010-2011-Sevilla-Racing-Santander,,ESP-La Liga,1011
+2010-09-25 17:00:00,Sporting Gijon,Valencia,433904,https://www.whoscored.com/Matches/433904/Live/Spain-LaLiga-2010-2011-Sporting-Gijon-Valencia,,ESP-La Liga,1011
+2010-09-25 19:00:00,Levante,Real Madrid,433914,https://www.whoscored.com/Matches/433914/Live/Spain-LaLiga-2010-2011-Levante-Real-Madrid,,ESP-La Liga,1011
+2010-09-25 21:00:00,Athletic Club,Barcelona,433903,https://www.whoscored.com/Matches/433903/Live/Spain-LaLiga-2010-2011-Athletic-Club-Barcelona,,ESP-La Liga,1011
+2010-09-26 16:00:00,Espanyol,Osasuna,433916,https://www.whoscored.com/Matches/433916/Live/Spain-LaLiga-2010-2011-Espanyol-Osasuna,,ESP-La Liga,1011
+2010-09-26 16:00:00,Mallorca,Real Sociedad,433918,https://www.whoscored.com/Matches/433918/Live/Spain-LaLiga-2010-2011-Mallorca-Real-Sociedad,,ESP-La Liga,1011
+2010-09-26 16:00:00,Racing Santander,Getafe,433907,https://www.whoscored.com/Matches/433907/Live/Spain-LaLiga-2010-2011-Racing-Santander-Getafe,,ESP-La Liga,1011
+2010-09-26 16:00:00,Deportivo La Coruna,Almeria,433912,https://www.whoscored.com/Matches/433912/Live/Spain-LaLiga-2010-2011-Deportivo-La-Coruna-Almeria,,ESP-La Liga,1011
+2010-09-26 18:00:00,Hercules,Sevilla,433906,https://www.whoscored.com/Matches/433906/Live/Spain-LaLiga-2010-2011-Hercules-Sevilla,,ESP-La Liga,1011
+2010-09-26 20:00:00,Atletico Madrid,Real Zaragoza,433905,https://www.whoscored.com/Matches/433905/Live/Spain-LaLiga-2010-2011-Atletico-Madrid-Real-Zaragoza,,ESP-La Liga,1011
+2010-09-27 20:00:00,Malaga,Villarreal,433909,https://www.whoscored.com/Matches/433909/Live/Spain-LaLiga-2010-2011-Malaga-Villarreal,,ESP-La Liga,1011
+2010-08-28 17:00:00,Hercules,Athletic Club,433797,https://www.whoscored.com/Matches/433797/Live/Spain-LaLiga-2010-2011-Hercules-Athletic-Club,,ESP-La Liga,1011
+2010-08-28 19:00:00,Malaga,Valencia,433804,https://www.whoscored.com/Matches/433804/Live/Spain-LaLiga-2010-2011-Malaga-Valencia,,ESP-La Liga,1011
+2010-08-28 21:00:00,Levante,Sevilla,433808,https://www.whoscored.com/Matches/433808/Live/Spain-LaLiga-2010-2011-Levante-Sevilla,,ESP-La Liga,1011
+2010-08-29 16:00:00,Espanyol,Getafe,433809,https://www.whoscored.com/Matches/433809/Live/Spain-LaLiga-2010-2011-Espanyol-Getafe,,ESP-La Liga,1011
+2010-08-29 16:00:00,Real Sociedad,Villarreal,433811,https://www.whoscored.com/Matches/433811/Live/Spain-LaLiga-2010-2011-Real-Sociedad-Villarreal,,ESP-La Liga,1011
+2010-08-29 16:00:00,Osasuna,Almeria,433819,https://www.whoscored.com/Matches/433819/Live/Spain-LaLiga-2010-2011-Osasuna-Almeria,,ESP-La Liga,1011
+2010-08-29 16:00:00,Deportivo La Coruna,Real Zaragoza,433807,https://www.whoscored.com/Matches/433807/Live/Spain-LaLiga-2010-2011-Deportivo-La-Coruna-Real-Zaragoza,,ESP-La Liga,1011
+2010-08-29 18:00:00,Racing Santander,Barcelona,433803,https://www.whoscored.com/Matches/433803/Live/Spain-LaLiga-2010-2011-Racing-Santander-Barcelona,,ESP-La Liga,1011
+2010-08-29 20:00:00,Mallorca,Real Madrid,433822,https://www.whoscored.com/Matches/433822/Live/Spain-LaLiga-2010-2011-Mallorca-Real-Madrid,,ESP-La Liga,1011
+2010-08-30 21:00:00,Atletico Madrid,Sporting Gijon,433794,https://www.whoscored.com/Matches/433794/Live/Spain-LaLiga-2010-2011-Atletico-Madrid-Sporting-Gijon,,ESP-La Liga,1011

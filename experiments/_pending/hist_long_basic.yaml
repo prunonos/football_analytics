@@ -1,11 +1,11 @@
 General:
-  name: 'hist_longterm_basic'
+  name: 'hist_longterm_basic_f1'
   experiment_path: 'hl_basic'
 Data:
   dataset :  'historical_longterm'
   drop: 
     -
-  factor: -1
+  factor: 1
   regression: False
   runtype: 'basic'
   dims: 50

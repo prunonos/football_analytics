@@ -1,0 +1,15 @@
+{
+        "matchId": "Int64",
+        "id_H": "Int64",
+        "id_A": "Int64",
+        "Div": "str",
+        "season": "str",
+        "HomeTeam": "str",
+        "AWayTeam": "str",
+        "div_order": "Int64",
+        "FTHG": "Int64",
+        "FTAG": "Int64",
+        "FTR": "str",
+        "Attendance": "float",
+        "Referee": "str"
+}

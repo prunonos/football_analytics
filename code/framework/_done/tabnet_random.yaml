@@ -1,0 +1,33 @@
+experiment: tabnet_paper
+experiment_id: tabnet_paper_random_batch
+description: "template del Refactor del experimento TabNet del paper Pi-Ratings"
+enable: True
+variables: &variables
+  # _aux_: 0
+  select: 16
+data:
+  <<: *variables
+  sample: "random"
+  # balance: True
+  init_date: "1996-07-01"
+  val_date: "2017-01-01"
+  # test_date: "2020-01-01"
+  save_data: True
+paths:
+  data: "datasets/data_train/data_"
+  dtypes_path: "datasets/raw_datasets/dtypes.json"
+  raw_data: "datasets/raw_datasets/datalake.csv"
+  page_rank: "datasets/raw_datasets/page_rank.csv"
+  match_importance: "datasets/raw_datasets/match_importance.csv"
+training:
+  <<: *variables
+  unsupervised_training: False
+  # metric: "test_accuracy"
+  max_epochs: 15
+  patience: 2
+  iterations: 3
+  timeout: 1440      # in mins
+  direction: "maximize"
+  eval_metric:
+    - "logloss"
+    - "accuracy" # last one is the one saved

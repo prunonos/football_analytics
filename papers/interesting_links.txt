@@ -1,0 +1,36 @@
+INTERESTING LINKS	
+
+What should I Do when my NN doesn't learn?
+https://stats.stackexchange.com/questions/352036/what-should-i-do-when-my-neural-network-doesnt-learn
+
+Relationship between model parameters and overfitting
+https://stats.stackexchange.com/questions/320383/relationship-between-model-over-fitting-and-number-of-parameters/320387#320387
+
+Bias-Variance Decomposition
+https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
+
+Weight Initialization
+https://www.deeplearning.ai/ai-notes/initialization/index.html
+
+Role of Bias in Neural Networks
+https://www.pico.net/kb/the-role-of-bias-in-neural-networks/#:~:text=Bias%20in%20Neural%20Networks%20can,connection%20weight%20'w0'.
+
+PyTorch Hooks:
+https://blog.paperspace.com/pytorch-hooks-gradient-clipping-debugging/
+
+Extracting Intermediate Layer Outputs:
+https://kozodoi.me/python/deep%20learning/pytorch/tutorial/2021/05/27/extracting-features.html
+
+AUC-ROC
+https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc?hl=es-419
+https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5
+
+Calibration of ANN output as probabilities:
+https://stats.stackexchange.com/questions/309642/why-is-softmax-output-not-a-good-uncertainty-measure-for-deep-learning-models
+https://ai.stackexchange.com/questions/37889/are-softmax-outputs-of-classifiers-true-probabilities
+
+Batch Normalization:
+https://towardsdatascience.com/batch-normalization-in-3-levels-of-understanding-14c2da90a338#8c6f
+
+Sparsemax Normalization:
+https://towardsdatascience.com/what-is-sparsemax-f84c136624e4 

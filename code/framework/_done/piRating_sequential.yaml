@@ -1,0 +1,30 @@
+experiment: lgbm_top1
+experiment_id: lgbm_top1_sequential_batch
+description: "template del config file de top1 con sampling sequential"
+enable: True
+queue: cola1
+variables: &variables
+  # _aux_: 0
+  select: 25000
+data:
+  <<: *variables
+  sample: "sequential"
+  # balance: True
+  init_date: "1996-07-01"
+  val_date: "2017-01-01"
+  save_data: False
+  exclusions:
+    -
+paths:
+  data: "datasets/data_train/data_"
+  raw_data: "datasets/raw_datasets/datalake.csv"
+  dtypes_path: "datasets/raw_datasets/dtypes.json"
+  page_rank: "datasets/raw_datasets/page_rank.csv"
+  match_importance: "datasets/raw_datasets/match_importance.csv"
+training:
+  <<: *variables
+  # metric: "test_accuracy"
+  timeout: 700
+  iterations: 2
+  direction: "minimize"
+  stopping_rounds: 5
