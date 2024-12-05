@@ -5,11 +5,12 @@
         "Div": "str",
         "season": "str",
         "HomeTeam": "str",
-        "AWayTeam": "str",
+        "AwayTeam": "str",
         "div_order": "Int64",
         "FTHG": "Int64",
         "FTAG": "Int64",
         "FTR": "str",
         "Attendance": "float",
-        "Referee": "str"
+        "Referee": "str",
+	"Weekday":"Int64"
 }
