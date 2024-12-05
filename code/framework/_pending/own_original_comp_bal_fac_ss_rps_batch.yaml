@@ -1,0 +1,68 @@
+data:
+  _aux_: 0
+  aggregations:
+    C: mean
+    F: mean
+    FTG: mean
+    FTG_rival: mean
+    Points: mean
+    R: mean
+    S: mean
+    ST: mean
+    Side: mean
+    Y: mean
+  balance: true
+  col_group:
+  - idTeam
+  col_window: Date
+  factor: true
+  features:
+  - 4
+  - 50
+  lags:
+  - 15D
+  - 30D
+  - 60D
+  - 180D
+  - 365D
+  - 730D
+  - 1825D
+  leagues:
+  - null
+  min_samples:
+  - 1
+  - 2
+  - 2
+  - 8
+  - 10
+  - 15
+  - 15
+  sample: sequential
+  select: 64
+  val_date: '2017-01-01'
+description: "replica de los experimentos de mi T\xE9sis"
+enable: true
+experiment: own_original
+experiment_id: own_original_comp_bal_fac_ss_rps_batch
+paths:
+  data: datasets/data_train/data_
+  dtypes_path: datasets/raw_datasets/dtypes.json
+  raw_data: datasets/raw_datasets/datalake.csv
+priority: 1
+queue: batch
+training:
+  _aux_: 0
+  batch_size:
+  - 8
+  - 16
+  - 32
+  - 64
+  direction: minimize
+  eval_metric: rps
+  iterations: 3
+  max_epochs: 5
+  patience: 1
+  select: 64
+  timeout: 3600
+variables:
+  _aux_: 0

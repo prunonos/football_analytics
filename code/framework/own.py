@@ -14,6 +14,7 @@ class Own(Experiment):
         tune = self.tuning(dataset)
         accuracy = self.test(tune,dataset)
         self.save_metrics(tune,accuracy)
+        self.config_experiment(tune,dataset)
         
     def prepare_model(self, params:dict, data=None):
         params["eval_metric"] = self.train_config["eval_metric"]
@@ -46,7 +47,8 @@ class Own(Experiment):
 
     def set_best_model_path(self,trial:Trial,model:MLP,metric:float):
         study = trial.study
-        if trial.number==0 or model.get_best_score()>study.best_value:
+        compare = self.get_func_best_model(study)
+        if trial.number==0 or compare(model.get_best_score(),study.best_value):
             if trial.number>0: os.remove(study.user_attrs.get("best_model_path",None))
             path = model.get_best_model_path()
             study.set_user_attr("best_model_path",path)
@@ -68,8 +70,8 @@ class Own(Experiment):
             "activation": trial.suggest_categorical("activation",
                                                 ["relu", "selu", "leaky_relu"]),
             "mode":trial.suggest_categorical("mode", ["vanilla", "batchnorm", "dropout"]), 
-            
         }
+        
         n_units_lx = { f"n_units_l{l+1}":trial.suggest_int(f"n_units_l{l+1}", 3, 30) 
                                 for l in range(model_grid["num_hidden_layers"]) }
         model_grid["dropout"] = trial.suggest_float("dropout", 0.1, 0.7) if model_grid["mode"]=='dropout' else None

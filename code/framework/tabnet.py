@@ -3,20 +3,26 @@ from typing import List, Tuple
 from optuna import Study, Trial
 import pandas as pd
 import torch
+import utils as ut
 from dataset import Dataset
 from experiment import Experiment
 from pytorch_tabnet.tab_model import TabNetClassifier, TabModel
 from pytorch_tabnet.pretraining import TabNetPretrainer
+from pytorch_tabnet.metrics import Metric
+
+RPS_METRIC = lambda metric: RPS if metric=='rps' else metric
 
 class Tabnet(Experiment):
     def __init__(self,dataset,options):
         super().__init__(dataset,options)
         self.unsupervised_training = self.train_config["unsupervised_training"] # boolean
+        self.feature_importance = []
         self.process_data(dataset) # no devuelve nada
         tune = self.tuning(dataset)
         accuracy = self.test(tune,dataset)
         self.save_metrics(tune,accuracy)
-    
+        self.config_experiment(tune,dataset)
+
     def prepare_model(self, params, data=None):
         model = TabNetClassifier(**params["tabnet"])
         unsupervised_model = None
@@ -43,7 +49,7 @@ class Tabnet(Experiment):
             X_train=X_train, y_train=y_train,
             eval_set=[(X_train, y_train), (X_valid, y_valid)],
             eval_name=['train', 'valid'],
-            eval_metric=self.train_config["eval_metric"],
+            eval_metric=list(map(RPS_METRIC,self.train_config["eval_metric"])), # si es 'rps' debemos pasarle la clase RPS definida
             max_epochs=self.train_config["max_epochs"],
             patience=self.train_config["patience"],
             batch_size=param_grid["batch_size"], virtual_batch_size=param_grid["virtual_batch_size"]/2,
@@ -52,6 +58,7 @@ class Tabnet(Experiment):
         ) 
 
         accuracy, _ = clf.best_cost, clf.best_epoch
+        self.feature_importance = pd.DataFrame({'features':data[1].columns,'importance':clf.feature_importances_}).sort_values("importance",ascending=False) # data[1] == train data
         return clf,accuracy
     
     def test(self,study:Study,dataset:Dataset) -> float:
@@ -59,10 +66,11 @@ class Tabnet(Experiment):
         param_grid = self.set_hyperparams_test(study.best_params)
         data_input = self.prepare_trial_data(dataset, param_grid["data"])
         metric,logits = self.predict(model,data_input)
-        self.save_logits(data_input[0],logits)
+        self.save_logits(data_input[0],logits) # data_input[0] == test completo con labels
+        if self.options['data'].get('save_data',False): self.save_data('test',data_input[0],study) # data_input[0] == test completo con labels
         return metric   
 
-    def predict(self, clf:TabNetClassifier, data:Dataset) -> Tuple[float,pd.DataFrame]:
+    def predict(self, clf:TabNetClassifier, data:List[pd.DataFrame]) -> Tuple[float,pd.DataFrame]:
         """
         Input:
             - models: we only take the supervised trained classifier.
@@ -76,7 +84,7 @@ class Tabnet(Experiment):
         preds = logits.argmax(axis=1)
         accuracy = (preds==y_test.values).mean()
         logits = pd.DataFrame({"draw":logits[:,0],"home":logits[:,1],"away":logits[:,2]},index=X_test.index)
-        return accuracy, logits
+        return accuracy, logits 
     
     def set_hyperparams(self,trial):
         tabnet_grid = {   
@@ -133,10 +141,13 @@ class Tabnet(Experiment):
         """
         study = trial.study
         name = f"{self.exp_id}_{self.now}"
-        if trial.number==0 or clf.best_cost>study.best_value:
+        compare = self.get_func_best_model(study)
+        if trial.number==0 or compare(clf.best_cost,study.best_value):
             self.log_print("Saving best model...")
             path = clf.save_model(f"./logs/models/{name}/{name}_v{self.version}")
+            self.save_feature_importance(self.feature_importance,f"models/{name}/feature_importance_{name}")
             study.set_user_attr("best_model_path",path)
+            study.set_user_attr("model_folder",f"./logs/models/{name}/")
             if trial.number>0: os.remove(f"./logs/models/{name}/{name}_v{study.best_trial.number}.zip")
 
     def load_best_model(self,study:Study) -> TabNetClassifier:
@@ -144,6 +155,9 @@ class Tabnet(Experiment):
         model = TabNetClassifier()
         model.load_model(best_model_path)
         return model
+    
+    def save_feature_importance(self, feature_importance:pd.DataFrame, path:str):
+        self.save_dataframe(feature_importance,path)
 
     def save_logits(self,data:pd.DataFrame,logits:pd.DataFrame):
         """
@@ -156,3 +170,11 @@ class Tabnet(Experiment):
         df = logits.join(data,how="inner")
         output = self.format_df_logits(df)
         self.save_dataframe(output,self.exp_id+'_logits')
+
+class RPS(Metric):
+    def __init__(self):
+        self._name = "rps"
+        self._maximize = False
+
+    def __call__(self, y_true, y_score):
+        return ut.avg_rps(y_true,y_score)

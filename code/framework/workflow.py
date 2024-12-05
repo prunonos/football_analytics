@@ -51,7 +51,8 @@ def run(options,dtypes):
 
 def process_yaml(queue_path, done_path, queue_name):
     cont = 0
-    while True:
+    experiments_failed = []
+    while cont<5:
         cont += 1
         # Obtener el siguiente YAML de la cola
         pending_configs = sorted(os.listdir(queue_path))
@@ -61,7 +62,7 @@ def process_yaml(queue_path, done_path, queue_name):
             if config.endswith(".yaml"):
                 options = ut.load_yaml(f"{queue_path}{config}")
                 # Verificar si el YAML pertenece a la cola actual
-                if options.get('queue',"default") == queue_name and options["enable"]:
+                if options.get('queue',"default") == queue_name and options["enable"] and options['experiment_id'] not in experiments_failed:
                     priority = options.get('priority', 2)  # Prioridad predeterminada: 2
                     pending_configs_with_priority.append((priority, config, options))
 
@@ -69,7 +70,9 @@ def process_yaml(queue_path, done_path, queue_name):
         pending_configs_with_priority.sort(reverse=True, key=lambda x: x[0])
         cont = 0 if len(pending_configs_with_priority) else cont
 
-        for _, config, options in pending_configs_with_priority:
+        # for _, config, options in pending_configs_with_priority:
+        if len(pending_configs_with_priority):
+            config, options = pending_configs_with_priority[0][1:]  # cogemos el mas prioritario de la cola
             dtypes = ut.load_json(root + options['paths']['dtypes_path'])
             for key in options["paths"].keys():
                 options["paths"][key] = root + options["paths"][key]
@@ -83,9 +86,11 @@ def process_yaml(queue_path, done_path, queue_name):
             # Mover el YAML a la carpeta de completados si se ejecutó con éxito
             if process.exitcode == 0:
                 os.replace(f"{queue_path}{config}", f"{done_path}{config}")
+            else:
+                experiments_failed.append(options['experiment_id'])
+                time.sleep(60)  # esperamos 1 minuto para empezar el siguiente experimento
 
-        if cont > 5: break
-        time.sleep(60 * 5)
+        if len(pending_configs_with_priority)<2: time.sleep(10) # si ya no quedan experimentos experamos 10" para volver a mapear el directorio
 
 if __name__=="__main__":
     if sys.platform=='win32':

@@ -9,11 +9,7 @@ class Tabnet_Own(Tabnet):
         super().__init__(dataset, options)
 
     def set_hyperparams(self, trial:Trial):
-        # set data transformation:
-        # - select feature selection (dimensional reduction) [not in tabnet]
-        # - select scaler [not in tabnet]
         params_data = {}
-
         params_model = super().set_hyperparams(trial)
         return {"data":params_data, "model":params_model}
 

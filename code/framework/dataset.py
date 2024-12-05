@@ -7,7 +7,7 @@ from torch.utils.data import Dataset as Dataset_torch
 import torch.nn.functional as F
 import utils as ut
 
-TEST_DATE = "2020-01-01"
+TEST_DATE = "2021-01-01"
 
 class Dataset(ABC):
     def __init__(self,data:pd.DataFrame,options:Dict):
@@ -29,10 +29,10 @@ class Dataset(ABC):
         Save in class atributes: self.trainset, self.valset and self.testset
         """        
         if self.options["sample"] == "random":
-            self.data, trainset, testset = ut.split_sequential(self.data,date=TEST_DATE)
+            self.data, trainset, testset = ut.split_sequential(self.data,date=self.options.get('test_date',TEST_DATE))
             _, trainset, valset = ut.split_random(trainset,last_digits=[3,5])
         else:
-            self.data, trainset, testset = ut.split_sequential(self.data,date=TEST_DATE)
+            self.data, trainset, testset = ut.split_sequential(self.data,date=self.options.get('test_date',TEST_DATE))
             _, trainset, valset = ut.split_sequential(trainset,date=self.options["val_date"])
         return self.data, trainset, valset, testset
 

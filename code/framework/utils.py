@@ -1,13 +1,11 @@
-import os, sys
+import os, sys, yaml, json, random, re
 from typing import Dict, List, Tuple
 import pandas as pd
 import numpy as np
-import torch
 from sklearn import feature_selection
 from sklearn.decomposition import PCA
-import yaml, json, random
-from sklearn.preprocessing import Normalizer, MaxAbsScaler, MinMaxScaler, normalize, maxabs_scale, minmax_scale
-from tensorboard.backend.event_processing import event_accumulator
+from sklearn.preprocessing import Normalizer, MaxAbsScaler, MinMaxScaler, normalize, minmax_scale
+# from tensorboard.backend.event_processing import event_accumulator
 random.seed(0)
 
 if sys.platform=='win32':
@@ -48,8 +46,14 @@ def save_yaml(data, path):
         yaml.safe_dump(data, yaml_file)
 
 def save_dict_as_json(dictionary, file_path):
-    with open(file_path+'/hparams.json', 'w') as json_file:
+    # with open(file_path+'/hparams.json', 'w') as json_file:
+    with open(file_path, 'w') as json_file:
         json.dump(dictionary, json_file)    
+
+def filter_list(expr:str, lista:list):
+    # Utilizar una comprensión de lista para filtrar los elementos que coinciden con la expresión regular
+    coincidencias = [elemento for elemento in lista if re.match(expr, elemento)]
+    return coincidencias
 
 def getPoints(df,scored,received,new_col="Points"):
     df.loc[:,new_col] = 1
@@ -121,9 +125,12 @@ def merge_sides(df:pd.DataFrame,group_on,col_order,label=True):
     if label:
         data_merged.loc[:,"label"] = data_merged.FTR_H
         _create_label(data_merged,"label","label")
-    data_merged = data_merged[col_order]
+    data_merged = data_merged[drop_duplicates(col_order)]
     data_merged.drop('FTR_H',axis=1,errors='ignore')
     return data_merged
+
+def drop_duplicates(x):
+  return list(dict.fromkeys(x))
 
 def rename_columns(df: pd.DataFrame,renames: dict):
     return df.rename(columns=renames)
@@ -138,7 +145,7 @@ def split_random(df,last_digits=[5,9]):
     print("INFO: Train is ", len(data_train)/len(df) )
     df["split"] = "Train"
     df.loc[mask_test,"split"] = "Test"
-    df.drop(columns="last_digit")
+    df = df.drop(columns="last_digit")
     return df, data_train, data_test
 
 def split_sequential(df,date):
@@ -181,87 +188,87 @@ def select_scaler(scaler):
 def get_event_logs(experiment, version):
     return sorted([ ev for ev in os.listdir(os.getcwd()+slash+"logs"+slash+experiment+slash+version) if ev.startswith("events.out.tfevents.") ])
 
-def save_outputs(experiment,datatrain):
-    eventos_experiment = pd.DataFrame([])
-    get_match = lambda x: x.split('_')[1] if 'match' in x else -1
+# def save_outputs(experiment,datatrain):
+#     eventos_experiment = pd.DataFrame([])
+#     get_match = lambda x: x.split('_')[1] if 'match' in x else -1
 
-    for i,version in enumerate(os.listdir(os.getcwd()+slash+"logs"+slash+experiment)):
-            if version.endswith(".csv"): continue
-            events_files = get_event_logs(experiment, version)
-            version_id = version.split('_')[-1]
-            print(version, version_id)
-            for event_file in events_files[-1:]:
-                event_acc = event_accumulator.EventAccumulator(os.getcwd()+slash+"logs"+slash+experiment+slash+version+slash+event_file)
-                event_acc.Reload()
+#     for i,version in enumerate(os.listdir(os.getcwd()+slash+"logs"+slash+experiment)):
+#             if version.endswith(".csv"): continue
+#             events_files = get_event_logs(experiment, version)
+#             version_id = version.split('_')[-1]
+#             print(version, version_id)
+#             for event_file in events_files[-1:]:
+#                 event_acc = event_accumulator.EventAccumulator(os.getcwd()+slash+"logs"+slash+experiment+slash+version+slash+event_file)
+#                 event_acc.Reload()
 
-                matches = list(map(get_match, event_acc.Tags()['scalars']))
-                matches = np.array(matches).astype(int)
-                matches = np.unique(matches[matches>-1])
+#                 matches = list(map(get_match, event_acc.Tags()['scalars']))
+#                 matches = np.array(matches).astype(int)
+#                 matches = np.unique(matches[matches>-1])
 
-                prob_draw, prob_home, prob_away, preds, epoch, matchesId = [], [], [], [], [], []
+#                 prob_draw, prob_home, prob_away, preds, epoch, matchesId = [], [], [], [], [], []
 
-                # iterar sobre cada partido
-                for m in matches:
-                        # añadir cada evento (class 0-1-2 y prediction) a su correspondiente lista
-                        matchesId.extend([ m for _ in event_acc.Scalars(f'match_{m}_class_0') ])
-                        prob_draw.extend([ item.value for item in  event_acc.Scalars(f'match_{m}_class_0')])
-                        prob_home.extend([ item.value for item in  event_acc.Scalars(f'match_{m}_class_1')])
-                        prob_away.extend([ item.value for item in  event_acc.Scalars(f'match_{m}_class_2')])
-                        preds.extend([ item.value for item in  event_acc.Scalars(f'match_{m}_prediction')])
-                        epoch.extend([ item.step for item in  event_acc.Scalars(f'match_{m}_class_0')])
+#                 # iterar sobre cada partido
+#                 for m in matches:
+#                         # añadir cada evento (class 0-1-2 y prediction) a su correspondiente lista
+#                         matchesId.extend([ m for _ in event_acc.Scalars(f'match_{m}_class_0') ])
+#                         prob_draw.extend([ item.value for item in  event_acc.Scalars(f'match_{m}_class_0')])
+#                         prob_home.extend([ item.value for item in  event_acc.Scalars(f'match_{m}_class_1')])
+#                         prob_away.extend([ item.value for item in  event_acc.Scalars(f'match_{m}_class_2')])
+#                         preds.extend([ item.value for item in  event_acc.Scalars(f'match_{m}_prediction')])
+#                         epoch.extend([ item.step for item in  event_acc.Scalars(f'match_{m}_class_0')])
 
-                # crear dataframe
-                eventos = pd.DataFrame({
-                                        "matchId": matchesId,
-                                        "epoch":epoch,
-                                        "prob_draw":prob_draw,
-                                        "prob_home":prob_home,
-                                        "prob_away":prob_away,
-                                        "predictions":preds
-                                        })
-                eventos["version"] = version_id
-                eventos_experiment = pd.concat([eventos_experiment,eventos])
+#                 # crear dataframe
+#                 eventos = pd.DataFrame({
+#                                         "matchId": matchesId,
+#                                         "epoch":epoch,
+#                                         "prob_draw":prob_draw,
+#                                         "prob_home":prob_home,
+#                                         "prob_away":prob_away,
+#                                         "predictions":preds
+#                                         })
+#                 eventos["version"] = version_id
+#                 eventos_experiment = pd.concat([eventos_experiment,eventos])
 
-    cols = ['matchId','Div','Date','season','idTeam_H','idTeam_A','Team_H','Team_A','FTG_H','FTG_A','label','split']
-    datatrain = datatrain[cols]
-    df_output = datatrain.merge(eventos_experiment,on='matchId',how='left')
-    path_save = f"{os.getcwd()}{slash}logs{slash}{experiment}{slash}{experiment}_outputs.csv"
-    df_output.to_csv(path_save,sep=';',decimal=',',encoding='utf-8',date_format="%d/%m/%Y",index=False)
-    print(f"INFO {experiment} - Output saved in {path_save}")
+#     cols = ['matchId','Div','Date','season','idTeam_H','idTeam_A','Team_H','Team_A','FTG_H','FTG_A','label','split']
+#     datatrain = datatrain[cols]
+#     df_output = datatrain.merge(eventos_experiment,on='matchId',how='left')
+#     path_save = f"{os.getcwd()}{slash}logs{slash}{experiment}{slash}{experiment}_outputs.csv"
+#     df_output.to_csv(path_save,sep=';',decimal=',',encoding='utf-8',date_format="%d/%m/%Y",index=False)
+#     print(f"INFO {experiment} - Output saved in {path_save}")
 
-# unir dataframe con la info de los partidos
+# # unir dataframe con la info de los partidos
 
-def save_metrics(experiment):
-    metrics_experiment = pd.DataFrame([])
-    metrics = ["test_loss","test_accuracy","test_rps"]
+# def save_metrics(experiment):
+#     metrics_experiment = pd.DataFrame([])
+#     metrics = ["test_loss","test_accuracy","test_rps"]
 
-    for i,version in enumerate(os.listdir(os.getcwd()+slash+"logs"+slash+experiment)):
-            if version.endswith(".csv"): continue
-            events_files = get_event_logs(experiment, version)
+#     for i,version in enumerate(os.listdir(os.getcwd()+slash+"logs"+slash+experiment)):
+#             if version.endswith(".csv"): continue
+#             events_files = get_event_logs(experiment, version)
 
-            test_metrics = event_accumulator.EventAccumulator(os.getcwd()+slash+"logs"+slash+experiment+slash+version+slash+events_files[-1])
-            test_metrics.Reload()
+#             test_metrics = event_accumulator.EventAccumulator(os.getcwd()+slash+"logs"+slash+experiment+slash+version+slash+events_files[-1])
+#             test_metrics.Reload()
 
-            metrics = {
-                "version": [],
-                "test_loss": [],
-                "test_accuracy": [],
-                "test_rps": [],
-            }
-            version_id = version.split('_')[-1]
-            # print(version, version_id)
-            metrics["version"].append(version_id)
-            metrics["test_loss"].append(test_metrics.Scalars('test_loss')[-1].value)
-            metrics["test_accuracy"].append(test_metrics.Scalars('test_accuracy')[-1].value)
-            metrics["test_rps"].append(test_metrics.Scalars('test_rps')[-1].value)
+#             metrics = {
+#                 "version": [],
+#                 "test_loss": [],
+#                 "test_accuracy": [],
+#                 "test_rps": [],
+#             }
+#             version_id = version.split('_')[-1]
+#             # print(version, version_id)
+#             metrics["version"].append(version_id)
+#             metrics["test_loss"].append(test_metrics.Scalars('test_loss')[-1].value)
+#             metrics["test_accuracy"].append(test_metrics.Scalars('test_accuracy')[-1].value)
+#             metrics["test_rps"].append(test_metrics.Scalars('test_rps')[-1].value)
             
-            # crear dataframe
-            metrics = pd.DataFrame(metrics)
-            metrics_experiment = pd.concat([metrics_experiment,metrics])
+#             # crear dataframe
+#             metrics = pd.DataFrame(metrics)
+#             metrics_experiment = pd.concat([metrics_experiment,metrics])
 
-    path_save = f"{os.getcwd()}{slash}logs{slash}{experiment}{slash}{experiment}_metrics.csv"
-    metrics_experiment.to_csv(path_save,sep=';',decimal=',',encoding='utf-8',date_format="%d/%m/%Y",index=False)
-    print(f"INFO {experiment} - Output saved in {path_save}")
+#     path_save = f"{os.getcwd()}{slash}logs{slash}{experiment}{slash}{experiment}_metrics.csv"
+#     metrics_experiment.to_csv(path_save,sep=';',decimal=',',encoding='utf-8',date_format="%d/%m/%Y",index=False)
+#     print(f"INFO {experiment} - Output saved in {path_save}")
 
 def delete_event_logs(experiment) -> None:
     for version in os.listdir(os.getcwd()+slash+"logs"+slash+experiment):
@@ -273,15 +280,18 @@ def delete_event_logs(experiment) -> None:
                 else:
                     print(f"ERROR {experiment} - The file {file} does not exist.")
 
-def rank_probability_score(logits,actual):
-    # TODO: REVISAR FORMULA RPS
-    rps = np.power(logits-actual,2)
-    rps = rps.sum(axis=1) / logits.shape[1]
+def ranked_probability_score(outcomes, labels):
+    _, r = labels.shape  # n: número de registros, m: número de dimensiones
+    # Calcula el RPS
+    rps = 1 / (r - 1) * np.sum((np.sum(labels[:, :i], axis=1) - np.sum(outcomes[:, :i], axis=1))**2 for i in range(1, r))  
     return rps
 
 def avg_rps(logits,actual):
-    res = rank_probability_score(logits,actual)
-    return float(res.mean())  
+    # nos aseguramos que los dos arrays estan one-hot encoded
+    if len(logits.shape)<2 or logits.shape[1]!=3: logits = np.eye(logits.max()+1)[logits]
+    if len(actual.shape)<2 or actual.shape[1]!=3: actual = np.eye(actual.max()+1)[actual]
+    rps = ranked_probability_score(logits,actual)
+    return np.mean(rps).round(4)  
 
 
 #########################
@@ -291,7 +301,7 @@ def transform_data(dims: int, cols_feats: List[str], *args,
                         method: str = "",
                         cols_meta: List[str] = [],
                         col_label: str = 'label'
-                    ) -> (List[pd.DataFrame],List[str]): 
+                    ) -> Tuple[List[pd.DataFrame],List[str]]: 
     res = []
     if dims<len(cols_feats):
         if method=="anova":

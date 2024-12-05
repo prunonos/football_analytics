@@ -17,7 +17,6 @@ class Dataset_piRatings(Dataset):
     def process_data(s):
         s.data = s._create_label("FTR",COL_LABEL)
         s.data = s.data.loc[:,COLS_ORDER] # el label aun no existe
-        # TODO: s.data = s._set_index(s.data) # que hacer con el index / matchId
         s.data_pretrain = s.data[s.data.Date<s.options["init_date"]]
         s.init_rates_dict =  { t:{"rate_home":0,"rate_away":0,"rate_global":0} for t in s.data.id_H.unique() }
         s.data_pretrain = s.initialize_rates(s.data_pretrain)

@@ -16,7 +16,7 @@ class Own_Original(Own):
             "scaler":trial.suggest_categorical("scaler", ["normalizer","maxabs","minmax"])
         }
         # Dims and feature selection
-        feats = self.options["data"].get("features",[])
+        feats = self.options["data"].get("num_feats",[])
         method = trial.suggest_categorical("method",["","anova","pca"]) if len(feats) else ""
         if method:
             dims = trial.suggest_int("dims",

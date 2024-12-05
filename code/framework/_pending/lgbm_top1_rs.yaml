@@ -1,0 +1,33 @@
+data:
+  exclusions:
+  - page_rank_lags
+  init_date: '1996-07-01'
+  sample: random
+  save_data: false
+  val_date: '2017-01-01'
+description: template del config file de top1 con sampling random
+enable: true
+experiment: lgbm_top1
+experiment_id: lgbm_top1_rs
+paths:
+  data: datasets/data_train/data_
+  dtypes_path: datasets/raw_datasets/dtypes.json
+  match_importance: datasets/raw_datasets/match_importance_v1.csv
+  page_rank: datasets/raw_datasets/page_rank_v1.csv
+  raw_data: datasets/raw_datasets/datalake.csv
+priority: 1
+queue: paper
+training:
+  batch_size:
+  - 8
+  - 16
+  - 32
+  - 64
+  - 128
+  - 256
+  - 512
+  direction: minimize
+  iterations: 5000
+  max_epochs: 100
+  stopping_rounds: 15
+  timeout: 3600

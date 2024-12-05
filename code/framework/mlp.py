@@ -119,18 +119,18 @@ class MLP(pl.LightningModule):
         return loss
 
     def validation_step(self, batch, batch_idx):
-        x, y, m = batch
+        x, y, _ = batch
         logits = self(x)
         loss = self.criterion(logits, y)
         preds   = torch.argmax(logits, dim=1)
         y_class = torch.argmax(y, dim=1)
         accuracy = (preds == y_class).float().mean()
-        rps = ut.avg_rps(logits.cpu(),y.cpu())
+        rps = ut.avg_rps(logits.cpu().numpy(),y.cpu().numpy())
 
         # self.log_output(m,F.softmax(logits, dim=1),preds)
         self.log('val_loss', loss, on_epoch=True, logger=True, prog_bar=True, batch_size=self.hparams.batch_size)
         self.log('val_accuracy', accuracy, on_epoch=True, logger=True, prog_bar=True, batch_size=self.hparams.batch_size)
-        self.log('val_rps', rps, logger=True, on_epoch=True, prog_bar=True, batch_size=self.hparams.batch_size)
+        self.log('rps', rps, logger=True, on_epoch=True, prog_bar=True, batch_size=self.hparams.batch_size)
 
     def log_gradients(self):
         for name, param in self.named_parameters():

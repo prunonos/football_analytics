@@ -4,7 +4,7 @@ data:
   save_data: true
   val_date: '2017-01-01'
 description: template del Refactor del experimento TabNet del paper Pi-Ratings
-enable: true
+enable: false
 experiment: tabnet_paper
 experiment_id: tabnet_paper_ss_unsup
 paths:

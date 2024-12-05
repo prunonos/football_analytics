@@ -1,3 +1,4 @@
+from functools import reduce
 import json
 import os
 import numpy as np
@@ -7,10 +8,18 @@ from typing import List, Tuple, Dict
 
 import yaml
 
-PATH_LOGS = "F:\TFG\code\\framework\logs\mobaxterm\\"
+versions = 'experiments_v2.2\\'
+PATH_LOGS = f"F:\TFG\code\\framework\logs\mobaxterm\\{versions}"
 SAVE_PATH = "F:\TFG\code\\framework\logs\\"
 METADATA = ["match","Date","season","Div","HomeTeam","AwayTeam","FTHG","FTAG","label"]
+COLUMNS_RESUME = ['validation','abs_test','RPS','rel_test','recall_draw','recall_home','recall_away','precision_draw','precision_home','precision_away','F1_draw','F1_home','F1_away']
 
+def ls_sorted(search_dir:str, filt=os.path.isdir):
+    os.chdir(search_dir)
+    files = filter(filt, os.listdir(search_dir))
+    files = [os.path.join(search_dir, f) for f in files] # add path to each file
+    files.sort(key=lambda x: os.path.getmtime(x),reverse=True)
+    return files
 
 def read_data(path,dtypes=None):
     df = pd.read_csv(path,sep=';',decimal=',',dtype=dtypes)
@@ -54,17 +63,24 @@ def save_dataframe(df:pd.DataFrame,path,name_of_file,to_excel=False,sheet_name='
     else:
         df.to_csv(f"{path}{name_of_file}.csv",decimal=',',sep=';',index=index)
 
-def filter_name(names_or_regex:str) -> List[str]:
-    regex = re.compile(f"^{names_or_regex}\.csv$")
-    keys = list(filter(regex.match, os.listdir(PATH_LOGS)))
+def filter_name(names_or_regex:str, ls_dir=os.listdir(PATH_LOGS),type='csv') -> List[str]:
+    if type=='csv': 
+        print(f"^{names_or_regex}\.csv$")
+        regex = re.compile(f"^{names_or_regex}\.csv$")
+    else:
+        regex = re.compile(names_or_regex)
+    keys = list(filter(regex.match, ls_dir))
     return keys
 
-def read_dataframe(regex:str) -> pd.DataFrame:
-    return read_data(PATH_LOGS + filter_name(regex)[0])
+def read_dataframe(regex:str, parent_folder:str=PATH_LOGS) -> pd.DataFrame:
+    parent_folder = parent_folder + '\\' if not parent_folder.endswith('\\') else parent_folder
+    return read_data(parent_folder + filter_name(regex)[0])
 
-def read_dataframes(name_or_regex:List[str]) -> Dict[str,pd.DataFrame]:
+def read_dataframes(name_or_regex:List[str], parent_folder:str=PATH_LOGS, verbose:bool=False) -> Dict[str,pd.DataFrame]:
+    parent_folder = parent_folder + '\\' if not parent_folder.endswith('\\') else parent_folder
+    if verbose: print(parent_folder)
     logitsDF = {}
-    logitsDF = { name[:-4]:read_data(PATH_LOGS + name) for name in filter_name("|".join(name_or_regex)) }
+    logitsDF = { name[:-4]:read_data(parent_folder + name) for name in filter_name("|".join(name_or_regex),os.listdir(parent_folder)) }
     return logitsDF
 
 def merge_dfs(listDF:List[pd.DataFrame], suffixes:List[str], how:str="outer") -> pd.DataFrame:
@@ -76,7 +92,7 @@ def merge_dfs(listDF:List[pd.DataFrame], suffixes:List[str], how:str="outer") ->
         cols2change = { c:f"{c}_{suf}" for c in df.columns if c not in METADATA }
         df = df.rename(cols2change,axis=1)
         res = res.merge(df,on=METADATA,how=how).drop_duplicates()
-        assert len(res)<=len_init
+        # assert len(res)<=len_init
     return res
 
 def get_aliases(regex=List[str]):
@@ -107,11 +123,12 @@ def create_columns(df:pd.DataFrame,suffixes=List[str]) -> pd.DataFrame:
     return df
 
 def compare_experiments(names_or_regex:List[str],title:str,aliases:List[str]=[],
-                        save:bool=True,sheet_name:str="Logits") -> pd.DataFrame:
+                        save:bool=True,sheet_name:str="Logits",parent_folder:str=PATH_LOGS) -> pd.DataFrame:
+    logitsDF = read_dataframes(names_or_regex, parent_folder)
+    print(list(logitsDF.keys()))
     if not aliases: 
         print("Getting aliases...")
-        aliases = get_aliases(names_or_regex)
-    logitsDF = read_dataframes(names_or_regex)
+        aliases = get_aliases(list(logitsDF.keys()))
     assert len(logitsDF.values())==len(aliases)
     df = merge_dfs(list(logitsDF.values()),
                    suffixes=aliases
@@ -138,14 +155,75 @@ def compute_rps(df,name=''):
     rps_score,rps = ranked_probability_score(outcomes,labels)
     return rps_score,rps
 
-def get_metrics_from_logits(name_or_regex:List[str]) -> pd.DataFrame:
+def compute_other_acc_metrics(df:pd.DataFrame,names_experiments:List[Tuple[str,str]],metrics:List[str]=['recall','precision']) -> pd.DataFrame:
+    res = compute_metric_accuracy(df,names_experiments)
+    res = compute_metric_f1(res)
+    return res
+
+def compute_metric_accuracy(logits:pd.DataFrame,names_experiments:List[Tuple[str]]):
+    aggs = { name_res:pd.NamedAgg(f'accurate_flag_{name_df}','mean') for name_df,name_res in names_experiments }
+    recall = logits.groupby('label').agg(**aggs)
+    recall = recall.rename({0:'recall_draw',1:'recall_home',2:'recall_away'})
+    precision_dict = {}
+    for name_df,name_res in names_experiments:
+        _precision = logits.groupby(f'prediction_{name_df}').agg(**{name_res:(f'accurate_flag_{name_df}','mean')})
+        precision_dict[name_res] = _precision.rename({0:'precision_draw',1:'precision_home',2:'precision_away'})
+        # print(precision_dict[name_res])
+    precision = pd.concat(precision_dict.values(),axis='columns')#.fillna(0)
+    # print(precision)
+    return pd.concat([recall,precision],axis='index').T
+
+def compute_metric_f1(df:pd.DataFrame):
+    for label in ['draw','home','away']:
+        df[f'F1_{label}'] = 2*df[f'precision_{label}']*df[f'recall_{label}']/(df[f'precision_{label}']+df[f'recall_{label}'])
+    return df
+
+def compute_metrics_div_season(df:pd.DataFrame,names_experiments:List[Tuple[str,str]],metrics:List[str]=['accuracy','rps']) -> pd.DataFrame:
+    if 'accuracy' in metrics:
+        aggs = { name_res:pd.NamedAgg(f'accurate_flag_{name_df}','mean') for name_df,name_res in names_experiments }
+        metrics_div = df.groupby('Div').agg(**aggs)
+        metrics_season = df.groupby('season').agg(**aggs)
+        metrics_acc = pd.concat([metrics_div,metrics_season],axis='index').T
+        metrics_acc = metrics_acc.rename(columns={ name:'acc_'+name for name in metrics_acc.columns })
+    if 'rps' in metrics:
+        aggs = { name_res:pd.NamedAgg(f'rps_{name_df}','mean') for name_df,name_res in names_experiments }
+        metrics_div = df.groupby('Div').agg(**aggs)
+        metrics_season = df.groupby('season').agg(**aggs)
+        metrics_rps = pd.concat([metrics_div,metrics_season],axis='index').T
+        metrics_rps = metrics_rps.rename(columns={ name:'rps_'+name for name in metrics_rps.columns })
+    return pd.concat([metrics_acc,metrics_rps],axis='columns')
+
+def compute_metrics_month(df:pd.DataFrame,names_experiments:List[Tuple[str,str]],metrics:List[str]=['accuracy','rps']) -> pd.DataFrame:
+    df.loc[:,'month'] = df.Date.apply(lambda date: date.month)
+    if 'accuracy' in metrics:
+        aggs = { name_res:pd.NamedAgg(f'accurate_flag_{name_df}','mean') for name_df,name_res in names_experiments }
+        metrics_acc = df.groupby('month').agg(**aggs).T
+        metrics_acc = metrics_acc.rename(columns={ name:'acc_'+str(name) for name in metrics_acc.columns })
+    if 'rps' in metrics:
+        aggs = { name_res:pd.NamedAgg(f'rps_{name_df}','mean') for name_df,name_res in names_experiments }
+        metrics_rps = df.groupby('month').agg(**aggs).T
+        metrics_rps = metrics_rps.rename(columns={ name:'rps_'+str(name) for name in metrics_rps.columns })
+    return pd.concat([metrics_acc,metrics_rps],axis='columns')
+        
+def get_metrics_from_logits(resume:pd.DataFrame,name_or_regex:List[str]) -> pd.DataFrame:
     name_or_regex = list(map(lambda s: s + "_logits",name_or_regex))
     res = compare_experiments(name_or_regex,title='all',save=False)
-    names = [ filter_group("accurate_flag_(\w+)",col) for col in res.columns if filter_group("accurate_flag_(\w+)",col)]
+    names = [ filter_group("accurate_flag_(.+)",col) for col in res.columns if filter_group("accurate_flag_(.+)",col)]
+    # sometimes we have to do a second regex filtering
+    names_aux = list(map(lambda x: filter_group('|'.join(name_or_regex),x),names))
+    names_aux = names_aux if len(names_aux) else names
     res_rel = res.dropna()
-    rel_test = { name:res_rel[f'accurate_flag_{name}'].mean().round(4) for name in names }
-    rps  = { name:res[f'rps_{name}'].mean().round(4) for name in names }
-    return rel_test, rps
+    resume["rel_test"] = { name_res:res_rel[f'accurate_flag_{name_df}'].mean().__round__(4) for name_df,name_res in zip(names,names_aux) }
+    resume["RPS"]  = { name_res:res[f'rps_{name_df}'].mean().__round__(4) for name_df,name_res in zip(names,names_aux) }
+    # obtenemos las metricas de recall, precision y F1-score
+    resume_other_metrics = compute_other_acc_metrics(res,list(zip(names,names_aux)))
+    # obtenemos metricas agrupadas por ligas y temporadas (set de test)
+    resume_metrics_div_season = compute_metrics_div_season(res,list(zip(names,names_aux)))
+    # obtememos metricas por mes
+    resume_metrics_month = compute_metrics_month(res,list(zip(names,names_aux)))
+    # unimos todas las metricas
+    resume = reduce(lambda res,df: res.join(df),[resume,resume_other_metrics,resume_metrics_div_season,resume_metrics_month])
+    return resume
 
 def make_resume(name_or_regex:List[str], title:str, sheet_name:str='Resume', save:bool=True):
     regex_metrics = list(map(lambda s: s + "_metrics",name_or_regex))
@@ -160,9 +238,8 @@ def make_resume(name_or_regex:List[str], title:str, sheet_name:str='Resume', sav
         metrics["validation"][name] = val_max
 
     resume = pd.DataFrame(metrics).sort_values('abs_test',ascending=False)
-    rel_test, rps = get_metrics_from_logits(name_or_regex)
-    resume["rel_test"], resume["RPS"] = rel_test, rps
-    resume = resume.sort_values('RPS')
+    resume = get_metrics_from_logits(resume,name_or_regex)
+    # resume = resume.sort_values('RPS')
 
     if save: save_dataframe(resume,path=SAVE_PATH,name_of_file=f"{title}",to_excel=True,
                             sheet_name=sheet_name,index=True)

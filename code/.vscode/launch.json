@@ -10,7 +10,7 @@
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
-            "program": "${file}",
+            "program": "F:\\TFG\\code\\old_stuff\\experiments\\pagerank_main.py",
             "console": "integratedTerminal",
             "justMyCode": true
         },

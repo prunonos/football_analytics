@@ -4,7 +4,11 @@ import os
 import optuna
 import pandas as pd
 from dataset import Dataset
-from typing import Any, Dict, Tuple
+from typing import Any, Dict, List, Tuple
+
+FUNC_MIN = lambda current,best: current<best
+FUNC_MAX = lambda current,best: current>best
+
 
 class Experiment(ABC):
     def __init__(self,dataset:Dataset,options:Dict):
@@ -60,7 +64,7 @@ class Experiment(ABC):
         pass
 
     @abstractmethod
-    def prepare_trial_data(self,dataset:Dataset,params:Dict,trial:optuna.Trial=False):
+    def prepare_trial_data(self,dataset:Dataset,params:Dict,trial:optuna.Trial=False) -> List[pd.DataFrame]:
         """
         Given the Optuna hyperparameters, input dataset finest details are prepared: feature selection and transformation,
             dimension reduction, late hyperparameter-depending feature preparation (p.e. pi-ratings)
@@ -136,6 +140,10 @@ class Experiment(ABC):
         """
         print("INFO: saving logits...")
 
+    def save_data(self,filename:str,data:pd.DataFrame,study:optuna.Study):
+        model_path = study.user_attrs.get("model_folder")
+        data.to_csv(f"{model_path}{filename}.csv",decimal=',',sep=';',index=False)
+
     def format_df_logits(self,df):
         return pd.DataFrame({
                 'match':df["matchId"].values,
@@ -152,9 +160,15 @@ class Experiment(ABC):
                 'home': df["home"].values.round(4),
                 'away': df["away"].values.round(4)
             }) 
+    
+    def config_experiment(self,tune:optuna.Study,dataset:Dataset):
+        pass
 
     def save_dataframe(self,df:pd.DataFrame,name_of_file:str):
         df.to_csv(os.getcwd()+"/logs/"+name_of_file+".csv",decimal=',',sep=';',index=False)
+
+    def get_func_best_model(self,study:optuna.Study):
+         return FUNC_MAX if study.direction=='maximize' else FUNC_MIN
 
     @abstractmethod
     def set_best_model_path(self,trial:optuna.Trial,model,metric:float):

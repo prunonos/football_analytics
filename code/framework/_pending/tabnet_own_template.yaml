@@ -1,0 +1,64 @@
+data:
+  aggregations:
+    C: mean
+    F: mean
+    FTG: mean
+    FTG_rival: mean
+    Points: mean
+    R: mean
+    S: mean
+    ST: mean
+    Side: mean
+    Y: mean
+  col_group:
+  - idTeam
+  col_window: Date
+  exclusions:
+  - long_term
+  - short_term
+  - pi_ratings
+  - page_rank_lags
+  init_date: '1996-07-01'
+  lags:
+  - 15D
+  - 30D
+  - 60D
+  - 180D
+  - 365D
+  - 730D
+  - 1825D
+  leagues:
+  - null
+  min_samples:
+  - 1
+  - 2
+  - 2
+  - 8
+  - 10
+  - 15
+  - 15
+  sample: sequential
+  val_date: '2017-01-01'
+description: experimento con el Dataset Top1 y Tabnet
+enable: true
+experiment: tabnet_owntop1
+experiment_id: tabnet_owntop1_comp_ss_sup
+queue: default
+priority: 3
+paths:
+  data: datasets/data_train/data_
+  dtypes_path: datasets/raw_datasets/dtypes.json
+  match_importance: datasets/raw_datasets/match_importance.csv
+  page_rank: datasets/raw_datasets/page_rank.csv
+  raw_data: datasets/raw_datasets/datalake.csv
+training:
+  direction: maximize
+  eval_metric:
+  - logloss
+  - balanced_accuracy
+  - accuracy
+  iterations: 1
+  max_epochs: 15
+  patience: 2
+  timeout: 3600
+  unsupervised_training: true

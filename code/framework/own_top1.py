@@ -18,7 +18,7 @@ class Own_top1(Own):
             "gamma": trial.suggest_float("gamma_pi", 0.05,  1.0),       
         }
         # Dims and feature selection
-        feats = self.options["data"].get("features",[])
+        feats = self.options["data"].get("num_feats",[])
         method = trial.suggest_categorical("method",["","anova","pca"]) if len(feats) else ""
         if method:
             dims = trial.suggest_int("dims",

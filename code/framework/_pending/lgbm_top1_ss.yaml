@@ -1,10 +1,12 @@
 data:
+  exclusions:
+  - page_rank_lags
   init_date: '1996-07-01'
   sample: sequential
   save_data: false
   val_date: '2017-01-01'
 description: template del config file de top1 con sampling sequential
-enable: true
+enable: false
 experiment: lgbm_top1
 experiment_id: lgbm_top1_ss
 paths:
@@ -14,11 +16,19 @@ paths:
   page_rank: datasets/raw_datasets/page_rank.csv
   raw_data: datasets/raw_datasets/datalake.csv
 priority: 3
-queue: piratings
+queue: old_exp
 training:
+  batch_size:
+  - 8
+  - 16
+  - 32
+  - 64
+  - 128
+  - 256
+  - 512
   direction: minimize
-  iterations: 1
-  max_epochs: 1
+  iterations: 5000
+  max_epochs: 100
   patience: 15
   stopping_rounds: 15
   timeout: 1900

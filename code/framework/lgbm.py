@@ -8,6 +8,7 @@ from sklearn.model_selection import StratifiedKFold
 from dataset import Dataset
 from experiment import Experiment	
 from typing import Dict, List, Tuple
+from utils import avg_rps
 import lightgbm
 
 
@@ -18,6 +19,7 @@ class Lgbm(Experiment):
         tune = self.tuning(dataset)
         accuracy = self.test(tune,dataset)
         self.save_metrics(tune,accuracy)
+        self.config_experiment(tune,dataset)
 
     def prepare_model(self, params: Dict, data=None):
         return lightgbm.LGBMClassifier(objective="multiclass",
@@ -51,6 +53,11 @@ class Lgbm(Experiment):
         best_split = np.array(cv_scores).argmax()
         best_model = cv_models[best_split]
         return best_model,np.mean(cv_scores)
+    
+    def eval_metric(self,pred,truth) -> str:
+        metric = self.train_config.get("eval_metric",'multi_logloss')
+        if metric=='rps': return avg_rps(pred,truth)
+        else: return log_loss(truth,pred) # same as cross-entropy
 
     def train_lgbm(self,model:lightgbm.LGBMClassifier,X_train:DataFrame, y_train:DataFrame, X_val:DataFrame,y_val:DataFrame,params:Dict) -> Tuple[lightgbm.LGBMClassifier,float]:
         model = self.prepare_model(params)
@@ -65,8 +72,7 @@ class Lgbm(Experiment):
         # TODO: ¿no incluye model ya un atributo del 'eval_score' o hay que añadir a eval_metric la accuracy?
         # score = model.best_score_ # multi_logloss
         preds = model.predict_proba(X_val)
-        # TODO: ¿y_val one_hot_encoded or integers?
-        score = log_loss(y_val.astype(int),preds) # same as cross-entropy
+        score = self.eval_metric(preds,y_val.astype(int)) 
         return model,score
 
     def test(self,study:Study, dataset) -> float:
@@ -84,7 +90,7 @@ class Lgbm(Experiment):
         accuracy = (preds==y_test.values).mean()
         logits = pd.DataFrame({"draw":logits[:,0],"home":logits[:,1],"away":logits[:,2]},index=X_test.index)
         return accuracy,logits
-
+    
     def set_hyperparams(self, trial: Trial):
         model_grid = {
             # "device_type": trial.suggest_categorical("device_type", ['gpu']),
@@ -106,7 +112,8 @@ class Lgbm(Experiment):
     def set_best_model_path(self,trial:Trial,model:lightgbm.LGBMClassifier,metric:float):
         study = trial.study
         name = f"{self.exp_id}_{self.now}"
-        if trial.number==0 or metric<study.best_value: # metrica es loss
+        compare = self.get_func_best_model(study)
+        if trial.number==0 or compare(metric,study.best_value):
             if trial.number>0: os.remove(study.user_attrs.get("best_model_path",None))
             dir = f"{os.getcwd()}/logs/models/{name}/"
             if not os.path.exists(dir): os.mkdir(dir)

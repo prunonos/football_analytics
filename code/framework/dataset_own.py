@@ -4,14 +4,15 @@ import utils as ut
 import numpy as np
 from pandas import DataFrame, Series
 
-COLS_H      = ['matchId','Div','Date','season','id_H','HomeTeam','FTHG','FTAG','FTR','HS','HST','HF','HC', 'HY','HR','HO','HHW']
-COLS_A      = ['matchId','Div','Date','season','id_A','AwayTeam','FTAG','FTHG','FTR','AS','AST','AF','AC', 'AY','AR','AO','AHW']
-COLS_AUX    = ['matchId','Div','Date','season','idTeam','Team','FTG','FTG_rival','FTR','S','ST','F','C', 'Y','R','O','HW']
-KEY_COLS   = ['matchId','Div','Date','season']
+COLS_H      = ['matchId','Div','Date','season','Weekday','id_H','HomeTeam','FTHG','FTAG','FTR','HS','HST','HF','HC', 'HY','HR','HO','HHW']
+COLS_A      = ['matchId','Div','Date','season','Weekday','id_A','AwayTeam','FTAG','FTHG','FTR','AS','AST','AF','AC', 'AY','AR','AO','AHW']
+COLS_AUX    = ['matchId','Div','Date','season','Weekday','idTeam','Team','FTG','FTG_rival','FTR','S','ST','F','C', 'Y','R','O','HW']
+KEY_COLS   = ['matchId','Div','Date','season','Weekday']
 COL_LABEL   = "label"
 COLS_ORDER  = KEY_COLS + ['idTeam_H','idTeam_A','Team_H','Team_A','FTG_H','FTG_A','FTR_H',COL_LABEL]
 METADATA = KEY_COLS + ["_id","HomeTeam","AwayTeam","FTHG","FTAG"]
 RENAMES = {"Team_H":"HomeTeam","Team_A":"AwayTeam","FTG_H": "FTHG","FTG_A": "FTAG"}
+STATIC_FEATURES = ['Weekday']
 
 class Dataset_Own(Dataset):
     def __init__(s,data,options):
@@ -22,7 +23,7 @@ class Dataset_Own(Dataset):
     def process_data(s):
         s._set_features()
         split_data = ut.split_data_side(s.data,COLS_H,COLS_A,COLS_AUX)
-        s.data = s.__compute_lags(split_data) 
+        s.data = s.__compute_lags(split_data)
         s.data = s._create_label("FTR",COL_LABEL)
         s.data = ut.merge_sides(s.data, KEY_COLS, [*COLS_ORDER,*s.features])
         s.data = ut.rename_columns(s.data,RENAMES)
@@ -43,14 +44,13 @@ class Dataset_Own(Dataset):
                                     s.options["aggregations"]
                             )
     
-    def factor(s,train:DataFrame,val:DataFrame,test:DataFrame,flag:bool,factor:int):
-        if flag:
-            # label and dif_result to be previously computed
-            # TODO: ut.factor_labels returns only the label columns
-            train = ut.factor_labels(train[COL_LABEL],ut.dif_result(train),factor) 
-            val = ut.factor_labels(val[COL_LABEL],ut.dif_result(val),factor)
-            test = ut.factor_labels(test[COL_LABEL],ut.dif_result(test),factor)  
-        return train,val,test   
+    # def factor(s,train:DataFrame,val:DataFrame,test:DataFrame,flag:bool,factor:int):
+    #     if flag:
+    #         # label and dif_result to be previously computed
+    #         train = ut.factor_labels(train[COL_LABEL],ut.dif_result(train),factor) 
+    #         val = ut.factor_labels(val[COL_LABEL],ut.dif_result(val),factor)
+    #         test = ut.factor_labels(test[COL_LABEL],ut.dif_result(test),factor)  
+    #     return train,val,test   
     
     def apply_feature_transformation(s,dims:int,*data,method=""):
         data, feats = ut.transform_data(dims,s.features,*data,
@@ -62,4 +62,5 @@ class Dataset_Own(Dataset):
         return data
 
     def _set_features(s):
-        s.features = ut.get_features(s.options["lags"],s.options["aggregations"])    
+        static_features = [ feat for feat in STATIC_FEATURES if feat in s.options.get('features',[]) ]
+        s.features = np.concatenate((static_features,ut.get_features(s.options["lags"],s.options["aggregations"])))    

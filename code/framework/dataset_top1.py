@@ -77,6 +77,11 @@ class Dataset_top1(Dataset):
         if 'page_rank' not in self.exclusions:
             self.log_print("Loading pagerank data...")
             dfs_dict['page_rank'] = pd.read_csv(self.paths['page_rank'],sep=';',decimal=',')
+        if 'page_rank_lags' not in self.exclusions:
+            self.log_print("Loading pagerank lags version data...")
+            page_rank = pd.read_csv(self.paths['page_rank_lags'],sep=';',decimal=',')
+            feats = ut.filter_list(r"pagerank_\d+",self.options.get('features',page_rank.columns[1:])) # en caso que no se pasen las features cogemos todas excepto el match
+            dfs_dict['page_rank'] = page_rank[['matchId',*feats]]
         if 'match_importance' not in self.exclusions:
             self.log_print("Loading match_importance data...")
             dfs_dict['match_importance'] = pd.read_csv(self.paths['match_importance'],sep=';',decimal=',')
@@ -84,19 +89,28 @@ class Dataset_top1(Dataset):
 
     def _set_features(self):
         feats = []
-        feats_lt = [ ['lt_'+f+s for f in COLS_FEATS] for s in ['_H','_A']  ]
-        feats_lt = np.array(feats_lt).reshape(-1).tolist()
-        if 'long_term' not in self.exclusions: feats = feats + feats_lt
-        feats_st = [ ['st_'+f+s for f in COLS_FEATS] for s in ['_H','_A']  ]
-        feats_st = np.array(feats_st).reshape(-1).tolist()
-        if 'short_term' not in self.exclusions: feats = feats + feats_st
-        feats_pi = ["rate_home","rate_away"]
-        if 'pi_ratings' not in self.exclusions: feats = feats + feats_pi
-        feats_pr = ["pagerank_H","pagerank_A"] 
-        if 'page_rank' not in self.exclusions: feats = feats + feats_pr
-        feats_mi = [ [f+s for f in ['top1', 'top2', 'top3','top4', 'top5', 'down1', 'down2', 'down3', 'down4', 'down5']] for s in ['_H','_A']  ]
-        feats_mi = [*feats_mi[0],*feats_mi[1],"rounds"]
-        if 'match_importance' not in self.exclusions: feats = feats + feats_mi
+        if 'long_term' not in self.exclusions: 
+            feats_lt = [ ['lt_'+f+s for f in COLS_FEATS] for s in ['_H','_A']  ]
+            feats_lt = np.array(feats_lt).reshape(-1).tolist()
+            feats = feats + feats_lt
+        if 'short_term' not in self.exclusions: 
+            feats_st = [ ['st_'+f+s for f in COLS_FEATS] for s in ['_H','_A']  ]
+            feats_st = np.array(feats_st).reshape(-1).tolist()
+            feats = feats + feats_st
+        if 'pi_ratings' not in self.exclusions: 
+            feats_pi = ["rate_home","rate_away"]
+            feats = feats + feats_pi
+        if 'page_rank' not in self.exclusions: 
+            feats_pr = ["pagerank_H","pagerank_A"]         
+            feats = feats + feats_pr
+        if 'page_rank_lags' not in self.exclusions: 
+            feats_prl = ut.filter_list(r"pagerank_\d+",self.options.get('features',[]))
+            feats = feats + feats_prl
+        if 'match_importance' not in self.exclusions: 
+            feats_mi = ut.filter_list(r"(top|down)\d+_(A|H)",self.options.get('features',[]))
+            feats_mi = [ [f+s for f in ['top1', 'top2', 'top3','top4', 'top5', 'down1', 'down2', 'down3', 'down4', 'down5']] for s in ['_H','_A']  ] if not(len(feats_mi)) else feats_mi
+            feats_mi = [*np.array(feats_mi).reshape(-1),"rounds"]
+            feats = feats + feats_mi
         self.features = feats    
         return self.features
     
@@ -110,7 +124,8 @@ class Dataset_top1(Dataset):
             trial_piratings = self.train_pi_rates(lamda,gamma)
             self.data = ut.ensamble_data([trial_piratings.data,self.init_data],"matchId")
         else:
-            self.data = self.init_data
+            self._create_label('FTR',COL_LABEL) # tenemos que añadir el label porque solo se usa en esta version sin pi_ratings
+            self.data = ut.ensamble_data([self.data[[*METADATA,COL_LABEL]],self.init_data],"matchId") # self.init_data
         return self.data
 
 

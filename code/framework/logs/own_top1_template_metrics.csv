@@ -1,3 +1,0 @@
-version;datetime;validation;test;activation;b1;b2;batch_size;dims;gamma_pi;lamda;learning_rate;len_test;len_train;len_val;method;mode;momentum;n_units_l1;n_units_l2;neg_slope;nesterov;num_hidden_layers;optim;scaler
-0;2024-01-25 19:42:33.180984;0,3125;;leaky_relu;0,7703120732416769;0,4112881960045655;16;;0,93880028357558;0,02416479207762474;0,29088742658314887;32;32;32;;vanilla;;18;15;0,025851658093454327;;2;adam;maxabs
-1;2024-01-25 19:44:35.132462;0,375;0,4375;relu;;;16;25,0;0,5165475422230578;0,0671620397345791;0,05952475702139711;32;32;32;anova;batchnorm;0,006347618047336833;14;20;;True;2;sgd;normalizer

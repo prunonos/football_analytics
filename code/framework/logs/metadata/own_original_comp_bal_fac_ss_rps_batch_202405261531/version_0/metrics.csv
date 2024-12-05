@@ -1,0 +1,2 @@
+val_loss,val_accuracy,val_rps,epoch,step
+1.1406643390655518,0.28125,0.9161249995231628,0,3
