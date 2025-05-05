@@ -1,0 +1,18 @@
+TY  - JOUR
+AU  - Berrar, Daniel
+AU  - Lopes, Philippe
+AU  - Dubitzky, Werner
+PY  - 2019
+DA  - 2019/01/01
+TI  - Incorporating domain knowledge in machine learning for soccer outcome prediction
+JO  - Machine Learning
+SP  - 97
+EP  - 126
+VL  - 108
+IS  - 1
+AB  - The task of the 2017 Soccer Prediction Challenge was to use machine learning to predict the outcome of future soccer matches based on a data set describing the match outcomes of 216,743 past soccer matches. One of the goals of the Challenge was to gauge where the limits of predictability lie with this type of commonly available data. Another goal was to pose a real-world machine learning challenge with a fixed time line, involving the prediction of real future events. Here, we present two novel ideas for integrating soccer domain knowledge into the modeling process. Based on these ideas, we developed two new feature engineering methods for match outcome prediction, which we denote as recency feature extraction and rating feature learning. Using these methods, we constructed two learning sets from the Challenge data. The top-ranking model of the 2017 Soccer Prediction Challenge was our k-nearest neighbor model trained on the rating feature learning set. In further experiments, we could slightly improve on this performance with an ensemble of extreme gradient boosted trees (XGBoost). Our study suggests that a key factor in soccer match outcome prediction lies in the successful incorporation of domain knowledge into the machine learning modeling process.
+SN  - 1573-0565
+UR  - https://doi.org/10.1007/s10994-018-5747-8
+DO  - 10.1007/s10994-018-5747-8
+ID  - Berrar2019
+ER  - 

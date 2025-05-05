@@ -1,0 +1,64 @@
+data:
+  aggregations:
+    FTG: mean
+    FTG_rival: mean
+    Points: mean
+    Side: mean
+  balance: false
+  col_group:
+  - idTeam
+  col_window: Date
+  exclusions:
+  - page_rank_lags
+  factor: false
+  lags:
+  - 15D
+  - 30D
+  - 60D
+  - 180D
+  - 365D
+  - 730D
+  - 1825D
+  leagues:
+  - null
+  min_samples:
+  - 1
+  - 2
+  - 2
+  - 8
+  - 10
+  - 15
+  - 15
+  sample: sequential
+  save_data: true
+  val_date: '2017-01-01'
+description: "replica de los experimentos de mi T\xE9sis"
+enable: false
+experiment: tabnet_own
+experiment_id: tabnet_own_simp_ss_sup
+paths:
+  data: datasets/data_train/data_
+  dtypes_path: datasets/raw_datasets/dtypes.json
+  raw_data: datasets/raw_datasets/datalake.csv
+priority: 3
+queue: test
+training:
+  batch_size:
+  - 8
+  - 16
+  - 32
+  - 64
+  - 128
+  - 256
+  - 512
+  direction: maximize
+  eval_metric:
+  - logloss
+  - balanced_accuracy
+  - accuracy
+  # - rps
+  iterations: 5000
+  max_epochs: 20
+  patience: 5
+  timeout: 3600
+  unsupervised_training: 1

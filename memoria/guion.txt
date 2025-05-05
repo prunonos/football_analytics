@@ -1,0 +1,14 @@
+INTRODUCCION:
+- Prediccion de resultados de futbol -> área de investigacion dentro de la disciplina de la Analitica deportiva
+Aplicaciones:
+	- Mejora rendimiento: se pueden ajustar las estrategias al resultado que se predice.
+	- Ojeo jugadores: similitud jugadores
+
+DATASET:
+	- EDA: 
+		- Analisis patrones / distribuciones -> entender que características pueden ser más influyentes y relación con target.
+		- Distribucion del target -> util para algunas soluciones implementadas
+		- Evolucion de variables a lo largo del tiempo -> influencia de las tendencias en el resultado
+
+EXPERIMENTOS:
+	- Optimizacion hiperparametros: mencionar falta acierto en empates

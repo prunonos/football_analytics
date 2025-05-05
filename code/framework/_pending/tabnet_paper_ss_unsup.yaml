@@ -1,0 +1,28 @@
+data:
+  init_date: '1996-07-01'
+  sample: sequential
+  save_data: true
+  val_date: '2017-01-01'
+description: template del Refactor del experimento TabNet del paper Pi-Ratings
+enable: false
+experiment: tabnet_paper
+experiment_id: tabnet_paper_ss_unsup
+paths:
+  data: datasets/data_train/data_
+  dtypes_path: datasets/raw_datasets/dtypes.json
+  match_importance: datasets/raw_datasets/match_importance.csv
+  page_rank: datasets/raw_datasets/page_rank.csv
+  raw_data: datasets/raw_datasets/datalake.csv
+priority: 2
+queue: piratings
+training:
+  direction: maximize
+  eval_metric:
+  - logloss
+  - balanced_accuracy
+  - accuracy
+  iterations: 1
+  max_epochs: 1
+  patience: 15
+  timeout: 770
+  unsupervised_training: false

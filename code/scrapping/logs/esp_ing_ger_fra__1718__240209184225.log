@@ -1,0 +1,20 @@
+2024-02-09 18:42:25,430 - root - WARNING - leagues: ['esp', 'ing', 'ger', 'fra']
+2024-02-09 18:42:25,432 - root - WARNING - seasons: ['1718']
+2024-02-09 18:42:28,049 - root - INFO - Scrapping...
+2024-02-09 18:42:28,051 - root - INFO - Saving cached data to F:\TFG\code\scrapping\cache
+2024-02-09 18:42:32,922 - root - INFO - reading schedule...
+2024-02-09 18:42:32,924 - root - DEBUG - Retrieving https://www.whoscored.com from cache
+2024-02-09 18:42:32,932 - root - DEBUG - Retrieving https://www.whoscored.com/Regions/252/Tournaments/2/England-Premier-League from cache
+2024-02-09 18:42:32,951 - root - DEBUG - Retrieving https://www.whoscored.com/Regions/206/Tournaments/4/Spain-LaLiga from cache
+2024-02-09 18:42:32,972 - root - DEBUG - Retrieving https://www.whoscored.com/Regions/74/Tournaments/22/France-Ligue-1 from cache
+2024-02-09 18:42:32,991 - root - DEBUG - Retrieving https://www.whoscored.com/Regions/81/Tournaments/3/Germany-Bundesliga from cache
+2024-02-09 18:42:39,380 - root - INFO - Scraping game schedule from https://www.whoscored.com/Regions/206/Tournaments/4/Seasons/6960/Spain-LaLiga
+2024-02-09 18:42:39,425 - root - INFO - Scraping game schedule for Friday, May 4 2018
+2024-02-09 18:42:39,511 - root - INFO - Scraping game schedule for Saturday, May 5 2018
+2024-02-09 18:42:39,753 - root - INFO - Scraping game schedule for Sunday, May 6 2018
+2024-02-09 18:42:40,055 - root - INFO - Scraping game schedule for Monday, May 7 2018
+2024-02-09 18:42:40,179 - root - INFO - Scraping game schedule for Wednesday, May 9 2018
+2024-02-09 18:42:40,494 - root - INFO - Scraping game schedule for Saturday, May 12 2018
+2024-02-09 18:42:41,529 - root - INFO - Scraping game schedule for Sunday, May 13 2018
+2024-02-09 18:42:41,698 - root - INFO - Scraping game schedule for Saturday, May 19 2018
+2024-02-09 18:42:42,404 - root - INFO - Scraping game schedule for Sunday, May 20 2018

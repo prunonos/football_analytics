@@ -1,0 +1,17 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.8.8",
+    "heartbeatAt": "2022-08-14T18:11:49.830277",
+    "startedAt": "2022-08-14T18:11:38.288542",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1650 Ti with Max-Q Design",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "Spectre-Guillem",
+    "username": "GuillemUPV",
+    "executable": "c:\\Users\\GuillemUPV\\Anaconda3\\envs\\tfg\\python.exe"
+}

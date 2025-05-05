@@ -1,0 +1,3 @@
+version;datetime;validation;test;activation;b1;b2;batch_size;dims;factor_flag;learning_rate;len_test;len_train;len_val;method;mode;n_units_l1;n_units_l2;n_units_l3;n_units_l4;neg_slope;num_hidden_layers;optim;scaler
+0;2024-01-20 14:53:36.652485;0,3125;0,46875;leaky_relu;0,947729239057137;0,4235069824242508;16;25;False;0,08016135976277561;32;32;32;pca;vanilla;18;14;3;10;0,06528609343937201;4;adam;maxabs
+1;2024-01-20 14:54:22.386408;0,3125;;leaky_relu;0,1083119698985258;0,8039816976030623;16;25;False;0,009157319083375965;32;32;32;anova;vanilla;25;14;20;5;0,08997442079167992;4;adam;normalizer

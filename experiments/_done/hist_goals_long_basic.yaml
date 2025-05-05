@@ -1,0 +1,17 @@
+General:
+  name: 'hist_goals_longterm_basic'
+  experiment_path: 'hg_basic'
+Data:
+  dataset :  'historical_goals_longterm'
+  drop: 
+    -
+  factor: -1
+  regression: False
+  runtype: 'basic'
+  dims: 50
+Model:
+  runs: 25
+Tuning:
+  n_trials: 50
+  cv_splits: 4
+  early_stopping: 20

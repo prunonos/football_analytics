@@ -1,0 +1,145 @@
+FROM PERFORMANCE TO SUCCESS
+
+	Pappalardo, L. & Cintia, P. Quantifying the relation between performance and success in soccer. Advances in Complex Systems 21(3)
+(2017). 
+simularon clasificacion de una temporada
+
+	Yucesoy, B. & Barabasi, A.-L. Untangling performance from success. EPJ Data Science 5(1), 1–17 (2016).
+
+	Link, D. & Hoerning, M. Individual ball possession in soccer. PLoS One 12(7), 1–15 (2017).
+sobre el numero de eventos durante un partido
+
+	Alberti, G., Iaia, F. M., Arcelli, E., Cavaggioni, L. & Rampinini, E. Goal scoring patterns in major European soccer leagues. Sport
+Sciences for Health 9(3), 151–153 (2013).
+mas goles marcados en la segunda parte
+
+
+TACTICAL ANALYSIS
+
+	Rein, R., Memmert, D. Big data and tactical analysis in elite soccer: future challenges and opportunities for sports science. SpringerPlus 5, 1410 (2016). https://doi.org/10.1186/s40064-016-3108-2
+
+	Bush M, Barnes C, Archer DT, Hogg B, Bradley PS (2015) Evolution of match performance parameters for various playing positions in the English Premier League. Hum Mov Sci 39:1–11. doi:10.1016/j.humov.2014.10.003
+
+	Fernandez-Navarro J, Fradua L, Zubillaga A, Ford PR, McRobert AP (2016) Attacking and defensive styles of play in soccer: analysis of Spanish and English elite teams. J Sports Sci. doi:10.1080/02640414.2016.1169309
+
+	Wang Q, Zhu H, Hu W, Shen Z, Yao Y (2015) Discerning tactical patterns for professional soccer teams: an enhanced topic model with applications. Paper presented at the Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, Sydney, NSW, Australia
+
+	Reep, C. & Benjamin, B. Skill and Chance in Association Football. Journal of the Royal Statistical Society 131, 581–585 (1968).
+
+- Team Centroid
+
+	Folgado H, Lemmink KA, Frencken W, Sampaio J (2014) Length, width and
+centroid distance as measures of teams tactical performance in youth
+football. Eur J Sport Sc 14(Suppl 1):S487–S492. doi:10.1080/17461391.2
+012.730060
+
+	Frencken W, Lemmink K, Delleman N, Visscher C (2011) Oscillations of centroid
+position and surface area of soccer teams in small-sided games. Eur J
+Sport Sci 11(4):215–223. doi:10.1080/17461391.2010.499967
+
+	Frencken W, Poel H, Visscher C, Lemmink K (2012) Variability of inter-team distances associated with match events in elite-standard soccer. J Sports
+Sci 30(12):1207–1213. doi:10.1080/02640414.2012.703783
+
+	Yue Z, Broich H, Seifriz F, Mester J (2008) Mathematical analysis of a Soccer
+game. Part I: individual and collective behaviors. Stud Appl Math
+121(3):223–243. doi:10.1111/j.1467-9590.2008.00413.x
+
+- Aproximate Entropy (ApEn)
+
+	Goncalves B, Figueira BE, Macas V, Sampaio J (2014) Effect of player position on
+movement behaviour, physical and physiological performances during
+an 11-a-side football game. J Sports Sci 32(2):191–199. doi:10.1080/026
+40414.2013.816761
+
+- Control of space
+
+	Silva P, Travassos B, Vilar L, Aguiar P, Davids K, Araujo D, Garganta J (2014)
+Numerical relations and skill level constrain co-adaptive behaviors of
+agents in sports teams. PLoS One 9(9):e107112. doi:10.1371/journal.
+pone.0107112
+
+- Machine Learning approaches
+
+	Bialkowski A, Lucey P, Carr P, Yue Y, Matthews I (2014a) Win at Home and Draw
+Away: automatic formation analysis highlighting the differences in
+home and away team behaviors MIT Sloan Sports Analytics Conference.
+Boston
+
+NETWORK ANALYSIS/APPROACHES
+
+	Clemente, F. M., Martins, F. M. L., Kalamares, D., Wong, D. P. & Mendes, R. S. General network analysis of national soccer teams in
+FIFA World Cup 2014. International Journal of Performance Analysis in Sport 15, 80–96 (2015).
+más pasas más goles
+
+	Gama, J. et al. Network analysis and intra-team activity in attacking phases of professional football. International Journal of
+Performance Analysis in Sport 14(3), 692–708 (2014).
+
+	Rein, R. & Memmert, D. Big data and tactical analysis in elite soccer: future challenges and opportunities for sports science.
+SpringerPlus 5(1) (2016).
+
+
+DEEP LEARNING APPROACHES
+
+	Rudrapal, D., Boro, S., Srivastava, J., Singh, S. (2020). A Deep Learning Approach to Predict Football Match Result. In: Behera, H., Nayak, J., Naik, B., Pelusi, D. (eds) Computational Intelligence in Data Mining. Advances in Intelligent Systems and Computing, vol 990. Springer, Singapore. https://doi.org/10.1007/978-981-13-8676-3_9
+
+	Pettersson D, Nyquist R (2017) Football match prediction using deep learning and recurrent neural network applications. Dissertation, Chalmers University of Technology.
+
+	Zaveri, N., Shah, U., Tiwari, S., Shinde, P., & Teli, L. K. (2018). Prediction of football match score and decision making process. International Journal on Recent and Innovation Trends in Computing and Communication, 6(2), 162-165.
+
+	Guan, S., & Wang, X. (2022). Optimization analysis of football match prediction model based on neural network. Neural Computing and Applications, 34(4), 2525-2541.
+
+	Korotyeyeva T, Tushnytskyy R, Kulyk V (2018) Applying Neural Networks to Football Matches Results Forecasting[C]//2018 IEEE 13th International Scientific and Technical Conference on Computer Sciences and Information Technologies (CSIT). IEEE, 1: 278–282.
+
+	Bunker, R. P., & Thabtah, F. (2019). A machine learning framework for sport result prediction. Applied computing and informatics, 15(1), 27-33.
+
+
+- RNN and LSTM models
+
+	Rahman, M.A. A deep learning framework for football match prediction. SN Appl. Sci. 2, 165 (2020). https://doi.org/10.1007/s42452-019-1821-5
+
+	Jain, S., Tiwari, E., & Sardar, P. (2021). Soccer Result Prediction Using Deep Learning and Neural Networks. In Intelligent Data Communication Technologies and Internet of Things (pp. 697-707). Springer, Singapore.
+
+
+
+MACHINE LEARNING APPROACHES
+
+	Yezus, A.: Predicting outcome of soccer matches using machine learning. Saint-Petersburg
+University (2014)
+
+	Tax, N., Joustra, Y.: Predicting the dutch football competition using public data: a machine
+learning approach. Trans. Knowl. Data Eng. 10(10), 1–13 (2015)
+
+	 Cho Y, Yoon J, Lee S (2018) Using social network analysis and gradient boosting to develop a soccer win–lose prediction model.Eng Appl Artif Intell 72:228–240
+
+	Ulmer, B., Fernandez, M., & Peterson, M. (2013). Predicting soccer match results in the english premier league. Doctoral dissertation, Doctoral dissertation, Ph. D. dissertation, Stanford.
+
+	
+
+STATISTICAL APPROACH
+
+	Koopman, S.J., Lit, R.: A dynamic bivariate poisson model for analysing and forecasting match
+results in the english premier league. J. R. Stat. Soc.: Ser. (Stat. Soc.) 178(1), 167–186 (2015)
+
+	Baio, G., & Blangiardo, M. (2010). Bayesian hierarchical model for the prediction of football results. Journal of Applied Statistics, 37(2), 253-264.
+
+	A. Heuer and O. Rubner, “Fitness, chance, and myths: an objective view on soccer results,” The European Physical Journal B, vol. 67, no. 3, pp. 445–458, 2009.
+
+
+INDIVIDUAL PLAYER ANALYSIS
+
+	Duch, J., Waitzman, J. S. & Amaral, L. A. N. Quantifying the Performance of Individual Players in a Team Activity. PlosOne 5(6), 1–7 (2010)
+
+	Pappalardo, L. et al. PlayeRank: data-driven performance evaluation and player ranking in soccer via a machine learning approach.
+ACM Transactions on Intelligent Systems and Technology (TIST), 10(5), 59:1-59:27 (2018).
+
+
+OTHER MODELS
+
+	Yu Y, Wang X (2015) World cup 2014 in the twitter world. Comput Hum Behav
+48(C):392–400. doi:10.1016/j.chb.2015.01.075
+
+	Godin F, Zuallaert J, Verndersmissen B, De Neve W, Van der Waller R (2014)
+Beating the bookmakers: leveraging statistics and Twitter microposts
+for predicting soccer results. Paper presented at the Workshop on
+Large-Scale Sports Analytics (KDD 2014), New York, USA
+

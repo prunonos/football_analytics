@@ -1,0 +1,32 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+				VERSION 1
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+El fútbol es desde hace más de un siglo el deporte más seguido alrededor de todo el mundo y en los últimos años, se ha convertido también en uno de los medios de entretenimiento con más audiencia. Un espectáculo que va mucho más allá de los 90 minutos que dura un partido. Hoy en día ha ganado importancia lo que ocurre fuera del terreno de juego, tanto para los aficionados como para los propios clubes y jugadores. Lejos quedan los años en que los partidos se emitían en abierto y en que en los campos de fútbol habían solamente una decena de cámaras grabando y retransmitiendo el encuentro, el fútbol ha cambiado totalmente. En los últimos diez años el fútbol ha experimentado una transformación en la cual principalmente los medios de comunicación han tomado el control del fútbol invirtiendo cantidades astronómicas de dinero en comprar derechos de televisión para retransmitir los partidos. Esto ha provocado que los clubes ingresen mucho más dinero, inflando así el mercado de traspasos en el cual se gastan miles de millones cada año, una diferencia abismal en comparación con hace 25 años.
+\\\\ Toda esta inversión y auge del negocio del fútbol junto con el vertiginoso desarrollo de la tecnología,  ha llevado a que los clubes de fútbol, que se han convertido en corporaciones que buscan maximizar beneficios, inviertan una porción de su presupuesto en Big Data e Inteligencia Artificial para analizar y buscar una mejora en su rendimiento deportivo o para decidir que jugador fichar basándose en sus datos. Desde hace una década los jugadores llevan incorporados en su botas dispositivos electrónicos que monitorean todo tipo de datos sobre ellos, desde su posición en el campo hasta la actividad cardiovascular y cerebral. Una vez adquiridos estos datos, el club necesita procesarlos para que sean información útil y poder analizarlos, ahí és dónde el Big Data y la IA entran en acción.
+\\\\ Pero no solamente los clubes invierten en estas tecnologías. El sector de los medios de comunicación o el de las apuestas deportivas son dos sectores que invierten mucho dinero en Big Data y Inteligencia Artificial. El primero necesita mejorar su producto de cara a los clientes, los espectadores, para hacerlo más atractivo que su competencia. Por eso es que los medios de comunicación invierten grandes cantidades de dinero en mejorar la experiencia del usuario proporcionándole cada vez más y más detalladas estadísticas sobrelos jugadores y los partidos.
+\\\\ Todos los datos se recogen de dos formas: con sensores que llevan los jugadores mientras ya sea en el cuerpo o en las botas, o usando tecnología de Computer Vision. 
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+				VERSION 2
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+El fútbol es desde hace más de un siglo el deporte más seguido alrededor de todo el mundo y en los últimos años, se ha convertido también en uno de los medios de entretenimiento con más audiencia. Un espectáculo que va mucho más allá de los 90 minutos que dura un partido. Las cadenas de televisión gastan millones de euros en comprar los derechos de televisión a los clubes de las grandes ligas europeas, esto ha provocado que el fútbol sea un gran mercado en el que se muevan miles de millones en fichajes, derechos de imagen y televisión o en construcción de instalaciones deportivas. Como en todos los mercados, los agentes que participan en él compiten entre ellos para crear un mejor producto y sobreponerse a la competencia.
+\\\\ La innovación tecnológica siempre ha sido la herramienta con la que las empresas han mejorado su posición en el mercado, y en el mercado del fútbol no es distinto. El vertiginoso desarrollo en las últimas tres décadas de tecnologías como el Internet, los microchips o el Machine Learning estan contribuyendo notablemente a la transformación del mundo del futbol. Por ejemplo, las cadenas de televisión para ofrecer a sus clientes una experiencia más completa les ofrecen todo tipo de estadísticas detalladas y individuales de cada jugador durante el partido. Las cadenas de televisión no son las únicas que hacen esto, las casas de apuesta ofrecen a sus usuarios aún datos más detallados de cada equipo y de cada jugador de casi cualquier división y liga del mundo. La capacidad necesaria para recolectar y procesar tal cantidad de datos, muchas veces en tiempo real, sólo es posible debido al desarrollo de tecnologías de recopilación de grandes cantidades de datos con sensores y Computer Vision, y por el Big Data respectivamente. 
+\\\\ Sin embargo, nosotros vamos a centrarnos más en las actividades que llevan a cabo los clubes y las casas de apuestas relacionadas con el Big Data y el Machine Learning. Tanto los clubes como las casas de apuestas llevan a cabo actividades similares pero con distinto propósito. Ambos utilizan muchos datos y estadísticas de jugadores, equipos y entorno para estudiar el rendimiento de los equipos durante los partidos de fútbol. Los clubes centran sus estudios en analizar y comprender el rendimiento de su equipo y de sus rivales y de jugadores a los cuales siguen de cerca porque pueden ser un potencial fichajes. Digamos que los clubes focalizan sus estudios en mejorar sus resultados a partir de las conclusiones que sacan del Big Data. Por otra parte, las casas de apuestas utilizan los datos para crear y entrenar modelos predictivos estadísticos y de Machine Learning para calcular las cuotas de cada partido y asegurarse el máximo beneficio posible.
+\\\\ En el presente documento se hace un estudio exhaustivo 

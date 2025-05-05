@@ -1,0 +1,8 @@
+
+Using cuda device
+Using cuda device
+Fold 1/5: loss train: 0.54, accuracy train: 0.48, accuracy test: 0.50
+Fold 2/5: loss train: 0.61, accuracy train: 0.47, accuracy test: 0.43
+Fold 3/5: loss train: 0.64, accuracy train: 0.49, accuracy test: 0.47
+Fold 4/5: loss train: 0.64, accuracy train: 0.46, accuracy test: 0.45
+Fold 5/5: loss train: 0.60, accuracy train: 0.47, accuracy test: 0.49

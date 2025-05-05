@@ -1,0 +1,4 @@
+name: tfg
+channels:
+  - defaults
+prefix: C:\Users\GuillemUPV\anaconda3\envs\tfg\envs\tfg
